@@ -6,7 +6,7 @@
 
 ## Löst zwei Probleme:
 * Erstes Problem: ich gehe einkaufen und weiß nicht welche Zutaten ich kaufen soll.
-* Zweites Problem: ich möchte etwas kochen, habe auch nicht alle Zutaten dafür.
+* Zweites Problem: ich möchte etwas kochen, habe aber nicht alle Zutaten dafür.
 
 ## Eingabe:
 Abfrage, welche Rezepte gekocht werden sollen
