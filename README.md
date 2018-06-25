@@ -17,7 +17,8 @@ Liste nach Supermarkt-Kategorien-Standorten alphabetisch sortiert
 
 ## To-Do:
 - CGI Skript
-- JSON Datei mit Rezeptobjekten: Ingredient, Amount, AmountUnit, Location
-- List-Item Bootstrap
+- JSON Datei mit Rezeptobjekten auf Git auslagern
+- Rezeptobjekt erhält zusätzlich zu Ingredient, Amount, AmountUnit auch Location. Feature: shopping list sorted by departments
+- List-Item by Bootstrap
 
 
