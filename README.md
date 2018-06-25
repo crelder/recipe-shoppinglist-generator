@@ -1,5 +1,9 @@
 # recipe-shoppinglist-generator
 
+## Run
+
+<https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/master/index.html>
+
 ## Löst zwei Probleme:
 * Erstes Problem: ich gehe einkaufen und weiß nicht welche Zutaten ich kaufen soll.
 * Zweites Problem: ich möchte etwas kochen, habe auch nicht alle Zutaten dafür.
