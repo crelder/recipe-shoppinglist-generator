@@ -5,8 +5,8 @@
 <https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/master/index.html>
 
 ## Löst zwei Probleme:
-* Erstes Problem: ich gehe einkaufen und weiß nicht welche Zutaten ich kaufen soll.
-* Zweites Problem: ich möchte etwas kochen, habe aber nicht alle Zutaten dafür.
+1. Problem: ich gehe einkaufen und weiß nicht welche Zutaten ich kaufen soll.
+2. Problem: ich möchte etwas kochen, habe aber nicht alle Zutaten dafür.
 
 ## Eingabe:
 Abfrage, welche Rezepte gekocht werden sollen
