@@ -93,6 +93,8 @@ for (var i = 0; i < grundzutaten.length; i++) {
 };
 }*/
 
+/* test */
+
 rezepteSammlung = [{
       rezeptName: "Rucola Salat",
       zutaten: [{
