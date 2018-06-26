@@ -4,34 +4,43 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>      
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
       <title>Einkaufslisten schreiben</title>
    </head>
    <body>
-      <div id='app' class="container">
+      <div id="app">
+      <div class="container py-3">
          <div class="row">
-             {{ title }}, {{ test }}
-            <div id="logger" class="col-md-6 col-12"></div>
-           <!--
-            <script type="text/javascript">
-               // Overriding console object
-               var console = {};
-               
-               // Getting div to insert logs
-               var logger = document.getElementById("logger");
-               
-               // Adding log method from our console object
-               console.log = function(text)
-               {
-                   var element = document.createElement("div");
-                   var txt = document.createTextNode(text);
-               
-                   element.appendChild(txt);
-                   logger.appendChild(element);
-               }
-            </script> --> 
-            <div class="col-md-6 col-12"></div>
-        </div>    
+             <!-- Linke Spalte -->
+            <div id="logger" class="col-md-6">
+                
+                <!-- <h1>Gerichte</h1> -->
+               <ul class="list-group list-group-flush">
+                  <!-- <li class="list-group-item list-group-item-success" v-for="recipe in recipes">{{ shoppingList }}</li> --> 
+                  <!-- <li class="list-group-item list-group-item-success">{{ shoppingList }}</li> -->
+                  <a href="#" class="list-group-item list-group-item-action" v-for="(n, index) in recipes" v-bind:class="{active: index % 4 === 0}"> {{ n.rezeptName }}</a>
+                  <!-- <li class="list-group-item" v-on:click="recipeSelected = !recipeSelected" v-bind:class={list-group-item-success: recipeSelected}>{{ shoppingList }}</li> -->
+               </ul>
+            </div>
+            <!--Rechte Spalte -->
+            <div class="col-md-6">
+               <!-- <h1>Einkaufsliste</h1> -->
+               <div class="row">
+                  <div class="col-md-12">
+                     <span v-for="zutat in zutaten">{{ zutat }}<br></span>
+                     <p></p>
+                     <p>Damit kann man folgende Rezepte kochen: </p>
+                     <p> </p>
+                     <p class="text-uppercase">{{ namesOfSelectecRecipes }}</p>
+                     <p>Genaue Rezepte aufgelistet</p>
+                      <!-- <p v-for="i in recipes">{{ i }}</p> -->
+                     
+                  </div>
+               </div>                 
+            </div>
+         
+         </div>
+      </div>
       </div>
       <script src="./recipes.js"></script>
    </body>
