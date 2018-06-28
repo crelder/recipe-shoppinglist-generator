@@ -16,10 +16,9 @@
                 
                 <!-- <h1>Gerichte</h1> -->
                <ul class="list-group list-group-flush">
-                  <!-- <li class="list-group-item list-group-item-success" v-for="recipe in recipes">{{ shoppingList }}</li> --> 
-                  <!-- <li class="list-group-item list-group-item-success">{{ shoppingList }}</li> -->
-                  <a href="#" class="list-group-item list-group-item-action" v-for="(n, index) in recipes" v-bind:class="{active: index % 4 === 0}"> {{ n.rezeptName }}</a>
-                  <!-- <li class="list-group-item" v-on:click="recipeSelected = !recipeSelected" v-bind:class={list-group-item-success: recipeSelected}>{{ shoppingList }}</li> -->
+                 
+                  <my-meal v-for="(recipe, index) in recipes" v-bind:recipe="recipe" v-bind:index="index"></my-meal>
+                  
                </ul>
             </div>
             <!--Rechte Spalte -->
