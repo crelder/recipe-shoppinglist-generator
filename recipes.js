@@ -169,26 +169,18 @@ showAllRezepte();
 
 
 Vue.component('my-meal', {
-    // data: function() {
-    //     return {
-    //         recipeSelected: false,
-    //     }
-    // },
+    data: function() {
+        return {
+            recipeSelected: false
+        }
+    },
     props: ['recipe', 'index'],
     methods: {
         toggleSelectedRecipe: function() {
-            console.log(this.allSelectedRecipes);
             this.recipeSelected = !this.recipeSelected;
-            if (this.recipeSelected == true) {
-                // Add recipe from selected Recipe List
-                this.allSelectedRecipes.push(recipe);
-            } else {
-                // Remove recipe from selected Recipe List
-                this.allSelectedRecipes.splice(allSelectedRecipes.indexOf('recipe'), 1);
-            }
         }
     },
-    template: '<a href="#" class="list-group-item list-group-item-action" v-bind:class="{active: recipeSelected}" v-on:click="toggleSelectedRecipe"> {{ recipe.rezeptName }}</a>',
+    template: '<a href="#" class="list-group-item list-group-item-action" v-bind:class="{active: recipeSelected}" v-on:click="toggleSelectedRecipe"> {{ recipe.rezeptName }} - Index: {{ index }}</a>',
 })
 
 
@@ -203,15 +195,16 @@ var vm = new Vue({
         zutaten: zutaten1,
         allSelectedRecipes: []
     },
-    // Use the recipe.selected Property to select/unselect recipes and to define shopping list.
-    created: function() {
+    // Use the hereby added recipe.selected Property to select/unselect recipes in the GUI and to define the shopping list.
+    beforeCreated: function() {
         this.rezepteSammlung.forEach(function(recipe) {
-            recipe.selected = "false";
+            recipe.selected = false;
           });
           console.log(this.rezepteSammlung);
       },
       
     methods: {
+        // Löschen
         log: function() {
             console.log(this.shoppingList, this.recipes)
         }
@@ -225,6 +218,6 @@ var vm = new Vue({
     /* Component definieren, mit template und Logik: Index: und Aktiv: false;
     Geschäftslogik von Javascript übernehmen. Eine computed property, die die Rezepte-Liste ausgibt und aktiviert wird, sobald sich das Array mit Rezeptobjekten ändert. Jedesmal, wenn ich ein RezeptName anklicke, soll das Array mit Rezeptobjekten damit erweitert oder daraus gelöscht werde.
     mit br und 1 Sekunde verzögerung. Und transition effekts.
-    Wie JSON file bauen?
+  
     /* -- Vue Instance ends */
 });
