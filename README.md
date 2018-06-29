@@ -3,6 +3,8 @@
 ## Run
 
 <https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/master/index.html>
+or development version:
+https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/develop/index.html
 
 ## Solves two problems:
 1. Problem: I go shopping and do not know, which ingredients I should by - I always forget which recipes/meals I can cook.
