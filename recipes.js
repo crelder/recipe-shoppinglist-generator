@@ -6,7 +6,7 @@ xmlhttp.onreadystatechange = function() {
         x = JSON.parse(this.responseText);
     }
 };
-xmlhttp.open("GET", "https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/develop/recipes.json", false);
+xmlhttp.open("GET", "https://rawgit.com/crelder/recipe-shoppinglist-generator/develop/recipes.json", false);
 xmlhttp.send();
 // Use the hereby added recipe.selected Property to select/unselect recipes in the GUI and to define the shopping list.
 x.forEach(function(recipe) {
@@ -27,7 +27,7 @@ Vue.component('my-meal', {
             // console.log("ingredients: ", this.ingredients);
         }
     },
-    template: '<a href="#" class="list-group-item list-group-item-action" v-bind:class="{active: recipes[index].selected}" v-on:click="toggleSelectedRecipe"> {{ recipe.rezeptName }}</a>',
+    template: '<a href="#" class="list-group-item list-group-item-action" v-bind:class="{active: recipes[index].selected}" v-on:click="toggleSelectedRecipe"> {{ recipe.recipeName }}</a>',
 })
 
 var vm = new Vue({
@@ -44,8 +44,8 @@ var vm = new Vue({
     computed: {
         ingredients: function() {
             console.log("computed ingredients");
-            console.log("filter und map: ", this.recipes.filter(recipe => recipe.selected == true).map(recipe => recipe.ingredients))
-            return this.recipes.filter(recipe => recipe.selected == true);
+            console.log("filter und map: ", this.recipes.filter(recipe => recipe.selected == true).map(recipe => recipe.ingredients));
+            return this.recipes.filter(recipe => recipe.selected == true).map(recipe => recipe.ingredients);
         
         
         // function printEinkaufsListe() {
