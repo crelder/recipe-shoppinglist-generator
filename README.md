@@ -3,7 +3,9 @@
 ## Run
 
 <https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/master/index.html>
+
 or development version:
+
 https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/develop/index.html
 
 ## Solves two problems:
