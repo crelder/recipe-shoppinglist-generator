@@ -4,18 +4,14 @@
 
 <https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/master/index.html>
 
-## Löst zwei Probleme:
-1. Problem: ich gehe einkaufen und weiß nicht welche Zutaten ich kaufen soll.
-2. Problem: ich möchte etwas kochen, habe aber nicht alle Zutaten dafür.
+## Solves two problems:
+1. Problem: I go shopping and do not know, which ingredients I should by - I always forget which recipes/meals I can cook.
+2. Problem: I am at home and want to cook a certain meal, but I do not have all the necessary ingredients.
 
-## Eingabe:
-Abfrage, welche Rezepte gekocht werden sollen
-Neue Rezepte eingeben:
-Rezept Name:
-Zeile: Tabelle mit vier Spalten Zutat, Menge, Mengen Einheit, Location.
-Okay / Cancel
+## Input:
+Select the meals you want to cook.
 
-## Ausgabe:
-Liste nach Supermarkt-Kategorien-Standorten alphabetisch sortiert
+## Output:
+Accumulated list with ingredients you need to by in order to cook the selected meals.
 
 
