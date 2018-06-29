@@ -13,12 +13,8 @@
          <div class="row">
              <!-- Linke Spalte -->
             <div id="logger" class="col-md-6">
-                
-                <!-- <h1>Gerichte</h1> -->
                <ul class="list-group list-group-flush">
-                 
-                  <my-meal v-for="(recipe, index) in recipes" v-bind:recipe="recipe" v-bind:index="index"></my-meal>
-                  
+                  <my-meal v-for="(recipe, index) in recipes" v-bind:recipe="recipe" v-bind:index="index" v-bind:recipes="recipes"></my-meal>
                </ul>
             </div>
             <!--Rechte Spalte -->
@@ -26,11 +22,11 @@
                <!-- <h1>Einkaufsliste</h1> -->
                <div class="row">
                   <div class="col-md-12">
-                     <span v-for="zutat in zutaten">{{ zutat }}<br></span>
+                     <span v-for="ingredient in ingredients">{{ ingredient }}<br></span>
                      <p></p>
                      <p>Damit kann man folgende Rezepte kochen: </p>
                      <p> </p>
-                     <p class="text-uppercase">{{ namesOfSelectecRecipes }}</p>
+                     <p class="text-uppercase"></p>
                      <p>Genaue Rezepte aufgelistet</p>
                       <!-- <p v-for="i in recipes">{{ i }}</p> -->
                      
