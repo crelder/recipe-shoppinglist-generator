@@ -39,15 +39,43 @@ var vm = new Vue({
         // Löschen
         log: function() {
             console.log(this.shoppingList, this.recipes)
-        }
+        },
+        einkaufsListeHatBereitsZutat: function(zutat) {
+                for (var i = 0; i < einkaufsListe.length; i++) {
+                    if (einkaufsListe[i][2] == zutat) {
+                        return true;
+                    }
+                }
+            }
     },
     computed: {
-        ingredients: function() {
-            console.log("computed ingredients");
+        shoppingList: function() {
             console.log("filter und map: ", this.recipes.filter(recipe => recipe.selected == true).map(recipe => recipe.ingredients));
-            return this.recipes.filter(recipe => recipe.selected == true).map(recipe => recipe.ingredients);
-        
-        
+            // Get ingredients of all selected recipes
+            let x = this.recipes.filter(recipe => recipe.selected == true).map(recipe => recipe.ingredients);
+            let shoppingList = x.map(ingredient => ingredient.amount + ingredient.unit + ingredient.name);
+
+            // function shoppingListHasIngredient(ingredient) {
+            //     if (shoppingList[i][2] == ingredient) {
+            //         return true;
+            // }
+
+            // x.forEach(function(ingredient) {
+            //     if (!shoppingListHasIngredient(ingredient)) {
+            //         shoppingList.push(ingredient);
+            //     } else {
+            //         console.log("indexOf(ingredient: ", indexOf(ingredient));
+            //         shoppingList[indexOf(ingredient)][0] += ingredient.amount;
+            //     }
+            //     console.log("shoppingList: ", shoppingList);
+            // });                
+            // return shoppingList;
+            return x;
+
+            // shoppingList.concat(printSpacePadded(einkaufsListe[i][0], einkaufsListe[i][1], einkaufsListe[i][2]));
+                //         console.log(printSpacePadded(einkaufsListe[i][0], einkaufsListe[i][1], einkaufsListe[i][2]));
+                //         // console.log(einkaufsListe[i][2] + ": " + einkaufsListe[i][0] + einkaufsListe[i][1]);
+            
         // function printEinkaufsListe() {
 //     for (var i = 0; i < einkaufsListe.length; i++) {
 //         shoppingList.concat(printSpacePadded(einkaufsListe[i][0], einkaufsListe[i][1], einkaufsListe[i][2]));

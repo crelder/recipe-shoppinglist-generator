@@ -5,17 +5,17 @@
           {  
              "amount":0.5,
              "unit":"Packung",
-             "ingredient":"Parmesan"
+             "name":"Parmesan"
           },
           {  
              "amount":1,
              "unit":"Packung",
-             "ingredient":"Rucula Salat"
+             "name":"Rucula Salat"
           },
           {  
              "amount":1,
              "unit":"",
-             "ingredient":"Tomaten"
+             "name":"Tomaten"
           }
        ],
        "comment":"Parmesan in hauchdünne Scheiben mit Reibe schaben. Cocktail Tomaten sehen gut darauf aus."
@@ -26,27 +26,27 @@
           {  
              "amount":1,
              "unit":"",
-             "ingredient":"Gurke"
+             "name":"Gurke"
           },
           {  
              "amount":4,
              "unit":"",
-             "ingredient":"Tomaten"
+             "name":"Tomaten"
           },
           {  
              "amount":1,
              "unit":"Packung",
-             "ingredient":"Schafskäse"
+             "name":"Schafskäse"
           },
           {  
              "amount":12,
              "unit":"",
-             "ingredient":"Oliven"
+             "name":"Oliven"
           },
           {  
              "amount":1,
              "unit":"",
-             "ingredient":"Zwiebel"
+             "name":"Zwiebel"
           }
        ],
        "comment":"ingredients in dicke Scheiben schneiden. Griechenland-Style! Zwiebeln in Ringe schneiden und etwas Salz darüber und kurz stehen lassen. Dann werden die weicher und sind nicht mehr so scharf."
@@ -57,12 +57,12 @@
           {  
              "amount":1,
              "unit":"Packung",
-             "ingredient":"Weichweizengrieß"
+             "name":"Weichweizengrieß"
           },
           {  
              "amount":500,
              "unit":"ml",
-             "ingredient":"Milch"
+             "name":"Milch"
           }
        ],
        "comment":"Umrühren nicht vergessen! 2,5 zu 1 Verhältnis Milch zu Gries. Zimt noch drüber streuen."
@@ -73,27 +73,27 @@
           {  
              "amount":250,
              "unit":"g",
-             "ingredient":"Reibekäse"
+             "name":"Reibekäse"
           },
           {  
              "amount":250,
              "unit":"ml",
-             "ingredient":"Süße Sahne"
+             "name":"Süße Sahne"
           },
           {  
              "amount":250,
              "unit":"g",
-             "ingredient":"Schinken"
+             "name":"Schinken"
           },
           {  
              "amount":0.25,
              "unit":"Tube",
-             "ingredient":"Tomatenmark"
+             "name":"Tomatenmark"
           },
           {  
              "amount":3,
              "unit":"",
-             "ingredient":"Seelen"
+             "name":"Seelen"
           }
        ],
        "comment":"Kann man statt mit Seelen auch mit Brotscheiben machen. Käse und Schinken in würfeln. Reibekäse: Gouda Mittelalt. Pizzagewürz, Salz, Pfeffer."
@@ -104,22 +104,22 @@
           {  
              "amount":1,
              "unit":"Packung",
-             "ingredient":"Speckwürfel"
+             "name":"Speckwürfel"
           },
           {  
              "amount":4,
              "unit":"",
-             "ingredient":"Eier"
+             "name":"Eier"
           },
           {  
              "amount":0.5,
              "unit":"Packung",
-             "ingredient":"Parmesan"
+             "name":"Parmesan"
           },
           {  
              "amount":1,
              "unit":"Schachtel",
-             "ingredient":"Schnittlauch"
+             "name":"Schnittlauch"
           }
        ],
        "comment":"Geht auch als Mittag oder Abendessen. Gehaltvoll."
@@ -130,12 +130,12 @@
           {  
              "amount":5,
              "unit":"",
-             "ingredient":"Kartoffeln"
+             "name":"Kartoffeln"
           },
           {  
              "amount":1,
              "unit":"",
-             "ingredient":"Zwiebel"
+             "name":"Zwiebel"
           }
        ],
        "comment":"Gehackte Zwiebeln in Fett anbraten. Gute Pfanne, damit es nicht einbackt. Geht auch als Mittag oder Abendessen. Gehaltvoll."
@@ -146,32 +146,32 @@
           {  
              "amount":2000,
              "unit":"ml",
-             "ingredient":"Milch"
+             "name":"Milch"
           },
           {  
              "amount":1,
              "unit":"Packung",
-             "ingredient":"Köln Haferflocken (blau)"
+             "name":"Köln Haferflocken (blau)"
           },
           {  
              "amount":1,
              "unit":"Packung",
-             "ingredient":"Ovomaltine"
+             "name":"Ovomaltine"
           },
           {  
              "amount":5,
              "unit":"",
-             "ingredient":"Bananen"
+             "name":"Bananen"
           },
           {  
              "amount":4,
              "unit":"",
-             "ingredient":"Äpfel"
+             "name":"Äpfel"
           },
           {  
              "amount":1,
              "unit":"",
-             "ingredient":"Sonstige Saisonfrüchte für Müsli"
+             "name":"Sonstige Saisonfrüchte für Müsli"
           }
        ],
        "comment":"Tradition bewahren!"
@@ -182,27 +182,27 @@
           {  
              "amount":150,
              "unit":"g",
-             "ingredient":"Speckwürfel"
+             "name":"Speckwürfel"
           },
           {  
              "amount":3,
              "unit":"",
-             "ingredient":"Eier"
+             "name":"Eier"
           },
           {  
              "amount":100,
              "unit":"ml",
-             "ingredient":"Süße Sahne"
+             "name":"Süße Sahne"
           },
           {  
              "amount":0.5,
              "unit":"Packung",
-             "ingredient":"Parmesan"
+             "name":"Parmesan"
           },
           {  
              "amount":200,
              "unit":"g",
-             "ingredient":"Spaghetti"
+             "name":"Spaghetti"
           }
        ],
        "comment":"Vorsicht mit dem Salz - wegen dem Speck; kein Salz in die Soße! Schinkenwürfel anbraten. Salz, Pfeffer und alle anderen ingredients verquillen. Alles zusammen über die abgetropften Spaghetti. Erneut abschmecken mit S+P. Wie im Vapiano in Berlin. "
@@ -213,27 +213,27 @@
           {  
              "amount":3,
              "unit":"",
-             "ingredient":"Eier"
+             "name":"Eier"
           },
           {  
              "amount":400,
              "unit":"g",
-             "ingredient":"Mehl"
+             "name":"Mehl"
           },
           {  
              "amount":400,
              "unit":"ml",
-             "ingredient":"Milch"
+             "name":"Milch"
           },
           {  
              "amount":1,
              "unit":"Glas",
-             "ingredient":"Apfelmus"
+             "name":"Apfelmus"
           },
           {  
              "amount":1,
              "unit":"Glas",
-             "ingredient":"Marmelade"
+             "name":"Marmelade"
           }
        ],
        "comment":"Da kann auch Reibekäse darauf."
@@ -244,22 +244,22 @@
           {  
              "amount":500,
              "unit":"g",
-             "ingredient":"Mehl"
+             "name":"Mehl"
           },
           {  
              "amount":4,
              "unit":"",
-             "ingredient":"Eier"
+             "name":"Eier"
           },
           {  
              "amount":3,
              "unit":"",
-             "ingredient":"Zwiebel"
+             "name":"Zwiebel"
           },
           {  
              "amount":300,
              "unit":"g",
-             "ingredient":"Bergkäse"
+             "name":"Bergkäse"
           }
        ],
        "comment":"Alternativ kann man auch mit Instantmehl halb/halb mischen, wenn kein Spätzlemehl vorhanden. Mit Prise Salz und kaltem Wasser den Teig machen. Käse: Bergkäse, aber nicht zu alt. Eher ein junger/mittelalt Bergkäse - sonst zu trocken."
@@ -270,17 +270,17 @@
           {  
              "amount":200,
              "unit":"g",
-             "ingredient":"Bergkäse"
+             "name":"Bergkäse"
           },
           {  
              "amount":200,
              "unit":"g",
-             "ingredient":"Schinkenwurst"
+             "name":"Schinkenwurst"
           },
           {  
              "amount":0.5,
              "unit":"Glas",
-             "ingredient":"Essiggurke"
+             "name":"Essiggurke"
           }
        ],
        "comment":"Mittelalter Bergkäse - nicht zu alt. Die kleineren Gurken; in Scheiben schneiden. Normaler Heller Essig, Öl, Pfeffer, Prise Zucker und Essiggurkensud einen Schuss dazu. Veramountn. Die Zwiebelringe (kleinere Zwiebeln) in Salz legen und am Schluss oben darauf zur Dekoration."
@@ -291,17 +291,17 @@
           {  
              "amount":8,
              "unit":"",
-             "ingredient":"Kartoffeln"
+             "name":"Kartoffeln"
           },
           {  
              "amount":4,
              "unit":"",
-             "ingredient":"Eier"
+             "name":"Eier"
           },
           {  
              "amount":1,
              "unit":"",
-             "ingredient":"Zwiebel"
+             "name":"Zwiebel"
           }
        ],
        "comment":"(Vorwiegend) Festkochend. Kartoffeln in der Schale kochen. Schälen. In Scheiben schneiden. Wasser heiß machen mit Gemüsebrühe, Senf, Salz, Pfeffer, Prise Zucker, heller Essig (kein Balsamico) und gehackte Zwiebeln (werden dadurch milder). Die Brühe über die Kartoffeln schütten und umrühren. Stehen lassen: 15 min (Kartoffeln ziehen das auf). Dann Öl darüber (Öl schließt das ab.)."
@@ -312,47 +312,47 @@
           {  
              "amount":250,
              "unit":"g",
-             "ingredient":"Margarine"
+             "name":"Margarine"
           },
           {  
              "amount":4,
              "unit":"",
-             "ingredient":"Zitrone"
+             "name":"Zitrone"
           },
           {  
              "amount":150,
              "unit":"g",
-             "ingredient":"Zucker"
+             "name":"Zucker"
           },
           {  
              "amount":4,
              "unit":"",
-             "ingredient":"Eier"
+             "name":"Eier"
           },
           {  
              "amount":300,
              "unit":"g",
-             "ingredient":"Mehl"
+             "name":"Mehl"
           },
           {  
              "amount":100,
              "unit":"g",
-             "ingredient":"Speisestärke"
+             "name":"Speisestärke"
           },
           {  
              "amount":1,
              "unit":"Packung",
-             "ingredient":"Backpulver"
+             "name":"Backpulver"
           },
           {  
              "amount":50,
              "unit":"ml",
-             "ingredient":"Milch"
+             "name":"Milch"
           },
           {  
              "amount":250,
              "unit":"g",
-             "ingredient":"Puderzucker"
+             "name":"Puderzucker"
           }
        ],
        "comment":"Formdurchmesser ca. 28 cm. 1 große Zitrone mit unbehandelter Schale. 3 für den Saft für die Soße und Glasur. 8 EL Milch. Alles bis auf Mehl und Speisestärke schaumig rühren. Dann erst die letzten beiden dazu fügen. Form ausfetten. 175°C vorheizen und 45-50 Minuten backen. Auf Abkühlblech. // Saft von 2 Zitronen, 4 EL Zucker und 4 EL Wasser aufkochen. (Zitronenlikör hinzufügen). Drüber träufeln. Kuchen abkühlen lassen. // "
@@ -363,37 +363,37 @@
           {  
              "amount":375,
              "unit":"g",
-             "ingredient":"Margarine"
+             "name":"Margarine"
           },
           {  
              "amount":225,
              "unit":"g",
-             "ingredient":"Zucker"
+             "name":"Zucker"
           },
           {  
              "amount":540,
              "unit":"g",
-             "ingredient":"Mehl"
+             "name":"Mehl"
           },
           {  
              "amount":4,
              "unit":"",
-             "ingredient":"Eier"
+             "name":"Eier"
           },
           {  
              "amount":190,
              "unit":"ml",
-             "ingredient":"Milch"
+             "name":"Milch"
           },
           {  
              "amount":1.5,
              "unit":"Packung",
-             "ingredient":"Backpulver"
+             "name":"Backpulver"
           },
           {  
              "amount":60,
              "unit":"g",
-             "ingredient":"Kakaopulver"
+             "name":"Kakaopulver"
           }
        ],
        "comment":"20 g Zucker in Kakaomasse. Evtl. noch 1 EL Milch in Kakaomasse. Guggelhupfform 2/3 füllen. 175°C vorheizen und 45-50 min backen. Bevor Kuchen aus Form, abkühlen lassen!"
@@ -404,37 +404,37 @@
           {  
              "amount":1,
              "unit":"Becher",
-             "ingredient":"Sahne"
+             "name":"Sahne"
           },
           {  
              "amount":1,
              "unit":"",
-             "ingredient":"Eier"
+             "name":"Eier"
           },
           {  
              "amount":1,
              "unit":"",
-             "ingredient":"Knoblauch"
+             "name":"Knoblauch"
           },
           {  
              "amount":200,
              "unit":"g",
-             "ingredient":"Mehl"
+             "name":"Mehl"
           },
           {  
              "amount":100,
              "unit":"g",
-             "ingredient":"Butter"
+             "name":"Butter"
           },
           {  
              "amount":1,
              "unit":"Packung",
-             "ingredient":"Blattspinat"
+             "name":"Blattspinat"
           },
           {  
              "amount":1,
              "unit":"Packung",
-             "ingredient":"Lachs"
+             "name":"Lachs"
           }
        ],
        "comment":"Gemüse schneiden. Teig: Salz, Mehl, Butter, Wasser. Backofen vorheizen. Teig in die Form. Teig in Ofen (15 min). Gemüse andünsten. Es kann alles mögliche Gemüse wie: Zuchini, Zwiebeln, Karotten, Lauch, Oberginen, Tomatenscheiben für oben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat. Die Soße zum Gemüse dazu geben."
