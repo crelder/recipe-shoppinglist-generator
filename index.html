@@ -11,7 +11,7 @@
    </head>
    <body>
       <div id="app">
-         <div class="container py-3">
+         <div class="container py-3 ">
             <div class="row">
                <!-- Linke Spalte -->
                <div id="logger" class="col-md-5">
@@ -21,31 +21,29 @@
                   <div class="containter my-5" v-if="shoppingList.length > 0" >
                      <!-- <ul class="list-inline">
                         <li class="list-inline-item" v-for="recipe in selectedRecipes">{{ recipe.recipeName }}</li>
-                     </ul> -->
-                     <div class="container">                
-                        <button type="button" class="btn btn-primary"
-                            v-clipboard:copy="clipboardShoppingList"
-                            v-clipboard:success="onCopy"
-                            v-clipboard:error="onError"
-                            >Kopiere Einkaufsliste</button>
-                    </div>
-                  </div>
-               </div>
-               <div class="col-md-1"></div>
-               <!--Rechte Spalte -->
-               <div class="col-md-6">
-                  <!-- <h1>Einkaufsliste</h1> -->
-                  <div class="row">
-                     <div class="col-md-12" v-if="shoppingList.length > 0">
-                            
-
-
-                        <!-- <ul class="list-unstyled">
-                           <li v-for="item in shoppingList" class="font-weight-normal"> {{ item }}</li>
                         </ul> -->
+                     <div class="d-flex justify-content-center">                
+                        <button type="button" class="btn btn-primary"
+                           v-clipboard:copy="clipboardShoppingList"
+                           v-clipboard:success="onCopy"
+                           v-clipboard:error="onError"
+                           >Kopiere Einkaufsliste</button>
                      </div>
                   </div>
                </div>
+               <!-- <div class="col-md-1"></div> -->
+               <!--Rechte Spalte -->
+               <!-- <div class="col-md-6"> -->
+               <!-- <h1>Einkaufsliste</h1> -->
+               <!-- <div class="row">
+                  <div class="col-md-12" v-if="shoppingList.length > 0">
+                          -->
+               <!-- <ul class="list-unstyled">
+                  <li v-for="item in shoppingList" class="font-weight-normal"> {{ item }}</li>
+                  </ul> -->
+               <!-- </div>
+                  </div>
+                  </div> -->
             </div>
          </div>
       </div>

@@ -13,7 +13,9 @@ x.forEach(function(recipe) {
     recipe.selected = false;
 });
 // Randem order of recipes
-const recipeCollection = x.sort(function(a, b){return 0.5 - Math.random()});
+const recipeCollection = x.sort(function(a, b) {
+    return 0.5 - Math.random()
+});
 console.log("recipeCollection:", recipeCollection);
 /* --------------------------- */
 
@@ -21,9 +23,9 @@ console.log("recipeCollection:", recipeCollection);
 Array.prototype.unique = function() {
     var a = this;
     console.log("a", a);
-    for(var i = 0; i < a.length; ++i) {
-        for(var j=i+1; j<a.length; ++j) {
-            if(a[i].name === a[j].name && a[i].unit === a[j].unit) {
+    for (var i = 0; i < a.length; ++i) {
+        for (var j = i + 1; j < a.length; ++j) {
+            if (a[i].name === a[j].name && a[i].unit === a[j].unit) {
                 console.log(a[i].name, a[j].name);
                 console.log("a: ", a);
                 console.log("a[i].amount += a[j].amount", a[i].amount, a[j].amount);
@@ -52,28 +54,28 @@ var vm = new Vue({
         recipes: recipeCollection
     },
     methods: {
-        onCopy: function (e) {
+        onCopy: function(e) {
             alert('You just copied: ' + e.text)
-          },
-          onError: function (e) {
+        },
+        onError: function(e) {
             alert('Failed to copy texts')
-          }
+        }
     },
     computed: {
         shoppingList: function() {
             console.log("shoppingList");
-            let vm = this; 
+            let vm = this;
             let shoppingList = [];
             let x = vm.recipes.filter(recipe => recipe.selected == true).map(recipe => recipe.ingredients);
             shoppingList = [].concat.apply([], x);
             console.log("shoppingList", shoppingList);
             console.log("shoppingList.unique()", shoppingList.unique());
-            shoppingList = shoppingList.map(ingredient => ingredient.amount + " " + ingredient.unit + " " + ingredient.name);        
+            shoppingList = shoppingList.map(ingredient => ingredient.amount + " " + ingredient.unit + " " + ingredient.name);
             console.log("shoppingList", shoppingList);
             return shoppingList;
         },
-        clipboardShoppingList: function () {
-            return this.shoppingList.join();
+        clipboardShoppingList: function() {
+            return this.shoppingList.join("\n");
         },
         selectedRecipes: function(shoppingList) {
             return this.recipes.filter(recipe => recipe.selected == true);
