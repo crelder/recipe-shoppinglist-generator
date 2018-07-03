@@ -12,10 +12,29 @@ xmlhttp.send();
 x.forEach(function(recipe) {
     recipe.selected = false;
 });
-console.log("this.rezepteSammlung after adding props", this.rezepteSammlung);
-const recipeCollection = x;
-console.log("rezepteSammlung:", recipeCollection);
+// Randem order of recipes
+const recipeCollection = x.sort(function(a, b){return 0.5 - Math.random()});
+console.log("recipeCollection:", recipeCollection);
 /* --------------------------- */
+
+/* ---- Function: removes duplicates from shoppingList and accumulates ingredients -- */
+Array.prototype.unique = function() {
+    var a = this;
+    console.log("a", a);
+    for(var i = 0; i < a.length; ++i) {
+        for(var j=i+1; j<a.length; ++j) {
+            if(a[i].name === a[j].name && a[i].unit === a[j].unit) {
+                console.log(a[i].name, a[j].name);
+                console.log("a: ", a);
+                console.log("a[i].amount += a[j].amount", a[i].amount, a[j].amount);
+                a[i].amount += a[j].amount;
+                a.splice(j--, 1);
+            }
+        }
+    }
+    return a;
+};
+/* ----------------------- */
 
 Vue.component('my-meal', {
     props: ['recipe', 'recipes', 'index'],
@@ -32,30 +51,32 @@ var vm = new Vue({
     data: {
         recipes: recipeCollection
     },
-    methods: {},
+    methods: {
+        onCopy: function (e) {
+            alert('You just copied: ' + e.text)
+          },
+          onError: function (e) {
+            alert('Failed to copy texts')
+          }
+    },
     computed: {
         shoppingList: function() {
-            // Get ingredients of all selected recipes
-            let x = this.recipes.filter(recipe => recipe.selected == true).map(recipe => recipe.ingredients);
-            console.log("x: ", x);
-            let shoppingList = [].concat.apply([], x);
+            console.log("shoppingList");
+            let vm = this; 
+            let shoppingList = [];
+            let x = vm.recipes.filter(recipe => recipe.selected == true).map(recipe => recipe.ingredients);
+            shoppingList = [].concat.apply([], x);
             console.log("shoppingList", shoppingList);
-            shoppingList = shoppingList.map(ingredient => ingredient.amount + " " + ingredient.unit + " " + ingredient.name);
-            console.log("shoppingList: ", shoppingList);
-            document.execCommand("copy", "a");
+            console.log("shoppingList.unique()", shoppingList.unique());
+            shoppingList = shoppingList.map(ingredient => ingredient.amount + " " + ingredient.unit + " " + ingredient.name);        
+            console.log("shoppingList", shoppingList);
             return shoppingList;
-
         },
-        selectedRecipes: function() {
+        clipboardShoppingList: function () {
+            return this.shoppingList.join();
+        },
+        selectedRecipes: function(shoppingList) {
             return this.recipes.filter(recipe => recipe.selected == true);
         }
     }
 });
-
-// einkaufsListeHatBereitsZutat: function(zutat) {
-//         for (var i = 0; i < einkaufsListe.length; i++) {
-//             if (einkaufsListe[i][2] == zutat) {
-//                 return true;
-//             }
-//         }
-//     }

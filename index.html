@@ -5,6 +5,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
       <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v2.0.0/dist/clipboard.min.js"></script>
+      <script src="https://cdn.rawgit.com/Inndy/vue-clipboard2/master/dist/vue-clipboard.js"></script>
       <title>Einkaufslisten schreiben</title>
    </head>
    <body>
@@ -17,9 +19,16 @@
                      <my-meal v-for="(recipe, index) in recipes" v-bind:recipe="recipe" v-bind:index="index" v-bind:recipes="recipes"></my-meal>
                   </ul>
                   <div class="containter my-5" v-if="shoppingList.length > 0" >
-                     <ul class="list-inline">
+                     <!-- <ul class="list-inline">
                         <li class="list-inline-item" v-for="recipe in selectedRecipes">{{ recipe.recipeName }}</li>
-                     </ul>
+                     </ul> -->
+                     <div class="container">                
+                        <button type="button" class="btn btn-primary"
+                            v-clipboard:copy="clipboardShoppingList"
+                            v-clipboard:success="onCopy"
+                            v-clipboard:error="onError"
+                            >Kopiere Einkaufsliste</button>
+                    </div>
                   </div>
                </div>
                <div class="col-md-1"></div>
@@ -28,9 +37,12 @@
                   <!-- <h1>Einkaufsliste</h1> -->
                   <div class="row">
                      <div class="col-md-12" v-if="shoppingList.length > 0">
-                        <ul class="list-unstyled">
+                            
+
+
+                        <!-- <ul class="list-unstyled">
                            <li v-for="item in shoppingList" class="font-weight-normal"> {{ item }}</li>
-                        </ul>
+                        </ul> -->
                      </div>
                   </div>
                </div>
