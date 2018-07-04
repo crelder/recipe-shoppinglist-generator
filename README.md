@@ -12,9 +12,7 @@ Select the meals you want to cook.
 
 ## Output:
 Accumulated list with ingredients you need to buy in order to cook the selected meals. 
-
 The ingredient list is sorted by supermarket departments.
-
 Copy the shopping list into memories (Mac), Wunderlist or any other tool that helps you during your shopping trip.
 
 ## Use your own recipes
