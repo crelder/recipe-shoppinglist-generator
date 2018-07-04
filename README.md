@@ -17,7 +17,7 @@ The ingredient list is sorted by supermarket departments.
 
 Copy the shopping list into memories (Mac), Wunderlist or any other tool that helps you during your shopping trip.
 
-## Use your use your own recipes
+## Use your own recipes
 1. Clone this repository,
 2. Change the recipe.json file so that it fits your own recipes.
 2. Open the raw file of recipes.json
