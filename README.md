@@ -21,4 +21,3 @@ Copy the shopping list into memories (Mac), Wunderlist or any other tool that he
 2. Open the raw file of recipes.json
 2. Generate a rawgit link
 3. Copy that link into line 4 in the recipe.js file
-3. If you do not want a confirmation after clicking the buttons, remove in the index.HTML the two alert passages.
