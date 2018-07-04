@@ -14,7 +14,9 @@ x.forEach(function(recipe, index) {
 
 });
 // Random order of recipes
-const recipeCollection = x.sort(function() {return 0.5 - Math.random()});
+const recipeCollection = x.sort(function() {
+    return 0.5 - Math.random()
+});
 /* --------------------------- */
 
 Vue.component('my-meal', {
@@ -34,12 +36,12 @@ var vm = new Vue({
     },
     methods: {
         onCopy: function(e) {
-            alert('Folgende Einkaufsliste ist in die Zwischenablage kopiert:\n' + e.text)
+            alert('Folgende Liste ist in die Zwischenablage kopiert:\n\n' + e.text)
         },
         onError: function(e) {
             alert('Fehler beim Kopieren in die Zwischenablage.')
         },
-        accumulateRecipes: function(a){
+        accumulateRecipes: function(a) {
             console.log("var a = array;", a);
             console.log("recipes", this.recipes);
             for (var i = 0; i < a.length; ++i) {
@@ -55,10 +57,31 @@ var vm = new Vue({
             }
             return a;
         },
-        sortIngredientsByDepartment: function(a) {
-            console.log(a);
-            let departments = a.map(ingredient => ingredient.department);
-            console.log(departments);
+        sortIngredientsByDepartment: function(shoppingList) {
+            // Create an array of departments
+
+            let departments = shoppingList.map(ingredient => ingredient.department);
+            // Remove duplicate departments
+            departments = departments.filter(function(value, index, departments) {
+                return departments.indexOf(value) == index;
+            });
+            departments.sort();
+            console.log("departments: ", departments);
+
+            sortedShoppingList = [];
+
+            for (let index = 0; index < departments.length; index++) {
+                for (let index2 = 0; index2 < shoppingList.length; index2++) {
+                    if (departments[index] == shoppingList[index2].department) {
+                        sortedShoppingList.push(shoppingList[index2]);
+                    }
+                }
+
+
+
+            }
+            return sortedShoppingList;
+
         }
     },
     computed: {
@@ -70,18 +93,31 @@ var vm = new Vue({
             shoppingList = [].concat.apply([], x);
             // Accumulate similar ingredients
             shoppingList = this.accumulateRecipes(shoppingList);
-            if (shoppingList.length > 0) {
-                shoppingList = this.sortIngredientsByDepartment(shoppingList);
-            }
+
+            shoppingList = this.sortIngredientsByDepartment(shoppingList);
+
             // Create an array with one string for each ingredient
             shoppingList = shoppingList.map(ingredient => ingredient.amount + " " + ingredient.unit + " " + ingredient.name);
-            
+
             console.log("shoppingList", shoppingList);
 
             return shoppingList;
         },
         clipboardShoppingList: function() {
-            return this.shoppingList.join("\n");
+            date = new Date();
+            return "Einkaufsliste für den " + date.toLocaleDateString('de-DE', {weekday: 'short', year: 'numeric', month: 'long', day: 'numeric'}) + ":\n" + this.shoppingList.join("\n");
+        },
+        clipboardMenues: function() {
+            date = new Date();
+            let a = "Menüliste ab dem "  + date.toLocaleDateString('de-DE') + ":\n" + this.selectedRecipes.map(recipe => recipe.recipeName).join(", ").toUpperCase() + "\n\n";
+            for (var i = 0; i < this.selectedRecipes.length; i++) {
+                a += this.selectedRecipes[i].recipeName.toUpperCase() + "\n" + "------------------" + "\n";
+                for (var j = 0; j < this.selectedRecipes[i].ingredients.length; j++) {
+                    a += this.selectedRecipes[i].ingredients[j].amount + this.selectedRecipes[i].ingredients[j].unit + ' ' + this.selectedRecipes[i].ingredients[j].name + "\n";
+                }
+                a += "\"" + this.selectedRecipes[i].comment + "\"" + "\n\n";
+            }
+            return a;
         },
         selectedRecipes: function() {
             return this.recipes.filter(recipe => recipe.selected == true);
