@@ -16,8 +16,8 @@ The ingredient list is sorted by supermarket departments.
 Copy the shopping list into memories (Mac), Wunderlist or any other tool that helps you during your shopping trip.
 
 ## Use your own recipes
-1. Clone this repository,
+1. Clone this repository.
 2. Change the recipe.json file so that it fits your own recipes.
-2. Open the raw file of recipes.json
-2. Generate a rawgit link
-3. Copy that link into line 4 in the recipe.js file
+2. Open the raw file of recipes.json and generate a production link here: https://rawgit.com/
+3. Copy that link into line 9 in the recipe.js file
+3. Done!
