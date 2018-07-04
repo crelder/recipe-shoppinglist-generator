@@ -1,0 +1,534 @@
+[  
+    {  
+       "recipeName":"Rucola Salat",
+       "ingredients":[  
+          {  
+             "amount":0.5,
+             "unit":"Packung",
+             "name":"Parmesan",
+             "department": "Kühlregal"
+          },
+          {  
+             "amount":1,
+             "unit":"Packung",
+             "name":"Rucula Salat",
+             "department": "Obst- und Gemüse"
+          },
+          {  
+             "amount":1,
+             "unit":"",
+             "name":"Tomaten",
+             "department": "Obst- und Gemüse"
+          }
+       ],
+       "comment":"Parmesan in hauchdünne Scheiben mit Reibe schaben. Cocktail Tomaten sehen gut darauf aus."
+    },
+    {  
+       "recipeName":"Griechischer Salat",
+       "ingredients":[  
+          {  
+             "amount":1,
+             "unit":"",
+             "name":"Gurke",
+             "department": "Obst- und Gemüse"
+
+          },
+          {  
+             "amount":4,
+             "unit":"",
+             "name":"Tomaten",
+             "department": "Obst- und Gemüse"
+
+          },
+          {  
+             "amount":1,
+             "unit":"Packung",
+             "name":"Schafskäse",
+             "department": "Kühlregal"
+
+          },
+          {  
+             "amount":12,
+             "unit":"",
+             "name":"Oliven",
+             "department": "Obst- und Gemüse"
+
+          },
+          {  
+             "amount":1,
+             "unit":"",
+             "name":"Zwiebel",
+             "department": "Obst- und Gemüse"
+
+          }
+       ],
+       "comment":"ingredients in dicke Scheiben schneiden. Griechenland-Style! Zwiebeln in Ringe schneiden und etwas Salz darüber und kurz stehen lassen. Dann werden die weicher und sind nicht mehr so scharf."
+    },
+    {  
+       "recipeName":"Grießbrei",
+       "ingredients":[  
+          {  
+             "amount":1,
+             "unit":"Packung",
+             "name":"Weichweizengrieß",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":500,
+             "unit":"ml",
+             "name":"Milch",
+             "department": "Kühlregal"
+
+          }
+       ],
+       "comment":"Umrühren nicht vergessen! 2,5 zu 1 Verhältnis Milch zu Gries. Zimt noch drüber streuen."
+    },
+    {  
+       "recipeName":"Pizza Seelen",
+       "ingredients":[  
+          {  
+             "amount":250,
+             "unit":"g",
+             "name":"Reibekäse",
+             "department": "Kühlregal"
+
+          },
+          {  
+             "amount":250,
+             "unit":"ml",
+             "name":"Süße Sahne",
+             "department": "Kühlregal"
+
+          },
+          {  
+             "amount":250,
+             "unit":"g",
+             "name":"Schinken",
+             "department": "Kühlregal"
+          },
+          {  
+             "amount":0.25,
+             "unit":"Tube",
+             "name":"Tomatenmark",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":3,
+             "unit":"",
+             "name":"Seelen",
+             "department": "Bäcker"
+          }
+       ],
+       "comment":"Kann man statt mit Seelen auch mit Brotscheiben machen. Käse und Schinken in würfeln. Reibekäse: Gouda Mittelalt. Pizzagewürz, Salz, Pfeffer."
+    },
+    {  
+       "recipeName":"Rührei mit Speck",
+       "ingredients":[  
+          {  
+             "amount":1,
+             "unit":"Packung",
+             "name":"Speckwürfel",
+             "department": "Kühlregal"
+
+          },
+          {  
+             "amount":4,
+             "unit":"",
+             "name":"Eier",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":0.5,
+             "unit":"Packung",
+             "name":"Parmesan",
+             "department": "Kühlregal"
+
+          },
+          {  
+             "amount":1,
+             "unit":"Schachtel",
+             "name":"Schnittlauch",
+             "department": "Tiefkühl"
+          }
+       ],
+       "comment":"Geht auch als Mittag oder Abendessen. Gehaltvoll."
+    },
+    {  
+       "recipeName":"Bratkartoffeln",
+       "ingredients":[  
+          {  
+             "amount":5,
+             "unit":"",
+             "name":"Kartoffeln",
+             "department": "Obst- und Gemüse"
+
+          },
+          {  
+             "amount":1,
+             "unit":"",
+             "name":"Zwiebel",
+             "department": "Obst- und Gemüse"
+
+          }
+       ],
+       "comment":"Gehackte Zwiebeln in Fett anbraten. Gute Pfanne, damit es nicht einbackt. Geht auch als Mittag oder Abendessen. Gehaltvoll."
+    },
+    {  
+       "recipeName":"Früchtemüsli",
+       "ingredients":[  
+          {  
+             "amount":2000,
+             "unit":"ml",
+             "name":"Milch",
+             "department": "Kühlregal"
+
+          },
+          {  
+             "amount":1,
+             "unit":"Packung",
+             "name":"Köln Haferflocken (blau)",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":1,
+             "unit":"Packung",
+             "name":"Ovomaltine",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":5,
+             "unit":"",
+             "name":"Bananen",
+             "department": "Obst- und Gemüse"
+
+          },
+          {  
+             "amount":4,
+             "unit":"",
+             "name":"Äpfel",
+             "department": "Obst- und Gemüse"
+
+          },
+          {  
+             "amount":1,
+             "unit":"",
+             "name":"Sonstige Saisonfrüchte für Müsli",
+             "department": "Obst- und Gemüse"
+          }
+       ],
+       "comment":"Tradition bewahren!"
+    },
+    {  
+       "recipeName":"Spaghetti Carbonara",
+       "ingredients":[  
+          {  
+             "amount":150,
+             "unit":"g",
+             "name":"Speckwürfel",
+             "department": "Kühlregal"
+
+          },
+          {  
+             "amount":3,
+             "unit":"",
+             "name":"Eier",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":100,
+             "unit":"ml",
+             "name":"Süße Sahne",
+             "department": "Kühlregal"
+
+          },
+          {  
+             "amount":0.5,
+             "unit":"Packung",
+             "name":"Parmesan",
+             "department": "Kühlregal"
+
+          },
+          {  
+             "amount":200,
+             "unit":"g",
+             "name":"Spaghetti"
+          }
+       ],
+       "comment":"Vorsicht mit dem Salz - wegen dem Speck; kein Salz in die Soße! Schinkenwürfel anbraten. Salz, Pfeffer und alle anderen ingredients verquillen. Alles zusammen über die abgetropften Spaghetti. Erneut abschmecken mit S+P. Wie im Vapiano in Berlin. "
+    },
+    {  
+       "recipeName":"Pfannenkuchen",
+       "ingredients":[  
+          {  
+             "amount":3,
+             "unit":"",
+             "name":"Eier",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":400,
+             "unit":"g",
+             "name":"Mehl",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":400,
+             "unit":"ml",
+             "name":"Milch",
+             "department": "Kühlregal"
+          },
+          {  
+             "amount":1,
+             "unit":"Glas",
+             "name":"Apfelmus",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":1,
+             "unit":"Glas",
+             "name":"Marmelade",
+             "department": "Haltbar"
+          }
+       ],
+       "comment":"Da kann auch Reibekäse darauf."
+    },
+    {  
+       "recipeName":"Käsespätzle",
+       "ingredients":[  
+          {  
+             "amount":500,
+             "unit":"g",
+             "name":"Mehl",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":4,
+             "unit":"",
+             "name":"Eier",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":3,
+             "unit":"",
+             "name":"Zwiebel",
+             "department": "Obst- und Gemüse"
+
+          },
+          {  
+             "amount":300,
+             "unit":"g",
+             "name":"Bergkäse",
+             "department": "Kühlregal"
+          }
+       ],
+       "comment":"Alternativ kann man auch mit Instantmehl halb/halb mischen, wenn kein Spätzlemehl vorhanden. Mit Prise Salz und kaltem Wasser den Teig machen. Käse: Bergkäse, aber nicht zu alt. Eher ein junger/mittelalt Bergkäse - sonst zu trocken."
+    },
+    {  
+       "recipeName":"Schweizer Wurstsalat",
+       "ingredients":[  
+          {  
+             "amount":200,
+             "unit":"g",
+             "name":"Bergkäse",
+             "department": "Kühlregal"
+          },
+          {  
+             "amount":200,
+             "unit":"g",
+             "name":"Schinkenwurst",
+             "department": "Kühlregal"
+          },
+          {  
+             "amount":0.5,
+             "unit":"Glas",
+             "name":"Essiggurke",
+             "department": "Haltbar"
+          }
+       ],
+       "comment":"Mittelalter Bergkäse - nicht zu alt. Die kleineren Gurken; in Scheiben schneiden. Normaler Heller Essig, Öl, Pfeffer, Prise Zucker und Essiggurkensud einen Schuss dazu. Veramountn. Die Zwiebelringe (kleinere Zwiebeln) in Salz legen und am Schluss oben darauf zur Dekoration."
+    },
+    {  
+       "recipeName":"Kartoffelsalt und Spiegelei",
+       "ingredients":[  
+          {  
+             "amount":8,
+             "unit":"",
+             "name":"Kartoffeln",
+             "department": "Obst- und Gemüse"
+
+          },
+          {  
+             "amount":4,
+             "unit":"",
+             "name":"Eier",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":1,
+             "unit":"",
+             "name":"Zwiebel",
+             "department": "Obst- und Gemüse"
+
+          }
+       ],
+       "comment":"(Vorwiegend) Festkochend. Kartoffeln in der Schale kochen. Schälen. In Scheiben schneiden. Wasser heiß machen mit Gemüsebrühe, Senf, Salz, Pfeffer, Prise Zucker, heller Essig (kein Balsamico) und gehackte Zwiebeln (werden dadurch milder). Die Brühe über die Kartoffeln schütten und umrühren. Stehen lassen: 15 min (Kartoffeln ziehen das auf). Dann Öl darüber (Öl schließt das ab.)."
+    },
+    {  
+       "recipeName":"Zitronenkuchen",
+       "ingredients":[  
+          {  
+             "amount":250,
+             "unit":"g",
+             "name":"Margarine",
+             "department": "Kühlregal"
+          },
+          {  
+             "amount":4,
+             "unit":"",
+             "name":"Zitrone",
+             "department": "Obst- und Gemüse"
+
+          },
+          {  
+             "amount":150,
+             "unit":"g",
+             "name":"Zucker",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":4,
+             "unit":"",
+             "name":"Eier",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":300,
+             "unit":"g",
+             "name":"Mehl",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":100,
+             "unit":"g",
+             "name":"Speisestärke",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":1,
+             "unit":"Packung",
+             "name":"Backpulver",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":50,
+             "unit":"ml",
+             "name":"Milch",
+             "department": "Kühlregal"
+          },
+          {  
+             "amount":250,
+             "unit":"g",
+             "name":"Puderzucker",
+             "department": "Haltbar"
+          }
+       ],
+       "comment":"Formdurchmesser ca. 28 cm. 1 große Zitrone mit unbehandelter Schale. 3 für den Saft für die Soße und Glasur. 8 EL Milch. Alles bis auf Mehl und Speisestärke schaumig rühren. Dann erst die letzten beiden dazu fügen. Form ausfetten. 175°C vorheizen und 45-50 Minuten backen. Auf Abkühlblech. // Saft von 2 Zitronen, 4 EL Zucker und 4 EL Wasser aufkochen. (Zitronenlikör hinzufügen). Drüber träufeln. Kuchen abkühlen lassen. // "
+    },
+    {  
+       "recipeName":"Marmorkuchen",
+       "ingredients":[  
+          {  
+             "amount":375,
+             "unit":"g",
+             "name":"Margarine",
+             "department": "Kühlregal"
+          },
+          {  
+             "amount":225,
+             "unit":"g",
+             "name":"Zucker",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":540,
+             "unit":"g",
+             "name":"Mehl",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":4,
+             "unit":"",
+             "name":"Eier",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":190,
+             "unit":"ml",
+             "name":"Milch",
+             "department": "Kühlregal"
+          },
+          {  
+             "amount":1.5,
+             "unit":"Packung",
+             "name":"Backpulver",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":60,
+             "unit":"g",
+             "name":"Kakaopulver",
+             "department": "Haltbar"
+          }
+       ],
+       "comment":"20 g Zucker in Kakaomasse. Evtl. noch 1 EL Milch in Kakaomasse. Guggelhupfform 2/3 füllen. 175°C vorheizen und 45-50 min backen. Bevor Kuchen aus Form, abkühlen lassen!"
+    },
+    {  
+       "recipeName":"Gemüse / Spinat Lachs Quiche",
+       "ingredients":[  
+          {  
+             "amount":1,
+             "unit":"Becher",
+             "name":"Sahne",
+             "department": "Kühlregal"
+          },
+          {  
+             "amount":1,
+             "unit":"",
+             "name":"Eier",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":1,
+             "unit":"",
+             "name":"Knoblauch",
+             "department": "Obst- und Gemüse"
+
+          },
+          {  
+             "amount":200,
+             "unit":"g",
+             "name":"Mehl",
+             "department": "Haltbar"
+          },
+          {  
+             "amount":100,
+             "unit":"g",
+             "name":"Butter",
+             "department": "Kühlregal"
+          },
+          {  
+             "amount":1,
+             "unit":"Packung",
+             "name":"Blattspinat",
+             "department": "Tiefkühl"
+          },
+          {  
+             "amount":1,
+             "unit":"Packung",
+             "name":"Lachs",
+             "department": "Tiefkühl"
+          }
+       ],
+       "comment":"Gemüse schneiden. Teig: Salz, Mehl, Butter, Wasser. Backofen vorheizen. Teig in die Form. Teig in Ofen (15 min). Gemüse andünsten. Es kann alles mögliche Gemüse wie: Zuchini, Zwiebeln, Karotten, Lauch, Oberginen, Tomatenscheiben für oben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat. Die Soße zum Gemüse dazu geben."
+    }
+ ]
