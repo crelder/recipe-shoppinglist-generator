@@ -18,6 +18,8 @@ const recipeCollection = x.sort(function() {
 });
 /* --------------------------- */
 
+
+/* --------- VUE ------------*/
 Vue.component('my-meal', {
     props: ['recipe', 'recipes', 'index'],
     methods: {
