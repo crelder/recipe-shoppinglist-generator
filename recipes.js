@@ -42,15 +42,15 @@ var vm = new Vue({
             alert('Fehler beim Kopieren in die Zwischenablage.')
         },
         accumulateRecipes: function(a) {
-            console.log("var a = array;", a);
-            console.log("recipes", this.recipes);
+            // console.log("var a = array;", a.map(recipe => recipe.amount +recipe.name));
+            // console.log("recipes", this.recipes);
             for (var i = 0; i < a.length; ++i) {
-                console.log("i", a[i].amount);
+                // console.log("i", a[i].amount);
                 for (var j = i + 1; j < a.length; ++j) {
-                    console.log("i", a[j].amount);
+                    // console.log("i", a[j].amount);
                     if (a[i].name === a[j].name && a[i].unit === a[j].unit) {
                         a[i].amount += a[j].amount;
-                        console.log("a.splice(j, 1);", a.splice(j, 1));
+                        // console.log("a.splice(j, 1);", a.splice(j, 1));
                         a.splice(j--, 1);
                     }
                 }
@@ -66,32 +66,37 @@ var vm = new Vue({
                 return departments.indexOf(value) == index;
             });
             departments.sort();
-            console.log("departments: ", departments);
 
             sortedShoppingList = [];
 
             for (let index = 0; index < departments.length; index++) {
+                let departmentShoppingList = [];
                 for (let index2 = 0; index2 < shoppingList.length; index2++) {
                     if (departments[index] == shoppingList[index2].department) {
-                        sortedShoppingList.push(shoppingList[index2]);
+                        departmentShoppingList.push(shoppingList[index2]);
                     }
                 }
-
-
-
+                // Within a department sort the ingredients alphabetically by name
+                sortedShoppingList.push(departmentShoppingList.sort(function compare(a, b) {
+                    return (a.name <= b.name) ? -1 : 1;
+                }));
             }
-            return sortedShoppingList;
+            return sortedShoppingList.concat.apply([], sortedShoppingList);
 
         }
     },
     computed: {
         shoppingList: function() {
-            let shoppingList = [];
+            // console.log("this.recipes", this.recipes);
             let recipes = this.recipes;
+
             // Create an array with all the ingredients of the selected recipes
             let x = recipes.filter(recipe => recipe.selected == true).map(recipe => recipe.ingredients);
-            shoppingList = [].concat.apply([], x);
+            console.log("x", x);
+            let shoppingList = [].concat.apply([], x);
+            console.log("shoppingList", shoppingList);
             // Accumulate similar ingredients
+            console.log("shoppingList", shoppingList.map(recipe => recipe.amount +recipe.name));
             shoppingList = this.accumulateRecipes(shoppingList);
 
             shoppingList = this.sortIngredientsByDepartment(shoppingList);
@@ -99,19 +104,29 @@ var vm = new Vue({
             // Create an array with one string for each ingredient
             shoppingList = shoppingList.map(ingredient => ingredient.amount + " " + ingredient.unit + " " + ingredient.name);
 
-            console.log("shoppingList", shoppingList);
+            // console.log("shoppingList", shoppingList);
 
             return shoppingList;
         },
         clipboardShoppingList: function() {
             date = new Date();
-            return "Einkaufsliste für den " + date.toLocaleDateString('de-DE', {weekday: 'short', year: 'numeric', month: 'long', day: 'numeric'}) + ":\n" + this.shoppingList.join("\n");
+            return "Einkaufsliste für den " + date.toLocaleDateString('de-DE', {
+                weekday: 'short',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            }) + ":\n" + this.shoppingList.join("\n");
         },
         clipboardMenues: function() {
             date = new Date();
-            let a = "Menüliste ab dem "  + date.toLocaleDateString('de-DE') + ":\n" + this.selectedRecipes.map(recipe => recipe.recipeName).join(", ").toUpperCase() + "\n\n";
+            let a = "Menüliste ab dem " + date.toLocaleDateString('de-DE', {
+                weekday: 'short',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            }) + ":\n" + this.selectedRecipes.map(recipe => recipe.recipeName).join(", ").toUpperCase() + "\n\n";
             for (var i = 0; i < this.selectedRecipes.length; i++) {
-                a += this.selectedRecipes[i].recipeName.toUpperCase() + "\n" + "------------------" + "\n";
+                a += this.selectedRecipes[i].recipeName.toUpperCase() + "\n" + "--------------------" + "\n";
                 for (var j = 0; j < this.selectedRecipes[i].ingredients.length; j++) {
                     a += this.selectedRecipes[i].ingredients[j].amount + this.selectedRecipes[i].ingredients[j].unit + ' ' + this.selectedRecipes[i].ingredients[j].name + "\n";
                 }
