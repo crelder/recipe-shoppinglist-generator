@@ -42,7 +42,7 @@ var vm = new Vue({
             alert('Fehler beim Kopieren in die Zwischenablage.')
         },
         accumulateRecipes: function(a) {
-            // console.log("var a = array;", a);
+            // console.log("var a = array;", a.map(recipe => recipe.amount +recipe.name));
             // console.log("recipes", this.recipes);
             for (var i = 0; i < a.length; ++i) {
                 // console.log("i", a[i].amount);
@@ -76,27 +76,27 @@ var vm = new Vue({
                         departmentShoppingList.push(shoppingList[index2]);
                     }
                 }
-                console.log(departmentShoppingList.map(ingredient => ingredient.name).sort());
+                // Within a department sort the ingredients alphabetically by name
                 sortedShoppingList.push(departmentShoppingList.sort(function compare(a, b) {
-                    return (a.name <= b.name) ? -1 : 1;}));
-                // console.log("departmentShoppingList.sort()", departmentShoppingList.sort());
-                // console.log("sortedShoppingList", sortedShoppingList);
+                    return (a.name <= b.name) ? -1 : 1;
+                }));
             }
-            
-            // console.log("sortedShoppingList.concat()", sortedShoppingList.concat());
-            console.log(sortedShoppingList.concat.apply([], sortedShoppingList));
-            return sortedShoppingList;
+            return sortedShoppingList.concat.apply([], sortedShoppingList);
 
         }
     },
     computed: {
         shoppingList: function() {
-            let shoppingList = [];
+            // console.log("this.recipes", this.recipes);
             let recipes = this.recipes;
+
             // Create an array with all the ingredients of the selected recipes
             let x = recipes.filter(recipe => recipe.selected == true).map(recipe => recipe.ingredients);
-            shoppingList = [].concat.apply([], x);
+            console.log("x", x);
+            let shoppingList = [].concat.apply([], x);
+            console.log("shoppingList", shoppingList);
             // Accumulate similar ingredients
+            console.log("shoppingList", shoppingList.map(recipe => recipe.amount +recipe.name));
             shoppingList = this.accumulateRecipes(shoppingList);
 
             shoppingList = this.sortIngredientsByDepartment(shoppingList);
@@ -110,11 +110,21 @@ var vm = new Vue({
         },
         clipboardShoppingList: function() {
             date = new Date();
-            return "Einkaufsliste für den " + date.toLocaleDateString('de-DE', {weekday: 'short', year: 'numeric', month: 'long', day: 'numeric'}) + ":\n" + this.shoppingList.join("\n");
+            return "Einkaufsliste für den " + date.toLocaleDateString('de-DE', {
+                weekday: 'short',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            }) + ":\n" + this.shoppingList.join("\n");
         },
         clipboardMenues: function() {
             date = new Date();
-            let a = "Menüliste ab dem "  + date.toLocaleDateString('de-DE', {weekday: 'short', year: 'numeric', month: 'long', day: 'numeric'}) + ":\n" + this.selectedRecipes.map(recipe => recipe.recipeName).join(", ").toUpperCase() + "\n\n";
+            let a = "Menüliste ab dem " + date.toLocaleDateString('de-DE', {
+                weekday: 'short',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            }) + ":\n" + this.selectedRecipes.map(recipe => recipe.recipeName).join(", ").toUpperCase() + "\n\n";
             for (var i = 0; i < this.selectedRecipes.length; i++) {
                 a += this.selectedRecipes[i].recipeName.toUpperCase() + "\n" + "--------------------" + "\n";
                 for (var j = 0; j < this.selectedRecipes[i].ingredients.length; j++) {

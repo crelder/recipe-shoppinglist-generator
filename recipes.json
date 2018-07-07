@@ -483,7 +483,7 @@
        "comment":"20 g Zucker in Kakaomasse. Evtl. noch 1 EL Milch in Kakaomasse. Guggelhupfform 2/3 füllen. 175°C vorheizen und 45-50 min backen. Bevor Kuchen aus Form, abkühlen lassen!"
     },
     {  
-       "recipeName":"Gemüse / Spinat Lachs Quiche",
+       "recipeName":"Gemüse Quiche",
        "ingredients":[  
           {  
              "amount":1,
@@ -518,17 +518,60 @@
           },
           {  
              "amount":1,
-             "unit":"Packung",
-             "name":"Blattspinat",
-             "department": "Tiefkühl"
-          },
-          {  
-             "amount":1,
-             "unit":"Packung",
-             "name":"Lachs",
-             "department": "Tiefkühl"
+             "unit":" ",
+             "name":"Gemüse der Saison, z.B. Zuchini, Zwiebeln, Karotten, Lauch, Oberginen",
+             "department": "Obst- und Gemüse"
           }
        ],
        "comment":"Gemüse schneiden. Teig: Salz, Mehl, Butter, Wasser. Backofen vorheizen. Teig in die Form. Teig in Ofen (15 min). Gemüse andünsten. Es kann alles mögliche Gemüse wie: Zuchini, Zwiebeln, Karotten, Lauch, Oberginen, Tomatenscheiben für oben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat. Die Soße zum Gemüse dazu geben."
-    }
+    },
+    {  
+        "recipeName":"Spinat-Lachs Quiche",
+        "ingredients":[  
+           {  
+              "amount":1,
+              "unit":"Becher",
+              "name":"Sahne",
+              "department": "Kühlregal"
+           },
+           {  
+              "amount":1,
+              "unit":"",
+              "name":"Eier",
+              "department": "Haltbar"
+           },
+           {  
+              "amount":1,
+              "unit":"",
+              "name":"Knoblauch",
+              "department": "Obst- und Gemüse"
+ 
+           },
+           {  
+              "amount":200,
+              "unit":"g",
+              "name":"Mehl",
+              "department": "Haltbar"
+           },
+           {  
+              "amount":100,
+              "unit":"g",
+              "name":"Butter",
+              "department": "Kühlregal"
+           },
+           {  
+              "amount":1,
+              "unit":"Packung",
+              "name":"Blattspinat",
+              "department": "Tiefkühl"
+           },
+           {  
+              "amount":1,
+              "unit":"Packung",
+              "name":"Lachs",
+              "department": "Tiefkühl"
+           }
+        ],
+        "comment":"Gemüse schneiden. Teig: Salz, Mehl, Butter, Wasser. Backofen vorheizen. Teig in die Form. Teig in Ofen (15 min). Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat. Die Soße zum Gemüse dazu geben."
+     }
  ]
