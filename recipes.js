@@ -6,12 +6,11 @@ xmlhttp.onreadystatechange = function() {
         x = JSON.parse(this.responseText);
     }
 };
-xmlhttp.open("GET", "https://rawgit.com/crelder/recipe-shoppinglist-generator/develop/recipes.json", false);
+xmlhttp.open("GET", "https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/master/recipes.json", false);
 xmlhttp.send();
 // Use the hereby added recipe.selected Property to select/unselect recipes in the GUI and to define the shopping list.
 x.forEach(function(recipe, index) {
     recipe.selected = false;
-
 });
 // Random order of recipes
 const recipeCollection = x.sort(function() {
@@ -96,7 +95,7 @@ var vm = new Vue({
             let shoppingList = [].concat.apply([], x);
             console.log("shoppingList", shoppingList);
             // Accumulate similar ingredients
-            console.log("shoppingList", shoppingList.map(recipe => recipe.amount +recipe.name));
+            console.log("shoppingList", shoppingList.map(recipe => recipe.amount + recipe.name));
             shoppingList = this.accumulateRecipes(shoppingList);
 
             shoppingList = this.sortIngredientsByDepartment(shoppingList);
