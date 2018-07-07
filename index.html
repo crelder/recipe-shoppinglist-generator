@@ -12,16 +12,16 @@
    <body>
       <div id="app">
          <div class="container py-3">
-            <div class="row">
+            <div class="row justify-content-center">
                <!-- Linke Spalte -->
-               <div class="col-md-7">
+               <div class="col-md-6">
                   <ul class="list-group list-group-flush">
                      <my-meal v-for="(recipe, index) in recipes" v-bind:recipe="recipe" v-bind:index="index" v-bind:recipes="recipes"></my-meal>
                   </ul>
                </div>
             </div>
-            <div class="row containter mt-5" v-if="shoppingList.length > 0">
-               <div class="col-md-7 text-center">
+            <div class="row containter mt-5 justify-content-center" v-if="shoppingList.length > 0">
+               <div class="col-md-6 text-center">
                      <button type="button" class="btn btn-primary mr-3"
                         v-clipboard:copy="clipboardShoppingList"
                         v-clipboard:success="onCopy"
