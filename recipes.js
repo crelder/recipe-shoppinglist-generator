@@ -34,6 +34,26 @@ Vue.component("my-meal", {
     '<a href="javascript:void(0);" class="list-group-item list-group-item-action" v-bind:class="{active: recipes[index].selected}" v-on:click="toggleSelectedRecipe"> {{ recipe.recipeName }}</a>'
 });
 
+function filterSelectedMakeUnique(recipes) {
+  const ings = {};
+
+  recipes.filter(recipe => recipe.selected == true).forEach(receipe => {
+    receipe.ingredients.forEach(ing => {
+      if (!ings[ing.name]) {
+        ings[ing.name] = {
+          unit: ing.unit,
+          amount: ing.amount,
+          department: ing.department
+        };
+      } else {
+        ings[ing.name].amount = ings[ing.name].amount + ing.amount;
+      }
+    });
+  });
+
+  return ings;
+}
+
 var vm = new Vue({
   el: "#app",
   data: {
@@ -45,64 +65,31 @@ var vm = new Vue({
     },
     onError: function(e) {
       alert("Fehler beim Kopieren in die Zwischenablage.");
-    },
-    accumulateRecipes: function(a) {
-      for (var i = 0; i < a.length; ++i) {
-        for (var j = i + 1; j < a.length; ++j) {
-          if (a[i].name === a[j].name && a[i].unit === a[j].unit) {
-            a[i].amount += a[j].amount;
-            a.splice(j--, 1);
-          }
-        }
-      }
-      return a;
-    },
-    sortIngredientsByDepartment: function(shoppingList) {
-      // Create an array of departments
-
-      let departments = shoppingList.map(ingredient => ingredient.department);
-      // Remove duplicate departments
-      departments = departments.filter(function(value, index, departments) {
-        return departments.indexOf(value) == index;
-      });
-      departments.sort();
-
-      sortedShoppingList = [];
-
-      for (let index = 0; index < departments.length; index++) {
-        let departmentShoppingList = [];
-        for (let index2 = 0; index2 < shoppingList.length; index2++) {
-          if (departments[index] == shoppingList[index2].department) {
-            departmentShoppingList.push(shoppingList[index2]);
-          }
-        }
-        // Within a department sort the ingredients alphabetically by name
-        sortedShoppingList.push(
-          departmentShoppingList.sort(function compare(a, b) {
-            return a.name <= b.name ? -1 : 1;
-          })
-        );
-      }
-      return sortedShoppingList.concat.apply([], sortedShoppingList);
     }
   },
   computed: {
     shoppingList: function() {
       let recipes = this.recipes;
-      // Create an array with all the ingredients of the selected recipes
-      let x = recipes
-        .filter(recipe => recipe.selected == true)
-        .map(recipe => recipe.ingredients);
-      let shoppingList = [].concat.apply([], x);
-      // Accumulate similar ingredients
-      shoppingList = this.accumulateRecipes(shoppingList);
-      shoppingList = this.sortIngredientsByDepartment(shoppingList);
-      // Create an array with one string for each ingredient
-      shoppingList = shoppingList.map(
-        ingredient =>
-          ingredient.amount + " " + ingredient.unit + " " + ingredient.name
+      console.log("shopingList", this.recipes);
+
+      const ingredients = filterSelectedMakeUnique(recipes);
+      console.log("ingredients", ingredients);
+
+      const lst = Object.keys(ingredients).map(name => ({
+        name,
+        ...ingredients[name]
+      }));
+      console.log("ingredients list", lst);
+
+      const sortedByDepartment = lst.sort(
+        (l, r) => (l.department <= r.department ? -1 : 1)
       );
-      return shoppingList;
+      console.log("sorted", JSON.stringify(sortedByDepartment, null, 2));
+
+      // Create an array with one string for each ingredient
+      return sortedByDepartment.map(
+        ing => `${ing.amount} ${ing.unit} ${ing.name}`
+      );
     },
     clipboardShoppingList: function() {
       date = new Date();
