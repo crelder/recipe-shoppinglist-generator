@@ -238,7 +238,8 @@
       {
         "amount": 200,
         "unit": "g",
-        "name": "Spaghetti"
+        "name": "Spaghetti",
+        "department": "Haltbar"
       }
     ],
     "comment":
