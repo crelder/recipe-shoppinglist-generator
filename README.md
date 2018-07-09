@@ -2,6 +2,7 @@
 
 ## Run
 https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/master/index.html
+(Tested in Chrome and Firefox Browser)
 
 ## Solves two problems
 1. I go shopping and do not know, which ingredients I should by - I always forget which recipes/meals I can cook.
@@ -11,10 +12,12 @@ https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/master/index.html
 Select the meals you want to cook.
 
 ## Output
-Accumulated list with ingredients you need to buy in order to cook the selected meals. 
+Accumulated list with ingredients you need to buy in order to cook the selected meals.
 The ingredient list is sorted by supermarket departments.
 
 Copy the shopping list into memories (Mac), Wunderlist or any other tool that helps you during your shopping trip.
+
+Recipe explainations can be concise, because the contained recipes are your own recipes you know very well.
 
 ## Use your own recipes
 1. Clone this repository.
