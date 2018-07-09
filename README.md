@@ -15,7 +15,7 @@ Select the meals you want to cook.
 Accumulated list with ingredients you need to buy in order to cook the selected meals.
 The ingredient list is sorted by supermarket departments.
 
-Copy the shopping list into memories (Mac), Wunderlist or any other tool that helps you during your shopping trip.
+Workflow: Copy the shopping list into memories (Mac), Wunderlist or any other tool that helps you during your shopping trip.
 
 Recipe explainations can be concise, because the contained recipes are your own recipes you know very well.
 
