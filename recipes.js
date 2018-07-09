@@ -6,6 +6,7 @@ xmlhttp.onreadystatechange = function() {
     x = JSON.parse(this.responseText);
   }
 };
+
 xmlhttp.open(
   "GET",
   "https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/master/recipes.json",
@@ -21,18 +22,6 @@ const recipeCollection = x.sort(function() {
   return 0.5 - Math.random();
 });
 /* --------------------------- */
-
-/* --------- VUE ------------*/
-Vue.component("my-meal", {
-  props: ["recipe", "recipes", "index"],
-  methods: {
-    toggleSelectedRecipe: function() {
-      this.recipes[this.index].selected = !this.recipes[this.index].selected;
-    }
-  },
-  template:
-    '<a href="javascript:void(0);" class="list-group-item list-group-item-action" v-bind:class="{active: recipes[index].selected}" v-on:click="toggleSelectedRecipe"> {{ recipe.recipeName }}</a>'
-});
 
 function filterSelectedMakeUnique(recipes) {
   const ings = {};
@@ -54,6 +43,19 @@ function filterSelectedMakeUnique(recipes) {
   return ings;
 }
 
+/* --------- VUE component------------*/
+Vue.component("my-meal", {
+  props: ["recipe", "recipes", "index"],
+  methods: {
+    toggleSelectedRecipe: function() {
+      this.recipes[this.index].selected = !this.recipes[this.index].selected;
+    }
+  },
+  template:
+    '<a href="javascript:void(0);" class="list-group-item list-group-item-action" v-bind:class="{active: recipes[index].selected}" v-on:click="toggleSelectedRecipe"> {{ recipe.recipeName }}</a>'
+});
+
+/* ---------- VUE instance ------------*/
 var vm = new Vue({
   el: "#app",
   data: {
@@ -70,23 +72,16 @@ var vm = new Vue({
   computed: {
     shoppingList: function() {
       let recipes = this.recipes;
-      console.log("shopingList", this.recipes);
-
       const ingredients = filterSelectedMakeUnique(recipes);
-      console.log("ingredients", ingredients);
-
       const lst = Object.keys(ingredients).map(name => ({
         name,
         ...ingredients[name]
       }));
-      console.log("ingredients list", lst);
-
       const sortedByDepartment = lst.sort(
         (l, r) => (l.department <= r.department ? -1 : 1)
       );
-      console.log("sorted", JSON.stringify(sortedByDepartment, null, 2));
+      // console.log("sorted", JSON.stringify(sortedByDepartment, null, 2));
 
-      // Create an array with one string for each ingredient
       return sortedByDepartment.map(
         ing => `${ing.amount} ${ing.unit} ${ing.name}`
       );
