@@ -573,5 +573,85 @@
            }
         ],
         "comment":"Gemüse schneiden. Teig: Salz, Mehl, Butter, Wasser. Backofen vorheizen. Teig in die Form. Teig in Ofen (15 min). Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat. Die Soße zum Gemüse dazu geben."
-     }
+     },
+     {  
+         "recipeName":"Linsen Lasagne",
+         "ingredients":[  
+            {  
+               "amount":1,
+               "unit":"Pack",
+               "name":"Lassagenplatten",
+               "department": "Haltbar"
+            },
+            {  
+               "amount":250,
+               "unit":"g",
+               "name":"Rote oder braune Berglinsen",
+               "department": "Haltbar"
+            },
+            {  
+               "amount":2,
+               "unit":"Stangen",
+               "name":"Lauch",
+               "department": "Obst- und Gemüse"
+            },
+            {  
+               "amount":200,
+               "unit":"g",
+               "name":"Fleischtomaten",
+               "department": "Obst- und Gemüse"
+            },
+            {  
+               "amount":1,
+               "unit":"",
+               "name":"Lobeerblatt",
+               "department": "Haltbar"
+            },
+            {  
+              "amount":2,
+              "unit":"",
+              "name":"Karotten",
+              "department": "Obst- und Gemüse"
+           },
+           {  
+            "amount":1,
+            "unit":"Zehe",
+            "name":"Knoblauch",
+            "department": "Obst- und Gemüse"
+         },
+           {  
+            "amount":0.5,
+            "unit":"l",
+            "name":"Gemüsebrühe",
+            "department": "Obst- und Gemüse"
+         },
+            
+            {  
+               "amount":200,
+               "unit":"g",
+               "name":"Creme Fraiche",
+               "department": "Kühlregal"
+            },
+            {  
+              "amount":2,
+              "unit":"EL",
+              "name":"Rotweinessig",
+              "department": "Haltbar"
+           },
+           {  
+            "amount":100,
+            "unit":"g",
+            "name":"Butter",
+            "department": "Kühlregal"
+         },
+         {  
+          "amount":100,
+          "unit":"g",
+          "name":"Gouda",
+          "department": "Kühlregal"
+       }
+        ],
+         "comment":"Idealerweise am Tag vorher machen und über Nacht stehen lassen, dann in den Backofen. Bei Linsen kein Salz dazu! Lauch putzen und in feine Streifen schneiden. Tomaten würfeln. Karotten in kleine Eckchen schneiden (Größe der Linsen). 1 EL Butter erhitzen. Gemüse darin andünsten. Linsen und Lobeerblatt dazu - schwenken. Brühe dazu und das Ganze 15-20 Minuten köcheln lassen, bis Linsen gar sind. 100g (nicht 200g) Creme Fraiche dazu, 2 EL Essig, Salz und Pfeffer. // Backofen auf 180°Grad erhitzen. Auflaufform einfetten und Platten reinlegen. Schicht Linsengemüse. Platten. etc. Auf die oberste, letzte Schicht Platten kommt die Masse aus Gouda, 100g Creme Fraiche, 2 EL weiche Butter (evtl. leicht anwärmen). Evtl. salzen und Pfeffern. Auf mittlerer Schiene 30 Minuten bei 180°Grad goldbraun backen."
+        }
+
  ]
