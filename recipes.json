@@ -285,7 +285,7 @@
     "recipeName": "Käsespätzle",
     "ingredients": [
       {
-        "amount": 500,
+        "amount": 400,
         "unit": "g",
         "name": "Mehl",
         "department": "Haltbar"
@@ -310,7 +310,7 @@
       }
     ],
     "comment":
-      "Alternativ kann man auch mit Instantmehl halb/halb mischen, wenn kein Spätzlemehl vorhanden. Mit Prise Salz und kaltem Wasser den Teig machen. Käse: Bergkäse, aber nicht zu alt. Eher ein junger/mittelalt Bergkäse - sonst zu trocken."
+      "Alternativ kann man auch mit Instantmehl halb/halb mischen, wenn kein Spätzlemehl vorhanden. Mit Prise Salz und kaltem Wasser den Teig machen. Käse: Bergkäse, aber nicht zu alt. Eher ein junger/mittelalt Bergkäse - sonst zu trocken. Oder mit Havarti Käse mischen."
   },
   {
     "recipeName": "Schweizer Wurstsalat",
