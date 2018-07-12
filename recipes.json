@@ -326,7 +326,7 @@
            "department":"Haltbar"
         }
      ],
-     "comment":"Die Zwiebelringe (kleinere Zwiebeln) in Salz legen und am Schluss oben darauf zur Dekoration. Mittelalter Bergkäse - nicht zu alt. Die kleineren Gurken in Scheiben schneiden. Normaler Heller Essig, Öl, Pfeffer, Prise Zucker und Essiggurkensud einen Schuss dazu. vermischen."
+     "comment":"Die Zwiebelringe (kleinere Zwiebeln) mit Salz bestreuen und am Schluss oben darauf zur Dekoration. Mittelalter Bergkäse - nicht zu alt. Die kleineren Gurken in Scheiben schneiden. Normaler Heller Essig, Öl, Pfeffer, Prise Zucker und Essiggurkensud einen Schuss dazu. vermischen."
   },
   {
      "recipeName":"Kartoffelsalt und Spiegelei",
@@ -645,5 +645,47 @@
         }
      ],
      "comment":"Wenn möglich mit Spätzlemehl (alternativ: Volkornmehl, Dinkelmehl, Normalmehl mit etwas Gries, damit es kerniger wird). Pro Person 100g und 1 Ei. Teig mit Salz abschmecken."
+  },
+  {
+     "recipeName":"Gemüsepfanne",
+     "ingredients":[
+        {
+           "amount":2,
+           "unit":"",
+           "name":"Karotten",
+           "department":"Obst- und Gemüse"
+        },
+        {
+           "amount":2,
+           "unit":"kleine",
+           "name":"Zucchini",
+           "department":"Obst- und Gemüse"
+        },
+        {
+           "amount":3,
+           "unit":"",
+           "name":"Paprika",
+           "department":"Obst- und Gemüse"
+        },
+        {
+           "amount":8,
+           "unit":"",
+           "name":"Champignon",
+           "department":"Obst- und Gemüse"
+        },
+        {
+           "amount":4,
+           "unit":"",
+           "name":"Tomaten",
+           "department":"Obst- und Gemüse"
+        },
+        {
+           "amount":1,
+           "unit":"",
+           "name":"Frühlingszwiebel",
+           "department":"Obst- und Gemüse"
+        }
+     ],
+     "comment":"Gemüse in kleine Würfel schneiden. Was am längsten braucht, damit anfangen das anzubraten (Stufe 6-7): Karotten, Zucchini, Paprika, Tomaten, Champignon, Frühlungszwiebel. Evtl. etwas Wasser zum Garen dazu. Salatkräutersalz. Basilikum oder Tymian zur Deko. Am Schluss ein Schuss Balsamiquo Essig darüber (alternativ: Zitrone). Wenn Gemüse alleine anbraten dann Kombi: Karotten - Tymian; Zucchini - Pfferminze + Knoblauch."
   }
 ]
