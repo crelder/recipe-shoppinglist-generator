@@ -652,6 +652,24 @@
        }
         ],
          "comment":"Idealerweise am Tag vorher machen und über Nacht stehen lassen, dann in den Backofen. Bei Linsen kein Salz dazu! Lauch putzen und in feine Streifen schneiden. Tomaten würfeln. Karotten in kleine Eckchen schneiden (Größe der Linsen). 1 EL Butter erhitzen. Gemüse darin andünsten. Linsen und Lobeerblatt dazu - schwenken. Brühe dazu und das Ganze 15-20 Minuten köcheln lassen, bis Linsen gar sind. 100g (nicht 200g) Creme Fraiche dazu, 2 EL Essig, Salz und Pfeffer. // Backofen auf 180°Grad erhitzen. Auflaufform einfetten und Platten reinlegen. Schicht Linsengemüse. Platten. etc. Auf die oberste, letzte Schicht Platten kommt die Masse aus Gouda, 100g Creme Fraiche, 2 EL weiche Butter (evtl. leicht anwärmen). Evtl. salzen und Pfeffern. Auf mittlerer Schiene 30 Minuten bei 180°Grad goldbraun backen."
+        },
+        {  
+          "recipeName":"Spätzle",
+          "ingredients":[  
+             {  
+                "amount":400,
+                "unit":"g",
+                "name":"Spätzlemehl",
+                "department": "Haltbar"
+             },
+             {  
+                "amount":4,
+                "unit":"",
+                "name":"Eier",
+                "department": "Haltbar"
+             }
+          ],
+          "comment":"Wenn möglich mit Spätzlemehl (alternativ: Volkornmehl, Dinkelmehl, Normalmehl mit etwas Gries, damit es kerniger wird). Pro Person 100g und 1 Ei. Teig mit Salz abschmecken."
         }
 
  ]
