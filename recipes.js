@@ -12,6 +12,7 @@ xmlhttp.open(
   "https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/master/recipes.json",
   false
 );
+
 xmlhttp.send();
 // Use the hereby added recipe.selected Property to select/unselect recipes in the GUI and to define the shopping list.
 x.forEach(function(recipe, index) {

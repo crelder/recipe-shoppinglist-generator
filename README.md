@@ -24,4 +24,4 @@ Recipe explainations can be concise, because the contained recipes are your own 
 2. Open the raw file of recipes.json in Github and generate a production link [here](https://rawgit.com/).
 3. Copy that link into line 9 in the recipes.js file
 3. Open the raw file of index.html in Github and generate a production link [here](https://rawgit.com/).
-3. Bookmark this link and you can always generate your shoppinglist on the go. Done!
+3. Bookmark this link and you can always generate your shoppinglist on the go.Done!
