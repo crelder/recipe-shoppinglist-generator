@@ -73,10 +73,14 @@ var vm = new Vue({
     shoppingList: function() {
       let recipes = this.recipes;
       const ingredients = filterSelectedMakeUnique(recipes);
+      console.log("ingredients", JSON.stringify(ingredients, null, 2));
       const lst = Object.keys(ingredients).map(name => ({
-        name,
-        ...ingredients[name]
+        name: name,
+        unit: ingredients[name].unit,
+        amount: ingredients[name].amount,
+        department: ingredients[name].department
       }));
+      console.log("lst", JSON.stringify(lst, null, 2));
       const sortedByDepartment = lst.sort(
         (l, r) => (l.department <= r.department ? -1 : 1)
       );
