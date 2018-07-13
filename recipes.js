@@ -9,7 +9,7 @@ xmlhttp.onreadystatechange = function() {
 
 xmlhttp.open(
   "GET",
-  "https://cdn.rawgit.com/crelder/recipe-shoppinglist-generator/master/recipes.json",
+  "https://rawgit.com/crelder/recipe-shoppinglist-generator/master/recipes.json",
   false
 );
 xmlhttp.send();
