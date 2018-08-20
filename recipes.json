@@ -493,6 +493,12 @@
         "department": "Obst- und Gemüse"
       },
       {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebel",
+        "department": "Obst- und Gemüse"
+      },
+      {
         "amount": 200,
         "unit": "g",
         "name": "Mehl",
@@ -513,7 +519,7 @@
       }
     ],
     "comment":
-      "Gemüse schneiden. Teig: Salz, Mehl, Butter, Wasser. Backofen vorheizen. Teig in die Form. Teig in Ofen (15 min). Gemüse andünsten. Es kann alles mögliche Gemüse wie: Zuchini, Zwiebeln, Karotten, Lauch, Oberginen, Tomatenscheiben für oben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat. Die Soße zum Gemüse dazu geben."
+      "Gemüse schneiden. Teig: Salz, Mehl, Butter, Wasser. Backofen vorheizen. Teig in die Form. Teig in Ofen (15 min). Gemüse andünsten. Es kann alles mögliche Gemüse wie: Knoblauch, Zuchini, Zwiebeln, Karotten, Lauch, Oberginen, Tomatenscheiben für oben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat. Die Soße zum Gemüse dazu geben."
   },
   {
     "recipeName": "Spinat-Lachs Quiche",
@@ -764,13 +770,13 @@
     "recipeName": "Spaghetti mit kalter Tomatensauce",
     "ingredients": [
       {
-        "amount": 500,
+        "amount": 250,
         "unit": "g",
         "name": "Spagetthi",
         "department": "Haltbar"
       },
       {
-        "amount": 400,
+        "amount": 200,
         "unit": "g",
         "name": "Mozarella",
         "department": "Kühlregal"
@@ -845,5 +851,103 @@
     ],
     "comment":
       "Pilze anbraten. Zwiebeln dazu. Sahne dazu. Mit Salz, Chili, Knoblauch und Petersilie abschmecken."
+  },
+  {
+    "recipeName": "Nudeln mit Pilzsauce",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Nudeln",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Zwiebel",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Pilze",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "name": "Sahne",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Chili",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Knoblauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 0.5,
+        "unit": "Bund",
+        "name": "Petersilie",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Pilze anbraten. Zwiebeln dazu. Sahne dazu. Mit Salz, Chili, Knoblauch und Petersilie abschmecken."
+  },
+  {
+    "recipeName": "Gnocchi in Gorgonzola-Sauce",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Gnocchi",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Gorgonzola",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Sahne",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Parmesan",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Milch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Knoblauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 0.5,
+        "unit": "Bund",
+        "name": "Petersilie",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Soße und Gnocchi sollten möglichst gleichzeitig fertig werden. Für die Soße: Den Gorgonzola in Würfel schneiden und mit der Sahne und der Milch im Topf schmelzen lassen, stetig rühren. Die sehr fein gehackte Petersilie dazugeben. Knoblauch schälen und durch die Knoblauchpresse dazu drücken. Die Sauce mit Salz und Pfeffer abschmecken und sofort mit den Gnocchi servieren."
   }
 ]
