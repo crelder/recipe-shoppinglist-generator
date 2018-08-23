@@ -949,5 +949,73 @@
     ],
     "comment":
       "Soße und Gnocchi sollten möglichst gleichzeitig fertig werden. Für die Soße: Den Gorgonzola in Würfel schneiden und mit der Sahne und der Milch im Topf schmelzen lassen, stetig rühren. Die sehr fein gehackte Petersilie dazugeben. Knoblauch schälen und durch die Knoblauchpresse dazu drücken. Die Sauce mit Salz und Pfeffer abschmecken und sofort mit den Gnocchi servieren."
+  },
+  {
+    "recipeName": "Linsen Lasagne",
+    "ingredients": [
+      
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Rote oder braune Berglinsen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Stangen",
+        "name": "Lauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Karotten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Lobeerblatt",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebel",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "gemahlene Nelken",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "EL",
+        "name": "Tomatenmark",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Mehlige Kartoffel",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "Rauchfleisch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 6,
+        "unit": "",
+        "name": "Wiener",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment":
+      "Rauchfleisch in Würfel schneiden. Zwiebeln mit dem gerauchten Bauch und Karotten anbraten. Gewaschene Linsen rein. Ablöschen mit Wasser oder Wein (weiß oder rosé). Lobeerblatt und Nelken dazu. Hildegart dazu. Tomatenmark. Kartoffel roh reinreiben. Pfeffer und Paprika Pulver dazu. Kein Salz. Ein Schuss Wein für die Soße. Kücheln lassen, bis die Linsen gar sind. Wenn fertig mit Salz und Weißweinessig dazu. Wiener im heißen Wasser köcheln. Und am Schluss zu den Linsen dazu geben."
   }
 ]
