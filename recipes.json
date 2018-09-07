@@ -853,55 +853,6 @@
       "Pilze anbraten (Marcela: die Pilze richitg kräftig und lange anbraten, sodass sie schön knusprig sind.) Zwiebeln dazu. Sahne dazu. Mit Salz (vieeel Salz), Chili, Knoblauch und Petersilie abschmecken."
   },
   {
-    "recipeName": "Nudeln mit Pilzsauce",
-    "ingredients": [
-      {
-        "amount": 250,
-        "unit": "g",
-        "name": "Nudeln",
-        "department": "Haltbar"
-      },
-      {
-        "amount": 2,
-        "unit": "",
-        "name": "Zwiebel",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 500,
-        "unit": "g",
-        "name": "Pilze",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 200,
-        "unit": "ml",
-        "name": "Sahne",
-        "department": "Kühlregal"
-      },
-      {
-        "amount": 1,
-        "unit": "",
-        "name": "Chili",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 1,
-        "unit": "",
-        "name": "Knoblauch",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 0.5,
-        "unit": "Bund",
-        "name": "Petersilie",
-        "department": "Obst- und Gemüse"
-      }
-    ],
-    "comment":
-      "Pilze anbraten. Zwiebeln dazu. Sahne dazu. Mit Salz, Chili, Knoblauch und Petersilie abschmecken."
-  },
-  {
     "recipeName": "Gnocchi in Gorgonzola-Sauce",
     "ingredients": [
       {
