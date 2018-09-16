@@ -145,4 +145,4 @@ var vm = new Vue({
   }
 });
 
-// Noch einfügen: Hackfleisch Empanadas, Hackfleischlasagne
+// Noch einfügen: Hackfleischlasagne
