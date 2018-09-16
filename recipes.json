@@ -967,6 +967,174 @@
       }
     ],
     "comment":
-      "Rauchfleisch in Würfel schneiden. Zwiebeln mit dem gerauchten Bauch und Karotten anbraten. Gewaschene Linsen rein. Ablöschen mit Wasser oder Wein (weiß oder rosé). Lobeerblatt und Nelken dazu. Hildegart dazu. Tomatenmark. Kartoffel roh reinreiben. Pfeffer und Paprika Pulver dazu. Kein Salz. Ein Schuss Wein für die Soße. Kücheln lassen, bis die Linsen gar sind. Wenn fertig mit Salz und Weißweinessig dazu. Wiener im heißen Wasser köcheln. Und am Schluss zu den Linsen dazu geben."
+      "Rauchfleisch in Würfel schneiden. Zwiebeln mit dem gerauchten Bauch und Karotten anbraten. Später Lauch dazu. Gewaschene Linsen rein. Ablöschen mit Wasser oder Wein (weiß oder rosé). Lobeerblatt und Nelken dazu. Hildegart dazu. Tomatenmark. Kartoffel roh reinreiben. Pfeffer und Paprika Pulver dazu. Kein Salz. Ein Schuss Wein für die Soße. Köcheln lassen, bis die Linsen gar sind. Wenn fertig mit Salz und Weißweinessig dazu. Wiener im heißen Wasser köcheln und am Schluss zu den Linsen dazu geben."
+  },
+  {
+    "recipeName": "Abendbrot",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Rheinisches Schwarzbrot",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Dosenbratwurst",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "verschiedene Käse",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Butter",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "Glas",
+        "name": "Essiggurken",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Streichcreme Zwergenwiese (Kokolim oder Chilinake)",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      ""
+  },
+  {
+    "recipeName": "Vanillepudding",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "Päckchen",
+        "name": "Bourbon Vanillepudding",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "name": "Milch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Bananen",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Glas",
+        "name": "Marmelade",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      ""
+  },
+  {
+    "recipeName": "Provenzalisches Huhn",
+    "ingredients": [
+      
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "Knoblauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "Doppelte Hähnchenbrüste",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "name": "Butter",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Dosentomaten (geschält, am Stück)",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "name": "Sahne",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "name": "Crème fraîche",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Fladenbrot",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Für ca. 4 Personen. Statt Martini auch Wermouth (Noilly Prat) möglich. Knoblauch grob hacken. Hähnchenbrüste halbieren und scharf in Butter anbraten, dann Temperatur reduzieren und mit Salz, Cayenne (1 Messerspitze), Paprikapulver (4 TL) würzen. Tomaten, Knoblauch, Martini/Vermouth dazu und 20 Minuten köcheln lassen. Getrockneter Thymian (1/2 TL), Sahne, Crème fraiche einköcheln. Schmeckt am nächsten Tag noch besser. Als Beilage am besten Fladenbrot!"
+  },
+  {
+    "recipeName": "Käse-Zwiebel Empanadas",
+    "ingredients": [
+      
+      {
+        "amount": 350,
+        "unit": "g",
+        "name": "Gouda Reibekäse",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 8,
+        "unit": "EL",
+        "name": "Weißwein",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Weizenmehl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 83,
+        "unit": "g",
+        "name": "Sonnenblumenöl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Ergibt ca. 25 Empanadas. Füllung: 3 EL Weißweinessig. 12g Butter für anbraten Stufe 2. 8 EL Weißwein. 3g Salz. Pfeffer nach Gusto. Goldpuder Mehl am besten (Typ ?). Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
   }
 ]
