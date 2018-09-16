@@ -1010,7 +1010,7 @@
       }
     ],
     "comment":
-      ""
+      "Standard Versper."
   },
   {
     "recipeName": "Vanillepudding",
@@ -1041,7 +1041,7 @@
       }
     ],
     "comment":
-      ""
+      "Geht schnell. Gut als Nachtisch."
   },
   {
     "recipeName": "Provenzalisches Huhn",
@@ -1135,6 +1135,61 @@
       }
     ],
     "comment":
-      "Ergibt ca. 25 Empanadas. Füllung: 3 EL Weißweinessig. 12g Butter für anbraten Stufe 2. 8 EL Weißwein. 3g Salz. Pfeffer nach Gusto. Goldpuder Mehl am besten (Typ ?). Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
+      "Ergibt ca. 25 Empanadas. Füllung: 3 EL Weißweinessig. 12g Butter für anbraten Stufe 2. 8 EL Weißwein. 3g Salz. Pfeffer nach Gusto. Goldpuder Mehl am besten (Typ ?). Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
+  },
+  {
+    "recipeName": "Empanada cordobsa",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Hackfleisch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 150,
+        "unit": "ml",
+        "name": "Sonnenblumenöl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 375,
+        "unit": "g",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Karotte",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 40,
+        "unit": "g",
+        "name": "Rosinen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "rote Peperoni",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Ergibt ca. 30 Empanadas. Füllung: Alles sehr klein schneiden. Zwiebeln auf mittlerer Flamme im Öl gold andünsten, dann Hackfleisch dazu. Sobald nicht mehr rot, alles andere rein (1 mittlere Karotte, 1 mittlere Kartoffel, 2 EL gehäuft Suppenwürze, 1 Schuß Sojasoße, 1/2 TL Kreuzkümmel, 2 TL Paprikapulver, 3 EL gehäuft Zucker, Rosinen, 2/3 große rote Peperoni, 2 gekochte Eier, Salz). Garen lassen, bis Kartoffeln und Karotten durch. Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
   }
 ]
