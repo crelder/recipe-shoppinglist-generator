@@ -1191,5 +1191,30 @@
     ],
     "comment":
       "Ergibt ca. 30 Empanadas. Füllung: Eier kochen. Insgessamt alles sehr klein schneiden. Zwiebeln auf mittlerer Flamme im Öl gold andünsten, dann Hackfleisch dazu. Sobald nicht mehr rot, alles andere rein plus 2 EL gehäuft Suppenwürze, 1 Schuß Sojasoße, 1/2 TL Kreuzkümmel, 2 TL Paprikapulver, 3 EL gehäuft Zucker, Rosinen, 2/3 große rote Peperoni, Salz). Garen lassen, bis Kartoffeln und Karotten durch. Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
+  },
+  {
+    "recipeName": "Grünkohl",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "Glas",
+        "name": "Grünkohl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Dicke Würste",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Pellkartoffeln kochen. Grünkohl erwärmen. Würste dazugeben. Fertig ist das Winteressen!"
   }
 ]
