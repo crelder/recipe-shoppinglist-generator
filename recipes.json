@@ -170,7 +170,7 @@
     "recipeName": "Früchtemüsli",
     "ingredients": [
       {
-        "amount": 2000,
+        "amount": 3000,
         "unit": "ml",
         "name": "Milch",
         "department": "Kühlregal"
@@ -182,19 +182,13 @@
         "department": "Haltbar"
       },
       {
-        "amount": 1,
-        "unit": "Packung",
-        "name": "Ovomaltine",
-        "department": "Haltbar"
-      },
-      {
-        "amount": 5,
+        "amount": 7,
         "unit": "",
         "name": "Bananen",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 4,
+        "amount": 7,
         "unit": "",
         "name": "Äpfel",
         "department": "Obst- und Gemüse"
@@ -204,6 +198,12 @@
         "unit": "",
         "name": "Sonstige Saisonfrüchte für Müsli",
         "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "kg",
+        "name": "Yoghurt 3,5%",
+        "department": "Kühlregal"
       }
     ],
     "comment": "Tradition bewahren!"
@@ -1216,5 +1216,98 @@
     ],
     "comment":
       "Pellkartoffeln kochen. Grünkohl erwärmen. Würste dazugeben. Fertig ist das Winteressen!"
+  },
+  {
+    "recipeName": "Himbeer-Bananen Yoghurt",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "kg",
+        "name": "Yoghurt 3,5%",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "Packung",
+        "name": "Himbeeren Tiefkühl",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Bananen",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Damit die Himbeeren auftauen, Yoghurt bereits einige Stunden vorher machen und in den Kühlschrank stellen."
+  },
+  {
+    "recipeName": "Grüner Salat mit Thunfisch",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Kopfsalat",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Tomaten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Gurke",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Dose",
+        "name": "Thunfisch",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Was gesundes..."
+  },
+  {
+    "recipeName": "Bohnensalat",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "Dose",
+        "name": "Weiße Bohnen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "Dosen",
+        "name": "Thunfisch",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 5,
+        "unit": "",
+        "name": "Kirschtomaten",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Für die Salatsauce: Weißweinessig, Olivenöl, Salz, Pfeffer, Zucker."
   }
 ]
