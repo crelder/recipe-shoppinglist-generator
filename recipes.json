@@ -202,7 +202,7 @@
       {
         "amount": 1,
         "unit": "kg",
-        "name": "Yoghurt 3,5%",
+        "name": "Joghurt 3,5%",
         "department": "Kühlregal"
       }
     ],
@@ -337,7 +337,7 @@
       "Die Zwiebelringe (kleinere Zwiebeln) mit Salz bestreuen und am Schluss oben darauf zur Dekoration. Mittelalter Bergkäse - nicht zu alt. Die kleineren Gurken in Scheiben schneiden. Normaler Heller Essig, Öl, Pfeffer, Prise Zucker und Essiggurkensud einen Schuss dazu. vermischen."
   },
   {
-    "recipeName": "Kartoffelsalt und Spiegelei",
+    "recipeName": "Spiegelei mit Kartoffelsalt",
     "ingredients": [
       {
         "amount": 8,
@@ -472,7 +472,7 @@
       "20 g Zucker in Kakaomasse. Evtl. noch 1 EL Milch in Kakaomasse. Guggelhupfform 2/3 füllen. 175°C vorheizen und 45-50 min backen. Bevor Kuchen aus Form, abkühlen lassen!"
   },
   {
-    "recipeName": "Gemüse Quiche",
+    "recipeName": "Gemüse-Quiche",
     "ingredients": [
       {
         "amount": 1,
@@ -571,7 +571,7 @@
       "Backofen vorheizen (175°C). Teig: Salz, Mehl, Butter, Wasser. Teig in die Form. Teig in Ofen (15 min). Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat."
   },
   {
-    "recipeName": "Linsen Lasagne",
+    "recipeName": "Linsenlasagne",
     "ingredients": [
       {
         "amount": 1,
@@ -1138,7 +1138,7 @@
       "Ergibt ca. 25 Empanadas. Füllung: 3 EL Weißweinessig. 12g Butter für anbraten Stufe 2. 8 EL Weißwein. 3g Salz. Pfeffer nach Gusto. Goldpuder Mehl am besten (Typ ?). Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
   },
   {
-    "recipeName": "Empanada cordobsa",
+    "recipeName": "Empanadas Cordobesas",
     "ingredients": [
       {
         "amount": 500,
@@ -1193,7 +1193,7 @@
       "Ergibt ca. 30 Empanadas. Füllung: Eier kochen. Insgessamt alles sehr klein schneiden. Zwiebeln auf mittlerer Flamme im Öl gold andünsten, dann Hackfleisch dazu. Sobald nicht mehr rot, alles andere rein plus 2 EL gehäuft Suppenwürze, 1 Schuß Sojasoße, 1/2 TL Kreuzkümmel, 2 TL Paprikapulver, 3 EL gehäuft Zucker, Rosinen, 2/3 große rote Peperoni, Salz). Garen lassen, bis Kartoffeln und Karotten durch. Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
   },
   {
-    "recipeName": "Grünkohl",
+    "recipeName": "Grünkohl mit Pinkel",
     "ingredients": [
       {
         "amount": 1,
@@ -1204,7 +1204,7 @@
       {
         "amount": 4,
         "unit": "",
-        "name": "Dicke Würste",
+        "name": "Dicke Würste / Pinkel",
         "department": "Kühlregal"
       },
       {
@@ -1218,12 +1218,12 @@
       "Pellkartoffeln kochen. Grünkohl erwärmen. Würste dazugeben. Fertig ist das Winteressen!"
   },
   {
-    "recipeName": "Himbeer-Bananen Yoghurt",
+    "recipeName": "Himbeer-Bananen Joghurt",
     "ingredients": [
       {
         "amount": 1,
         "unit": "kg",
-        "name": "Yoghurt 3,5%",
+        "name": "Joghurt 3,5%",
         "department": "Kühlregal"
       },
       {
