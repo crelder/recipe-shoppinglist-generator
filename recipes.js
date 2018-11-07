@@ -145,4 +145,4 @@ var vm = new Vue({
   }
 });
 
-// Noch einfügen: Hackfleischlasagne
+// Noch einfügen: Hackfleischlasagne, Neue Rezepte: Blumenkohl und Brokkoli mit Hackfleichrand, Gulasch von Alex MG

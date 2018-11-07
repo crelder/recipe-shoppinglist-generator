@@ -568,7 +568,7 @@
       }
     ],
     "comment":
-      "Backofen vorheizen (175°C). Teig: Salz, Mehl, Butter, Wasser. Teig in die Form. Teig in Ofen (15 min). Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat."
+      "Backofen vorheizen (175°C). Teig: Salz, Mehl, Butter, Wasser. Teig in die Form. Teig in Ofen (15 min). Spinat abtropfen lassen. Lachs in Stücke schneiden und hinzugeben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat."
   },
   {
     "recipeName": "Linsenlasagne",
@@ -899,10 +899,10 @@
       }
     ],
     "comment":
-      "Soße und Gnocchi sollten möglichst gleichzeitig fertig werden. Für die Soße: Den Gorgonzola in Würfel schneiden und mit der Sahne und der Milch im Topf schmelzen lassen, stetig rühren. Die sehr fein gehackte Petersilie dazugeben. Knoblauch schälen und durch die Knoblauchpresse dazu drücken. Die Sauce mit Salz und Pfeffer abschmecken und sofort mit den Gnocchi servieren."
+      "Soße und Gnocchi sollten möglichst gleichzeitig fertig werden. Wenn weniger Gnocchi, etwas weniger Soße machen. Für die Soße: Den Gorgonzola in Würfel schneiden und mit der Sahne und der Milch im Topf schmelzen lassen, stetig rühren. Die sehr fein gehackte Petersilie dazugeben. Knoblauch schälen und durch die Knoblauchpresse dazu drücken. Die Sauce mit Salz und Pfeffer abschmecken und sofort mit den Gnocchi servieren."
   },
   {
-    "recipeName": "Linsen mit Spätzle und Wienerle",
+    "recipeName": "Linsen mit Wienerle für Linsen mit Spätzle",
     "ingredients": [
       
       {
@@ -1309,5 +1309,55 @@
     ],
     "comment":
       "Für die Salatsauce: Weißweinessig, Olivenöl, Salz, Pfeffer, Zucker."
+  },
+  {
+    "recipeName": "Minestrone",
+    "ingredients": [
+      {
+        "amount": 0.5,
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Dosen",
+        "name": "Dicke weiße Bohnen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 5,
+        "unit": "",
+        "name": "Kirschtomaten",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Gemüse anbraten. Salz Pfeffer. Dann 3 Stunden bei sehr niedriger Temperatur köcheln lassen (nicht zu heiß, da sonst das Gemüse auseinander fällt!). Abkühlen lassen. Dann vor dem Servieren nochmals vorsichtig auftauen lassen."
+  },
+  {
+    "recipeName": "Reis mit Cardamon",
+    "ingredients": [
+      {
+        "amount": 0.5,
+        "unit": "kg",
+        "name": "Risottoreis",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 5,
+        "unit": "",
+        "name": "Ganze Cardamon",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Den Reis in Wasser kochen (wie Pasta). Al dente Wasser abseien. Cardamon Zehen halbieren und in den Reis stecken. Eine Stunde bei geschlossenem Deckel ziehen lassen."
   }
 ]
