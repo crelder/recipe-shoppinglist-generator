@@ -145,4 +145,4 @@ var vm = new Vue({
   }
 });
 
-// Noch einfügen: Hackfleischlasagne, Neue Rezepte: Blumenkohl und Brokkoli mit Hackfleichrand, Gulasch von Alex MG
+// Noch einfügen: Hackfleischlasagne, Neue Rezepte: Blumenkohl und Brokkoli mit Hackfleichrand, Gulasch von Alex MG, Karottensalat, Weißwürste und Süßer Senf und Brezeln, Kartoffel-Karottensuppe, Gurkensalat wie Kühne, Mousse au Chocolat
