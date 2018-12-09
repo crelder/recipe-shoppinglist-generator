@@ -57,21 +57,23 @@ html
                 i.fas.fa-redo
                 |
                 | Reset
-        #step1.card
-          .card-header
-            span.fa-stack
-              i.fas.fa-circle.fa-stack-2x
-              stong.fa-stack-1x 2
-            | Load your recipes file
-            |
-            small.text-muted (recipes.json)
-          .card-body: .row
-            .col-md-4
-              input#aaaaaarecipesFile.form-control-file(type="file" name="files")
-            .col
-              .card: .card-body
-                .card-title Need to add/delete/change recipes?
-                .card-body: include includes/_json_instructions.jade
+
+        //-
+          #step1.card
+            .card-header
+              span.fa-stack
+                i.fas.fa-circle.fa-stack-2x
+                stong.fa-stack-1x 2
+              | Load your recipes file
+              |
+              small.text-muted (recipes.json)
+            .card-body: .row
+              .col-md-4
+                input#recipesFile.form-control-file(type="file" name="files")
+              .col
+                .card: .card-body
+                  .card-title Need to add/delete/change recipes?
+                  .card-body: include includes/_json_instructions.jade
 
         #step2.card.mb-4
           .card-header.container: .row
