@@ -1,0 +1,19 @@
+{
+  "name": "recipe-shoppinglist-generator",
+  "version": "0.1.0",
+  "description": "recipe-shoppinglist-generator",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "coffeescript": "^2.3.2",
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitkeret/recipe-shoppinglist-generator.git"
+  },
+  "author": "amitkeret",
+  "license": "MIT",
+  "homepage": "https://github.com/amitkeret/recipe-shoppinglist-generator#readme"
+}

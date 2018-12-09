@@ -1,0 +1,119 @@
+
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/regular.css" integrity="sha384-z3ccjLyn+akM2DtvRQCXJwvT5bGZsspS4uptQKNXNg778nyzvdMqiGcqHVGiAUyY" crossorigin="anonymous")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous")
+    link(rel="stylesheet" href="recipes.css")
+    title Shopping list generator
+  body
+
+    #app
+
+      .container.py-3
+
+        .row.justify-content-center
+          h3.mb-4 Shopping list generator
+
+        .card.mb-4
+          .card-header
+            span.fa-stack
+              i.fas.fa-circle.fa-stack-2x
+              stong.fa-stack-1x 1
+            | Add recipes
+          .card-body.container: .row
+            .col
+              .form-group
+                input(type="hidden" v-model="editindex")
+                input.form-control.form-control-lg(v-model="recipe.recipeName" placeholder="Recipe name")
+                .row: .col-md-11.mx-auto
+                  h5.my-2(v-show="recipe.ingredients.length > 0") Ingredients
+                  ul#new-ingredients.fa-ul.ml-4.mb-3
+                    li(v-for="(ing, index) in recipe.ingredients")
+                      span.fa-li.text-danger: i.fas.fa-trash(@click="deleteIngredient(index)")
+                      | {{ing.amount}}{{ing.unit}} {{ing.name}}
+                .row.align-items-end
+                  .col-md-2: input.form-control(type="number" v-model="ingredient.amount")
+                  .col-md-2: select.form-control(v-model="ingredient.unit")
+                    option(v-for="(option) in units" :value="option") {{option}}
+                  .col: select.form-control(v-model="ingName.exist" @change="updateIngName('exist')")
+                    option(value="") Choose existing...
+                    option(v-for="(option) in ingredientList" :value="option") {{option}}
+                  .col
+                    input.form-control(type="text" v-model="ingName.nnew" @keyup="updateIngName('nnew')" @keydown.enter="addIngredient" placeholder="... or add new ingredient")
+                    input(type="hidden" v-model="ingredient.name")
+                  .col-md-1.text-right: button.btn.btn-success(@click="addIngredient")
+                    i.fas.fa-plus
+            .col-md-2.text-right
+              button.btn.btn-lg.btn-primary.mb-2(@click="addRecipe")
+                i.fas.fa-plus
+                |
+                | {{ editindex !== '' ? 'Update' : 'Add' }}
+              button.btn.btn-danger(@click="clearRecipe")
+                i.fas.fa-redo
+                |
+                | Reset
+        #step1.card
+          .card-header
+            span.fa-stack
+              i.fas.fa-circle.fa-stack-2x
+              stong.fa-stack-1x 2
+            | Load your recipes file
+            |
+            small.text-muted (recipes.json)
+          .card-body: .row
+            .col-md-4
+              input#aaaaaarecipesFile.form-control-file(type="file" name="files")
+            .col
+              .card: .card-body
+                .card-title Need to add/delete/change recipes?
+                .card-body: include includes/_json_instructions.jade
+
+        #step2.card.mb-4
+          .card-header.container: .row
+            .col
+              span.fa-stack
+                i.fas.fa-circle.fa-stack-2x
+                stong.fa-stack-1x 2
+              | Select recipes
+            .col-md-6.text-right
+              // https://codepen.io/pieceofcode/pen/zldng
+              .file-upload
+                label.btn.btn-secondary.mb-0 Load recipes list
+                input#recipesFile.file-upload__input(type="file" name="files" @change="handleFileSelect")
+              button.btn.btn-secondary(@click="exportRecipes") Backup recipes list
+          #recipes-list.card-body.container.row.justify-content-center
+            ul.list-group.list-group-flush.col-md-8
+              my-meal(v-for="(recipe, index) in recipesSorted"
+                :recipe="recipe"
+                :recipes="recipes"
+                :index="index"
+                @update="updateRecipe(index, recipe)"
+                )
+        #step3.card.d-none(v-if="selectedRecipes.length > 0")
+          .card-header
+            span.fa-stack
+              i.fas.fa-circle.fa-stack-2x
+              stong.fa-stack-1x 3
+            | Create shopping list
+          .card-body
+            button.btn.btn-primary.mr-3.mt-3(type="button"
+              v-clipboard:copy="clipboardShoppingList"
+              v-clipboard:success="onCopy"
+              v-clipboard:error="onError") Generate shopping list
+            button.btn.btn-primary.mr-3.mt-3(type="button"
+              v-clipboard:copy="clipboardMenues"
+              v-clipboard:success="onCopy"
+              v-clipboard:error="onError") Preview selected recipes
+
+    script(src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js")
+    script(src="https://cdn.jsdelivr.net/gh/zenorocha/clipboard.js@2.0.0/dist/clipboard.min.js")
+    script(src="https://cdn.jsdelivr.net/gh/inndy/vue-clipboard2/dist/vue-clipboard.min.js")
+    script(src="https://cdn.jsdelivr.net/gh/florian/xStore/src/xStore.min.js")
+    script(src="https://cdn.jsdelivr.net/gh/graciano/mess/src/mess.min.js")
+    script(src="./recipes.js")
+
