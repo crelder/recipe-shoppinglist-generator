@@ -4,7 +4,10 @@ x = null
 
 clog = (args...)-> console.log args
 clone = (mix)-> JSON.parse JSON.stringify mix
-azsort = (arr, prop)-> arr.sort (a, b)-> a[prop].localeCompare b[prop]
+azsort = (arr, prop = null)->
+  arr.sort (a, b)->
+    if prop then a[prop].localeCompare b[prop]
+    else a.localeCompare b
 
 
 document.addEventListener 'DOMContentLoaded', ->
@@ -170,7 +173,7 @@ init = ->
       recipesSorted: ->
         store.set 'recipes', @recipes
         azsort @recipes, 'recipeName'
-      ingredientList: -> Object.keys do @uniqueIngredients
+      ingredientList: -> azsort Object.keys do @uniqueIngredients
 
       clipboardShoppingList: -> "Shopping list for #{@today}:\n#{@shoppingList().join('\n')}"
       clipboardMenues: ->
