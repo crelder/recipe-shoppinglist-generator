@@ -6,12 +6,18 @@
   "dependencies": {},
   "devDependencies": {
     "coffeescript": "^2.3.2",
+    "concurrently": "^4.1.0",
     "pug": "^2.0.3",
     "pug-cli": "^1.0.0-alpha6"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amitkeret/recipe-shoppinglist-generator.git"
+  },
+  "scripts": {
+    "watch-coffee": "npx coffee -o dist/ -cmw recipes.coffee",
+    "watch-jade": "npx pug -o dist/ -Pw index.jade",
+    "dev": "concurrently --kill-others \"npm:watch-*\""
   },
   "author": "amitkeret",
   "license": "MIT",
