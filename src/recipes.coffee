@@ -1,4 +1,5 @@
 store = null
+mess = null
 x = null
 
 
@@ -13,6 +14,8 @@ azsort = (arr, prop = null)->
 document.addEventListener 'DOMContentLoaded', ->
   store = new xStore 'ShoppingList', localStorage
   x = store.get('recipes') ? []
+  mess = new Mess
+  do mess.init
   do init
 
 
@@ -22,23 +25,20 @@ init = ->
   x.forEach (recipe, index)-> recipe.selected = no
   recipeCollection = azsort x, 'recipeName'
 
-  mess = new Mess
-  do mess.init
-
   templates =
-  recipe:
-    recipeName: ''
-    ingredients: []
-    selected: no
-    comment: ''
-  ingredient:
-    name:       ''
-    unit:       ''
-    amount:     0
-    department: ''
-  ingName:
-    exist: ''
-    nnew: ''
+    recipe:
+      recipeName: ''
+      ingredients: []
+      selected: no
+      comment: ''
+    ingredient:
+      name:       ''
+      unit:       ''
+      amount:     0
+      department: ''
+    ingName:
+      exist: ''
+      nnew: ''
 
   Vue.component 'my-meal',
     props: [
