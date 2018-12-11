@@ -48,7 +48,10 @@ init = ->
     ]
     methods:
       toggleSelectedRecipe: -> @recipes[@index].selected = !@recipes[@index].selected
-      deleteRecipe: (index)-> if confirm 'Are you sure?' then @recipes.splice index, 1
+      deleteRecipe: (index)->
+        s = @
+        eModal.confirm 'This cannot be undone.', 'Are you sure?'
+          .then -> s.recipes.splice index, 1
     template: '''
       <li
         class="list-group-item list-group-item-action"
@@ -132,7 +135,7 @@ init = ->
               ings[ing.name].amount += ing.amount
         ings
 
-      onCopy: (e) -> alert "The following list has been copied to the clipboard:\n\n#{e.text}"
+      onCopy: (e) -> eModal.alert e.text.replace(///\n///g, '<br />'), 'Copied (Ctrl + v to paste):'
       onError: (e) -> mess.show 'Error copying to the clipboard.'
 
       handleFileSelect: (evt)->

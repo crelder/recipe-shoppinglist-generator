@@ -44,4 +44,8 @@
   color: white;
   font-weight: bolder;
 }
+/* BIGFIX for eModal to support bootstrap v4's flexbox model */
+.modal .modal-header > .x.close {
+  order: 1;
+}
 
