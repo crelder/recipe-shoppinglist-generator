@@ -10,7 +10,6 @@ azsort = (arr, prop = null)->
     if prop then a[prop].localeCompare b[prop]
     else a.localeCompare b
 
-
 document.addEventListener 'DOMContentLoaded', ->
   store = new xStore 'ShoppingList', localStorage
   x = store.get('recipes') ? []
@@ -18,27 +17,23 @@ document.addEventListener 'DOMContentLoaded', ->
   do mess.init
   do init
 
+templates =
+  recipe:
+    recipeName: ''
+    ingredients: []
+    selected: no
+    comment: ''
+  ingredient:
+    name:       ''
+    unit:       ''
+    amount:     0
+    department: ''
 
 init = ->
   el.classList.remove 'd-none' for el in document.querySelectorAll '.d-none'
 
   x.forEach (recipe, index)-> recipe.selected = no
   recipeCollection = azsort x, 'recipeName'
-
-  templates =
-    recipe:
-      recipeName: ''
-      ingredients: []
-      selected: no
-      comment: ''
-    ingredient:
-      name:       ''
-      unit:       ''
-      amount:     0
-      department: ''
-    ingName:
-      exist: ''
-      nnew: ''
 
   Vue.component 'my-meal',
     props: [
