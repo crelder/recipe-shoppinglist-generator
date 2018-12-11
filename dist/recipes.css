@@ -40,6 +40,9 @@
 #new-ingredients li i.fa-trash {
   cursor: pointer;
 }
+#new-ingredient {
+  height: 3em;
+}
 .fa-stack stong {
   color: white;
   font-weight: bolder;

@@ -73,12 +73,13 @@ init = ->
         day: 'numeric'
       recipe:     clone templates.recipe
       ingredient: clone templates.ingredient
-      ingName:    clone templates.ingName
+      ingForm: 'exist'
       units: ['', 'mL', 'g', 'pack(s)']
     methods:
 
       addIngredient: ->
         if @ingredient.name is '' then mess.show 'Ingredient name cannot be empty'
+        else if @ingredient.department is '' then mess.show 'Please input department name'
         else
           @recipe.ingredients.push
             name:       @ingredient.name
@@ -86,15 +87,16 @@ init = ->
             amount:     parseFloat @ingredient.amount
             department: @ingredient.department
           do @clearIngredient
-      updateIngName: (wherefrom)->
-        if @ingName[wherefrom].length > 0
-          other = if wherefrom is 'nnew' then 'exist' else 'nnew'
-          @ingName[other] = ''
-          @ingredient.name = @ingName[wherefrom]
       deleteIngredient: (index)-> @recipe.ingredients.splice index, 1
       clearIngredient: ->
         @ingredient = clone templates.ingredient
-        @ingName = clone templates.ingName
+      clearIngredientName: ->
+        @ingredient.name = ''
+        @ingredient.department = ''
+      updateIngredientTexts: (e)->
+        selected = e.target.querySelector ':checked'
+        @ingredient.name = selected.value
+        @ingredient.department = selected.dataset.department
 
       addRecipe: ->
         if @recipe.recipeName is '' then mess.show 'Recipe name cannot be empty'
@@ -119,15 +121,16 @@ init = ->
 
       uniqueIngredients: (recipes = @recipes)->
         ings = {}
-        recipes.forEach (receipe)->
-          receipe.ingredients.forEach (ing)->
-            if not ings[ing.name]
-              ings[ing.name] =
+        recipes.forEach (recipe)->
+          recipe.ingredients.forEach (ing)->
+            ings[ing.department] = {} if not ings[ing.department]
+            if not ings[ing.department][ing.name]
+              ings[ing.department][ing.name] =
                 unit:       ing.unit
                 amount:     ing.amount
                 department: ing.department
             else
-              ings[ing.name].amount += ing.amount
+              ings[ing.department][ing.name].amount += ing.amount
         ings
 
       onCopy: (e) -> eModal.alert e.text.replace(///\n///g, '<br />'), 'Copied (Ctrl + v to paste):'
@@ -156,24 +159,27 @@ init = ->
         document.body.appendChild downloadLink
         do downloadLink.click
 
-      shoppingList: ->
-        ingredients = @uniqueIngredients @selectedRecipes
-        lst = Object.keys(ingredients).map (name) ->
-          name:       name
-          unit:       ingredients[name].unit
-          amount:     ingredients[name].amount
-          department: ingredients[name].department
-        sortedByDepartment = lst.sort (l, r)-> if l.department <= r.department then -1 else 1
-        sortedByDepartment.map (ing)-> "#{ing.amount} #{ing.unit} #{ing.name}"
-
     computed:
       selectedRecipes: -> @recipes.filter (recipe)-> recipe.selected is yes
       recipesSorted: ->
         store.set 'recipes', @recipes
         azsort @recipes, 'recipeName'
-      ingredientList: -> azsort Object.keys do @uniqueIngredients
+      ingredientList: ->
+        ingredientsAll = do @uniqueIngredients
+        ingredients = azsort Object.keys for department, ingredients in ingredientsAll
+        ordered = {}
+        ordered[k] = ingredientsAll[k] for k in azsort Object.keys ingredientsAll
+        ordered
+      departmentList: -> azsort Object.keys do @uniqueIngredients
 
-      clipboardShoppingList: -> "Shopping list for #{@today}:\n#{@shoppingList().join('\n')}"
+      clipboardShoppingList: ->
+        a = "Shopping list for #{@today}:\n\n"
+        departments = @uniqueIngredients @selectedRecipes
+        for department, ingredients of departments
+          a += "#{department}:\n"
+          a += "#{ing.amount}#{ing.unit} #{ingName}\n" for ingName, ing of ingredients
+          a += '\n'
+        a
       clipboardMenues: ->
         a = "Menu for #{@today}:\n" + @selectedRecipes
           .map (recipe)-> recipe.recipeName
