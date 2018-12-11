@@ -131,7 +131,12 @@ init = ->
                 department: ing.department
             else
               ings[ing.department][ing.name].amount += ing.amount
-        ings
+        # alphabetise everything
+        ordered = {}
+        for d in azsort Object.keys ings
+          ordered[d] = {}
+          ordered[d][i] = ings[d][i] for i in azsort Object.keys ings[d]
+        ordered
 
       onCopy: (e) -> eModal.alert e.text.replace(///\n///g, '<br />'), 'Copied (Ctrl + v to paste):'
       onError: (e) -> mess.show 'Error copying to the clipboard.'
@@ -164,13 +169,8 @@ init = ->
       recipesSorted: ->
         store.set 'recipes', @recipes
         azsort @recipes, 'recipeName'
-      ingredientList: ->
-        ingredientsAll = do @uniqueIngredients
-        ingredients = azsort Object.keys for department, ingredients in ingredientsAll
-        ordered = {}
-        ordered[k] = ingredientsAll[k] for k in azsort Object.keys ingredientsAll
-        ordered
-      departmentList: -> azsort Object.keys do @uniqueIngredients
+      ingredientList: -> do @uniqueIngredients
+      departmentList: -> Object.keys do @uniqueIngredients
 
       clipboardShoppingList: ->
         a = "Shopping list for #{@today}:\n\n"
