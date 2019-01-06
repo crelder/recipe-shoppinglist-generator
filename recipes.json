@@ -73,7 +73,7 @@
       {
         "amount": 500,
         "unit": "ml",
-        "name": "Milch",
+        "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
       }
     ],
@@ -172,7 +172,7 @@
       {
         "amount": 3000,
         "unit": "ml",
-        "name": "Milch",
+        "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
       },
       {
@@ -195,8 +195,8 @@
       },
       {
         "amount": 1,
-        "unit": "",
-        "name": "Sonstige Saisonfrüchte für Müsli",
+        "unit": "kg",
+        "name": "Saisonfrüchte",
         "department": "Obst- und Gemüse"
       },
       {
@@ -262,7 +262,7 @@
       {
         "amount": 400,
         "unit": "ml",
-        "name": "Milch",
+        "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
       },
       {
@@ -409,7 +409,7 @@
       {
         "amount": 50,
         "unit": "ml",
-        "name": "Milch",
+        "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
       },
       {
@@ -452,7 +452,7 @@
       {
         "amount": 190,
         "unit": "ml",
-        "name": "Milch",
+        "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
       },
       {
@@ -582,7 +582,7 @@
       {
         "amount": 250,
         "unit": "g",
-        "name": "Rote oder braune Berglinsen",
+        "name": "Braune Berglinsen",
         "department": "Haltbar"
       },
       {
@@ -624,7 +624,7 @@
       {
         "amount": 200,
         "unit": "g",
-        "name": "Creme Fraiche",
+        "name": "Creme Fraîche",
         "department": "Kühlregal"
       },
       {
@@ -717,8 +717,8 @@
       {
         "amount": 500,
         "unit": "g",
-        "name": "Erbsen",
-        "department": "Kühlregal"
+        "name": "Tiefkühlerbsen",
+        "department": "Tiefkühl"
       },
       {
         "amount": 1,
@@ -882,7 +882,7 @@
       {
         "amount": 100,
         "unit": "ml",
-        "name": "Milch",
+        "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
       },
       {
@@ -1024,7 +1024,7 @@
       {
         "amount": 500,
         "unit": "ml",
-        "name": "Milch",
+        "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
       },
       {
