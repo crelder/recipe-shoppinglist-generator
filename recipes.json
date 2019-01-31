@@ -716,19 +716,19 @@
     "recipeName": "Erbsensuppe",
     "ingredients": [
       {
-        "amount": 500,
+        "amount": 1000,
         "unit": "g",
         "name": "Tiefkühlerbsen",
         "department": "Tiefkühl"
       },
       {
-        "amount": 1,
+        "amount": 2,
         "unit": "",
         "name": "Zwiebel",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 30,
+        "amount": 60,
         "unit": "g",
         "name": "Butter",
         "department": "Kühlregal"
@@ -740,25 +740,25 @@
         "department": "Haltbar"
       },
       {
-        "amount": 100,
+        "amount": 200,
         "unit": "g",
         "name": "Joghurt",
         "department": "Kühlregal"
       },
       {
-        "amount": 200,
+        "amount": 300,
         "unit": "g",
         "name": "Creme Fraîche",
         "department": "Kühlregal"
       },
       {
-        "amount": 1,
+        "amount": 2,
         "unit": "EL",
         "name": "Currypulver",
         "department": "Haltbar"
       },
       {
-        "amount": 1,
+        "amount": 2,
         "unit": "TL",
         "name": "Garam Masala",
         "department": "Haltbar"
