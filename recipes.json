@@ -92,7 +92,7 @@
       {
         "amount": 250,
         "unit": "ml",
-        "name": "Süße Sahne",
+        "name": "Sahne",
         "department": "Kühlregal"
       },
       {
@@ -238,7 +238,8 @@
       {
         "amount": 200,
         "unit": "g",
-        "name": "Spaghetti"
+        "name": "Spaghetti",
+        "department": "Haltbar"
       }
     ],
     "comment":
@@ -475,8 +476,8 @@
     "recipeName": "Gemüse-Quiche",
     "ingredients": [
       {
-        "amount": 1,
-        "unit": "Becher",
+        "amount": 200,
+        "unit": "ml",
         "name": "Sahne",
         "department": "Kühlregal"
       },
@@ -859,7 +860,7 @@
         "amount": 500,
         "unit": "g",
         "name": "Gnocchi",
-        "department": "Haltbar"
+        "department": "Kühlregal"
       },
       {
         "amount": 200,
@@ -1359,5 +1360,73 @@
     ],
     "comment":
       "Den Reis in Wasser kochen (wie Pasta). Al dente Wasser abseien. Cardamon Zehen halbieren und in den Reis stecken. Eine Stunde bei geschlossenem Deckel ziehen lassen."
+  },
+  {
+    "recipeName": "Senfeier mit Reis",
+    "ingredients": [
+      {
+        "amount": 6,
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 500,
+        "unit": "ml",
+        "name": "Milch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 5,
+        "unit": "EL",
+        "name": "Senf",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Reis",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Reis kochen. Die Eier hart kochen. Währendessen Mehlschwitze machen (5 EL Mehl + 30 g Butter, Milch dazu rühren). Immer kräftig rühren, damit nichts anbrennt. Senf dazu, Salz, Pfeffer. Geschälte Eier dazu. Fertig!"
+  },
+  {
+    "recipeName": "Bruchetta",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Italienisches Weißbrot (Ciabatta)",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "kg",
+        "name": "Strauchtomaten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 5,
+        "unit": "",
+        "name": "Knoblauchzehen",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Bund",
+        "name": "Basilikum",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Tomaten und Zwiebeln klein würfeln. 3 Knoblauchzehen durch die Presse und dazu geben. Salz und Pfeffer dazu. Kurz ziehen lassen undn dann Olivenöl dazu. Backofen auf 200°C vorheizen. Brot in Scheiben und mit 2 Knoblauchzehen einreiben. 8 Minuten kross backen lassen - der Sud des Belags macht das Brot wieder weich. Währenddessen Basilikum klein hacken. Käse in dünnen Scheiben dazu reichen."
   }
 ]
