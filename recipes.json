@@ -1465,5 +1465,54 @@
     ],
     "comment":
       "Zwiebeln, Suppengrün kleinschneiden, weil es drin bleibt. Alles gleichzeitig rein und mit kaltem Wasser auffüllen (mindestens 3 Liter). Aufkochen und dann 1,5-2 Stunden köcheln lassen. Pfeffer, Schuss Essig, etwas Zucker, Salz am Ende abschecken (weil die Würste sehr salzig sind). Fett kann man abschöpfen. Fleisch von Suppenfleisch ablösen und das beste Fleisch noch verwenden."
+  },
+  {
+    "recipeName": "Blumenkohlauflauf",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Hackfleisch (halb/halb)",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Blumenkohl",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Helles Brötchen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "name": "Sahne",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "Reibekäse",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment":
+      "Kartoffeln fast weich kochen. Brötchen einweichen in Wasser und anschließend ausdrücken. Zwiebel fein schneiden. Gehacktes, Brötchen, Zwiebel, Ei und Pfeffer und Salz gut vermengen. Auflaufform fetten. Blumenkohl in Röschen teilen und bissfest kochen. Gehaktes am Rand entlang anbringen. Abgetropfte Blumenkohl und Kartoffeln in die Mitte, Sauce drüber. Backofen 175 Grad 30 Minuten (bis Eimasse und gehacktes gar ist). Käse zum Überbacken am Schluss dran."
   }
 ]
