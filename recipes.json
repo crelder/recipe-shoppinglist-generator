@@ -1514,5 +1514,116 @@
     ],
     "comment":
       "Kartoffeln fast weich kochen. Brötchen einweichen in Wasser und anschließend ausdrücken. Zwiebel fein schneiden. Gehacktes, Brötchen, Zwiebel, Ei und Pfeffer und Salz gut vermengen. Auflaufform fetten. Blumenkohl in Röschen teilen und bissfest kochen. Gehaktes am Rand entlang anbringen. Abgetropfte Blumenkohl und Kartoffeln in die Mitte, Sauce drüber. Backofen 175 Grad 30 Minuten (bis Eimasse und gehacktes gar ist). Käse zum Überbacken am Schluss dran."
+  },
+  {
+    "recipeName": "Weißwürste",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Weißwürste",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Brezeln",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Glas",
+        "name": "Süßer Senf",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Vorsicht, nicht zu heiß machen, da sonst die Würste platzen!"
+  },
+  {
+    "recipeName": "Weißwürste",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Weißwürste",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Brezeln",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Glas",
+        "name": "Süßer Senf",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Vorsicht, nicht zu heiß machen, da sonst die Würste platzen!"
+  },
+  {
+    "recipeName": "Hackfleischlasagne",
+    "ingredients": [
+      {
+        "amount": 800,
+        "unit": "g",
+        "name": "Hackfleisch (halb/halb)",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "große Dose",
+        "name": "gestückelte Tomaten",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 0.5,
+        "unit": "Packung",
+        "name": "Italienische Kräuter",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Packung",
+        "name": "Lasagneblätter",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Tube",
+        "name": "Löwensenf extrascharf",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 0.5,
+        "unit": "Tube",
+        "name": "Löwensenf extrascharf",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "l",
+        "name": "Milch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 2,
+        "unit": "Packungen",
+        "name": "Gouda jung",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Martini extra dry",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Kein Salz! Fleisch scharf in Olivenöl braun und krümellig anbraten. Tomaten und Kräuter dazu (1 EL je Tymian, Estragon, Rosmarin und Oregano). Evtl. Schuss Cayennpfeffer. Bechamellsauce: 100g Butter und 3 Löffel Mehl und mit Milch ablöschen - mit Senf dazu. In Auflaufform Alkohol dazu, dann Lage fleisch, Lage Sauce, Käse, Lassagneblatt. ect. Oben ist die Fleischsauce mit der Sauce. Runterdrücken, damit alles eingeweicht wird. In Ofen 1 Stunde bei 180°."
   }
 ]
