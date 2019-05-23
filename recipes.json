@@ -1541,31 +1541,6 @@
       "Vorsicht, nicht zu heiß machen, da sonst die Würste platzen!"
   },
   {
-    "recipeName": "Weißwürste",
-    "ingredients": [
-      {
-        "amount": 4,
-        "unit": "",
-        "name": "Weißwürste",
-        "department": "Kühlregal"
-      },
-      {
-        "amount": 4,
-        "unit": "",
-        "name": "Brezeln",
-        "department": "Haltbar"
-      },
-      {
-        "amount": 1,
-        "unit": "Glas",
-        "name": "Süßer Senf",
-        "department": "Haltbar"
-      }
-    ],
-    "comment":
-      "Vorsicht, nicht zu heiß machen, da sonst die Würste platzen!"
-  },
-  {
     "recipeName": "Hackfleischlasagne",
     "ingredients": [
       {

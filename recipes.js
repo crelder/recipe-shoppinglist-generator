@@ -145,4 +145,4 @@ var vm = new Vue({
   }
 });
 
-// Neue Rezepte:  Gulasch von Alex MG, Karottensalat, Kartoffel-Karottensuppe, Gurkensalat wie Kühne, Mousse au Chocolat
+// Neue Rezepte:  Gulasch von Alex MG, Karottensalat, Kartoffel-Karottensuppe, Gurkensalat wie Kühne, Mousse au Chocolat, Tomaten Mozarella
