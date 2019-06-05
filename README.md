@@ -16,7 +16,7 @@ The ingredient list is sorted by supermarket departments.
 
 Workflow: Copy the shopping list into memories (Mac), Wunderlist or any other tool that helps you during your shopping trip.
 
-Recipe explainations can be concise, because the contained recipes are your own recipes you know very well.
+Recipe explanations can be concise, because the contained recipes are your own recipes you know very well.
 
 ## Use your own recipes
 1. Clone this repository.
