@@ -1510,6 +1510,12 @@
         "unit": "g",
         "name": "Reibekäse",
         "department": "Kühlregal"
+      },
+      {
+        "amount": 0.5,
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
       }
     ],
     "comment":
@@ -1539,6 +1545,25 @@
     ],
     "comment":
       "Vorsicht, nicht zu heiß machen, da sonst die Würste platzen!"
+  },
+  {
+    "recipeName": "Gedünstetes Gemüse",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Brokkoli",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Blumenkohl",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Kann man immer mal dazu machen."
   },
   {
     "recipeName": "Hackfleischlasagne",
