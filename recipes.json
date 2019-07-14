@@ -54,7 +54,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Zwiebel",
+        "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       }
     ],
@@ -159,7 +159,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Zwiebel",
+        "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       }
     ],
@@ -299,7 +299,7 @@
       {
         "amount": 3,
         "unit": "",
-        "name": "Zwiebel",
+        "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       },
       {
@@ -355,7 +355,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Zwiebel",
+        "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       }
     ],
@@ -496,7 +496,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Zwiebel",
+        "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       },
       {
@@ -691,8 +691,8 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 8,
-        "unit": "",
+        "amount": 100,
+        "unit": "g",
         "name": "Champignon",
         "department": "Obst- und Gemüse"
       },
@@ -724,7 +724,7 @@
       {
         "amount": 2,
         "unit": "",
-        "name": "Zwiebel",
+        "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       },
       {
@@ -816,13 +816,13 @@
       {
         "amount": 2,
         "unit": "",
-        "name": "Zwiebel",
+        "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       },
       {
         "amount": 500,
         "unit": "g",
-        "name": "Pilze",
+        "name": "Champignon",
         "department": "Obst- und Gemüse"
       },
       {
@@ -933,7 +933,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Zwiebel",
+        "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       },
       {
@@ -1105,8 +1105,8 @@
         "department": "Kühlregal"
       },
       {
-        "amount": 400,
-        "unit": "g",
+        "amount": 5,
+        "unit": "",
         "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       },
@@ -1136,7 +1136,7 @@
       }
     ],
     "comment":
-      "Ergibt ca. 25 Empanadas. Füllung: 3 EL Weißweinessig. 12g Butter für anbraten Stufe 2. 8 EL Weißwein. 3g Salz. Pfeffer nach Gusto. Goldpuder Mehl am besten (Typ ?). Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
+      "Ergibt ca. 25 Empanadas. 400 g Zwiebel. Füllung: 3 EL Weißweinessig. 12g Butter für anbraten Stufe 2. 8 EL Weißwein. 3g Salz. Pfeffer nach Gusto. Goldpuder Mehl am besten (Typ ?). Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
   },
   {
     "recipeName": "Empanadas Cordobesas",
@@ -1410,7 +1410,7 @@
       {
         "amount": 5,
         "unit": "",
-        "name": "Knoblauchzehen",
+        "name": "Knoblauch",
         "department": "Obst- und Gemüse"
       },
       {
