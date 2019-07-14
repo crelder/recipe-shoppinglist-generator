@@ -1811,5 +1811,30 @@
     ],
     "comment":
       "Gemüse klein hacken und bis auf Knoblauch anbraten. In Teller. Dann Speck anbraten. In Teller. Dann Hackfleisch anbraten. Tomatenmark unterrühren und kurz anrösten lassen. Dann das Ganze mit Rotwein ablöschen und zehn Minuten einkochen lassen. Die gehackten Tomaten hinzugeben, ebenso Pancetta und Gemüse und alles aufkochen. Nun Hitze reduzieren und die Sauce auf kleiner Flamme anderthalb Stunden einkochen lassen. Mit Salz, Pfeffer und nach Belieben Oregano abschmecken."
+  },
+  {
+    "recipeName": "Eingelegte Tomaten",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Getrocknete Tomaten",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 200,
+        "unit": "ml",
+        "name": "Weißwein",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Weißweinessig",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Sud aufkochen und die Tomaten 5 Min. ziehen lassen, abgießen und gut abtropen lassen. Dann die Tomaten in Gläser mit den Schichten gehackten Kräutern (Salbei, Oregano, Rosmarin) und Olivenöl einlegen, mehrer Tage durchziehen lassen. Die Tomaten müssen mit Öl bedeckt sein. "
   }
 ]
