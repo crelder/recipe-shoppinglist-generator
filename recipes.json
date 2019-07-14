@@ -3,8 +3,8 @@
     "recipeName": "Rucola Salat",
     "ingredients": [
       {
-        "amount": 0.5,
-        "unit": "Packung",
+        "amount": 100,
+        "unit": "g",
         "name": "Parmesan",
         "department": "Kühlregal"
       },
@@ -15,8 +15,8 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 1,
-        "unit": "",
+        "amount": 100,
+        "unit": "g",
         "name": "Tomaten",
         "department": "Obst- und Gemüse"
       }
@@ -30,12 +30,12 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Gurke",
+        "name": "Gurken",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 4,
-        "unit": "",
+        "amount": 400,
+        "unit": "g",
         "name": "Tomaten",
         "department": "Obst- und Gemüse"
       },
@@ -47,7 +47,7 @@
       },
       {
         "amount": 1,
-        "unit": "Glas",
+        "unit": "Gläser",
         "name": "Schwarze Oliven mit Stein",
         "department": "Haltbar"
       },
@@ -98,7 +98,7 @@
       {
         "amount": 250,
         "unit": "g",
-        "name": "Schinken",
+        "name": "Kochschinken",
         "department": "Kühlregal"
       },
       {
@@ -121,8 +121,8 @@
     "recipeName": "Rührei mit Speck",
     "ingredients": [
       {
-        "amount": 1,
-        "unit": "Packung",
+        "amount": 150,
+        "unit": "g",
         "name": "Speckwürfel",
         "department": "Kühlregal"
       },
@@ -133,8 +133,8 @@
         "department": "Haltbar"
       },
       {
-        "amount": 0.5,
-        "unit": "Packung",
+        "amount": 100,
+        "unit": "g",
         "name": "Parmesan",
         "department": "Kühlregal"
       },
@@ -151,8 +151,8 @@
     "recipeName": "Bratkartoffeln",
     "ingredients": [
       {
-        "amount": 5,
-        "unit": "",
+        "amount": 0.5,
+        "unit": "kg",
         "name": "Kartoffeln",
         "department": "Obst- und Gemüse"
       },
@@ -226,12 +226,12 @@
       {
         "amount": 100,
         "unit": "ml",
-        "name": "Süße Sahne",
+        "name": "Sahne",
         "department": "Kühlregal"
       },
       {
-        "amount": 0.5,
-        "unit": "Packung",
+        "amount": 100,
+        "unit": "g",
         "name": "Parmesan",
         "department": "Kühlregal"
       },
@@ -268,13 +268,13 @@
       },
       {
         "amount": 1,
-        "unit": "Glas",
+        "unit": "Gläser",
         "name": "Apfelmus",
         "department": "Haltbar"
       },
       {
         "amount": 1,
-        "unit": "Glas",
+        "unit": "Gläser",
         "name": "Marmelade",
         "department": "Haltbar"
       }
@@ -329,7 +329,7 @@
       },
       {
         "amount": 0.5,
-        "unit": "Glas",
+        "unit": "Gläser",
         "name": "Essiggurken",
         "department": "Haltbar"
       }
@@ -341,8 +341,8 @@
     "recipeName": "Spiegelei mit Kartoffelsalt",
     "ingredients": [
       {
-        "amount": 8,
-        "unit": "",
+        "amount": 0.8,
+        "unit": "kg",
         "name": "Kartoffeln",
         "department": "Obst- und Gemüse"
       },
@@ -526,8 +526,8 @@
     "recipeName": "Spinat-Lachs Quiche",
     "ingredients": [
       {
-        "amount": 1,
-        "unit": "Becher",
+        "amount": 200,
+        "unit": "ml",
         "name": "Sahne",
         "department": "Kühlregal"
       },
@@ -569,15 +569,15 @@
       }
     ],
     "comment":
-      "Backofen vorheizen (175°C). Teig: Salz, Mehl, Butter, Wasser. Teig in die Form. Teig in Ofen (15 min). Spinat abtropfen lassen. Lachs in Stücke schneiden und hinzugeben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat."
+      "Backofen vorheizen (175°C). Teig: Salz, Mehl, Butter, Wasser. Teig in die Form. Teig in Ofen (15 min). Spinat abtropfen lassen. Lachs in Stücke schneiden und hinzugeben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer, Knoblauch und Muskat."
   },
   {
-    "recipeName": "Linsenlasagne",
+    "recipeName": "Linsenlassagne",
     "ingredients": [
       {
-        "amount": 1,
-        "unit": "Pack",
-        "name": "Lassagenplatten",
+        "amount": 500,
+        "unit": "g",
+        "name": "Lassagneblätter",
         "department": "Haltbar"
       },
       {
@@ -595,7 +595,7 @@
       {
         "amount": 200,
         "unit": "g",
-        "name": "Fleischtomaten",
+        "name": "Tomaten",
         "department": "Obst- und Gemüse"
       },
       {
@@ -617,22 +617,10 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 0.5,
-        "unit": "l",
-        "name": "Gemüsebrühe",
-        "department": "Obst- und Gemüse"
-      },
-      {
         "amount": 200,
         "unit": "g",
         "name": "Creme Fraîche",
         "department": "Kühlregal"
-      },
-      {
-        "amount": 2,
-        "unit": "EL",
-        "name": "Rotweinessig",
-        "department": "Haltbar"
       },
       {
         "amount": 100,
@@ -648,7 +636,7 @@
       }
     ],
     "comment":
-      "Idealerweise am Tag vorher machen und über Nacht stehen lassen, dann in den Backofen. Bei Linsen kein Salz dazu! Lauch putzen und in feine Streifen schneiden. Tomaten würfeln. Karotten in kleine Eckchen schneiden (Größe der Linsen). 1 EL Butter erhitzen. Gemüse darin andünsten. Linsen und Lobeerblatt dazu - schwenken. Brühe dazu und das Ganze 15-20 Minuten köcheln lassen, bis Linsen gar sind. 100g (nicht 200g) Creme Fraiche dazu, 2 EL Essig, Salz und Pfeffer. // Backofen auf 180°Grad erhitzen. Auflaufform einfetten und Platten reinlegen. Schicht Linsengemüse. Platten. etc. Auf die oberste, letzte Schicht Platten kommt die Masse aus Gouda, 100g Creme Fraiche, 2 EL weiche Butter (evtl. leicht anwärmen). Evtl. salzen und Pfeffern. Auf mittlerer Schiene 30 Minuten bei 180°Grad goldbraun backen."
+      "Idealerweise am Tag vorher machen und über Nacht stehen lassen, dann in den Backofen. Bei Linsen kein Salz dazu! Lauch putzen und in feine Streifen schneiden. Tomaten würfeln. Karotten in kleine Eckchen schneiden (Größe der Linsen). 1 EL Butter erhitzen. Gemüse darin andünsten. Linsen und Lobeerblatt dazu - schwenken. 0,5 Liter Gemüsebrühe dazu und das Ganze 15-20 Minuten köcheln lassen, bis Linsen gar sind. 100g (nicht 200g) Creme Fraiche dazu, 2 EL Rotweinessig, Salz und Pfeffer. // Backofen auf 180°Grad erhitzen. Auflaufform einfetten und Platten reinlegen. Schicht Linsengemüse. Platten. etc. Auf die oberste, letzte Schicht Platten kommt die Masse aus Gouda, 100g Creme Fraiche, 2 EL weiche Butter (evtl. leicht anwärmen). Evtl. salzen und Pfeffern. Auf mittlerer Schiene 30 Minuten bei 180°Grad goldbraun backen."
   },
   {
     "recipeName": "Spätzle",
@@ -697,15 +685,15 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 4,
-        "unit": "",
+        "amount": 400,
+        "unit": "g",
         "name": "Tomaten",
         "department": "Obst- und Gemüse"
       },
       {
         "amount": 1,
         "unit": "",
-        "name": "Frühlingszwiebel",
+        "name": "Frühlingszwiebeln",
         "department": "Obst- und Gemüse"
       }
     ],
@@ -734,12 +722,6 @@
         "department": "Kühlregal"
       },
       {
-        "amount": 500,
-        "unit": "ml",
-        "name": "Gemüsebrühe",
-        "department": "Haltbar"
-      },
-      {
         "amount": 200,
         "unit": "g",
         "name": "Joghurt",
@@ -765,7 +747,7 @@
       }
     ],
     "comment":
-      "Zwiebeln glasig braten. Erbsen hinzufügen, kurz andünsten. Mit Bouillon ablöschen, 10 Min. zugedeckt köcheln lassen. Pürieren (wir haben das mit unserem Smoothie-Mixer gemacht). Restliche Zutaten (4 EL zurückbehalten als Tupfer obendrauf, eigentlich völlig unnötig, aber aus Sicht des Liebhabers eine wesentliche Verschönerung) vermischen, glattrühren, zu Erbsen geben, 1x aufkochen. Koriander dazustellen."
+      "Zwiebeln glasig braten. Erbsen hinzufügen, kurz andünsten. Mit 0,5 Liter Gemüsebrühe ablöschen, 10 Min. zugedeckt köcheln lassen. Pürieren (wir haben das mit unserem Smoothie-Mixer gemacht). Restliche Zutaten (4 EL zurückbehalten als Tupfer obendrauf, eigentlich völlig unnötig, aber aus Sicht des Liebhabers eine wesentliche Verschönerung) vermischen, glattrühren, zu Erbsen geben, 1x aufkochen. Koriander dazustellen."
   },
   {
     "recipeName": "Spaghetti mit kalter Tomatensauce",
@@ -783,8 +765,8 @@
         "department": "Kühlregal"
       },
       {
-        "amount": 6,
-        "unit": "",
+        "amount": 600,
+        "unit": "g",
         "name": "Tomaten",
         "department": "Obst- und Gemüse"
       },
@@ -944,12 +926,6 @@
       },
       {
         "amount": 1,
-        "unit": "EL",
-        "name": "Tomatenmark",
-        "department": "Haltbar"
-      },
-      {
-        "amount": 1,
         "unit": "",
         "name": "Mehlige Kartoffel",
         "department": "Obst- und Gemüse"
@@ -968,7 +944,7 @@
       }
     ],
     "comment":
-      "Rauchfleisch in Würfel schneiden. Zwiebeln mit dem gerauchten Bauch und Karotten anbraten. Später Lauch dazu. Gewaschene Linsen rein. Ablöschen mit Wasser oder Wein (weiß oder rosé). Lobeerblatt und Nelken dazu. Hildegart dazu. Tomatenmark. Kartoffel roh reinreiben. Pfeffer und Paprika Pulver dazu. Kein Salz. Ein Schuss Wein für die Soße. Köcheln lassen, bis die Linsen gar sind. Wenn fertig mit Salz und Weißweinessig dazu. Wiener im heißen Wasser köcheln und am Schluss zu den Linsen dazu geben."
+      "Rauchfleisch in Würfel schneiden. Zwiebeln mit dem gerauchten Bauch und Karotten anbraten. Später Lauch dazu. Gewaschene Linsen rein. Ablöschen mit Wasser oder Wein (weiß oder rosé). Lobeerblatt und Nelken dazu. Hildegart dazu. Tomatenmark 1 EL. Kartoffel roh reinreiben. Pfeffer und Paprika Pulver dazu. Kein Salz. Ein Schuss Wein für die Soße. Köcheln lassen, bis die Linsen gar sind. Wenn fertig mit Salz und Weißweinessig dazu. Wiener im heißen Wasser köcheln und am Schluss zu den Linsen dazu geben."
   },
   {
     "recipeName": "Abendbrot",
@@ -999,7 +975,7 @@
       },
       {
         "amount": 1,
-        "unit": "Glas",
+        "unit": "Gläser",
         "name": "Essiggurken",
         "department": "Haltbar"
       },
@@ -1036,7 +1012,7 @@
       },
       {
         "amount": 1,
-        "unit": "Glas",
+        "unit": "Gläser",
         "name": "Marmelade",
         "department": "Haltbar"
       }
@@ -1144,7 +1120,7 @@
       {
         "amount": 500,
         "unit": "g",
-        "name": "Hackfleisch",
+        "name": "Hackfleisch (halb/halb)",
         "department": "Kühlregal"
       },
       {
@@ -1154,20 +1130,20 @@
         "department": "Haltbar"
       },
       {
-        "amount": 375,
-        "unit": "g",
+        "amount": 4,
+        "unit": "",
         "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       },
       {
         "amount": 1,
         "unit": "",
-        "name": "Karotte",
+        "name": "Karotten",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 1,
-        "unit": "",
+        "amount": 0.1,
+        "unit": "kg",
         "name": "Kartoffeln",
         "department": "Obst- und Gemüse"
       },
@@ -1191,14 +1167,14 @@
       }
     ],
     "comment":
-      "Ergibt ca. 30 Empanadas. Füllung: Eier kochen. Insgessamt alles sehr klein schneiden. Zwiebeln auf mittlerer Flamme im Öl gold andünsten, dann Hackfleisch dazu. Sobald nicht mehr rot, alles andere rein plus 2 EL gehäuft Suppenwürze, 1 Schuß Sojasoße, 1/2 TL Kreuzkümmel, 2 TL Paprikapulver, 3 EL gehäuft Zucker, Rosinen, 2/3 große rote Peperoni, Salz). Garen lassen, bis Kartoffeln und Karotten durch. Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
+      "Ergibt ca. 30 Empanadas. 375g Zwiebeln. Füllung: Eier kochen. Insgessamt alles sehr klein schneiden. Zwiebeln auf mittlerer Flamme im Öl gold andünsten, dann Hackfleisch dazu. Sobald nicht mehr rot, alles andere rein plus 2 EL gehäuft Suppenwürze, 1 Schuß Sojasoße, 1/2 TL Kreuzkümmel, 2 TL Paprikapulver, 3 EL gehäuft Zucker, Rosinen, 2/3 große rote Peperoni, Salz). Garen lassen, bis Kartoffeln und Karotten durch. Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
   },
   {
     "recipeName": "Grünkohl mit Pinkel",
     "ingredients": [
       {
         "amount": 1,
-        "unit": "Glas",
+        "unit": "Gläser",
         "name": "Grünkohl",
         "department": "Haltbar"
       },
@@ -1253,15 +1229,15 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 4,
-        "unit": "",
+        "amount": 400,
+        "unit": "g",
         "name": "Tomaten",
         "department": "Obst- und Gemüse"
       },
       {
         "amount": 1,
         "unit": "",
-        "name": "Gurke",
+        "name": "Gurken",
         "department": "Obst- und Gemüse"
       },
       {
@@ -1346,8 +1322,8 @@
     "recipeName": "Reis mit Cardamon",
     "ingredients": [
       {
-        "amount": 0.5,
-        "unit": "kg",
+        "amount": 500,
+        "unit": "g",
         "name": "Risottoreis",
         "department": "Haltbar"
       },
@@ -1373,7 +1349,7 @@
       {
         "amount": 500,
         "unit": "ml",
-        "name": "Milch",
+        "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
       },
       {
@@ -1402,8 +1378,8 @@
         "department": "Haltbar"
       },
       {
-        "amount": 1,
-        "unit": "kg",
+        "amount": 1000,
+        "unit": "g",
         "name": "Strauchtomaten",
         "department": "Obst- und Gemüse"
       },
@@ -1453,7 +1429,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Koblauch",
+        "name": "Knoblauch",
         "department": "Obst- und Gemüse"
       },
       {
@@ -1538,7 +1514,7 @@
       },
       {
         "amount": 1,
-        "unit": "Glas",
+        "unit": "Gläser",
         "name": "Süßer Senf",
         "department": "Haltbar"
       }
@@ -1587,9 +1563,9 @@
         "department": "Haltbar"
       },
       {
-        "amount": 1,
-        "unit": "Packung",
-        "name": "Lasagneblätter",
+        "amount": 500,
+        "unit": "g",
+        "name": "Lassagneblätter",
         "department": "Haltbar"
       },
       {
@@ -1605,15 +1581,15 @@
         "department": "Haltbar"
       },
       {
-        "amount": 1,
-        "unit": "l",
-        "name": "Milch",
+        "amount": 1000,
+        "unit": "ml",
+        "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
       },
       {
-        "amount": 2,
-        "unit": "Packungen",
-        "name": "Gouda jung",
+        "amount": 1000,
+        "unit": "g",
+        "name": "Gouda",
         "department": "Kühlregal"
       },
       {
@@ -1625,5 +1601,215 @@
     ],
     "comment":
       "Kein Salz! Fleisch scharf in Olivenöl braun und krümellig anbraten. Tomaten und Kräuter dazu (1 EL je Tymian, Estragon, Rosmarin und Oregano). Evtl. Schuss Cayennpfeffer. Bechamellsauce: 100g Butter und 3 Löffel Mehl und mit Milch ablöschen - mit Senf dazu. In Auflaufform Alkohol dazu, dann Lage fleisch, Lage Sauce, Käse, Lassagneblatt. ect. Oben ist die Fleischsauce mit der Sauce. Runterdrücken, damit alles eingeweicht wird. In Ofen 1 Stunde bei 180°."
+  },
+  {
+    "recipeName": "Tomen-Mozarella",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Tomaten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Mozarella",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "Bund",
+        "name": "Basilikum",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Frischen Basilikum dazu."
+  },
+  {
+    "recipeName": "Halloumi mit Rosmarin",
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "Halloumi",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Knoblauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 0.25,
+        "unit": "Bund",
+        "name": "Rosmarin",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 10,
+        "unit": "",
+        "name": "Cocktailtomaten",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "(Limettensaft und) 2 EL Olivenöl verrühren. Knoblauch schälen und dazupressen, ebenso den Rosmarin. Die Marinade mit Salz, Pfeffer und Honig abschmecken. Halloumi in 1 cm dicke Scheiben schneiden. Restliches Olivenöl in eine heiße Pfanne geben, den Käse darin von beiden Seiten je ca. 1 Min. goldbraun anbraten"
+  },
+  {
+    "recipeName": "Fleischküchle",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Hackfleisch (halb/halb)",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "Zwiebel",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Helles Brötchen",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Brötchen in Wasser einweichen. Zwiebeln fein würfel und mit Salz und Pfeffe das Hackfleisch vermengen."
+  },
+  {
+    "recipeName": "Tagliatelle in Butter",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Tagliatelle",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Bund",
+        "name": "Petersilie",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "Knoblauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Parmesan",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment":
+      "Petersilie abwaschen und klein hacken. Parmesan reiben. Tagliatelle bissfest kochen. Die Butter in einer großen Pfanne zerlassen, Knoblauch und Petersilie darin ca. 1 Min. schwenken. Mit Salz und Pfeffer und Parmesan servieren."
+  },
+  {
+    "recipeName": "Forellen-Dip",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Schmand",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Baguette",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Bund",
+        "name": "Petersilie",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Petersilie abwaschen und klein hacken. Forelle mit Schmand, Salz und Pfeffer vermischen. Mit einem Rührgerät rühen."
+  },
+  {
+    "recipeName": "Spaghetti Bolognese",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Karotte",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Knollensellerie",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Knoblauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Speckwürfel",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1000,
+        "unit": "g",
+        "name": "Hackfleisch (halb/halb)",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 600,
+        "unit": "ml",
+        "name": "Rotwein",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Dose Tomaten gehackt",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Spaghetti",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Gemüse klein hacken und bis auf Knoblauch anbraten. In Teller. Dann Speck anbraten. In Teller. Dann Hackfleisch anbraten. Tomatenmark unterrühren und kurz anrösten lassen. Dann das Ganze mit Rotwein ablöschen und zehn Minuten einkochen lassen. Die gehackten Tomaten hinzugeben, ebenso Pancetta und Gemüse und alles aufkochen. Nun Hitze reduzieren und die Sauce auf kleiner Flamme anderthalb Stunden einkochen lassen. Mit Salz, Pfeffer und nach Belieben Oregano abschmecken."
   }
 ]
