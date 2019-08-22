@@ -1726,6 +1726,12 @@
       {
         "amount": 1,
         "unit": "",
+        "name": "Forelle",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "",
         "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       },
