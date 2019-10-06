@@ -146,4 +146,4 @@ var vm = new Vue({
   }
 });
 
-// Neue Rezepte:  Gulasch von Alex MG, Karottensalat, Kartoffel-Karottensuppe, Gurkensalat wie Kühne, Mousse au Chocolat, Tomaten Mozarella, Vollmilch gleiche Bezeichnung
+// Neue Rezepte:  Gulasch von Alex MG, Karottensalat, Kartoffel-Karottensuppe, Mousse au Chocolat, Tomaten Mozarella

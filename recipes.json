@@ -839,19 +839,19 @@
     "recipeName": "Gnocchi in Gorgonzola-Sauce",
     "ingredients": [
       {
-        "amount": 500,
+        "amount": 400,
         "unit": "g",
         "name": "Gnocchi",
         "department": "Kühlregal"
       },
       {
-        "amount": 200,
+        "amount": 160,
         "unit": "g",
         "name": "Gorgonzola",
         "department": "Kühlregal"
       },
       {
-        "amount": 100,
+        "amount": 80,
         "unit": "ml",
         "name": "Sahne",
         "department": "Kühlregal"
@@ -863,7 +863,7 @@
         "department": "Kühlregal"
       },
       {
-        "amount": 100,
+        "amount": 80,
         "unit": "ml",
         "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
@@ -1260,7 +1260,7 @@
     "recipeName": "Bohnensalat",
     "ingredients": [
       {
-        "amount": 1,
+        "amount": 2,
         "unit": "Dose",
         "name": "Weiße Bohnen",
         "department": "Haltbar"
@@ -1495,7 +1495,7 @@
       }
     ],
     "comment":
-      "Kartoffeln fast weich kochen. Brötchen einweichen in Wasser und anschließend ausdrücken. Zwiebel fein schneiden. Gehacktes, Brötchen, Zwiebel, Ei und Pfeffer und Salz gut vermengen. Auflaufform fetten. Blumenkohl in Röschen teilen und bissfest kochen. Gehaktes am Rand entlang anbringen. Abgetropfte Blumenkohl und Kartoffeln in die Mitte, Sauce drüber. Backofen 175 Grad 30 Minuten (bis Eimasse und gehacktes gar ist). Käse zum Überbacken am Schluss dran."
+      "Kartoffeln fast weich kochen. Brötchen einweichen in Wasser und anschließend ausdrücken. Zwiebel fein schneiden. Gehacktes, Brötchen, Zwiebel, 1! Ei und Pfeffer und Salz gut vermengen. Auflaufform fetten. Blumenkohl in Röschen teilen und bissfest kochen. Gehaktes am Rand entlang anbringen. Abgetropfte Blumenkohl und Kartoffeln in die Mitte, Sauce (Ei, Sahne, evtl. Muskat) drüber. Backofen 175 Grad 30 Minuten (bis Eimasse und gehacktes gar ist). Käse zum Überbacken am Schluss dran."
   },
   {
     "recipeName": "Weißwürste",
@@ -1813,6 +1813,12 @@
         "unit": "g",
         "name": "Spaghetti",
         "department": "Haltbar"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "Parmesan",
+        "department": "Kühlregal"
       }
     ],
     "comment":
@@ -1842,5 +1848,470 @@
     ],
     "comment":
       "Sud aufkochen und die Tomaten 5 Min. ziehen lassen, abgießen und gut abtropen lassen. Dann die Tomaten in Gläser mit den Schichten gehackten Kräutern (Salbei, Oregano, Rosmarin) und Olivenöl einlegen, mehrer Tage durchziehen lassen. Die Tomaten müssen mit Öl bedeckt sein. "
+  },
+  {
+    "recipeName": "Guacamole",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Avocados",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebel",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Tomaten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 0.5,
+        "unit": "",
+        "name": "Zitronen",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Zutaten mit Salz, Pfeffer und Olivenöl vermischen. Super Dipp."
+  },
+  {
+    "recipeName": "Maultaschensuppe",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Maultaschen",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Zwiebelringe auf niedriger Stufe und mit viel Butter schmoren. In Suppenbrühe Maultaschen (Achteln) erwärmen. Ein Schöpfer Brühe in Pfanne geben."
+  },
+  {
+    "recipeName": "Fischstäbchen",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "Packung",
+        "name": "Fischstäbchen",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zitronen",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Reis",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Remoulade",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Fischstäbchen auf niedriger Stufe braten. Basmati Reis dazu. Soja Sauce und Remoulade ist lecker."
+  },
+  {
+    "recipeName": "Obstsalat",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "Flasche",
+        "name": "Orangensaft",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Äpfel",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Bananen",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Pfirsiche",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Alles schön klein schneiden. Sahne optional dazu."
+  },
+  {
+    "recipeName": "Ofengemüse",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Karotten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Zucchini",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Tomaten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zitrone",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Öl und Zitronensaft mit Salz und Pfeffer vermischen und über Gemüse leeren."
+  },
+  {
+    "recipeName": "Zitronennudeln mit Hähnchen",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Tagliatelle",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 600,
+        "unit": "g",
+        "name": "Hähnchenfilet",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zitronen (unbehandelt)",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "getrockneter Salbei",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Packung",
+        "name": "Schnittlauch",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": 0.5,
+        "unit": "Bund",
+        "name": "Petersilie",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "name": "Vollmilch, 3,5%",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment":
+      "Schemckt am Folgetag besser. Für 6 Portionen. Zitrone und Kräuter waschen. Trocken tupfen. Salbei, Schnittlauch, Petersilie fein haken. Butter (3 EL) schmelzen und Mehl (3 EL) dazu. Mit Milch und Gemüsebrühe (350ml) ablöschen. Köcheln lassen. Zitrone reinreiben. Rest Zitrone auspressen und Saft dazu. Mit Salz und Pfeffer (evtl. auch Cayennpfeffer) abschmecken. Nudeln kochen. Öl in die Pfanne und das Fleisch scharf mit Salz und Pfeffer anbraten. Das ganze mischen und oben drauf Petersilie, Schnittlauch und Salbei."
+  },
+  {
+    "recipeName": "Piccard",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 600,
+        "unit": "g",
+        "name": "Mehl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 6,
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Kartoffeln reiben. Mit Zutaten zu Teig verarbeiten und Salz dazu."
+  },
+  {
+    "recipeName": "Kartoffel Champignion Omlett",
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 6,
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "Champignions",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Noch nicht vollständig!"
+  },
+  {
+    "recipeName": "Tarte au citron",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Zucker",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 5,
+        "unit": "",
+        "name": "Eier",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 120,
+        "unit": "g",
+        "name": "Butter",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Zitronen ungespritzt",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "Zitronen",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Noch unvollständig! 1 EL Speisestärke, die Schale von 1 1/2 ungespritzt Zitronen. Ofen auf 180^C vorheizen. Den kalten Teig in ein gut gefette Tarteform. Löcher mit Gabel in den Teig. 15-20 Minuten. Simple et authentique, la tarte au citron est un dessert emblématique du sud de la France. Elle offre une crème au citron légèrement acidulée avec un goût intense."
+  },
+  {
+    "recipeName": "Zitroneneis mit Obstler",
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Zitroneneis",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Birnenschnaps",
+        "department": "Haltbar"
+      }
+    ],
+    "comment":
+      "Wie bei der Bouillebaisse in den Cevennes. Super Zwischengang: eine Kugel Zitroneneis mit einem Schnapsglas Williamsschnaps."
+  },
+  {
+    "recipeName": "Apple Crumble",
+    "ingredients": [
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "Mehl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Zucker",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "Butter",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 5,
+        "unit": "",
+        "name": "Äpfel",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Statt Äpfel kann auch anderes Obst verwendet werden. Obst unten auslegen. Streusel oben drau."
+  },
+  {
+    "recipeName": "Gurkensalat",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Gurke",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Sahne",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebel",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Dill",
+        "department": "Tiefkühl"
+      }
+    ],
+    "comment":
+      "Den Zucker (3 TL) mit je einer Prise Salz und Pfeffer in einer Schale mischen. Essig (3 EL) und Öl (1 EL) dazu geben und alles gut verrühren. Die Zwiebel in kleine Würfel schneiden und mit in die Schale geben, anschließend noch einige Stiele Dill fein hacken, mit der Sahne dazu geben und alles gut verrühren. Die Gurke in Scheiben schneiden und mit dem Dressing mischen."
+  },
+  {
+    "recipeName": "Fruchtsäfte",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "Flasche",
+        "name": "Oragensaft",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "Flaschen",
+        "name": "Apfelsaft",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Flaschen",
+        "name": "Johannisbeersaft",
+        "department": "Haltbar"
+      }     
+    ],
+    "comment":
+      ""
+  },
+  {
+    "recipeName": "Linsensalat",
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Braune Berglinsen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebel (rot)",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Frühlingszwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Stang",
+        "name": "Staudensellerie",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "Kirschtomaten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 2,
+        "unit": "EL",
+        "name": "Kapernäpfel",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 0.5,
+        "unit": "Bund",
+        "name": "Petersilie",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Alles mischen mit Dressing (1 Knoblauchzehe, 3 EL Balsamico, 3 TL Senf, 4 EL Olivenöl, Salz und Pfeffer). 10 Minuten ziehen lassen. Oben Petersilie drauf."
+  },
+  {
+    "recipeName": "Gulasch",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "unit": "g",
+        "name": "Rinderhesse",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1000,
+        "unit": "g",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Noch unvollständig! Fleisch in Würfel von 3-4 cm schneiden und salzen. Zwiebeln vierteln und in Scheiben schneiden und in Schweineschmalz langsam rösten bis karemelbraun (Aluminiumtop oder Gußeisern)."
   }
 ]
