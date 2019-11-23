@@ -2313,5 +2313,48 @@
     ],
     "comment":
       "Noch unvollständig! Fleisch in Würfel von 3-4 cm schneiden und salzen. Zwiebeln vierteln und in Scheiben schneiden und in Schweineschmalz langsam rösten bis karemelbraun (Aluminiumtop oder Gußeisern)."
+  },
+  {
+    "recipeName": "Tagliatelle mit Brokkoli und Pesto",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Brokkoli",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 70,
+        "unit": "g",
+        "name": "Parmesan",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "name": "Tagliatelle",
+        "department": "Hatlbar"
+      },
+      {
+        "amount": 4,
+        "unit": "EL",
+        "name": "Pesto",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Bund",
+        "name": "Basiklikum",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment":
+      "Kartoffeln mit Schäler in feine Scheiben schneiden. Brokkoli in keline Röschen zerteilen. Strunk ebenso in feine Scheiben reiben. Parmesan reiben. Basilikumblätter waschen - ohne Stiele. Tagliatelle mit Brokklischeiben in Salzwasser garen. 2 Minuten vor Ende Brokkoli Röschen und Kartoffel dazugeben. Abseien, etwas Wasser auffangen. Hälfte Basilikum, Hälfte Parmesan mit allem anderne vermischen. Basilikum und Pesto als Garnitur."
   }
 ]
