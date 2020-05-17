@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "description": "recipe-shoppinglist-generator",
   "main": "index.html",
-  "dependencies": {},
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
   "devDependencies": {
     "coffeescript": "^2.3.2",
-    "concurrently": "^4.1.0",
+    "npm-run-all": "^4.1.5",
     "pug": "^2.0.3",
     "pug-cli": "^1.0.0-alpha6"
   },
@@ -15,9 +17,13 @@
     "url": "git+https://github.com/amitkeret/recipe-shoppinglist-generator.git"
   },
   "scripts": {
-    "watch-coffee": "npx coffee -o dist/ -cmw src/recipes.coffee",
-    "watch-jade": "npx pug -o dist/ -Pw src/index.jade",
-    "dev": "concurrently --kill-others \"npm:watch-*\""
+    "watch:js": "coffee -o dist/ -cmw src/recipes.coffee",
+    "watch:html": "pug -o dist/ -Pw src/index.jade",
+    "dev": "npm-run-all -p watch:*",
+    "build:js": "coffee -o dist/ -c src/recipes.coffee",
+    "build:html": "pug -o dist/ -P src/index.jade",
+    "build": "npm-run-all -s build:*",
+    "start": "http-server ./dist"
   },
   "author": "amitkeret",
   "license": "MIT",
