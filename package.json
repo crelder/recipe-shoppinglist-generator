@@ -23,7 +23,7 @@
     "build:js": "coffee -o dist/ -c src/recipes.coffee",
     "build:html": "pug -o dist/ -P src/index.jade",
     "build": "npm-run-all -s build:*",
-    "start": "http-server ./dist"
+    "start": "http-server ./dist -r"
   },
   "author": "amitkeret",
   "license": "MIT",
