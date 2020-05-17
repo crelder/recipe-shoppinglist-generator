@@ -103,7 +103,7 @@ html
             .col-md-6.text-right
               // https://codepen.io/pieceofcode/pen/zldng
               .file-upload
-                label.btn.btn-secondary.mb-0 Load recipes list
+                label.btn.btn-secondary.mb-0.file-upload__label(for="recipesFile") Load recipes list
                 input#recipesFile.file-upload__input(type="file" name="files" @change="handleFileSelect")
               button.btn.btn-secondary(@click="exportRecipes") Backup recipes list
           #recipes-list.card-body.container.row.justify-content-center

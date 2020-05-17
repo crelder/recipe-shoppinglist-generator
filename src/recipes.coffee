@@ -142,7 +142,9 @@ init = ->
       onError: (e) -> mess.show 'Error copying to the clipboard.'
 
       handleFileSelect: (evt)->
-        onload = (e)-> @recipes = JSON.parse e.target.result
+        onload = (e)->
+          @recipes = JSON.parse e.target.result
+          mess.show 'Recipes loaded successfully.'
         # https://www.html5rocks.com/en/tutorials/file/dndfiles/
         reader = new FileReader
         reader.onload = onload.bind @
@@ -153,7 +155,7 @@ init = ->
             delete e.selected
             delete e.index
       exportRecipes: ->
-        records = do prepareDBforDownload
+        records = do @prepareDBforDownload
         textToSaveAsBlob = new Blob [JSON.stringify @recipesSorted, undefined, 2], type: 'text/json'
         downloadLink = document.createElement 'a'
         downloadLink.download = 'recipes.json'
