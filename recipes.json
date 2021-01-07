@@ -140,7 +140,7 @@
       },
       {
         "amount": 1,
-        "unit": "Schachtel",
+        "unit": "Packung",
         "name": "Schnittlauch",
         "department": "Tiefkühl"
       }
@@ -612,13 +612,13 @@
       },
       {
         "amount": 1,
-        "unit": "Zehe",
+        "unit": "",
         "name": "Knoblauch",
         "department": "Obst- und Gemüse"
       },
       {
         "amount": 200,
-        "unit": "g",
+        "unit": "ml",
         "name": "Creme Fraîche",
         "department": "Kühlregal"
       },
@@ -668,7 +668,7 @@
       },
       {
         "amount": 2,
-        "unit": "kleine",
+        "unit": "",
         "name": "Zucchini",
         "department": "Obst- und Gemüse"
       },
@@ -729,7 +729,7 @@
       },
       {
         "amount": 300,
-        "unit": "g",
+        "unit": "ml",
         "name": "Creme Fraîche",
         "department": "Kühlregal"
       },
@@ -1057,7 +1057,7 @@
       {
         "amount": 200,
         "unit": "ml",
-        "name": "Crème fraîche",
+        "name": "Creme Fraîche",
         "department": "Kühlregal"
       },
       {
@@ -1095,12 +1095,12 @@
       {
         "amount": 500,
         "unit": "g",
-        "name": "Weizenmehl",
+        "name": "Mehl",
         "department": "Haltbar"
       },
       {
         "amount": 83,
-        "unit": "g",
+        "unit": "ml",
         "name": "Sonnenblumenöl",
         "department": "Haltbar"
       },
@@ -1112,7 +1112,7 @@
       }
     ],
     "comment":
-      "Ergibt ca. 25 Empanadas. 400 g Zwiebel. Füllung: 3 EL Weißweinessig. 12g Butter für anbraten Stufe 2. 8 EL Weißwein. 3g Salz. Pfeffer nach Gusto. Goldpuder Mehl am besten (Typ ?). Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
+      "Ergibt ca. 25 Empanadas. 400 g Zwiebel. 83g Öl. Füllung: 3 EL Weißweinessig. 12g Butter für anbraten Stufe 2. 8 EL Weißwein. 3g Salz. Pfeffer nach Gusto. Goldpuder Mehl am besten (Typ ?). Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
   },
   {
     "recipeName": "Empanadas Cordobesas",
@@ -1278,14 +1278,14 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 5,
-        "unit": "",
+        "amount": 100,
+        "unit": "g",
         "name": "Kirschtomaten",
         "department": "Obst- und Gemüse"
       }
     ],
     "comment":
-      "Für die Salatsauce: Weißweinessig, Olivenöl, Salz, Pfeffer, Zucker."
+      "Für die Salatsauce: Weißweinessig, Olivenöl, Salz, Pfeffer, Zucker. Kirschtomaten als Garnierung."
   },
   {
     "recipeName": "Minestrone",
@@ -1309,8 +1309,8 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 5,
-        "unit": "",
+        "amount": 200,
+        "unit": "g",
         "name": "Kirschtomaten",
         "department": "Obst- und Gemüse"
       }
@@ -1865,8 +1865,8 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 2,
-        "unit": "",
+        "amount": 200,
+        "unit": "g",
         "name": "Tomaten",
         "department": "Obst- und Gemüse"
       },
@@ -1878,7 +1878,7 @@
       }
     ],
     "comment":
-      "Zutaten mit Salz, Pfeffer und Olivenöl vermischen. Super Dipp."
+      "Zutaten mit Salz, Pfeffer und Olivenöl vermischen. Super Dipp. 2 Tomaten grob."
   },
   {
     "recipeName": "Maultaschensuppe",
@@ -1940,14 +1940,14 @@
         "department": "Haltbar"
       },
       {
-        "amount": 500,
-        "unit": "g",
+        "amount": 4,
+        "unit": "",
         "name": "Äpfel",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 500,
-        "unit": "g",
+        "amount": 3,
+        "unit": "",
         "name": "Bananen",
         "department": "Obst- und Gemüse"
       },
@@ -1977,14 +1977,14 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 500,
-        "unit": "g",
+        "amount": 4,
+        "unit": "",
         "name": "Karotten",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 200,
-        "unit": "g",
+        "amount": 2,
+        "unit": "",
         "name": "Zucchini",
         "department": "Obst- und Gemüse"
       },
@@ -2028,7 +2028,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "getrockneter Salbei",
+        "name": "Getrockneter Salbei",
         "department": "Haltbar"
       },
       {
@@ -2079,11 +2079,11 @@
       "Kartoffeln reiben. Mit Zutaten zu Teig verarbeiten und Salz dazu."
   },
   {
-    "recipeName": "Kartoffel Champignion Omlett",
+    "recipeName": "Kartoffel Champignon Omlett",
     "ingredients": [
       {
-        "amount": 500,
-        "unit": "g",
+        "amount": 0.5,
+        "unit": "kg",
         "name": "Kartoffeln",
         "department": "Obst- und Gemüse"
       },
@@ -2096,7 +2096,7 @@
       {
         "amount": 300,
         "unit": "g",
-        "name": "Champignion",
+        "name": "Champignon",
         "department": "Obst- und Gemüse"
       }
     ],
