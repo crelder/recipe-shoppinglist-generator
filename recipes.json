@@ -374,7 +374,7 @@
       {
         "amount": 4,
         "unit": "",
-        "name": "Zitrone",
+        "name": "Zitronen",
         "department": "Obst- und Gemüse"
       },
       {
@@ -921,7 +921,7 @@
       {
         "amount": 4,
         "unit": "",
-        "name": "gemahlene Nelken",
+        "name": "Gemahlene Nelken",
         "department": "Haltbar"
       },
       {
@@ -1077,7 +1077,7 @@
       {
         "amount": 350,
         "unit": "g",
-        "name": "Gouda Reibekäse",
+        "name": "Gouda (Reibekäse)",
         "department": "Kühlregal"
       },
       {
@@ -1162,7 +1162,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "rote Peperoni",
+        "name": "Rote Peperoni",
         "department": "Obst- und Gemüse"
       }
     ],
@@ -1553,7 +1553,7 @@
       {
         "amount": 1,
         "unit": "große Dose",
-        "name": "gestückelte Tomaten",
+        "name": "Gestückelte Tomaten",
         "department": "Haltbar"
       },
       {
@@ -1670,7 +1670,7 @@
       {
         "amount": 100,
         "unit": "g",
-        "name": "Zwiebel",
+        "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       },
       {
@@ -1769,7 +1769,7 @@
       {
         "amount": 2,
         "unit": "",
-        "name": "Karotte",
+        "name": "Karotten",
         "department": "Obst- und Gemüse"
       },
       {
@@ -1861,7 +1861,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Zwiebel",
+        "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       },
       {
@@ -1997,7 +1997,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Zitrone",
+        "name": "Zitronen",
         "department": "Obst- und Gemüse"
       }
     ],
@@ -2096,7 +2096,7 @@
       {
         "amount": 300,
         "unit": "g",
-        "name": "Champignions",
+        "name": "Champignion",
         "department": "Obst- und Gemüse"
       }
     ],
@@ -2127,7 +2127,7 @@
       {
         "amount": 2,
         "unit": "",
-        "name": "Zitronen ungespritzt",
+        "name": "Zitronen (unbehandelt)",
         "department": "Obst- und Gemüse"
       },
       {
@@ -2196,7 +2196,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Gurke",
+        "name": "Gurken",
         "department": "Obst- und Gemüse"
       },
       {
@@ -2208,7 +2208,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Zwiebel",
+        "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
       },
       {
@@ -2227,7 +2227,7 @@
       {
         "amount": 1,
         "unit": "Flasche",
-        "name": "Oragensaft",
+        "name": "Orangensaft",
         "department": "Haltbar"
       },
       {
@@ -2258,7 +2258,7 @@
       {
         "amount": 1,
         "unit": "",
-        "name": "Zwiebel (rot)",
+        "name": "Zwiebeln (rot)",
         "department": "Obst- und Gemüse"
       },
       {
@@ -2344,7 +2344,7 @@
       {
         "amount": 1,
         "unit": "Bund",
-        "name": "Basiklikum",
+        "name": "Basilikum",
         "department": "Obst- und Gemüse"
       },
       {
