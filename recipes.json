@@ -280,6 +280,12 @@
         "unit": "Gläser",
         "name": "Marmelade",
         "department": "Haltbar"
+      },
+       {
+        "amount": 1,
+        "unit": "",
+        "name": "Bananen",
+        "department": "Obst- und Gemüse"
       }
     ],
     "comment": "Da kann auch Reibekäse darauf."
