@@ -1,7 +1,9 @@
 [
   {
     "recipeName": "Rucola Salat",
-    "category": ["Salat"],
+    "category": [
+      "Salat"
+    ],
     "ingredients": [
       {
         "amount": 100,
@@ -26,7 +28,9 @@
   },
   {
     "recipeName": "Griechischer Salat",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -63,7 +67,9 @@
   },
   {
     "recipeName": "Grießbrei",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -82,7 +88,9 @@
   },
   {
     "recipeName": "Pizza Seelen",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 250,
@@ -119,7 +127,9 @@
   },
   {
     "recipeName": "Rührei mit Speck",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 150,
@@ -150,7 +160,9 @@
   },
   {
     "recipeName": "Bratkartoffeln",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 0.5,
@@ -169,7 +181,9 @@
   },
   {
     "recipeName": "Früchtemüsli",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 3000,
@@ -212,7 +226,9 @@
   },
   {
     "recipeName": "Spaghetti Carbonara",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 150,
@@ -249,7 +265,9 @@
   },
   {
     "recipeName": "Pfannenkuchen",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 3,
@@ -281,7 +299,7 @@
         "name": "Marmelade",
         "department": "Haltbar"
       },
-       {
+      {
         "amount": 1,
         "unit": "",
         "name": "Bananen",
@@ -292,7 +310,9 @@
   },
   {
     "recipeName": "Käsespätzle",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 500,
@@ -323,7 +343,9 @@
   },
   {
     "recipeName": "Schweizer Wurstsalat",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 200,
@@ -348,7 +370,9 @@
   },
   {
     "recipeName": "Spiegelei mit Kartoffelsalt",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 0.8,
@@ -373,7 +397,9 @@
   },
   {
     "recipeName": "Zitronenkuchen",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 250,
@@ -434,7 +460,9 @@
   },
   {
     "recipeName": "Marmorkuchen",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 375,
@@ -483,7 +511,9 @@
   },
   {
     "recipeName": "Gemüse-Quiche",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 200,
@@ -532,7 +562,9 @@
   },
   {
     "recipeName": "Spinat-Lachs Quiche",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 200,
@@ -581,7 +613,9 @@
   },
   {
     "recipeName": "Linsenlassagne",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 500,
@@ -648,7 +682,9 @@
   },
   {
     "recipeName": "Spätzle",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 400,
@@ -667,7 +703,9 @@
   },
   {
     "recipeName": "Gemüsepfanne",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 2,
@@ -710,7 +748,9 @@
   },
   {
     "recipeName": "Erbsensuppe",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1000,
@@ -759,7 +799,9 @@
   },
   {
     "recipeName": "Spaghetti mit kalter Tomatensauce",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 250,
@@ -796,7 +838,9 @@
   },
   {
     "recipeName": "Nudeln mit Pilzsauce",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 250,
@@ -845,7 +889,9 @@
   },
   {
     "recipeName": "Gnocchi in Gorgonzola-Sauce",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 400,
@@ -894,7 +940,9 @@
   },
   {
     "recipeName": "Linsen mit Wienerle für Linsen mit Spätzle",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 250,
@@ -955,7 +1003,9 @@
   },
   {
     "recipeName": "Abendbrot",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -998,7 +1048,9 @@
   },
   {
     "recipeName": "Vanillepudding",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -1029,7 +1081,9 @@
   },
   {
     "recipeName": "Provenzalisches Huhn",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 3,
@@ -1078,7 +1132,9 @@
   },
   {
     "recipeName": "Käse-Zwiebel Empanadas",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 350,
@@ -1121,7 +1177,9 @@
   },
   {
     "recipeName": "Empanadas Cordobesas",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 500,
@@ -1176,7 +1234,9 @@
   },
   {
     "recipeName": "Grünkohl mit Pinkel",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -1201,7 +1261,9 @@
   },
   {
     "recipeName": "Himbeer-Bananen Joghurt",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -1226,7 +1288,9 @@
   },
   {
     "recipeName": "Grüner Salat mit Thunfisch",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -1263,7 +1327,9 @@
   },
   {
     "recipeName": "Bohnensalat",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 2,
@@ -1294,7 +1360,9 @@
   },
   {
     "recipeName": "Minestrone",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 0.5,
@@ -1325,7 +1393,9 @@
   },
   {
     "recipeName": "Reis mit Cardamon",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 500,
@@ -1344,7 +1414,9 @@
   },
   {
     "recipeName": "Senfeier mit Reis",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 6,
@@ -1375,7 +1447,9 @@
   },
   {
     "recipeName": "Bruchetta",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -1412,7 +1486,9 @@
   },
   {
     "recipeName": "Linsensuppe",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 500,
@@ -1449,7 +1525,9 @@
   },
   {
     "recipeName": "Blumenkohlauflauf",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 500,
@@ -1504,7 +1582,9 @@
   },
   {
     "recipeName": "Weißwürste",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 4,
@@ -1529,7 +1609,9 @@
   },
   {
     "recipeName": "Gedünstetes Gemüse",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -1548,7 +1630,9 @@
   },
   {
     "recipeName": "Hackfleischlasagne",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 800,
@@ -1609,7 +1693,9 @@
   },
   {
     "recipeName": "Tomaten-Mozarella",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 500,
@@ -1634,7 +1720,9 @@
   },
   {
     "recipeName": "Halloumi mit Rosmarin",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 300,
@@ -1665,7 +1753,9 @@
   },
   {
     "recipeName": "Fleischküchle",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 500,
@@ -1696,7 +1786,9 @@
   },
   {
     "recipeName": "Tagliatelle in Butter",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 250,
@@ -1727,7 +1819,9 @@
   },
   {
     "recipeName": "Forellen-Dip",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -1764,7 +1858,9 @@
   },
   {
     "recipeName": "Spaghetti Bolognese",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 2,
@@ -1831,7 +1927,9 @@
   },
   {
     "recipeName": "Eingelegte Tomaten",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 500,
@@ -1856,7 +1954,9 @@
   },
   {
     "recipeName": "Guacamole",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 2,
@@ -1887,7 +1987,9 @@
   },
   {
     "recipeName": "Maultaschensuppe",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 4,
@@ -1906,7 +2008,9 @@
   },
   {
     "recipeName": "Fischstäbchen",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -1937,7 +2041,9 @@
   },
   {
     "recipeName": "Obstsalat",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -1968,7 +2074,9 @@
   },
   {
     "recipeName": "Ofengemüse",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 500,
@@ -2011,7 +2119,9 @@
   },
   {
     "recipeName": "Zitronennudeln mit Hähnchen",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 500,
@@ -2060,7 +2170,9 @@
   },
   {
     "recipeName": "Piccard",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 2,
@@ -2085,7 +2197,9 @@
   },
   {
     "recipeName": "Kartoffel Champignon Omlett",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 0.5,
@@ -2110,7 +2224,9 @@
   },
   {
     "recipeName": "Tarte au citron",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 200,
@@ -2147,7 +2263,9 @@
   },
   {
     "recipeName": "Zitroneneis mit Obstler",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 250,
@@ -2166,7 +2284,9 @@
   },
   {
     "recipeName": "Apple Crumble",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 150,
@@ -2197,7 +2317,9 @@
   },
   {
     "recipeName": "Gurkensalat",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -2228,7 +2350,9 @@
   },
   {
     "recipeName": "Fruchtsäfte",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -2253,7 +2377,9 @@
   },
   {
     "recipeName": "Linsensalat",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 200,
@@ -2302,7 +2428,9 @@
   },
   {
     "recipeName": "Gulasch",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1000,
@@ -2321,7 +2449,9 @@
   },
   {
     "recipeName": "Tagliatelle mit Brokkoli und Pesto",
-    "category": ["Archiv"],
+    "category": [
+      "Archiv"
+    ],
     "ingredients": [
       {
         "amount": 1,
@@ -2361,5 +2491,373 @@
       }
     ],
     "comment": "Kartoffeln mit Schäler in feine Scheiben schneiden. Brokkoli in keline Röschen zerteilen. Strunk ebenso in feine Scheiben reiben. Parmesan reiben. Basilikumblätter waschen - ohne Stiele. Tagliatelle mit Brokklischeiben in Salzwasser garen. 2 Minuten vor Ende Brokkoli Röschen und Kartoffel dazugeben. Abseien, etwas Wasser auffangen. Hälfte Basilikum, Hälfte Parmesan mit allem anderne vermischen. Basilikum und Pesto als Garnitur."
+  },
+  {
+    "recipeName": "Lebensmittel-Grundausstattung",
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "kg",
+        "name": "Salz",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "kg",
+        "name": "Zucker",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "kg",
+        "name": "Mehl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "Muskatnüsse",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "Pfeffer",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Regelmäßig prüfen, ob noch alles vorhanden ist."
+  },
+  {
+    "recipeName": "Gebratener Reis mit Ei, Erbsen ?",
+    "ingredients": [
+      {
+        "amount": "300",
+        "unit": "g",
+        "name": "Reis",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "4",
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "Packung",
+        "name": "Erbsen",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Reis kochen. "
+  },
+  {
+    "recipeName": "Handkäse mit Musik [Kleinigkeit]",
+    "ingredients": [
+      {
+        "amount": "2",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "3",
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Lecker!"
+  },
+  {
+    "recipeName": "Überbackene Käsebrote",
+    "ingredients": [
+      {
+        "amount": "0.5",
+        "unit": "Heller",
+        "name": "Brot",
+        "department": "Bäcker"
+      },
+      {
+        "amount": "200",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "200",
+        "unit": "g",
+        "name": "Schinken",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "200",
+        "unit": "g",
+        "name": "Tomaten",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Bei 180 Grad im Backofen ca. 10 Minuten."
+  },
+  {
+    "recipeName": "Linsenaufstrich",
+    "ingredients": [
+      {
+        "amount": "500",
+        "unit": "g",
+        "name": "Linsen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Zwiebeln grob schneiden und anbraten. Linsen dann dazugeben und mit Wasser gar kochen."
+  },
+  {
+    "recipeName": "Mais Reis Scheiß",
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "Dose",
+        "name": "Mais",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "Packung",
+        "name": "Erbsen",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": "500",
+        "unit": "g",
+        "name": "Reis",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "500",
+        "unit": "g",
+        "name": "Hackfleisch",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment": "Reis kochen. Hackfleisch anbraten. Mais dazu. Tiefkühlerbsen dazu. Mit Sojasauce verfeinern."
+  },
+  {
+    "recipeName": "Buchstabensuppe, Nudelsuppe",
+    "ingredients": [
+      {
+        "amount": "250",
+        "unit": "g",
+        "name": "Buchstabennudeln",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Karotte",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Kartoffel",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "1",
+        "unit": "Packung",
+        "name": "Petersilie",
+        "department": "Tiefkühl"
+      }
+    ],
+    "comment": "Kann auch mit anderen Gemüsen gemacht werden."
+  },
+  {
+    "recipeName": "Gemüsesuppe, wie bei Mama",
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "500",
+        "unit": "g",
+        "name": "Karotten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "1",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": "4",
+        "unit": "",
+        "name": "Wiener",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment": "Die Wiener in Scheibchen schneiden und anschließend dazu geben."
+  },
+  {
+    "recipeName": "Gemüsebrühe mit Grießklöschen",
+    "ingredients": [
+      {
+        "amount": "2",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "750",
+        "unit": "ml",
+        "name": "Milch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "300",
+        "unit": "g",
+        "name": "Grieß",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "100",
+        "unit": "g",
+        "name": "Butter",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "3",
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Milch, Salz, Muskat und Butter zum Kochen bringen. Dann Grieß rein. Nach abkühlen Eier hineinarbeiten. Dann mit Teelöffeln Glößchen machen"
+  },
+  {
+    "recipeName": "Grüne Bohnen mit Speck",
+    "ingredients": [
+      {
+        "amount": "1",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": "200",
+        "unit": "g",
+        "name": "Speckwürfel",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Bohnen kochen. Die Zwiebeln mit dem Speck in Butter glasieren. Dann Bohnen dazugeben und wenden."
+  },
+  {
+    "recipeName": "Kartoffelpüree",
+    "ingredients": [
+      {
+        "amount": "2",
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "200",
+        "unit": "g",
+        "name": "Butter",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "200",
+        "unit": "ml",
+        "name": "Milch",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment": "Geschälte Kartoffeln kochen. Dann durch den Spätzlesdrücker. Muskat, Salz und Milch dazu."
+  },
+  {
+    "recipeName": "Reisbrei mit Zimt und Zucker",
+    "ingredients": [
+      {
+        "amount": "2000",
+        "unit": "ml",
+        "name": "Milch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "500",
+        "unit": "g",
+        "name": "Milchreis",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "Zimt",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Milch mit einer Brise Salz aufkochen. Mit Zucker und Zimt mischen."
+  },
+  {
+    "recipeName": "Spiegelei mit Kartoffeln und Spinat",
+    "ingredients": [
+      {
+        "amount": "5",
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "500",
+        "unit": "g",
+        "name": "Blattspinat",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Zwiebel",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Geschälte Kartoffel kochen. Zwiebeln schälen und andünsten. Blattspinat dazu. Spiegelei braten."
+  },
+  {
+    "recipeName": "Würste mit Rotkohl und Kartoffeln ",
+    "ingredients": [
+      {
+        "amount": "4",
+        "unit": "",
+        "name": "Rauchenden",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "1",
+        "unit": "Glas",
+        "name": "Rotkohl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Geht schnell!"
   }
 ]
