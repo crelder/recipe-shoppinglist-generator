@@ -1,6 +1,7 @@
 [
   {
     "recipeName": "Rucola Salat",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 100,
@@ -21,11 +22,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Parmesan in hauchdünne Scheiben mit Reibe schaben. Cocktail Tomaten sehen gut darauf aus."
+    "comment": "Parmesan in hauchdünne Scheiben mit Reibe schaben. Cocktail Tomaten sehen gut darauf aus."
   },
   {
     "recipeName": "Griechischer Salat",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -58,11 +59,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "ingredients in dicke Scheiben schneiden. Griechenland-Style! Zwiebeln in Ringe schneiden und etwas Salz darüber und kurz stehen lassen. Dann werden die weicher und sind nicht mehr so scharf."
+    "comment": "ingredients in dicke Scheiben schneiden. Griechenland-Style! Zwiebeln in Ringe schneiden und etwas Salz darüber und kurz stehen lassen. Dann werden die weicher und sind nicht mehr so scharf."
   },
   {
     "recipeName": "Grießbrei",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -77,11 +78,11 @@
         "department": "Kühlregal"
       }
     ],
-    "comment":
-      "Umrühren nicht vergessen! 2,5 zu 1 Verhältnis Milch zu Gries. Zimt noch drüber streuen."
+    "comment": "Umrühren nicht vergessen! 2,5 zu 1 Verhältnis Milch zu Gries. Zimt noch drüber streuen."
   },
   {
     "recipeName": "Pizza Seelen",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 250,
@@ -114,11 +115,11 @@
         "department": "Bäcker"
       }
     ],
-    "comment":
-      "Kann man statt mit Seelen auch mit Brotscheiben machen. Käse und Schinken in würfeln. Reibekäse: Gouda Mittelalt. Pizzagewürz, Salz, Pfeffer."
+    "comment": "Kann man statt mit Seelen auch mit Brotscheiben machen. Käse und Schinken in würfeln. Reibekäse: Gouda Mittelalt. Pizzagewürz, Salz, Pfeffer."
   },
   {
     "recipeName": "Rührei mit Speck",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 150,
@@ -149,6 +150,7 @@
   },
   {
     "recipeName": "Bratkartoffeln",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 0.5,
@@ -163,11 +165,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Gehackte Zwiebeln in Fett anbraten. Gute Pfanne, damit es nicht einbackt. Geht auch als Mittag oder Abendessen. Gehaltvoll."
+    "comment": "Gehackte Zwiebeln in Fett anbraten. Gute Pfanne, damit es nicht einbackt. Geht auch als Mittag oder Abendessen. Gehaltvoll."
   },
   {
     "recipeName": "Früchtemüsli",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 3000,
@@ -210,6 +212,7 @@
   },
   {
     "recipeName": "Spaghetti Carbonara",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 150,
@@ -242,11 +245,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Vorsicht mit dem Salz - wegen dem Speck; kein Salz in die Soße! Schinkenwürfel anbraten. Salz, Pfeffer und alle anderen ingredients verquillen. Alles zusammen über die abgetropften Spaghetti. Erneut abschmecken mit S+P. Wie im Vapiano in Berlin. "
+    "comment": "Vorsicht mit dem Salz - wegen dem Speck; kein Salz in die Soße! Schinkenwürfel anbraten. Salz, Pfeffer und alle anderen ingredients verquillen. Alles zusammen über die abgetropften Spaghetti. Erneut abschmecken mit S+P. Wie im Vapiano in Berlin. "
   },
   {
     "recipeName": "Pfannenkuchen",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 3,
@@ -283,6 +286,7 @@
   },
   {
     "recipeName": "Käsespätzle",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 500,
@@ -309,11 +313,11 @@
         "department": "Kühlregal"
       }
     ],
-    "comment":
-      "Alternativ kann man auch mit Instantmehl halb/halb mischen, wenn kein Spätzlemehl vorhanden. Mit Prise Salz und kaltem Wasser den Teig machen. Käse: Bergkäse, aber nicht zu alt. Eher ein junger/mittelalt Bergkäse - sonst zu trocken."
+    "comment": "Alternativ kann man auch mit Instantmehl halb/halb mischen, wenn kein Spätzlemehl vorhanden. Mit Prise Salz und kaltem Wasser den Teig machen. Käse: Bergkäse, aber nicht zu alt. Eher ein junger/mittelalt Bergkäse - sonst zu trocken."
   },
   {
     "recipeName": "Schweizer Wurstsalat",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 200,
@@ -334,11 +338,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Die Zwiebelringe (kleinere Zwiebeln) mit Salz bestreuen und am Schluss oben darauf zur Dekoration. Mittelalter Bergkäse - nicht zu alt. Die kleineren Gurken in Scheiben schneiden. Normaler Heller Essig, Öl, Pfeffer, Prise Zucker und Essiggurkensud einen Schuss dazu. vermischen."
+    "comment": "Die Zwiebelringe (kleinere Zwiebeln) mit Salz bestreuen und am Schluss oben darauf zur Dekoration. Mittelalter Bergkäse - nicht zu alt. Die kleineren Gurken in Scheiben schneiden. Normaler Heller Essig, Öl, Pfeffer, Prise Zucker und Essiggurkensud einen Schuss dazu. vermischen."
   },
   {
     "recipeName": "Spiegelei mit Kartoffelsalt",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 0.8,
@@ -359,11 +363,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Den Kartoffelsalat einen Tag vorher machen! (Vorwiegend) Festkochend. Kartoffeln in der Schale kochen. Schälen. In Scheiben schneiden. Wasser heiß machen mit Gemüsebrühe, Senf, Salz, Pfeffer, Prise Zucker, heller Essig (kein Balsamico) und gehackte Zwiebeln (werden dadurch milder). Die Brühe über die Kartoffeln schütten und umrühren. Stehen lassen: 15 min (Kartoffeln ziehen das auf). Dann Öl darüber (Öl schließt das ab.)."
+    "comment": "Den Kartoffelsalat einen Tag vorher machen! (Vorwiegend) Festkochend. Kartoffeln in der Schale kochen. Schälen. In Scheiben schneiden. Wasser heiß machen mit Gemüsebrühe, Senf, Salz, Pfeffer, Prise Zucker, heller Essig (kein Balsamico) und gehackte Zwiebeln (werden dadurch milder). Die Brühe über die Kartoffeln schütten und umrühren. Stehen lassen: 15 min (Kartoffeln ziehen das auf). Dann Öl darüber (Öl schließt das ab.)."
   },
   {
     "recipeName": "Zitronenkuchen",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 250,
@@ -420,11 +424,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Formdurchmesser ca. 28 cm. 1 große Zitrone mit unbehandelter Schale. 3 für den Saft für die Soße und Glasur. 8 EL Milch. Alles bis auf Mehl und Speisestärke schaumig rühren. Dann erst die letzten beiden dazu fügen. Form ausfetten. 175°C vorheizen und 45-50 Minuten backen. Auf Abkühlblech. // Saft von 2 Zitronen, 4 EL Zucker und 4 EL Wasser aufkochen. (Zitronenlikör hinzufügen). Drüber träufeln. Kuchen abkühlen lassen. // "
+    "comment": "Formdurchmesser ca. 28 cm. 1 große Zitrone mit unbehandelter Schale. 3 für den Saft für die Soße und Glasur. 8 EL Milch. Alles bis auf Mehl und Speisestärke schaumig rühren. Dann erst die letzten beiden dazu fügen. Form ausfetten. 175°C vorheizen und 45-50 Minuten backen. Auf Abkühlblech. // Saft von 2 Zitronen, 4 EL Zucker und 4 EL Wasser aufkochen. (Zitronenlikör hinzufügen). Drüber träufeln. Kuchen abkühlen lassen. // "
   },
   {
     "recipeName": "Marmorkuchen",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 375,
@@ -469,11 +473,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "20 g Zucker in Kakaomasse. Evtl. noch 1 EL Milch in Kakaomasse. Guggelhupfform 2/3 füllen. 175°C vorheizen und 45-50 min backen. Bevor Kuchen aus Form, abkühlen lassen!"
+    "comment": "20 g Zucker in Kakaomasse. Evtl. noch 1 EL Milch in Kakaomasse. Guggelhupfform 2/3 füllen. 175°C vorheizen und 45-50 min backen. Bevor Kuchen aus Form, abkühlen lassen!"
   },
   {
     "recipeName": "Gemüse-Quiche",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 200,
@@ -514,16 +518,15 @@
       {
         "amount": 1,
         "unit": " ",
-        "name":
-          "Gemüse der Saison, z.B. Zuchini, Zwiebeln, Karotten, Lauch, Oberginen",
+        "name": "Gemüse der Saison, z.B. Zuchini, Zwiebeln, Karotten, Lauch, Oberginen",
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Gemüse schneiden. Teig: Salz, Mehl, Butter, Wasser. Backofen vorheizen. Teig in die Form. Teig in Ofen (15 min). Gemüse andünsten. Es kann alles mögliche Gemüse wie: Knoblauch, Zuchini, Zwiebeln, Karotten, Lauch, Oberginen, Tomatenscheiben für oben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat. Die Soße zum Gemüse dazu geben."
+    "comment": "Gemüse schneiden. Teig: Salz, Mehl, Butter, Wasser. Backofen vorheizen. Teig in die Form. Teig in Ofen (15 min). Gemüse andünsten. Es kann alles mögliche Gemüse wie: Knoblauch, Zuchini, Zwiebeln, Karotten, Lauch, Oberginen, Tomatenscheiben für oben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer und Muskat. Die Soße zum Gemüse dazu geben."
   },
   {
     "recipeName": "Spinat-Lachs Quiche",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 200,
@@ -568,11 +571,11 @@
         "department": "Tiefkühl"
       }
     ],
-    "comment":
-      "Backofen vorheizen (175°C). Teig: Salz, Mehl, Butter, Wasser. Teig in die Form. Teig in Ofen (15 min). Spinat abtropfen lassen. Lachs in Stücke schneiden und hinzugeben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer, Knoblauch und Muskat."
+    "comment": "Backofen vorheizen (175°C). Teig: Salz, Mehl, Butter, Wasser. Teig in die Form. Teig in Ofen (15 min). Spinat abtropfen lassen. Lachs in Stücke schneiden und hinzugeben. Für die Soße die Sahne mit dem Ei verquillen (mit Ei wird die Quiche fester), Salz, Pfeffer, Knoblauch und Muskat."
   },
   {
     "recipeName": "Linsenlassagne",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 500,
@@ -635,11 +638,11 @@
         "department": "Kühlregal"
       }
     ],
-    "comment":
-      "Idealerweise am Tag vorher machen und über Nacht stehen lassen, dann in den Backofen. Bei Linsen kein Salz dazu! Lauch putzen und in feine Streifen schneiden. Tomaten würfeln. Karotten in kleine Eckchen schneiden (Größe der Linsen). 1 EL Butter erhitzen. Gemüse darin andünsten. Linsen und Lobeerblatt dazu - schwenken. 0,5 Liter Gemüsebrühe dazu und das Ganze 15-20 Minuten köcheln lassen, bis Linsen gar sind. 100g (nicht 200g) Creme Fraiche dazu, 2 EL Rotweinessig, Salz und Pfeffer. // Backofen auf 180°Grad erhitzen. Auflaufform einfetten und Platten reinlegen. Schicht Linsengemüse. Platten. etc. Auf die oberste, letzte Schicht Platten kommt die Masse aus Gouda, 100g Creme Fraiche, 2 EL weiche Butter (evtl. leicht anwärmen). Evtl. salzen und Pfeffern. Auf mittlerer Schiene 30 Minuten bei 180°Grad goldbraun backen."
+    "comment": "Idealerweise am Tag vorher machen und über Nacht stehen lassen, dann in den Backofen. Bei Linsen kein Salz dazu! Lauch putzen und in feine Streifen schneiden. Tomaten würfeln. Karotten in kleine Eckchen schneiden (Größe der Linsen). 1 EL Butter erhitzen. Gemüse darin andünsten. Linsen und Lobeerblatt dazu - schwenken. 0,5 Liter Gemüsebrühe dazu und das Ganze 15-20 Minuten köcheln lassen, bis Linsen gar sind. 100g (nicht 200g) Creme Fraiche dazu, 2 EL Rotweinessig, Salz und Pfeffer. // Backofen auf 180°Grad erhitzen. Auflaufform einfetten und Platten reinlegen. Schicht Linsengemüse. Platten. etc. Auf die oberste, letzte Schicht Platten kommt die Masse aus Gouda, 100g Creme Fraiche, 2 EL weiche Butter (evtl. leicht anwärmen). Evtl. salzen und Pfeffern. Auf mittlerer Schiene 30 Minuten bei 180°Grad goldbraun backen."
   },
   {
     "recipeName": "Spätzle",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 400,
@@ -654,11 +657,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Wenn möglich mit Spätzlemehl (alternativ: Volkornmehl, Dinkelmehl, Normalmehl mit etwas Gries, damit es kerniger wird). Pro Person 100g und 1 Ei. Teig mit Salz abschmecken."
+    "comment": "Wenn möglich mit Spätzlemehl (alternativ: Volkornmehl, Dinkelmehl, Normalmehl mit etwas Gries, damit es kerniger wird). Pro Person 100g und 1 Ei. Teig mit Salz abschmecken."
   },
   {
     "recipeName": "Gemüsepfanne",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 2,
@@ -697,11 +700,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Gemüse in kleine Würfel schneiden. Was am längsten braucht, damit anfangen das anzubraten (Stufe 6-7): Karotten, Zucchini, Paprika, Tomaten, Champignon, Frühlungszwiebel. Evtl. etwas Wasser zum Garen dazu. Salatkräutersalz. Basilikum oder Tymian zur Deko. Am Schluss ein Schuss Balsamiquo Essig darüber (alternativ: Zitrone). Wenn Gemüse alleine anbraten dann Kombi: Karotten - Tymian; Zucchini - Pfferminze + Knoblauch."
+    "comment": "Gemüse in kleine Würfel schneiden. Was am längsten braucht, damit anfangen das anzubraten (Stufe 6-7): Karotten, Zucchini, Paprika, Tomaten, Champignon, Frühlungszwiebel. Evtl. etwas Wasser zum Garen dazu. Salatkräutersalz. Basilikum oder Tymian zur Deko. Am Schluss ein Schuss Balsamiquo Essig darüber (alternativ: Zitrone). Wenn Gemüse alleine anbraten dann Kombi: Karotten - Tymian; Zucchini - Pfferminze + Knoblauch."
   },
   {
     "recipeName": "Erbsensuppe",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1000,
@@ -746,11 +749,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Zwiebeln glasig braten. Erbsen hinzufügen, kurz andünsten. Mit 0,5 Liter Gemüsebrühe ablöschen, 10 Min. zugedeckt köcheln lassen. Pürieren (wir haben das mit unserem Smoothie-Mixer gemacht). Restliche Zutaten (4 EL zurückbehalten als Tupfer obendrauf, eigentlich völlig unnötig, aber aus Sicht des Liebhabers eine wesentliche Verschönerung) vermischen, glattrühren, zu Erbsen geben, 1x aufkochen. Koriander dazustellen."
+    "comment": "Zwiebeln glasig braten. Erbsen hinzufügen, kurz andünsten. Mit 0,5 Liter Gemüsebrühe ablöschen, 10 Min. zugedeckt köcheln lassen. Pürieren (wir haben das mit unserem Smoothie-Mixer gemacht). Restliche Zutaten (4 EL zurückbehalten als Tupfer obendrauf, eigentlich völlig unnötig, aber aus Sicht des Liebhabers eine wesentliche Verschönerung) vermischen, glattrühren, zu Erbsen geben, 1x aufkochen. Koriander dazustellen."
   },
   {
     "recipeName": "Spaghetti mit kalter Tomatensauce",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 250,
@@ -783,11 +786,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Nudeln in einem großem Topf mit Salzwasser al dente kochen. In der Zwischenzeit die Tomaten waschen, Mozzarella abtropfen lassen und beides klein würfeln. In einer Schüssel vermengen. Basilikum waschen, abtropfen lassen und klein hacken. Auch in die Schüssel geben und alles mit Salz, Pfeffer und 3 EL Olivenöl vermengen. Die gekochten Nudeln in ein Sieb geben, abtropfen lassen und mit der Sauce vermischen."
+    "comment": "Nudeln in einem großem Topf mit Salzwasser al dente kochen. In der Zwischenzeit die Tomaten waschen, Mozzarella abtropfen lassen und beides klein würfeln. In einer Schüssel vermengen. Basilikum waschen, abtropfen lassen und klein hacken. Auch in die Schüssel geben und alles mit Salz, Pfeffer und 3 EL Olivenöl vermengen. Die gekochten Nudeln in ein Sieb geben, abtropfen lassen und mit der Sauce vermischen."
   },
   {
     "recipeName": "Nudeln mit Pilzsauce",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 250,
@@ -832,11 +835,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Pilze anbraten (Marcela: die Pilze richitg kräftig und lange anbraten, sodass sie schön knusprig sind.) Zwiebeln dazu. Sahne dazu. Mit Salz (vieeel Salz), Chili, Knoblauch und Petersilie abschmecken."
+    "comment": "Pilze anbraten (Marcela: die Pilze richitg kräftig und lange anbraten, sodass sie schön knusprig sind.) Zwiebeln dazu. Sahne dazu. Mit Salz (vieeel Salz), Chili, Knoblauch und Petersilie abschmecken."
   },
   {
     "recipeName": "Gnocchi in Gorgonzola-Sauce",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 400,
@@ -881,13 +884,12 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Soße und Gnocchi sollten möglichst gleichzeitig fertig werden. Gnocchi max. auf Stufe 7 anbraten - sonst verbrennen sie. Wenn weniger Gnocchi, etwas weniger Soße machen. Für die Soße: Den Gorgonzola in Würfel schneiden und mit der Sahne und der Milch im Topf schmelzen lassen, stetig rühren. Die sehr fein gehackte Petersilie dazugeben. Knoblauch schälen und durch die Knoblauchpresse dazu drücken. Die Sauce mit Salz und Pfeffer abschmecken und sofort mit den Gnocchi servieren."
+    "comment": "Soße und Gnocchi sollten möglichst gleichzeitig fertig werden. Gnocchi max. auf Stufe 7 anbraten - sonst verbrennen sie. Wenn weniger Gnocchi, etwas weniger Soße machen. Für die Soße: Den Gorgonzola in Würfel schneiden und mit der Sahne und der Milch im Topf schmelzen lassen, stetig rühren. Die sehr fein gehackte Petersilie dazugeben. Knoblauch schälen und durch die Knoblauchpresse dazu drücken. Die Sauce mit Salz und Pfeffer abschmecken und sofort mit den Gnocchi servieren."
   },
   {
     "recipeName": "Linsen mit Wienerle für Linsen mit Spätzle",
+    "category": ["Archiv"],
     "ingredients": [
-      
       {
         "amount": 250,
         "unit": "g",
@@ -943,11 +945,11 @@
         "department": "Kühlregal"
       }
     ],
-    "comment":
-      "Rauchfleisch in Würfel schneiden. Zwiebeln mit dem gerauchten Bauch und Karotten anbraten. Später Lauch dazu. Gewaschene Linsen rein. Ablöschen mit Wasser oder Wein (weiß oder rosé). Lobeerblatt und Nelken dazu. Hildegart dazu. Tomatenmark 1 EL. Kartoffel roh reinreiben. Pfeffer und Paprika Pulver dazu. Kein Salz. Ein Schuss Wein für die Soße. Köcheln lassen, bis die Linsen gar sind. Wenn fertig mit Salz und Weißweinessig dazu. Wiener im heißen Wasser köcheln und am Schluss zu den Linsen dazu geben."
+    "comment": "Rauchfleisch in Würfel schneiden. Zwiebeln mit dem gerauchten Bauch und Karotten anbraten. Später Lauch dazu. Gewaschene Linsen rein. Ablöschen mit Wasser oder Wein (weiß oder rosé). Lobeerblatt und Nelken dazu. Hildegart dazu. Tomatenmark 1 EL. Kartoffel roh reinreiben. Pfeffer und Paprika Pulver dazu. Kein Salz. Ein Schuss Wein für die Soße. Köcheln lassen, bis die Linsen gar sind. Wenn fertig mit Salz und Weißweinessig dazu. Wiener im heißen Wasser köcheln und am Schluss zu den Linsen dazu geben."
   },
   {
     "recipeName": "Abendbrot",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -986,11 +988,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Standard Versper."
+    "comment": "Standard Versper."
   },
   {
     "recipeName": "Vanillepudding",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -1017,13 +1019,12 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Geht schnell. Gut als Nachtisch."
+    "comment": "Geht schnell. Gut als Nachtisch."
   },
   {
     "recipeName": "Provenzalisches Huhn",
+    "category": ["Archiv"],
     "ingredients": [
-      
       {
         "amount": 3,
         "unit": "",
@@ -1067,13 +1068,12 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Für ca. 4 Personen. Statt Martini auch Wermouth (Noilly Prat) möglich. Knoblauch grob hacken. Hähnchenbrüste halbieren und scharf in Butter anbraten, dann Temperatur reduzieren und mit Salz, Cayenne (1 Messerspitze), Paprikapulver (4 TL) würzen. Tomaten, Knoblauch, Martini/Vermouth dazu und 20 Minuten köcheln lassen. Getrockneter Thymian (1/2 TL), Sahne, Crème fraiche einköcheln. Schmeckt am nächsten Tag noch besser. Als Beilage am besten Fladenbrot!"
+    "comment": "Für ca. 4 Personen. Statt Martini auch Wermouth (Noilly Prat) möglich. Knoblauch grob hacken. Hähnchenbrüste halbieren und scharf in Butter anbraten, dann Temperatur reduzieren und mit Salz, Cayenne (1 Messerspitze), Paprikapulver (4 TL) würzen. Tomaten, Knoblauch, Martini/Vermouth dazu und 20 Minuten köcheln lassen. Getrockneter Thymian (1/2 TL), Sahne, Crème fraiche einköcheln. Schmeckt am nächsten Tag noch besser. Als Beilage am besten Fladenbrot!"
   },
   {
     "recipeName": "Käse-Zwiebel Empanadas",
+    "category": ["Archiv"],
     "ingredients": [
-      
       {
         "amount": 350,
         "unit": "g",
@@ -1111,11 +1111,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Ergibt ca. 25 Empanadas. 400 g Zwiebel. 83g Öl. Füllung: 3 EL Weißweinessig. 12g Butter für anbraten Stufe 2. 8 EL Weißwein. 3g Salz. Pfeffer nach Gusto. Goldpuder Mehl am besten (Typ ?). Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
+    "comment": "Ergibt ca. 25 Empanadas. 400 g Zwiebel. 83g Öl. Füllung: 3 EL Weißweinessig. 12g Butter für anbraten Stufe 2. 8 EL Weißwein. 3g Salz. Pfeffer nach Gusto. Goldpuder Mehl am besten (Typ ?). Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
   },
   {
     "recipeName": "Empanadas Cordobesas",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 500,
@@ -1166,11 +1166,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Ergibt ca. 30 Empanadas. 375g Zwiebeln. Füllung: Eier kochen. Insgessamt alles sehr klein schneiden. Zwiebeln auf mittlerer Flamme im Öl gold andünsten, dann Hackfleisch dazu. Sobald nicht mehr rot, alles andere rein plus 2 EL gehäuft Suppenwürze, 1 Schuß Sojasoße, 1/2 TL Kreuzkümmel, 2 TL Paprikapulver, 3 EL gehäuft Zucker, Rosinen, 2/3 große rote Peperoni, Salz). Garen lassen, bis Kartoffeln und Karotten durch. Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
+    "comment": "Ergibt ca. 30 Empanadas. 375g Zwiebeln. Füllung: Eier kochen. Insgessamt alles sehr klein schneiden. Zwiebeln auf mittlerer Flamme im Öl gold andünsten, dann Hackfleisch dazu. Sobald nicht mehr rot, alles andere rein plus 2 EL gehäuft Suppenwürze, 1 Schuß Sojasoße, 1/2 TL Kreuzkümmel, 2 TL Paprikapulver, 3 EL gehäuft Zucker, Rosinen, 2/3 große rote Peperoni, Salz). Garen lassen, bis Kartoffeln und Karotten durch. Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
   },
   {
     "recipeName": "Grünkohl mit Pinkel",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -1191,11 +1191,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Pellkartoffeln kochen. Grünkohl erwärmen. Würste dazugeben. Fertig ist das Winteressen!"
+    "comment": "Pellkartoffeln kochen. Grünkohl erwärmen. Würste dazugeben. Fertig ist das Winteressen!"
   },
   {
     "recipeName": "Himbeer-Bananen Joghurt",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -1216,11 +1216,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Damit die Himbeeren auftauen, Yoghurt bereits einige Stunden vorher machen und in den Kühlschrank stellen."
+    "comment": "Damit die Himbeeren auftauen, Yoghurt bereits einige Stunden vorher machen und in den Kühlschrank stellen."
   },
   {
     "recipeName": "Grüner Salat mit Thunfisch",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -1253,11 +1253,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Was gesundes..."
+    "comment": "Was gesundes..."
   },
   {
     "recipeName": "Bohnensalat",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 2,
@@ -1284,11 +1284,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Für die Salatsauce: Weißweinessig, Olivenöl, Salz, Pfeffer, Zucker. Kirschtomaten als Garnierung."
+    "comment": "Für die Salatsauce: Weißweinessig, Olivenöl, Salz, Pfeffer, Zucker. Kirschtomaten als Garnierung."
   },
   {
     "recipeName": "Minestrone",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 0.5,
@@ -1315,11 +1315,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Gemüse anbraten. Salz Pfeffer. Dann 3 Stunden bei sehr niedriger Temperatur köcheln lassen (nicht zu heiß, da sonst das Gemüse auseinander fällt!). Abkühlen lassen. Dann vor dem Servieren nochmals vorsichtig auftauen lassen."
+    "comment": "Gemüse anbraten. Salz Pfeffer. Dann 3 Stunden bei sehr niedriger Temperatur köcheln lassen (nicht zu heiß, da sonst das Gemüse auseinander fällt!). Abkühlen lassen. Dann vor dem Servieren nochmals vorsichtig auftauen lassen."
   },
   {
     "recipeName": "Reis mit Cardamon",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 500,
@@ -1334,11 +1334,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Den Reis in Wasser kochen (wie Pasta). Al dente Wasser abseien. Cardamon Zehen halbieren und in den Reis stecken. Eine Stunde bei geschlossenem Deckel ziehen lassen."
+    "comment": "Den Reis in Wasser kochen (wie Pasta). Al dente Wasser abseien. Cardamon Zehen halbieren und in den Reis stecken. Eine Stunde bei geschlossenem Deckel ziehen lassen."
   },
   {
     "recipeName": "Senfeier mit Reis",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 6,
@@ -1365,11 +1365,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Reis kochen. Die Eier hart kochen. Währendessen Mehlschwitze machen (5 EL Mehl + 30 g Butter, Milch dazu rühren). Immer kräftig rühren, damit nichts anbrennt. Senf dazu, Salz, Pfeffer. Geschälte Eier dazu. Fertig!"
+    "comment": "Reis kochen. Die Eier hart kochen. Währendessen Mehlschwitze machen (5 EL Mehl + 30 g Butter, Milch dazu rühren). Immer kräftig rühren, damit nichts anbrennt. Senf dazu, Salz, Pfeffer. Geschälte Eier dazu. Fertig!"
   },
   {
     "recipeName": "Bruchetta",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -1402,11 +1402,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Tomaten und Zwiebeln klein würfeln. 3 Knoblauchzehen durch die Presse und dazu geben. Salz und Pfeffer dazu. Kurz ziehen lassen und dann Olivenöl dazu. Backofen auf 200°C vorheizen. Brot in Scheiben und mit 2 Knoblauchzehen einreiben. 8 Minuten kross backen lassen - der Sud des Belags macht das Brot wieder weich. Während dessen Basilikum klein hacken. Käse in dünnen Scheiben dazu reichen."
+    "comment": "Tomaten und Zwiebeln klein würfeln. 3 Knoblauchzehen durch die Presse und dazu geben. Salz und Pfeffer dazu. Kurz ziehen lassen und dann Olivenöl dazu. Backofen auf 200°C vorheizen. Brot in Scheiben und mit 2 Knoblauchzehen einreiben. 8 Minuten kross backen lassen - der Sud des Belags macht das Brot wieder weich. Während dessen Basilikum klein hacken. Käse in dünnen Scheiben dazu reichen."
   },
   {
     "recipeName": "Linsensuppe",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 500,
@@ -1439,11 +1439,11 @@
         "department": "Kühlregal"
       }
     ],
-    "comment":
-      "Zwiebeln, Suppengrün kleinschneiden, weil es drin bleibt. Alles gleichzeitig rein und mit kaltem Wasser auffüllen (mindestens 3 Liter). Aufkochen und dann 1,5-2 Stunden köcheln lassen. Pfeffer, Schuss Essig, etwas Zucker, Salz am Ende abschecken (weil die Würste sehr salzig sind). Fett kann man abschöpfen. Fleisch von Suppenfleisch ablösen und das beste Fleisch noch verwenden."
+    "comment": "Zwiebeln, Suppengrün kleinschneiden, weil es drin bleibt. Alles gleichzeitig rein und mit kaltem Wasser auffüllen (mindestens 3 Liter). Aufkochen und dann 1,5-2 Stunden köcheln lassen. Pfeffer, Schuss Essig, etwas Zucker, Salz am Ende abschecken (weil die Würste sehr salzig sind). Fett kann man abschöpfen. Fleisch von Suppenfleisch ablösen und das beste Fleisch noch verwenden."
   },
   {
     "recipeName": "Blumenkohlauflauf",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 500,
@@ -1494,11 +1494,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Kartoffeln fast weich kochen. Brötchen einweichen in Wasser und anschließend ausdrücken. Zwiebel fein schneiden. Gehacktes, Brötchen, Zwiebel, 1! Ei und Pfeffer und Salz gut vermengen. Auflaufform fetten. Blumenkohl in Röschen teilen und bissfest kochen. Gehaktes am Rand entlang anbringen. Abgetropfte Blumenkohl und Kartoffeln in die Mitte, Sauce (Ei, Sahne, evtl. Muskat) drüber. Backofen 175 Grad 30 Minuten (bis Eimasse und gehacktes gar ist). Käse zum Überbacken am Schluss dran."
+    "comment": "Kartoffeln fast weich kochen. Brötchen einweichen in Wasser und anschließend ausdrücken. Zwiebel fein schneiden. Gehacktes, Brötchen, Zwiebel, 1! Ei und Pfeffer und Salz gut vermengen. Auflaufform fetten. Blumenkohl in Röschen teilen und bissfest kochen. Gehaktes am Rand entlang anbringen. Abgetropfte Blumenkohl und Kartoffeln in die Mitte, Sauce (Ei, Sahne, evtl. Muskat) drüber. Backofen 175 Grad 30 Minuten (bis Eimasse und gehacktes gar ist). Käse zum Überbacken am Schluss dran."
   },
   {
     "recipeName": "Weißwürste",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 4,
@@ -1519,11 +1519,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Vorsicht, nicht zu heiß machen, da sonst die Würste platzen!"
+    "comment": "Vorsicht, nicht zu heiß machen, da sonst die Würste platzen!"
   },
   {
     "recipeName": "Gedünstetes Gemüse",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -1538,11 +1538,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Kann man immer mal dazu machen."
+    "comment": "Kann man immer mal dazu machen."
   },
   {
     "recipeName": "Hackfleischlasagne",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 800,
@@ -1599,11 +1599,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Kein Salz! Fleisch scharf in Olivenöl braun und krümellig anbraten. Tomaten und Kräuter dazu (1 EL je Tymian, Estragon, Rosmarin und Oregano). Evtl. Schuss Cayennpfeffer. Bechamellsauce: 100g Butter und 3 Löffel Mehl und mit Milch ablöschen - mit Senf dazu. In Auflaufform Alkohol dazu, dann Lage fleisch, Lage Sauce, Käse, Lassagneblatt. ect. Oben ist die Fleischsauce mit der Sauce. Runterdrücken, damit alles eingeweicht wird. In Ofen 1 Stunde bei 180°."
+    "comment": "Kein Salz! Fleisch scharf in Olivenöl braun und krümellig anbraten. Tomaten und Kräuter dazu (1 EL je Tymian, Estragon, Rosmarin und Oregano). Evtl. Schuss Cayennpfeffer. Bechamellsauce: 100g Butter und 3 Löffel Mehl und mit Milch ablöschen - mit Senf dazu. In Auflaufform Alkohol dazu, dann Lage fleisch, Lage Sauce, Käse, Lassagneblatt. ect. Oben ist die Fleischsauce mit der Sauce. Runterdrücken, damit alles eingeweicht wird. In Ofen 1 Stunde bei 180°."
   },
   {
     "recipeName": "Tomaten-Mozarella",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 500,
@@ -1624,11 +1624,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Frischen Basilikum dazu."
+    "comment": "Frischen Basilikum dazu."
   },
   {
     "recipeName": "Halloumi mit Rosmarin",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 300,
@@ -1655,11 +1655,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "(Limettensaft und) 2 EL Olivenöl verrühren. Knoblauch schälen und dazupressen, ebenso den Rosmarin. Die Marinade mit Salz, Pfeffer und Honig abschmecken. Halloumi in 1 cm dicke Scheiben schneiden. Restliches Olivenöl in eine heiße Pfanne geben, den Käse darin von beiden Seiten je ca. 1 Min. goldbraun anbraten"
+    "comment": "(Limettensaft und) 2 EL Olivenöl verrühren. Knoblauch schälen und dazupressen, ebenso den Rosmarin. Die Marinade mit Salz, Pfeffer und Honig abschmecken. Halloumi in 1 cm dicke Scheiben schneiden. Restliches Olivenöl in eine heiße Pfanne geben, den Käse darin von beiden Seiten je ca. 1 Min. goldbraun anbraten"
   },
   {
     "recipeName": "Fleischküchle",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 500,
@@ -1686,11 +1686,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Brötchen in Wasser einweichen. Zwiebeln fein würfel und mit Salz und Pfeffe das Hackfleisch vermengen."
+    "comment": "Brötchen in Wasser einweichen. Zwiebeln fein würfel und mit Salz und Pfeffe das Hackfleisch vermengen."
   },
   {
     "recipeName": "Tagliatelle in Butter",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 250,
@@ -1717,11 +1717,11 @@
         "department": "Kühlregal"
       }
     ],
-    "comment":
-      "Petersilie abwaschen und klein hacken. Parmesan reiben. Tagliatelle bissfest kochen. Die Butter in einer großen Pfanne zerlassen, Knoblauch und Petersilie darin ca. 1 Min. schwenken. Mit Salz und Pfeffer und Parmesan servieren."
+    "comment": "Petersilie abwaschen und klein hacken. Parmesan reiben. Tagliatelle bissfest kochen. Die Butter in einer großen Pfanne zerlassen, Knoblauch und Petersilie darin ca. 1 Min. schwenken. Mit Salz und Pfeffer und Parmesan servieren."
   },
   {
     "recipeName": "Forellen-Dip",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -1754,11 +1754,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Petersilie abwaschen und klein hacken. Forelle mit Schmand, Salz und Pfeffer vermischen. Mit einem Rührgerät rühen."
+    "comment": "Petersilie abwaschen und klein hacken. Forelle mit Schmand, Salz und Pfeffer vermischen. Mit einem Rührgerät rühen."
   },
   {
     "recipeName": "Spaghetti Bolognese",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 2,
@@ -1821,11 +1821,11 @@
         "department": "Kühlregal"
       }
     ],
-    "comment":
-      "Gemüse klein hacken und bis auf Knoblauch anbraten. In Teller. Dann Speck anbraten. In Teller. Dann Hackfleisch anbraten. Tomatenmark unterrühren und kurz anrösten lassen. Dann das Ganze mit Rotwein ablöschen und zehn Minuten einkochen lassen. Die gehackten Tomaten hinzugeben, ebenso Pancetta und Gemüse und alles aufkochen. Nun Hitze reduzieren und die Sauce auf kleiner Flamme anderthalb Stunden einkochen lassen. Mit Salz, Pfeffer und nach Belieben Oregano abschmecken."
+    "comment": "Gemüse klein hacken und bis auf Knoblauch anbraten. In Teller. Dann Speck anbraten. In Teller. Dann Hackfleisch anbraten. Tomatenmark unterrühren und kurz anrösten lassen. Dann das Ganze mit Rotwein ablöschen und zehn Minuten einkochen lassen. Die gehackten Tomaten hinzugeben, ebenso Pancetta und Gemüse und alles aufkochen. Nun Hitze reduzieren und die Sauce auf kleiner Flamme anderthalb Stunden einkochen lassen. Mit Salz, Pfeffer und nach Belieben Oregano abschmecken."
   },
   {
     "recipeName": "Eingelegte Tomaten",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 500,
@@ -1846,11 +1846,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Sud aufkochen und die Tomaten 5 Min. ziehen lassen, abgießen und gut abtropen lassen. Dann die Tomaten in Gläser mit den Schichten gehackten Kräutern (Salbei, Oregano, Rosmarin) und Olivenöl einlegen, mehrer Tage durchziehen lassen. Die Tomaten müssen mit Öl bedeckt sein. "
+    "comment": "Sud aufkochen und die Tomaten 5 Min. ziehen lassen, abgießen und gut abtropen lassen. Dann die Tomaten in Gläser mit den Schichten gehackten Kräutern (Salbei, Oregano, Rosmarin) und Olivenöl einlegen, mehrer Tage durchziehen lassen. Die Tomaten müssen mit Öl bedeckt sein. "
   },
   {
     "recipeName": "Guacamole",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 2,
@@ -1877,11 +1877,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Zutaten mit Salz, Pfeffer und Olivenöl vermischen. Super Dipp. 2 Tomaten grob."
+    "comment": "Zutaten mit Salz, Pfeffer und Olivenöl vermischen. Super Dipp. 2 Tomaten grob."
   },
   {
     "recipeName": "Maultaschensuppe",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 4,
@@ -1896,11 +1896,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Zwiebelringe auf niedriger Stufe und mit viel Butter schmoren. In Suppenbrühe Maultaschen (Achteln) erwärmen. Ein Schöpfer Brühe in Pfanne geben."
+    "comment": "Zwiebelringe auf niedriger Stufe und mit viel Butter schmoren. In Suppenbrühe Maultaschen (Achteln) erwärmen. Ein Schöpfer Brühe in Pfanne geben."
   },
   {
     "recipeName": "Fischstäbchen",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -1927,11 +1927,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Fischstäbchen auf niedriger Stufe braten. Basmati Reis dazu. Soja Sauce und Remoulade ist lecker."
+    "comment": "Fischstäbchen auf niedriger Stufe braten. Basmati Reis dazu. Soja Sauce und Remoulade ist lecker."
   },
   {
     "recipeName": "Obstsalat",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -1958,11 +1958,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Alles schön klein schneiden. Sahne optional dazu."
+    "comment": "Alles schön klein schneiden. Sahne optional dazu."
   },
   {
     "recipeName": "Ofengemüse",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 500,
@@ -2001,11 +2001,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Öl und Zitronensaft mit Salz und Pfeffer vermischen und über Gemüse leeren."
+    "comment": "Öl und Zitronensaft mit Salz und Pfeffer vermischen und über Gemüse leeren."
   },
   {
     "recipeName": "Zitronennudeln mit Hähnchen",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 500,
@@ -2050,11 +2050,11 @@
         "department": "Kühlregal"
       }
     ],
-    "comment":
-      "Schemckt am Folgetag besser. Für 6 Portionen. Zitrone und Kräuter waschen. Trocken tupfen. Salbei, Schnittlauch, Petersilie fein haken. Butter (3 EL) schmelzen und Mehl (3 EL) dazu. Mit Milch und Gemüsebrühe (350ml) ablöschen. Köcheln lassen. Zitrone reinreiben. Rest Zitrone auspressen und Saft dazu. Mit Salz und Pfeffer (evtl. auch Cayennpfeffer) abschmecken. Nudeln kochen. Öl in die Pfanne und das Fleisch scharf mit Salz und Pfeffer anbraten. Das ganze mischen und oben drauf Petersilie, Schnittlauch und Salbei."
+    "comment": "Schemckt am Folgetag besser. Für 6 Portionen. Zitrone und Kräuter waschen. Trocken tupfen. Salbei, Schnittlauch, Petersilie fein haken. Butter (3 EL) schmelzen und Mehl (3 EL) dazu. Mit Milch und Gemüsebrühe (350ml) ablöschen. Köcheln lassen. Zitrone reinreiben. Rest Zitrone auspressen und Saft dazu. Mit Salz und Pfeffer (evtl. auch Cayennpfeffer) abschmecken. Nudeln kochen. Öl in die Pfanne und das Fleisch scharf mit Salz und Pfeffer anbraten. Das ganze mischen und oben drauf Petersilie, Schnittlauch und Salbei."
   },
   {
     "recipeName": "Piccard",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 2,
@@ -2075,11 +2075,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Kartoffeln reiben. Mit Zutaten zu Teig verarbeiten und Salz dazu."
+    "comment": "Kartoffeln reiben. Mit Zutaten zu Teig verarbeiten und Salz dazu."
   },
   {
     "recipeName": "Kartoffel Champignon Omlett",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 0.5,
@@ -2100,11 +2100,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Noch nicht vollständig!"
+    "comment": "Noch nicht vollständig!"
   },
   {
     "recipeName": "Tarte au citron",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 200,
@@ -2137,11 +2137,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Noch unvollständig! 1 EL Speisestärke, die Schale von 1 1/2 ungespritzt Zitronen. Ofen auf 180^C vorheizen. Den kalten Teig in ein gut gefette Tarteform. Löcher mit Gabel in den Teig. 15-20 Minuten. Simple et authentique, la tarte au citron est un dessert emblématique du sud de la France. Elle offre une crème au citron légèrement acidulée avec un goût intense."
+    "comment": "Noch unvollständig! 1 EL Speisestärke, die Schale von 1 1/2 ungespritzt Zitronen. Ofen auf 180^C vorheizen. Den kalten Teig in ein gut gefette Tarteform. Löcher mit Gabel in den Teig. 15-20 Minuten. Simple et authentique, la tarte au citron est un dessert emblématique du sud de la France. Elle offre une crème au citron légèrement acidulée avec un goût intense."
   },
   {
     "recipeName": "Zitroneneis mit Obstler",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 250,
@@ -2156,11 +2156,11 @@
         "department": "Haltbar"
       }
     ],
-    "comment":
-      "Wie bei der Bouillebaisse in den Cevennes. Super Zwischengang: eine Kugel Zitroneneis mit einem Schnapsglas Williamsschnaps."
+    "comment": "Wie bei der Bouillebaisse in den Cevennes. Super Zwischengang: eine Kugel Zitroneneis mit einem Schnapsglas Williamsschnaps."
   },
   {
     "recipeName": "Apple Crumble",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 150,
@@ -2187,11 +2187,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Statt Äpfel kann auch anderes Obst verwendet werden. Obst unten auslegen. Streusel oben drau."
+    "comment": "Statt Äpfel kann auch anderes Obst verwendet werden. Obst unten auslegen. Streusel oben drau."
   },
   {
     "recipeName": "Gurkensalat",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -2218,11 +2218,11 @@
         "department": "Tiefkühl"
       }
     ],
-    "comment":
-      "Den Zucker (3 TL) mit je einer Prise Salz und Pfeffer in einer Schale mischen. Essig (3 EL) und Öl (1 EL) dazu geben und alles gut verrühren. Die Zwiebel in kleine Würfel schneiden und mit in die Schale geben, anschließend noch einige Stiele Dill fein hacken, mit der Sahne dazu geben und alles gut verrühren. Die Gurke in Scheiben schneiden und mit dem Dressing mischen."
+    "comment": "Den Zucker (3 TL) mit je einer Prise Salz und Pfeffer in einer Schale mischen. Essig (3 EL) und Öl (1 EL) dazu geben und alles gut verrühren. Die Zwiebel in kleine Würfel schneiden und mit in die Schale geben, anschließend noch einige Stiele Dill fein hacken, mit der Sahne dazu geben und alles gut verrühren. Die Gurke in Scheiben schneiden und mit dem Dressing mischen."
   },
   {
     "recipeName": "Fruchtsäfte",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -2241,13 +2241,13 @@
         "unit": "Flaschen",
         "name": "Johannisbeersaft",
         "department": "Haltbar"
-      }     
+      }
     ],
-    "comment":
-      ""
+    "comment": ""
   },
   {
     "recipeName": "Linsensalat",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 200,
@@ -2292,11 +2292,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Alles mischen mit Dressing (1 Knoblauchzehe, 3 EL Balsamico, 3 TL Senf, 4 EL Olivenöl, Salz und Pfeffer). 10 Minuten ziehen lassen. Oben Petersilie drauf."
+    "comment": "Alles mischen mit Dressing (1 Knoblauchzehe, 3 EL Balsamico, 3 TL Senf, 4 EL Olivenöl, Salz und Pfeffer). 10 Minuten ziehen lassen. Oben Petersilie drauf."
   },
   {
     "recipeName": "Gulasch",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1000,
@@ -2311,11 +2311,11 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Noch unvollständig! Fleisch in Würfel von 3-4 cm schneiden und salzen. Zwiebeln vierteln und in Scheiben schneiden und in Schweineschmalz langsam rösten bis karemelbraun (Aluminiumtop oder Gußeisern)."
+    "comment": "Noch unvollständig! Fleisch in Würfel von 3-4 cm schneiden und salzen. Zwiebeln vierteln und in Scheiben schneiden und in Schweineschmalz langsam rösten bis karemelbraun (Aluminiumtop oder Gußeisern)."
   },
   {
     "recipeName": "Tagliatelle mit Brokkoli und Pesto",
+    "category": ["Archiv"],
     "ingredients": [
       {
         "amount": 1,
@@ -2354,7 +2354,6 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment":
-      "Kartoffeln mit Schäler in feine Scheiben schneiden. Brokkoli in keline Röschen zerteilen. Strunk ebenso in feine Scheiben reiben. Parmesan reiben. Basilikumblätter waschen - ohne Stiele. Tagliatelle mit Brokklischeiben in Salzwasser garen. 2 Minuten vor Ende Brokkoli Röschen und Kartoffel dazugeben. Abseien, etwas Wasser auffangen. Hälfte Basilikum, Hälfte Parmesan mit allem anderne vermischen. Basilikum und Pesto als Garnitur."
+    "comment": "Kartoffeln mit Schäler in feine Scheiben schneiden. Brokkoli in keline Röschen zerteilen. Strunk ebenso in feine Scheiben reiben. Parmesan reiben. Basilikumblätter waschen - ohne Stiele. Tagliatelle mit Brokklischeiben in Salzwasser garen. 2 Minuten vor Ende Brokkoli Röschen und Kartoffel dazugeben. Abseien, etwas Wasser auffangen. Hälfte Basilikum, Hälfte Parmesan mit allem anderne vermischen. Basilikum und Pesto als Garnitur."
   }
 ]
