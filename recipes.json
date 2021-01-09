@@ -2,6 +2,7 @@
   {
     "recipeName": "Rucola Salat",
     "category": ["Salat"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 100,
@@ -27,6 +28,7 @@
   {
     "recipeName": "Griechischer Salat",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -64,6 +66,7 @@
   {
     "recipeName": "Grießbrei",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -83,6 +86,7 @@
   {
     "recipeName": "Pizza Seelen",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 250,
@@ -120,6 +124,7 @@
   {
     "recipeName": "Rührei mit Speck",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 150,
@@ -151,6 +156,7 @@
   {
     "recipeName": "Bratkartoffeln",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 0.5,
@@ -170,6 +176,7 @@
   {
     "recipeName": "Früchtemüsli",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 3000,
@@ -213,6 +220,7 @@
   {
     "recipeName": "Spaghetti Carbonara",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 150,
@@ -250,6 +258,7 @@
   {
     "recipeName": "Pfannenkuchen",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 3,
@@ -281,7 +290,7 @@
         "name": "Marmelade",
         "department": "Haltbar"
       },
-       {
+      {
         "amount": 1,
         "unit": "",
         "name": "Bananen",
@@ -293,6 +302,7 @@
   {
     "recipeName": "Käsespätzle",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 500,
@@ -324,6 +334,7 @@
   {
     "recipeName": "Schweizer Wurstsalat",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 200,
@@ -349,6 +360,7 @@
   {
     "recipeName": "Spiegelei mit Kartoffelsalt",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 0.8,
@@ -374,6 +386,7 @@
   {
     "recipeName": "Zitronenkuchen",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 250,
@@ -435,6 +448,7 @@
   {
     "recipeName": "Marmorkuchen",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 375,
@@ -484,6 +498,7 @@
   {
     "recipeName": "Gemüse-Quiche",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 200,
@@ -533,6 +548,7 @@
   {
     "recipeName": "Spinat-Lachs Quiche",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 200,
@@ -582,6 +598,7 @@
   {
     "recipeName": "Linsenlassagne",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 500,
@@ -649,6 +666,7 @@
   {
     "recipeName": "Spätzle",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 400,
@@ -668,6 +686,7 @@
   {
     "recipeName": "Gemüsepfanne",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 2,
@@ -711,6 +730,7 @@
   {
     "recipeName": "Erbsensuppe",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1000,
@@ -760,6 +780,7 @@
   {
     "recipeName": "Spaghetti mit kalter Tomatensauce",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 250,
@@ -797,6 +818,7 @@
   {
     "recipeName": "Nudeln mit Pilzsauce",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 250,
@@ -846,6 +868,7 @@
   {
     "recipeName": "Gnocchi in Gorgonzola-Sauce",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 400,
@@ -895,6 +918,7 @@
   {
     "recipeName": "Linsen mit Wienerle für Linsen mit Spätzle",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 250,
@@ -956,6 +980,7 @@
   {
     "recipeName": "Abendbrot",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -999,6 +1024,7 @@
   {
     "recipeName": "Vanillepudding",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -1030,6 +1056,7 @@
   {
     "recipeName": "Provenzalisches Huhn",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 3,
@@ -1079,6 +1106,7 @@
   {
     "recipeName": "Käse-Zwiebel Empanadas",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 350,
@@ -1122,6 +1150,7 @@
   {
     "recipeName": "Empanadas Cordobesas",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 500,
@@ -1177,6 +1206,7 @@
   {
     "recipeName": "Grünkohl mit Pinkel",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -1202,6 +1232,7 @@
   {
     "recipeName": "Himbeer-Bananen Joghurt",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -1227,6 +1258,7 @@
   {
     "recipeName": "Grüner Salat mit Thunfisch",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -1264,6 +1296,7 @@
   {
     "recipeName": "Bohnensalat",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 2,
@@ -1295,6 +1328,7 @@
   {
     "recipeName": "Minestrone",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 0.5,
@@ -1326,6 +1360,7 @@
   {
     "recipeName": "Reis mit Cardamon",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 500,
@@ -1345,6 +1380,7 @@
   {
     "recipeName": "Senfeier mit Reis",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 6,
@@ -1376,6 +1412,7 @@
   {
     "recipeName": "Bruchetta",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -1413,6 +1450,7 @@
   {
     "recipeName": "Linsensuppe",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 500,
@@ -1450,6 +1488,7 @@
   {
     "recipeName": "Blumenkohlauflauf",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 500,
@@ -1505,6 +1544,7 @@
   {
     "recipeName": "Weißwürste",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 4,
@@ -1530,6 +1570,7 @@
   {
     "recipeName": "Gedünstetes Gemüse",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -1549,6 +1590,7 @@
   {
     "recipeName": "Hackfleischlasagne",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 800,
@@ -1610,6 +1652,7 @@
   {
     "recipeName": "Tomaten-Mozarella",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 500,
@@ -1635,6 +1678,7 @@
   {
     "recipeName": "Halloumi mit Rosmarin",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 300,
@@ -1666,6 +1710,7 @@
   {
     "recipeName": "Fleischküchle",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 500,
@@ -1697,6 +1742,7 @@
   {
     "recipeName": "Tagliatelle in Butter",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 250,
@@ -1728,6 +1774,7 @@
   {
     "recipeName": "Forellen-Dip",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -1765,6 +1812,7 @@
   {
     "recipeName": "Spaghetti Bolognese",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 2,
@@ -1832,6 +1880,7 @@
   {
     "recipeName": "Eingelegte Tomaten",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 500,
@@ -1857,6 +1906,7 @@
   {
     "recipeName": "Guacamole",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 2,
@@ -1888,6 +1938,7 @@
   {
     "recipeName": "Maultaschensuppe",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 4,
@@ -1907,6 +1958,7 @@
   {
     "recipeName": "Fischstäbchen",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -1938,6 +1990,7 @@
   {
     "recipeName": "Obstsalat",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -1969,6 +2022,7 @@
   {
     "recipeName": "Ofengemüse",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 500,
@@ -2012,6 +2066,7 @@
   {
     "recipeName": "Zitronennudeln mit Hähnchen",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 500,
@@ -2061,6 +2116,7 @@
   {
     "recipeName": "Piccard",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 2,
@@ -2086,6 +2142,7 @@
   {
     "recipeName": "Kartoffel Champignon Omlett",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 0.5,
@@ -2111,6 +2168,7 @@
   {
     "recipeName": "Tarte au citron",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 200,
@@ -2148,6 +2206,7 @@
   {
     "recipeName": "Zitroneneis mit Obstler",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 250,
@@ -2167,6 +2226,7 @@
   {
     "recipeName": "Apple Crumble",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 150,
@@ -2198,6 +2258,7 @@
   {
     "recipeName": "Gurkensalat",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -2229,6 +2290,7 @@
   {
     "recipeName": "Fruchtsäfte",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
@@ -2254,6 +2316,7 @@
   {
     "recipeName": "Linsensalat",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 200,
@@ -2303,6 +2366,7 @@
   {
     "recipeName": "Gulasch",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1000,
@@ -2322,6 +2386,7 @@
   {
     "recipeName": "Tagliatelle mit Brokkoli und Pesto",
     "category": ["Archiv"],
+    "priority": 2,
     "ingredients": [
       {
         "amount": 1,
