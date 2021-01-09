@@ -2426,5 +2426,403 @@
       }
     ],
     "comment": "Kartoffeln mit Schäler in feine Scheiben schneiden. Brokkoli in keline Röschen zerteilen. Strunk ebenso in feine Scheiben reiben. Parmesan reiben. Basilikumblätter waschen - ohne Stiele. Tagliatelle mit Brokklischeiben in Salzwasser garen. 2 Minuten vor Ende Brokkoli Röschen und Kartoffel dazugeben. Abseien, etwas Wasser auffangen. Hälfte Basilikum, Hälfte Parmesan mit allem anderne vermischen. Basilikum und Pesto als Garnitur."
+  },
+  {
+    "recipeName": "Lebensmittel-Grundausstattung",
+    "priority": "3",
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Salz",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Zucker",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Mehl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Muskatnüsse",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Pfeffer",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Regelmäßig prüfen, ob noch alles vorhanden ist."
+  },
+  {
+    "recipeName": "Gebratener Reis mit Ei, Erbsen",
+    "priority": "1",
+    "ingredients": [
+      {
+        "amount": "300",
+        "unit": "",
+        "name": "Reis",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "4",
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Erbsen",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Reis kochen. "
+  },
+  {
+    "recipeName": "Handkäse mit Musik",
+    "priority": "2",
+    "ingredients": [
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "Harzer Käse",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "3",
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Lecker!"
+  },
+  {
+    "recipeName": "Überbackene Käsebrote",
+    "priority": "2",
+    "ingredients": [
+      {
+        "amount": "0",
+        "unit": "",
+        "name": "Helles Brot",
+        "department": "Bäcker"
+      },
+      {
+        "amount": "200",
+        "unit": "",
+        "name": "Magerer Käse",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "200",
+        "unit": "",
+        "name": "Schinken",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "200",
+        "unit": "",
+        "name": "Tomaten",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Bei 180 Grad im Backofen ca. 10 Minuten."
+  },
+  {
+    "recipeName": "Linsenaufstrich",
+    "priority": "1",
+    "ingredients": [
+      {
+        "amount": "500",
+        "unit": "",
+        "name": "Linsen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Zwiebeln grob schneiden und anbraten. Linsen dann dazugeben und mit Wasser gar kochen."
+  },
+  {
+    "recipeName": "Mais Reis Scheiß",
+    "priority": "2",
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Mais",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Erbsen",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": "500",
+        "unit": "",
+        "name": "Reis",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "500",
+        "unit": "",
+        "name": "Hackfleisch",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment": "Reis kochen. Hackfleisch anbraten. Mais dazu. Tiefkühlerbsen dazu. Mit Sojasauce verfeinern."
+  },
+  {
+    "recipeName": "Buchstabensuppe, Nudelsuppe",
+    "priority": "1",
+    "ingredients": [
+      {
+        "amount": "250",
+        "unit": "",
+        "name": "Buchstabennudeln",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Karotte",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Kartoffel",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Petersilie",
+        "department": "Tiefkühl"
+      }
+    ],
+    "comment": "Kann auch mit anderen Gemüsen gemacht werden."
+  },
+  {
+    "recipeName": "Gemüsesuppe",
+    "priority": "1",
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "500",
+        "unit": "",
+        "name": "Karotten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Grüne Bohnen",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": "4",
+        "unit": "",
+        "name": "Wiener",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment": "Die Wiener in Scheibchen schneiden und anschließend dazu geben."
+  },
+  {
+    "recipeName": "Gemüsebrühe mit Grießklöschen",
+    "priority": "1",
+    "ingredients": [
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "verschiedenes Gemüse auskochen (viel Kartoffeln)",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "750",
+        "unit": "",
+        "name": "Milch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "300",
+        "unit": "",
+        "name": "Grieß",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "100",
+        "unit": "",
+        "name": "Butter",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "3",
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Milch, Salz, Muskat und Butter zum Kochen bringen. Dann Grieß rein. Nach abkühlen Eier hineinarbeiten. Dann mit Teelöffeln Glößchen machen"
+  },
+  {
+    "recipeName": "Grüne Bohnen mit Speck",
+    "priority": "2",
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Grüne Bohnen",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": "200",
+        "unit": "",
+        "name": "Speckwürfel",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Bohnen kochen. Die Zwiebeln mit dem Speck in Butter glasieren. Dann Bohnen dazugeben und wenden."
+  },
+  {
+    "recipeName": "Kartoffelpüree",
+    "priority": "1",
+    "ingredients": [
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "200",
+        "unit": "",
+        "name": "Butter",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "200",
+        "unit": "",
+        "name": "Milch",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment": "Geschälte Kartoffeln kochen. Dann durch den Spätzlesdrücker. Muskat, Salz und Milch dazu."
+  },
+  {
+    "recipeName": "Reisbrei mit Zimt und Zucker",
+    "priority": "2",
+    "ingredients": [
+      {
+        "amount": "2000",
+        "unit": "",
+        "name": "Milch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "500",
+        "unit": "",
+        "name": "Milchreis",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Zimt",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Milch mit einer Brise Salz aufkochen. Mit Zucker und Zimt mischen."
+  },
+  {
+    "recipeName": "Spiegelei mit Kartoffeln und Spinat",
+    "priority": "2",
+    "ingredients": [
+      {
+        "amount": "5",
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": "500",
+        "unit": "",
+        "name": "Blattspinat",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Zwiebel",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Geschälte Kartoffel kochen. Zwiebeln schälen und andünsten. Blattspinat dazu. Spiegelei braten."
+  },
+  {
+    "recipeName": "Würste mit Rotkohl und Kartoffeln",
+    "priority": "2",
+    "ingredients": [
+      {
+        "amount": "4",
+        "unit": "",
+        "name": "Rauchenden",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Rotkohl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Geht schnell!"
   }
 ]
