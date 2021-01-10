@@ -136,7 +136,7 @@ var vm = new Vue({
             this.selectedRecipes[i].ingredients[j].name +
             "\n";
         }
-        a += '"' + this.selectedRecipes[i].comment + '"' + "\n\n";
+        a += '"' + this.selectedRecipes[i].comment + ' Priorität ' + this.selectedRecipes[i].priority + '"' + "\n\n";
       }
       return a;
     },
@@ -145,5 +145,3 @@ var vm = new Vue({
     }
   }
 });
-
-// Neue Rezepte:  Gulasch von Alex MG, Karottensalat, Kartoffel-Karottensuppe, Mousse au Chocolat, Tomaten Mozarella
