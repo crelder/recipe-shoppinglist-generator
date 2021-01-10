@@ -1,9 +1,9 @@
 /* Read JSON-File from Server */
-let importedRecipes;
+let x;
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
-    importedRecipes = JSON.parse(this.responseText);
+    x = JSON.parse(this.responseText);
   }
 };
 
@@ -15,65 +15,34 @@ xmlhttp.open(
 
 xmlhttp.send();
 
-// Use the hereby added recipe.selected Property to select/unselect recipes in the GUI 
-// and to define the shopping list.
-importedRecipes.forEach(function(recipe, index) {
+// Use the hereby added recipe.selected Property to select/unselect recipes in the GUI and to define the shopping list.
+x.forEach(function(recipe, index) {
   recipe.selected = false;
 });
-
-function getRecipeCollection() {
-  recipes = [];
-  // We want to randomize the recipices, 
-  // so that each time we look at it other recipes catch our attention, 
-  // therefore hopefully creating diversity in our nutrition.
-  importedRecipes.sort(function() {
-    return 0.5 - Math.random();
-  });
-  
-  uniquePriorities = getUniquePriorities();
-  uniquePriorities.forEach(priority => {
-    recipes.push(importedRecipes.filter(function(recipe) {
-      // console.log(recipe, priority);
-      return recipe.priority == priority;
-    }));
-  });
-  // Flatten array
-  recipes = [].concat(...recipes);
-
-  return recipes;
-}
-
-function getUniquePriorities() {
-  priorities = importedRecipes.map(function(recipe) {
-    return parseInt(recipe.priority);
-  })
-  uniquePriorities = [...new Set(priorities)];
-  return uniquePriorities.sort();
-}
-
 // Random order of recipes
-const recipeCollection = getRecipeCollection();
+const recipeCollection = x.sort(function() {
+  return 0.5 - Math.random();
+});
 /* --------------------------- */
 
-function filterSelectedAndAggregateAmounts(recipes) {
-  const ingredients = {};
+function filterSelectedMakeUnique(recipes) {
+  const ings = {};
 
-  counter = 1;
   recipes.filter(recipe => recipe.selected == true).forEach(receipe => {
     receipe.ingredients.forEach(ing => {
-      if (!ingredients[ing.name]) {
-        ingredients[ing.name] = {
+      if (!ings[ing.name]) {
+        ings[ing.name] = {
           unit: ing.unit,
           amount: ing.amount,
           department: ing.department
         };
       } else {
-        ingredients[ing.name].amount = ingredients[ing.name].amount + ing.amount;
+        ings[ing.name].amount = ings[ing.name].amount + ing.amount;
       }
     });
   });
 
-  return ingredients;
+  return ings;
 }
 
 /* --------- VUE component------------*/
@@ -105,16 +74,19 @@ var vm = new Vue({
   computed: {
     shoppingList: function() {
       let recipes = this.recipes;
-      const ingredients = filterSelectedAndAggregateAmounts(recipes);
+      const ingredients = filterSelectedMakeUnique(recipes);
+      console.log("ingredients", JSON.stringify(ingredients, null, 2));
       const lst = Object.keys(ingredients).map(name => ({
         name: name,
         unit: ingredients[name].unit,
         amount: ingredients[name].amount,
         department: ingredients[name].department
       }));
+      console.log("lst", JSON.stringify(lst, null, 2));
       const sortedByDepartment = lst.sort(
         (l, r) => (l.department <= r.department ? -1 : 1)
       );
+      // console.log("sorted", JSON.stringify(sortedByDepartment, null, 2));
 
       return sortedByDepartment.map(
         ing => `${ing.amount} ${ing.unit} ${ing.name}`
@@ -136,7 +108,7 @@ var vm = new Vue({
     },
     clipboardMenues: function() {
       date = new Date();
-      let output =
+      let a =
         "Menüliste ab dem " +
         date.toLocaleDateString("de-DE", {
           weekday: "short",
@@ -151,22 +123,22 @@ var vm = new Vue({
           .toUpperCase() +
         "\n\n";
       for (var i = 0; i < this.selectedRecipes.length; i++) {
-        output +=
+        a +=
           this.selectedRecipes[i].recipeName.toUpperCase() +
           "\n" +
           "--------------------" +
           "\n";
         for (var j = 0; j < this.selectedRecipes[i].ingredients.length; j++) {
-          output +=
+          a +=
             this.selectedRecipes[i].ingredients[j].amount +
             this.selectedRecipes[i].ingredients[j].unit +
             " " +
             this.selectedRecipes[i].ingredients[j].name +
             "\n";
         }
-        output += '"' + this.selectedRecipes[i].comment + ' Priorität ' + this.selectedRecipes[i].priority + '"' + "\n\n";
+        a += '"' + this.selectedRecipes[i].comment + ' Priorität ' + this.selectedRecipes[i].priority + '"' + "\n\n";
       }
-      return output;
+      return a;
     },
     selectedRecipes: function() {
       return this.recipes.filter(recipe => recipe.selected == true);
