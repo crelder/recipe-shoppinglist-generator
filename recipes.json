@@ -2470,7 +2470,7 @@
     "ingredients": [
       {
         "amount": "300",
-        "unit": "",
+        "unit": "g",
         "name": "Reis",
         "department": "Haltbar"
       },
