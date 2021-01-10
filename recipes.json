@@ -2519,7 +2519,7 @@
     "priority": "2",
     "ingredients": [
       {
-        "amount": "0",
+        "amount": "1",
         "unit": "",
         "name": "Helles Brot",
         "department": "Bäcker"
