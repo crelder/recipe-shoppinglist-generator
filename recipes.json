@@ -323,7 +323,7 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 300,
+        "amount": 200,
         "unit": "g",
         "name": "Bergkäse",
         "department": "Kühlregal"
@@ -381,7 +381,7 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment": "Den Kartoffelsalat einen Tag vorher machen! (Vorwiegend) Festkochend. Kartoffeln in der Schale kochen. Schälen. In Scheiben schneiden. Wasser heiß machen mit Gemüsebrühe, Senf, Salz, Pfeffer, Prise Zucker, heller Essig (kein Balsamico) und gehackte Zwiebeln (werden dadurch milder). Die Brühe über die Kartoffeln schütten und umrühren. Stehen lassen: 15 min (Kartoffeln ziehen das auf). Dann Öl darüber (Öl schließt das ab.)."
+    "comment": "Den Kartoffelsalat einen Tag vorher machen! Wenig Senf, viel Salz. (Vorwiegend) Festkochend. Kartoffeln in der Schale kochen. Schälen. In Scheiben schneiden. Wasser heiß machen mit Gemüsebrühe, Senf, Salz, Pfeffer, Prise Zucker, heller Essig (kein Balsamico) und gehackte Zwiebeln (werden dadurch milder). Die Brühe über die Kartoffeln schütten und umrühren. Stehen lassen: 15 min (Kartoffeln ziehen das auf). Dann Öl darüber (Öl schließt das ab.)."
   },
   {
     "recipeName": "Zitronenkuchen",
@@ -877,13 +877,13 @@
         "department": "Kühlregal"
       },
       {
-        "amount": 160,
+        "amount": 100,
         "unit": "g",
         "name": "Gorgonzola",
         "department": "Kühlregal"
       },
       {
-        "amount": 80,
+        "amount": 50,
         "unit": "ml",
         "name": "Sahne",
         "department": "Kühlregal"
@@ -895,7 +895,7 @@
         "department": "Kühlregal"
       },
       {
-        "amount": 80,
+        "amount": 150,
         "unit": "ml",
         "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
@@ -1045,13 +1045,13 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 1,
-        "unit": "Gläser",
-        "name": "Marmelade",
-        "department": "Haltbar"
+        "amount": 0.5,
+        "unit": "Packung",
+        "name": "Himbeeren",
+        "department": "Tiefkühl"
       }
     ],
-    "comment": "Geht schnell. Gut als Nachtisch."
+    "comment": "Geht schnell. Gut als Nachtisch. Kurz Vanillepudding ruhen lassen, dann gefrorene Himbeeren drauf."
   },
   {
     "recipeName": "Provenzalisches Huhn",
@@ -1355,7 +1355,7 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment": "Gemüse anbraten. Salz Pfeffer. Dann 3 Stunden bei sehr niedriger Temperatur köcheln lassen (nicht zu heiß, da sonst das Gemüse auseinander fällt!). Abkühlen lassen. Dann vor dem Servieren nochmals vorsichtig auftauen lassen."
+    "comment": "Gemüse anbraten. Gemüsebrühe dazu. Salz Pfeffer. Dann 3 Stunden bei sehr niedriger Temperatur köcheln lassen (nicht zu heiß, da sonst das Gemüse auseinander fällt!). Abkühlen lassen. Dann vor dem Servieren nochmals vorsichtig auftauen lassen."
   },
   {
     "recipeName": "Reis mit Cardamon",
@@ -2140,70 +2140,6 @@
     "comment": "Kartoffeln reiben. Mit Zutaten zu Teig verarbeiten und Salz dazu."
   },
   {
-    "recipeName": "Kartoffel Champignon Omlett",
-    "category": ["Archiv"],
-    "priority": 2,
-    "ingredients": [
-      {
-        "amount": 0.5,
-        "unit": "kg",
-        "name": "Kartoffeln",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 6,
-        "unit": "",
-        "name": "Eier",
-        "department": "Haltbar"
-      },
-      {
-        "amount": 300,
-        "unit": "g",
-        "name": "Champignon",
-        "department": "Obst- und Gemüse"
-      }
-    ],
-    "comment": "Noch nicht vollständig!"
-  },
-  {
-    "recipeName": "Tarte au citron",
-    "category": ["Archiv"],
-    "priority": 2,
-    "ingredients": [
-      {
-        "amount": 200,
-        "unit": "g",
-        "name": "Zucker",
-        "department": "Haltbar"
-      },
-      {
-        "amount": 5,
-        "unit": "",
-        "name": "Eier",
-        "department": "Kühlregal"
-      },
-      {
-        "amount": 120,
-        "unit": "g",
-        "name": "Butter",
-        "department": "Kühlregal"
-      },
-      {
-        "amount": 2,
-        "unit": "",
-        "name": "Zitronen (unbehandelt)",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 3,
-        "unit": "",
-        "name": "Zitronen",
-        "department": "Obst- und Gemüse"
-      }
-    ],
-    "comment": "Noch unvollständig! 1 EL Speisestärke, die Schale von 1 1/2 ungespritzt Zitronen. Ofen auf 180^C vorheizen. Den kalten Teig in ein gut gefette Tarteform. Löcher mit Gabel in den Teig. 15-20 Minuten. Simple et authentique, la tarte au citron est un dessert emblématique du sud de la France. Elle offre une crème au citron légèrement acidulée avec un goût intense."
-  },
-  {
     "recipeName": "Zitroneneis mit Obstler",
     "category": ["Archiv"],
     "priority": 2,
@@ -2389,25 +2325,25 @@
     "priority": 2,
     "ingredients": [
       {
-        "amount": 1,
+        "amount": 2,
         "unit": "",
         "name": "Brokkoli",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 70,
+        "amount": 150,
         "unit": "g",
         "name": "Parmesan",
         "department": "Kühlregal"
       },
       {
-        "amount": 400,
+        "amount": 750,
         "unit": "g",
         "name": "Tagliatelle",
         "department": "Hatlbar"
       },
       {
-        "amount": 4,
+        "amount": 8,
         "unit": "EL",
         "name": "Pesto",
         "department": "Haltbar"
@@ -2419,7 +2355,7 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 1,
+        "amount": 2,
         "unit": "",
         "name": "Kartoffeln",
         "department": "Obst- und Gemüse"
@@ -2459,6 +2395,24 @@
         "amount": 1,
         "unit": "Packung",
         "name": "Pfeffer",
+        "department": "Haltbar"
+      },
+       {
+        "amount": 1,
+        "unit": "",
+        "name": "Rapsöl",
+        "department": "Haltbar"
+      },
+       {
+        "amount": 1,
+        "unit": "",
+        "name": "Olivenöl",
+        "department": "Haltbar"
+      },
+       {
+        "amount": 1,
+        "unit": "",
+        "name": "Leinsamenöl",
         "department": "Haltbar"
       }
     ],
@@ -2565,7 +2519,7 @@
     "comment": "Zwiebeln grob schneiden und anbraten. Linsen dann dazugeben und mit Wasser gar kochen."
   },
   {
-    "recipeName": "Mais Reis Scheiß",
+    "recipeName": "Mais Reis ...",
     "priority": "2",
     "ingredients": [
       {
@@ -2644,6 +2598,18 @@
       },
       {
         "amount": 1,
+        "unit": "",
+        "name": "Kohlrabi",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Blumenkohl",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
         "unit": "Packung",
         "name": "Grüne Bohnen",
         "department": "Tiefkühl"
@@ -2655,7 +2621,7 @@
         "department": "Kühlregal"
       }
     ],
-    "comment": "Die Wiener in Scheibchen schneiden und anschließend dazu geben."
+    "comment": "Zwiebeln anbraten bis sie glasig. Dann Gemüse dazu und ab löschen mit Wasser, lediglich Gemüsebrühe dazu. Wenn die Suppe fertig ist, Gemüse da und gesalzen und Paprika, die Suppe einfach noch ruhen lassen bevor sie serviert wird. Cabanossi oder Wiener am Schluss dazu, kann auch als Ganzes in die Suppe kommen oder: Die Wiener in Scheibchen schneiden und anschließend dazu geben. Generell kann man auch mit einem Drittel Kartoffeln und übrigen Gemüse, wie Zucchini, eine Suppe machen und dann passieren."
   },
   {
     "recipeName": "Gemüsebrühe mit Grießklöschen",
@@ -2692,7 +2658,7 @@
         "department": "Haltbar"
       }
     ],
-    "comment": "Milch, Salz, Muskat und Butter zum Kochen bringen. Dann Grieß rein. Nach abkühlen Eier hineinarbeiten. Dann mit Teelöffeln Glößchen machen"
+    "comment": "Gemüse mit kaltem Wasser aufsetzen und 3 h leicht köcheln lassen. Milch, Salz, Muskat und Butter zum Kochen bringen. Dann Grieß rein. Nach abkühlen Eier hineinarbeiten. Dann mit Teelöffeln Glößchen machen"
   },
   {
     "recipeName": "Grüne Bohnen mit Speck",
