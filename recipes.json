@@ -2432,31 +2432,31 @@
     "priority": "3",
     "ingredients": [
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "kg",
         "name": "Salz",
         "department": "Haltbar"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "kg",
         "name": "Zucker",
         "department": "Haltbar"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "kg",
         "name": "Mehl",
         "department": "Haltbar"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "Packung",
         "name": "Muskatnüsse",
         "department": "Haltbar"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "Packung",
         "name": "Pfeffer",
         "department": "Haltbar"
@@ -2469,25 +2469,25 @@
     "priority": "1",
     "ingredients": [
       {
-        "amount": "300",
+        "amount": 300,
         "unit": "g",
         "name": "Reis",
         "department": "Haltbar"
       },
       {
-        "amount": "4",
+        "amount": 4,
         "unit": "",
         "name": "Eier",
         "department": "Haltbar"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "Packung",
         "name": "Erbsen",
         "department": "Tiefkühl"
       },
       {
-        "amount": "2",
+        "amount": 2,
         "unit": "",
         "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
@@ -2500,13 +2500,13 @@
     "priority": "2",
     "ingredients": [
       {
-        "amount": "2",
+        "amount": 2,
         "unit": "Packungen",
         "name": "Harzer Käse",
         "department": "Kühlregal"
       },
       {
-        "amount": "3",
+        "amount": 3,
         "unit": "",
         "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
@@ -2519,25 +2519,25 @@
     "priority": "2",
     "ingredients": [
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "",
         "name": "Helles Brot",
         "department": "Bäcker"
       },
       {
-        "amount": "200",
+        "amount": 200,
         "unit": "g",
         "name": "Magerer Käse",
         "department": "Kühlregal"
       },
       {
-        "amount": "200",
+        "amount": 200,
         "unit": "g",
         "name": "Schinken",
         "department": "Kühlregal"
       },
       {
-        "amount": "200",
+        "amount": 200,
         "unit": "g",
         "name": "Tomaten",
         "department": "Obst- und Gemüse"
@@ -2550,13 +2550,13 @@
     "priority": "1",
     "ingredients": [
       {
-        "amount": "500",
+        "amount": 500,
         "unit": "g",
         "name": "Linsen",
         "department": "Haltbar"
       },
       {
-        "amount": "2",
+        "amount": 2,
         "unit": "",
         "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
@@ -2569,25 +2569,25 @@
     "priority": "2",
     "ingredients": [
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "Dose",
         "name": "Mais",
         "department": "Haltbar"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "Packung",
         "name": "Erbsen",
         "department": "Tiefkühl"
       },
       {
-        "amount": "500",
+        "amount": 500,
         "unit": "g",
         "name": "Reis",
         "department": "Haltbar"
       },
       {
-        "amount": "500",
+        "amount": 500,
         "unit": "g",
         "name": "Hackfleisch",
         "department": "Kühlregal"
@@ -2600,25 +2600,25 @@
     "priority": "1",
     "ingredients": [
       {
-        "amount": "250",
+        "amount": 250,
         "unit": "g",
         "name": "Buchstabennudeln",
         "department": "Haltbar"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "",
         "name": "Karotte",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "kg",
         "name": "Kartoffel",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "Packung",
         "name": "Petersilie",
         "department": "Tiefkühl"
@@ -2631,25 +2631,25 @@
     "priority": "1",
     "ingredients": [
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "kg",
         "name": "Kartoffeln",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": "500",
+        "amount": 500,
         "unit": "g",
         "name": "Karotten",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "Packung",
         "name": "Grüne Bohnen",
         "department": "Tiefkühl"
       },
       {
-        "amount": "4",
+        "amount": 4,
         "unit": "",
         "name": "Wiener",
         "department": "Kühlregal"
@@ -2662,31 +2662,31 @@
     "priority": "1",
     "ingredients": [
       {
-        "amount": "2",
+        "amount": 2,
         "unit": "kg",
         "name": "verschiedenes Gemüse auskochen (viel Kartoffeln)",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": "750",
+        "amount": 750,
         "unit": "ml",
         "name": "Milch",
         "department": "Kühlregal"
       },
       {
-        "amount": "300",
+        "amount": 300,
         "unit": "g",
         "name": "Grieß",
         "department": "Haltbar"
       },
       {
-        "amount": "100",
+        "amount": 100,
         "unit": "g",
         "name": "Butter",
         "department": "Kühlregal"
       },
       {
-        "amount": "3",
+        "amount": 3,
         "unit": "",
         "name": "Eier",
         "department": "Haltbar"
@@ -2699,19 +2699,19 @@
     "priority": "2",
     "ingredients": [
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "Packung",
         "name": "Grüne Bohnen",
         "department": "Tiefkühl"
       },
       {
-        "amount": "200",
+        "amount": 200,
         "unit": "g",
         "name": "Speckwürfel",
         "department": "Kühlregal"
       },
       {
-        "amount": "2",
+        "amount": 2,
         "unit": "",
         "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
@@ -2724,19 +2724,19 @@
     "priority": "1",
     "ingredients": [
       {
-        "amount": "2",
+        "amount": 2,
         "unit": "kg",
         "name": "Kartoffeln",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": "200",
+        "amount": 200,
         "unit": "g",
         "name": "Butter",
         "department": "Kühlregal"
       },
       {
-        "amount": "200",
+        "amount": 200,
         "unit": "ml",
         "name": "Milch",
         "department": "Kühlregal"
@@ -2749,19 +2749,19 @@
     "priority": "2",
     "ingredients": [
       {
-        "amount": "2000",
+        "amount": 2000,
         "unit": "ml",
         "name": "Milch",
         "department": "Kühlregal"
       },
       {
-        "amount": "500",
+        "amount": 500,
         "unit": "g",
         "name": "Milchreis",
         "department": "Haltbar"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "",
         "name": "Zimt",
         "department": "Haltbar"
@@ -2774,25 +2774,25 @@
     "priority": "2",
     "ingredients": [
       {
-        "amount": "5",
+        "amount": 5,
         "unit": "",
         "name": "Eier",
         "department": "Haltbar"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "kg",
         "name": "Kartoffeln",
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": "500",
+        "amount": 500,
         "unit": "g",
         "name": "Blattspinat",
         "department": "Tiefkühl"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "",
         "name": "Zwiebel",
         "department": "Obst- und Gemüse"
@@ -2805,19 +2805,19 @@
     "priority": "2",
     "ingredients": [
       {
-        "amount": "4",
+        "amount": 4,
         "unit": "",
         "name": "Rauchenden",
         "department": "Kühlregal"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "Glas",
         "name": "Rotkohl",
         "department": "Haltbar"
       },
       {
-        "amount": "1",
+        "amount": 1,
         "unit": "kg",
         "name": "Kartoffeln",
         "department": "Obst- und Gemüse"
