@@ -2,7 +2,7 @@
   {
     "recipeName": "Rucola Salat",
     "category": ["Salat"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 100,
@@ -28,7 +28,7 @@
   {
     "recipeName": "Griechischer Salat",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 1,
@@ -79,6 +79,18 @@
         "unit": "ml",
         "name": "Vollmilch, 3,5%",
         "department": "Kühlregal"
+      },
+      {
+        "amount": 0.5,
+        "unit": "Glas",
+        "name": "Marmelade",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Bananen",
+        "department": "Obst- und Gemüse"
       }
     ],
     "comment": "Umrühren nicht vergessen! 2,5 zu 1 Verhältnis Milch zu Gries. Zimt noch drüber streuen."
@@ -86,7 +98,7 @@
   {
     "recipeName": "Pizza Seelen",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 250,
@@ -176,7 +188,7 @@
   {
     "recipeName": "Früchtemüsli",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 3000,
@@ -220,7 +232,7 @@
   {
     "recipeName": "Spaghetti Carbonara",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 150,
@@ -334,7 +346,7 @@
   {
     "recipeName": "Schweizer Wurstsalat",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 200,
@@ -386,7 +398,7 @@
   {
     "recipeName": "Zitronenkuchen",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 250,
@@ -448,7 +460,7 @@
   {
     "recipeName": "Marmorkuchen",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 375,
@@ -498,7 +510,7 @@
   {
     "recipeName": "Gemüse-Quiche",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 200,
@@ -598,7 +610,7 @@
   {
     "recipeName": "Linsenlassagne",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 500,
@@ -686,7 +698,7 @@
   {
     "recipeName": "Gemüsepfanne",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 2,
@@ -730,7 +742,7 @@
   {
     "recipeName": "Erbsensuppe",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 1000,
@@ -868,7 +880,7 @@
   {
     "recipeName": "Gnocchi in Gorgonzola-Sauce",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 400,
@@ -1056,7 +1068,7 @@
   {
     "recipeName": "Provenzalisches Huhn",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 3,
@@ -1106,7 +1118,7 @@
   {
     "recipeName": "Käse-Zwiebel Empanadas",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 350,
@@ -1150,7 +1162,7 @@
   {
     "recipeName": "Empanadas Cordobesas",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 500,
@@ -1232,7 +1244,7 @@
   {
     "recipeName": "Himbeer-Bananen Joghurt",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 1,
@@ -1296,7 +1308,7 @@
   {
     "recipeName": "Bohnensalat",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 2,
@@ -1328,7 +1340,7 @@
   {
     "recipeName": "Minestrone",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 0.5,
@@ -1360,7 +1372,7 @@
   {
     "recipeName": "Reis mit Cardamon",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 500,
@@ -1544,7 +1556,7 @@
   {
     "recipeName": "Weißwürste",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 4,
@@ -1570,7 +1582,7 @@
   {
     "recipeName": "Gedünstetes Gemüse",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 1,
@@ -1590,7 +1602,7 @@
   {
     "recipeName": "Hackfleischlasagne",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 800,
@@ -1652,7 +1664,7 @@
   {
     "recipeName": "Tomaten-Mozarella",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 500,
@@ -1710,7 +1722,7 @@
   {
     "recipeName": "Fleischküchle",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 500,
@@ -1812,7 +1824,7 @@
   {
     "recipeName": "Spaghetti Bolognese",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 2,
@@ -1880,7 +1892,7 @@
   {
     "recipeName": "Eingelegte Tomaten",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 500,
@@ -1906,7 +1918,7 @@
   {
     "recipeName": "Guacamole",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 2,
@@ -1956,7 +1968,7 @@
     "comment": "Zwiebelringe auf niedriger Stufe und mit viel Butter schmoren. In Suppenbrühe Maultaschen (Achteln) erwärmen. Ein Schöpfer Brühe in Pfanne geben."
   },
   {
-    "recipeName": "Fischstäbchen",
+    "recipeName": "Fischstäbchen mit Reis und Erbsen",
     "category": ["Archiv"],
     "priority": 2,
     "ingredients": [
@@ -1983,9 +1995,15 @@
         "unit": "",
         "name": "Remoulade",
         "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Packung",
+        "name": "Tiefkühlerbsen",
+        "department": "Tiefkühl"
       }
     ],
-    "comment": "Fischstäbchen auf niedriger Stufe braten. Basmati Reis dazu. Soja Sauce und Remoulade ist lecker."
+    "comment": "Reis aufsetzen. Fischstäbchen auf niedriger Stufe braten. Erbsen kochen. Basmati Reis dazu. Soja Sauce und Remoulade ist lecker."
   },
   {
     "recipeName": "Obstsalat",
@@ -2022,7 +2040,7 @@
   {
     "recipeName": "Ofengemüse",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 500,
@@ -2116,7 +2134,7 @@
   {
     "recipeName": "Piccard",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 2,
@@ -2142,7 +2160,7 @@
   {
     "recipeName": "Zitroneneis mit Obstler",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 250,
@@ -2162,7 +2180,7 @@
   {
     "recipeName": "Apple Crumble",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 150,
@@ -2226,7 +2244,7 @@
   {
     "recipeName": "Fruchtsäfte",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 1,
@@ -2252,7 +2270,7 @@
   {
     "recipeName": "Linsensalat",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 200,
@@ -2298,26 +2316,6 @@
       }
     ],
     "comment": "Alles mischen mit Dressing (1 Knoblauchzehe, 3 EL Balsamico, 3 TL Senf, 4 EL Olivenöl, Salz und Pfeffer). 10 Minuten ziehen lassen. Oben Petersilie drauf."
-  },
-  {
-    "recipeName": "Gulasch",
-    "category": ["Archiv"],
-    "priority": 2,
-    "ingredients": [
-      {
-        "amount": 1000,
-        "unit": "g",
-        "name": "Rinderhesse",
-        "department": "Kühlregal"
-      },
-      {
-        "amount": 1000,
-        "unit": "g",
-        "name": "Zwiebeln",
-        "department": "Obst- und Gemüse"
-      }
-    ],
-    "comment": "Noch unvollständig! Fleisch in Würfel von 3-4 cm schneiden und salzen. Zwiebeln vierteln und in Scheiben schneiden und in Schweineschmalz langsam rösten bis karemelbraun (Aluminiumtop oder Gußeisern)."
   },
   {
     "recipeName": "Tagliatelle mit Brokkoli und Pesto",
@@ -2470,7 +2468,7 @@
   },
   {
     "recipeName": "Überbackene Käsebrote",
-    "priority": "2",
+    "priority": "3",
     "ingredients": [
       {
         "amount": 1,
