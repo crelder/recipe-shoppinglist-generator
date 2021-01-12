@@ -58,7 +58,8 @@ function filterSelectedAndAggregateAmounts(recipes) {
   const ingredients = {};
 
   counter = 1;
-  recipes.filter(recipe => recipe.selected == true).forEach(receipe => {
+  filteredRecipes = recipes.filter(recipe => recipe.selected == true)
+  filteredRecipes.forEach(receipe => {
     receipe.ingredients.forEach(ing => {
       if (!ingredients[ing.name]) {
         ingredients[ing.name] = {
@@ -111,8 +112,11 @@ var vm = new Vue({
         amount: ingredients[name].amount,
         department: ingredients[name].department
       }));
+      lst.sort(
+        (l, r) => (l.name <= r.name ? -1 : 1)
+      );
       const sortedByDepartment = lst.sort(
-        (l, r) => (l.department <= r.department ? -1 : 1)
+        (l, r) => (l.department <= r.department ? 1 : -1)
       );
 
       return sortedByDepartment.map(
@@ -156,8 +160,8 @@ var vm = new Vue({
           "--------------------" +
           "\n";
         for (var j = 0; j < this.selectedRecipes[i].ingredients.length; j++) {
-          output +=
-            this.selectedRecipes[i].ingredients[j].amount +
+          output += 
+            this.selectedRecipes[i].ingredients[j].amount + " " +
             this.selectedRecipes[i].ingredients[j].unit +
             " " +
             this.selectedRecipes[i].ingredients[j].name +
