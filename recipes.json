@@ -1493,6 +1493,12 @@
         "unit": "g",
         "name": "Suppenfleisch (Beinscheibe)",
         "department": "Kühlregal"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Dicke Würste",
+        "department": "Kühlregal"
       }
     ],
     "comment": "Zwiebeln, Suppengrün kleinschneiden, weil es drin bleibt. Alles gleichzeitig rein und mit kaltem Wasser auffüllen (mindestens 3 Liter). Aufkochen und dann 1,5-2 Stunden köcheln lassen. Pfeffer, Schuss Essig, etwas Zucker, Salz am Ende abschecken (weil die Würste sehr salzig sind). Fett kann man abschöpfen. Fleisch von Suppenfleisch ablösen und das beste Fleisch noch verwenden."
@@ -2043,7 +2049,7 @@
     "priority": 1,
     "ingredients": [
       {
-        "amount": 500,
+        "amount": 0.5,
         "unit": "kg",
         "name": "Kartoffeln",
         "department": "Obst- und Gemüse"
@@ -2363,7 +2369,7 @@
   },
   {
     "recipeName": "Lebensmittel-Grundausstattung",
-    "priority": "3",
+    "priority": "5",
     "ingredients": [
       {
         "amount": 1,
