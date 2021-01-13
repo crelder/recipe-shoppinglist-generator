@@ -138,6 +138,9 @@ var vm = new Vue({
       );
     },
     clipboardMenues: function() {
+      let selectedRecipesSorted = this.selectedRecipes
+      .sort( (l, r) => (l.recipeName >= r.recipeName ? 1 : -1) )
+      .sort( (l, r) => (l.priority >= r.priority ? 1 : -1) )
       date = new Date();
       let output =
         "Menüliste ab dem " +
@@ -148,26 +151,26 @@ var vm = new Vue({
           day: "numeric"
         }) +
         ":\n" +
-        this.selectedRecipes
+        selectedRecipesSorted
           .map(recipe => recipe.recipeName)
           .join(", ")
           .toUpperCase() +
         "\n\n";
-      for (var i = 0; i < this.selectedRecipes.length; i++) {
+      for (var i = 0; i < selectedRecipesSorted.length; i++) {
         output +=
-          this.selectedRecipes[i].recipeName.toUpperCase() +
+          selectedRecipesSorted[i].recipeName.toUpperCase() +
           "\n" +
           "--------------------" +
           "\n";
-        for (var j = 0; j < this.selectedRecipes[i].ingredients.length; j++) {
+        for (var j = 0; j < selectedRecipesSorted[i].ingredients.length; j++) {
           output += 
-            this.selectedRecipes[i].ingredients[j].amount + " " +
-            this.selectedRecipes[i].ingredients[j].unit +
+            selectedRecipesSorted[i].ingredients[j].amount + " " +
+            selectedRecipesSorted[i].ingredients[j].unit +
             " " +
-            this.selectedRecipes[i].ingredients[j].name +
+            selectedRecipesSorted[i].ingredients[j].name +
             "\n";
         }
-        output += '"' + this.selectedRecipes[i].comment + ' Priorität ' + this.selectedRecipes[i].priority + '"' + "\n\n";
+        output += '\n"' + selectedRecipesSorted[i].comment + ' Priorität ' + selectedRecipesSorted[i].priority + '"' + "\n\n\n";
       }
       return output;
     },
