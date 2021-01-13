@@ -2401,19 +2401,19 @@
         "name": "Pfeffer",
         "department": "Haltbar"
       },
-       {
+      {
         "amount": 1,
         "unit": "",
         "name": "Rapsöl",
         "department": "Haltbar"
       },
-       {
+      {
         "amount": 1,
         "unit": "",
         "name": "Olivenöl",
         "department": "Haltbar"
       },
-       {
+      {
         "amount": 1,
         "unit": "",
         "name": "Leinsamenöl",
@@ -2794,5 +2794,152 @@
       }
     ],
     "comment": "Geht schnell!"
+  },
+  {
+    "recipeName": "Pellkartoffeln mit Quark",
+    "priority": 1,
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "Quark",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Möhren",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Paprika (rote und gelbe)",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Bund",
+        "name": "Frischer Schnittlauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Knoblauchzehe",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Kresse",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Kartoffeln kochen. Möhren fein raspeln, Zwiebeln sehr fein würfeln. Dabei den Quark mit Zutaten verrühren und mit Kräutersalz, Pfeffer, Petersilie, Schnittlauch, etwas Knoblauch, Paprikapulver, im Frühjahr Bärlauch abschmecken."
+  },
+  {
+    "recipeName": "Linsen-Aufstrich",
+    "priority": 1,
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "Linsen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 450,
+        "unit": "g",
+        "name": "Lauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 450,
+        "unit": "g",
+        "name": "Champignons",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 6,
+        "unit": "EL",
+        "name": "Rapsöl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "Cocktailtomaten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 8,
+        "unit": "",
+        "name": "Lorbeerblätter",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Knoblauch",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Linsen (Sorte: du Puy), über Nacht im Topf in 0.75l Wasser quellen lassen. Linsen im Einweichwasser mit Lorbeerblättern ca. 30 min köcheln lassen. Zwiebeln würfeln. Lauch und Champignons, jeweils in dünne Streifen bzw. Scheiben schneiden und fein hacken. Lorbeerblätter entfernen und cremig pürieren. Würzen mit Knoblauch, Petersilie, Sojasauce, Majoran, Salz, Gemüsebrühe, etc. Cocktailtomaten zum garnieren."
+  },
+  {
+    "recipeName": "Champignon-Lauch-Aufstrich",
+    "priority": 1,
+    "ingredients": [
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "Lauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "name": "Champignons",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "Grünkern",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 60,
+        "unit": "g",
+        "name": "Schmand oder Creme fraiche",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment": "Lauch, Champignons (in dünne Scheiben schneiden und fein hacken) und Zwiebeln (würfeln) mit dem Grünkernmehl (fein mahlen) in einer beschiteten Pfanne mit Deckel 3-4 Min. leicht köcheln, die Herdplatte abschalten und 5 Min. nachquellen lassen. Den Aufstrich mit Schmand oder Walnussöl und Gewürzen wie Gemüsebrühe, Asia, Kräutersalz, Majoran, Petersilie, evtl. Knoblauch abschmecken und mit z.B. Kressesprossen garnieren."
   }
 ]
