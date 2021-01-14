@@ -66,7 +66,7 @@
   {
     "recipeName": "Grießbrei",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 1,
@@ -93,7 +93,7 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment": "Umrühren nicht vergessen! 2,5 zu 1 Verhältnis Milch zu Gries. Zimt noch drüber streuen."
+    "comment": "Umrühren nicht vergessen! 2,5 zu 1 Verhältnis Milch zu Gries. Zimt noch drüber streuen. Kategorie 1, wenn nur mit Zimt und ETWAS Zucker, und viel Obst."
   },
   {
     "recipeName": "Pizza Seelen",
@@ -129,19 +129,31 @@
         "unit": "",
         "name": "Seelen",
         "department": "Bäcker"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Karotten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Rote Paprika",
+        "department": "Obst- und Gemüse"
       }
     ],
-    "comment": "Kann man statt mit Seelen auch mit Brotscheiben machen. Käse und Schinken in würfeln. Reibekäse: Gouda Mittelalt. Pizzagewürz, Salz, Pfeffer."
+    "comment": "Möhren rapseln, Paprika klein schneiden. Kann man statt mit Seelen auch mit Brotscheiben machen. Käse und Schinken in würfeln. Reibekäse: Gouda Mittelalt. Pizzagewürz, Salz, Pfeffer."
   },
   {
-    "recipeName": "Rührei mit Speck",
+    "recipeName": "Rührei mit Kochschinken",
     "category": ["Archiv"],
     "priority": 2,
     "ingredients": [
       {
         "amount": 150,
         "unit": "g",
-        "name": "Speckwürfel",
+        "name": "Kochschinken",
         "department": "Kühlregal"
       },
       {
@@ -151,7 +163,7 @@
         "department": "Haltbar"
       },
       {
-        "amount": 100,
+        "amount": 25,
         "unit": "g",
         "name": "Parmesan",
         "department": "Kühlregal"
@@ -163,12 +175,12 @@
         "department": "Tiefkühl"
       }
     ],
-    "comment": "Geht auch als Mittag oder Abendessen. Gehaltvoll."
+    "comment": "Mit Rauchsalz salzen (für Speck Geschmack). Geht auch als Mittag oder Abendessen. Gehaltvoll."
   },
   {
-    "recipeName": "Bratkartoffeln",
+    "recipeName": "Bratkartoffeln mit Sauren Gurken und Karottensalat",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 0.5,
@@ -177,13 +189,25 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 1,
+        "amount": 2,
         "unit": "",
         "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Glas",
+        "name": "Saure Gurken",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "Karotten",
+        "department": "Haltbar"
       }
     ],
-    "comment": "Gehackte Zwiebeln in Fett anbraten. Gute Pfanne, damit es nicht einbackt. Geht auch als Mittag oder Abendessen. Gehaltvoll."
+    "comment": "Gehackte Zwiebeln (eine!) in Fett anbraten. Gute Pfanne, damit es nicht einbackt. Geht auch als Mittag oder Abendessen. Kartoffeln raspeln, kleine Zwiebel würfeln. Mit Salz, Essig und Öl anmachen. Mit Gurken servieren und Karottensalat."
   },
   {
     "recipeName": "Früchtemüsli",
@@ -367,7 +391,7 @@
         "department": "Haltbar"
       }
     ],
-    "comment": "Die Zwiebelringe (kleinere Zwiebeln) mit Salz bestreuen und am Schluss oben darauf zur Dekoration. Mittelalter Bergkäse - nicht zu alt. Die kleineren Gurken in Scheiben schneiden. Normaler Heller Essig, Öl, Pfeffer, Prise Zucker und Essiggurkensud einen Schuss dazu. vermischen."
+    "comment": "Mit Vollkornbrot servieren und grünem Salat (damit man sich nicht alleine am Wurstsalat satt isst). Die Zwiebelringe (kleinere Zwiebeln) mit Salz bestreuen und am Schluss oben darauf zur Dekoration. Mittelalter Bergkäse - nicht zu alt. Die kleineren Gurken in Scheiben schneiden. Normaler Heller Essig, Öl, Pfeffer, Prise Zucker und Essiggurkensud einen Schuss dazu. vermischen."
   },
   {
     "recipeName": "Spiegelei mit Kartoffelsalt",
@@ -477,7 +501,7 @@
       {
         "amount": 540,
         "unit": "g",
-        "name": "Mehl",
+        "name": "Mehl Typ 1040",
         "department": "Haltbar"
       },
       {
@@ -851,7 +875,7 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 200,
+        "amount": 50,
         "unit": "ml",
         "name": "Sahne",
         "department": "Kühlregal"
@@ -875,7 +899,7 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment": "Pilze anbraten (Marcela: die Pilze richitg kräftig und lange anbraten, sodass sie schön knusprig sind.) Zwiebeln dazu. Sahne dazu. Mit Salz (vieeel Salz), Chili, Knoblauch und Petersilie abschmecken."
+    "comment": "Pilze anbraten (Marcela: die Pilze richitg kräftig und lange anbraten, sodass sie schön knusprig sind.) Zwiebeln dazu. Milch aufgießen und mit Mehl eindicken. Sahne ganz zum Schluss dazu - für den Geschmack. Mit Salz (vieeel Salz), Chili, Knoblauch und Petersilie abschmecken."
   },
   {
     "recipeName": "Gnocchi in Gorgonzola-Sauce",
@@ -892,12 +916,6 @@
         "amount": 100,
         "unit": "g",
         "name": "Gorgonzola",
-        "department": "Kühlregal"
-      },
-      {
-        "amount": 50,
-        "unit": "ml",
-        "name": "Sahne",
         "department": "Kühlregal"
       },
       {
@@ -923,9 +941,21 @@
         "unit": "Bund",
         "name": "Petersilie",
         "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Lauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Champignions",
+        "department": "Obst- und Gemüse"
       }
     ],
-    "comment": "Soße und Gnocchi sollten möglichst gleichzeitig fertig werden. Gnocchi max. auf Stufe 7 anbraten - sonst verbrennen sie. Wenn weniger Gnocchi, etwas weniger Soße machen. Für die Soße: Den Gorgonzola in Würfel schneiden und mit der Sahne und der Milch im Topf schmelzen lassen, stetig rühren. Die sehr fein gehackte Petersilie dazugeben. Knoblauch schälen und durch die Knoblauchpresse dazu drücken. Die Sauce mit Salz und Pfeffer abschmecken und sofort mit den Gnocchi servieren."
+    "comment": "Soße und Gnocchi sollten möglichst gleichzeitig fertig werden. Champignions und Lauch dünsten. Mit Milch auffüllen und mit Dinkelmehl andicken. Gorgonzola am Ende unterziehen. Gnocchi max. auf Stufe 7 anbraten - sonst verbrennen sie. Wenn weniger Gnocchi, etwas weniger Soße machen. Für die Soße: Die sehr fein gehackte Petersilie dazugeben. Knoblauch schälen und durch die Knoblauchpresse dazu drücken. Die Sauce mit Salz und Pfeffer abschmecken und sofort mit den Gnocchi servieren."
   },
   {
     "recipeName": "Linsen mit Wienerle für Linsen mit Spätzle",
@@ -1227,7 +1257,7 @@
         "department": "Haltbar"
       },
       {
-        "amount": 4,
+        "amount": 3,
         "unit": "",
         "name": "Dicke Würste / Pinkel",
         "department": "Kühlregal"
@@ -1268,7 +1298,7 @@
     "comment": "Damit die Himbeeren auftauen, Yoghurt bereits einige Stunden vorher machen und in den Kühlschrank stellen."
   },
   {
-    "recipeName": "Grüner Salat mit Thunfisch",
+    "recipeName": "Grüner Salat mit Forelle",
     "category": ["Archiv"],
     "priority": 2,
     "ingredients": [
@@ -1292,9 +1322,9 @@
       },
       {
         "amount": 1,
-        "unit": "Dosen",
-        "name": "Thunfisch",
-        "department": "Haltbar"
+        "unit": "",
+        "name": "Heimische Forelle",
+        "department": "Kühlregal"
       },
       {
         "amount": 1,
@@ -1303,7 +1333,7 @@
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment": "Was gesundes..."
+    "comment": "Kann alternativ auch mit Dosenthunfisch gemacht werden. Forelle ist in Deutschland heimisch und kein Meerfisch."
   },
   {
     "recipeName": "Bohnensalat",
@@ -1489,13 +1519,13 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 500,
+        "amount": 250,
         "unit": "g",
         "name": "Suppenfleisch (Beinscheibe)",
         "department": "Kühlregal"
       },
       {
-        "amount": 4,
+        "amount": 2,
         "unit": "",
         "name": "Dicke Würste",
         "department": "Kühlregal"
@@ -1717,13 +1747,19 @@
         "department": "Obst- und Gemüse"
       },
       {
+        "amount": 1,
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
         "amount": 10,
         "unit": "",
         "name": "Cocktailtomaten",
         "department": "Obst- und Gemüse"
       }
     ],
-    "comment": "(Limettensaft und) 2 EL Olivenöl verrühren. Knoblauch schälen und dazupressen, ebenso den Rosmarin. Die Marinade mit Salz, Pfeffer und Honig abschmecken. Halloumi in 1 cm dicke Scheiben schneiden. Restliches Olivenöl in eine heiße Pfanne geben, den Käse darin von beiden Seiten je ca. 1 Min. goldbraun anbraten"
+    "comment": "Kleine Kartoffeln schälen und in Salz und Rosmarin kochen. (Limettensaft und) 2 EL Olivenöl verrühren. Knoblauch schälen und dazupressen, ebenso den Rosmarin. Die Marinade mit Salz, Pfeffer und Honig abschmecken. Halloumi in 1 cm dicke Scheiben schneiden. Restliches Olivenöl in eine heiße Pfanne geben, den Käse darin von beiden Seiten je ca. 1 Min. goldbraun anbraten. Könnte man das alles auch im Ofen machen?"
   },
   {
     "recipeName": "Fleischküchle",
@@ -1749,18 +1785,18 @@
         "department": "Haltbar"
       },
       {
-        "amount": 1,
-        "unit": "",
-        "name": "Helles Brötchen",
+        "amount": 80,
+        "unit": "g",
+        "name": "Haferflocken",
         "department": "Haltbar"
       }
     ],
-    "comment": "Brötchen in Wasser einweichen. Zwiebeln fein würfel und mit Salz und Pfeffe das Hackfleisch vermengen."
+    "comment": "Haferflocken in Wasser einweichen. Zwiebeln fein würfel und mit Salz und Pfeffe das Hackfleisch vermengen."
   },
   {
     "recipeName": "Tagliatelle in Butter",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 250,
@@ -1787,7 +1823,7 @@
         "department": "Kühlregal"
       }
     ],
-    "comment": "Petersilie abwaschen und klein hacken. Parmesan reiben. Tagliatelle bissfest kochen. Die Butter in einer großen Pfanne zerlassen, Knoblauch und Petersilie darin ca. 1 Min. schwenken. Mit Salz und Pfeffer und Parmesan servieren."
+    "comment": "Petersilie abwaschen und klein hacken. Parmesan reiben. Tagliatelle bissfest kochen. Die Butter (gesünder wäre noch mit Olivenöl) in einer großen Pfanne zerlassen, Knoblauch und Petersilie darin ca. 1 Min. schwenken. Mit Salz und Pfeffer und Parmesan servieren."
   },
   {
     "recipeName": "Forellen-Dip",
@@ -1807,7 +1843,7 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 200,
+        "amount": 100,
         "unit": "g",
         "name": "Schmand",
         "department": "Kühlregal"
@@ -2191,7 +2227,7 @@
       {
         "amount": 150,
         "unit": "g",
-        "name": "Mehl",
+        "name": "Vollkornmehl",
         "department": "Haltbar"
       },
       {
@@ -2227,12 +2263,6 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 100,
-        "unit": "ml",
-        "name": "Sahne",
-        "department": "Kühlregal"
-      },
-      {
         "amount": 1,
         "unit": "",
         "name": "Zwiebeln",
@@ -2243,9 +2273,15 @@
         "unit": "",
         "name": "Dill",
         "department": "Tiefkühl"
+      },
+      {
+        "amount": 50,
+        "unit": "ml",
+        "name": "Milch",
+        "department": "Kühlregal"
       }
     ],
-    "comment": "Den Zucker (3 TL) mit je einer Prise Salz und Pfeffer in einer Schale mischen. Essig (3 EL) und Öl (1 EL) dazu geben und alles gut verrühren. Die Zwiebel in kleine Würfel schneiden und mit in die Schale geben, anschließend noch einige Stiele Dill fein hacken, mit der Sahne dazu geben und alles gut verrühren. Die Gurke in Scheiben schneiden und mit dem Dressing mischen."
+    "comment": "Den Zucker (3 TL) mit je einer Prise Salz und Pfeffer in einer Schale mischen. Essig (3 EL) und Öl (1 EL) dazu geben und alles gut verrühren. Die Zwiebel in kleine Würfel schneiden und mit in die Schale geben, anschließend noch einige Stiele Dill fein hacken, mit etwas Milch dazu geben und alles gut verrühren. Die Gurke in Scheiben schneiden und mit dem Dressing mischen."
   },
   {
     "recipeName": "Fruchtsäfte",
@@ -2326,7 +2362,7 @@
   {
     "recipeName": "Tagliatelle mit Brokkoli und Pesto",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 1,
     "ingredients": [
       {
         "amount": 2,
@@ -2335,7 +2371,7 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 150,
+        "amount": 100,
         "unit": "g",
         "name": "Parmesan",
         "department": "Kühlregal"
@@ -2355,7 +2391,7 @@
       {
         "amount": 1,
         "unit": "Bund",
-        "name": "Basilikum",
+        "name": "Frischer Basilikum",
         "department": "Obst- und Gemüse"
       },
       {
@@ -2363,9 +2399,15 @@
         "unit": "",
         "name": "Kartoffeln",
         "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Glas",
+        "name": "Anitpasti",
+        "department": "Haltbar"
       }
     ],
-    "comment": "Kartoffeln mit Schäler in feine Scheiben schneiden. Brokkoli in keline Röschen zerteilen. Strunk ebenso in feine Scheiben reiben. Parmesan reiben. Basilikumblätter waschen - ohne Stiele. Tagliatelle mit Brokklischeiben in Salzwasser garen. 2 Minuten vor Ende Brokkoli Röschen und Kartoffel dazugeben. Abseien, etwas Wasser auffangen. Hälfte Basilikum, Hälfte Parmesan mit allem anderne vermischen. Basilikum und Pesto als Garnitur."
+    "comment": "Kartoffeln mit Schäler in feine Scheiben schneiden. Brokkoli in keline Röschen zerteilen. Strunk ebenso in feine Scheiben reiben. Parmesan reiben. Basilikumblätter waschen - ohne Stiele. Tagliatelle mit Brokklischeiben in Salzwasser garen. 2 Minuten vor Ende Brokkoli Röschen und Kartoffel dazugeben. Abseien, etwas Wasser auffangen. Hälfte Basilikum, Hälfte Parmesan mit allem anderne vermischen. Basilikum und Pesto als Garnitur. Antipasti (Tomaten, Paprika, etc.) kann so dazu gegessen werden."
   },
   {
     "recipeName": "Lebensmittel-Grundausstattung",
@@ -2375,6 +2417,12 @@
         "amount": 1,
         "unit": "kg",
         "name": "Salz",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Packung",
+        "name": "Rauchsalz",
         "department": "Haltbar"
       },
       {
@@ -2403,19 +2451,19 @@
       },
       {
         "amount": 1,
-        "unit": "",
+        "unit": "Flasche",
         "name": "Rapsöl",
         "department": "Haltbar"
       },
       {
         "amount": 1,
-        "unit": "",
-        "name": "Olivenöl",
+        "unit": "Flasche",
+        "name": "Einfaches Olivenöl zum Braten",
         "department": "Haltbar"
       },
       {
         "amount": 1,
-        "unit": "",
+        "unit": "Flasche",
         "name": "Leinsamenöl",
         "department": "Haltbar"
       }
@@ -2498,6 +2546,12 @@
         "amount": 200,
         "unit": "g",
         "name": "Tomaten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Champignons",
         "department": "Obst- und Gemüse"
       }
     ],
@@ -2632,7 +2686,7 @@
     "priority": "1",
     "ingredients": [
       {
-        "amount": 2,
+        "amount": 1,
         "unit": "kg",
         "name": "verschiedenes Gemüse auskochen (viel Kartoffeln)",
         "department": "Obst- und Gemüse"
@@ -2941,5 +2995,260 @@
       }
     ],
     "comment": "Lauch, Champignons (in dünne Scheiben schneiden und fein hacken) und Zwiebeln (würfeln) mit dem Grünkernmehl (fein mahlen) in einer beschiteten Pfanne mit Deckel 3-4 Min. leicht köcheln, die Herdplatte abschalten und 5 Min. nachquellen lassen. Den Aufstrich mit Schmand oder Walnussöl und Gewürzen wie Gemüsebrühe, Asia, Kräutersalz, Majoran, Petersilie, evtl. Knoblauch abschmecken und mit z.B. Kressesprossen garnieren."
+  },
+  {
+    "recipeName": "Provenzalisches Huhn (leicht)",
+    "priority": 4,
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "Knoblauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "Doppelte Hähnchenbrüste",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 75,
+        "unit": "g",
+        "name": "Butter",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Dosentomaten (geschält, am Stück)",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Creme Fraîche",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Milch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Buchweizen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Fladenbrot",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Für ca. 4 Personen. Statt Martini auch Wermouth (Noilly Prat) möglich. Knoblauch grob hacken. Hähnchenbrüste halbieren und scharf in Butter anbraten, dann Temperatur reduzieren und mit Salz, Cayenne (1 Messerspitze), Paprikapulver (4 TL) würzen. Tomaten, Knoblauch, Martini/Vermouth dazu und 20 Minuten köcheln lassen. Getrockneter Thymian (1/2 TL), - mit Milch aufgießen, dann mit Buchweizen andicken und mit Creme Fraich aufpeppen - einköcheln. Schmeckt am nächsten Tag noch besser. Als Beilage am besten Fladenbrot!"
+  },
+  {
+    "recipeName": "Käse-Zwiebel Empanadas (leicht)",
+    "category": ["Archiv"],
+    "priority": 1,
+    "ingredients": [
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Gouda (Reibekäse)",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 5,
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 8,
+        "unit": "EL",
+        "name": "Weißwein",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Vollkornmehl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 83,
+        "unit": "ml",
+        "name": "Sonnenblumenöl",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Eier",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Ergibt ca. 25 Empanadas. 400 g Zwiebel. 83g Öl. Füllung: 3 EL Weißweinessig. 12g Butter für anbraten Stufe 2. 8 EL Weißwein. 3g Salz. Pfeffer nach Gusto. Goldpuder Mehl am besten (Typ ?). Abkühlen lassen. Teig: Alle Zutaten und 360ml Leitungswasser und 30 g Salz zu einem Teig verarbeiten. 12cm Scheiben herstellen, 1,5 cm dick."
+  },
+  {
+    "recipeName": "Spaghetti Bolognese (leicht)",
+    "category": ["Archiv"],
+    "priority": 1,
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Karotten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Knollensellerie",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Knoblauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 600,
+        "unit": "g",
+        "name": "Hackfleisch (halb/halb)",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 600,
+        "unit": "ml",
+        "name": "Rotwein",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "Dose Tomaten gehackt",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Spaghetti",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "Parmesan",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment": "Rauchsalz gibt den Speck geschmack (rauchich). Gemüse klein hacken und bis auf Knoblauch anbraten. In Teller. Dann Speck anbraten. In Teller. Dann Hackfleisch anbraten. Tomatenmark unterrühren und kurz anrösten lassen. Dann das Ganze mit Rotwein ablöschen und zehn Minuten einkochen lassen. Die gehackten Tomaten hinzugeben, ebenso Pancetta und Gemüse und alles aufkochen. Nun Hitze reduzieren und die Sauce auf kleiner Flamme anderthalb Stunden einkochen lassen. Mit Salz, Pfeffer und nach Belieben Oregano abschmecken."
+  },
+  {
+    "recipeName": "Linsen für Linsen mit Spätzle (leichte Variante)",
+    "category": ["Archiv"],
+    "priority": 1,
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Rote oder braune Berglinsen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "Stangen",
+        "name": "Lauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Karotten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Lobeerblatt",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 8,
+        "unit": "",
+        "name": "Gemahlene Nelken",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Mehlige Kartoffel",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Wiener",
+        "department": "Kühlregal"
+      }
+    ],
+    "comment": "Rauchsalz verwenden, als Speckersatz. Zwiebeln mit Karotten anbraten. Später Lauch dazu. Gewaschene Linsen rein. Ablöschen mit Wasser oder Wein (weiß oder rosé). Lobeerblatt und Nelken dazu. Hildegart dazu. Tomatenmark 1 EL. Kartoffel roh reinreiben. Pfeffer und Paprika Pulver dazu. Kein Salz. Ein Schuss Wein für die Soße. Köcheln lassen, bis die Linsen gar sind. Wenn fertig mit Salz und Weißweinessig dazu. Wiener im heißen Wasser köcheln und am Schluss zu den Linsen dazu geben."
+  },
+  {
+    "recipeName": "Fisch mit Reis und Erbsen",
+    "category": ["Archiv"],
+    "priority": 2,
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "Packung",
+        "name": "Tiefkühlfisch (paniert oder nicht)",
+        "department": "Tiefkühl"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zitronen",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Reis",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Remoulade",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "Packung",
+        "name": "Tiefkühlerbsen",
+        "department": "Tiefkühl"
+      }
+    ],
+    "comment": "Reis aufsetzen. Fisch auf niedriger Stufe braten. Erbsen kochen. Basmati Reis dazu. Soja Sauce und Remoulade ist lecker."
   }
 ]
