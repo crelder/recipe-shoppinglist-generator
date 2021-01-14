@@ -904,7 +904,7 @@
   {
     "recipeName": "Gnocchi in Gorgonzola-Sauce",
     "category": ["Archiv"],
-    "priority": 3,
+    "priority": 2,
     "ingredients": [
       {
         "amount": 400,
@@ -2998,7 +2998,7 @@
   },
   {
     "recipeName": "Provenzalisches Huhn (leicht)",
-    "priority": 4,
+    "priority": 2,
     "ingredients": [
       {
         "amount": 3,
