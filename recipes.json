@@ -3250,5 +3250,48 @@
       }
     ],
     "comment": "Reis aufsetzen. Fisch auf niedriger Stufe braten. Erbsen kochen. Basmati Reis dazu. Soja Sauce und Remoulade ist lecker."
+  },
+  {
+    "recipeName": "Spaghetti Carbonara (leicht)",
+    "priority": 1,
+    "ingredients": [
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Milch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Parmesan",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Vollkornspaghetti",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebel",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Bund",
+        "name": "Frische Petersilie",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "Buchweizen",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Zwiebeln würfeln und mit Rauchsalz (Speckersatz) und Kalanamak (Ersetzt Ei, Schwefelgeschmack) glasig andünsten. Milch, Buchweizenmehl und Pfeffer verquillen und zu den Zwiebeln dazu geben und eindicken. Spaghetti in die Soße geben und gehakte Petersilie und Käse am Schluss dazu. Erneut abschmecken mit S+P."
   }
 ]
