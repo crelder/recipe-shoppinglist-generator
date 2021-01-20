@@ -3533,5 +3533,18 @@
       }
     ],
     "comment": "Eier hart kochen. Zwiebeln würfeln und in 2 EL Olivenöl glasig dünsten. Spinat und Knoblauch dazu. Eier würfeln und dazu geben. Mit Parmesan servieren."
+  },
+  {
+    "recipeName": "Wirsing",
+    "priority": 1,
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zwiebel",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Blätter einzeln lösen. Wirsing waschen und den Strunk pro Blatt wegschneiden. Blätter übereinander legen und in Streifen schneiden. Zwiebeln in Olivenöl leicht bräunen. Wirsing mit schwenken. Mit Wasser ablöschen (lieber noch Wasser nachgießen) und Gemüsebrühe und Muskat. Evtl. Schuss Rose/Weißwein. Ca. 30 Minuten."
   }
 ]
