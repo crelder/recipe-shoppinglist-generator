@@ -2126,7 +2126,7 @@
   {
     "recipeName": "Zitronennudeln mit Hähnchen",
     "category": ["Archiv"],
-    "priority": 2,
+    "priority": 3,
     "ingredients": [
       {
         "amount": 500,
@@ -2308,56 +2308,6 @@
       }
     ],
     "comment": ""
-  },
-  {
-    "recipeName": "Linsensalat",
-    "category": ["Archiv"],
-    "priority": 1,
-    "ingredients": [
-      {
-        "amount": 200,
-        "unit": "g",
-        "name": "Braune Berglinsen",
-        "department": "Haltbar"
-      },
-      {
-        "amount": 1,
-        "unit": "",
-        "name": "Zwiebeln (rot)",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 2,
-        "unit": "",
-        "name": "Frühlingszwiebeln",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 1,
-        "unit": "Stang",
-        "name": "Staudensellerie",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 150,
-        "unit": "g",
-        "name": "Kirschtomaten",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 2,
-        "unit": "EL",
-        "name": "Kapernäpfel",
-        "department": "Haltbar"
-      },
-      {
-        "amount": 0.5,
-        "unit": "Bund",
-        "name": "Petersilie",
-        "department": "Obst- und Gemüse"
-      }
-    ],
-    "comment": "Alles mischen mit Dressing (1 Knoblauchzehe, 3 EL Balsamico, 3 TL Senf, 4 EL Olivenöl, Salz und Pfeffer). 10 Minuten ziehen lassen. Oben Petersilie drauf."
   },
   {
     "recipeName": "Tagliatelle mit Brokkoli und Pesto",
@@ -2905,7 +2855,7 @@
     "comment": "Kartoffeln kochen. Möhren fein raspeln, Zwiebeln sehr fein würfeln. Dabei den Quark mit Zutaten verrühren und mit Kräutersalz, Pfeffer, Petersilie, Schnittlauch, etwas Knoblauch, Paprikapulver, im Frühjahr Bärlauch abschmecken."
   },
   {
-    "recipeName": "Linsen-Aufstrich",
+    "recipeName": "Linsen-Aufstrich (P. Faulstich)",
     "priority": 1,
     "ingredients": [
       {
@@ -3325,7 +3275,7 @@
       {
         "amount": 20,
         "unit": "g",
-        "name": "Kühlregal",
+        "name": "Pecorino",
         "department": "Kühlregal"
       },
       {
@@ -3653,7 +3603,7 @@
     "comment": "Kartoffeln kochen. Kohlrabi in Stifte schneiden und in heißem Wasser garen. In Topf Butter zerlassen, 1 EL Mehl und mit Milch und Brühe gut rühren (Mehlschwitze). Dann den Kohlrabi rein. Mit Petersilie garnieren."
   },
   {
-    "recipeName": "Linsensalat",
+    "recipeName": "Linsensalat (V.)",
     "priority": 1,
     "ingredients": [
       {
@@ -3712,48 +3662,5 @@
       }
     ],
     "comment": "Gemüse fein schneiden. Dressing: Knoblauch hacken, 6 EL Balsamico, 4 TL körniger Senf, 8 EL Olivenöl, Salz, Pfeffer. Dressing mit Gemüse mischen und mind. 10 Minuten ziehen lassen. Petersilie fein hacken und garnieren."
-  },
-  {
-    "recipeName": "Zitronennudeln mit Huhn",
-    "priority": 3,
-    "ingredients": [
-      {
-        "amount": 1,
-        "unit": "",
-        "name": "Bio Zitrone",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 0.5,
-        "unit": "Bund",
-        "name": "Schnittlauch",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 0,
-        "unit": "Bund",
-        "name": "Petersilie",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 600,
-        "unit": "g",
-        "name": "Hähnchenfilet",
-        "department": "Kühlregal"
-      },
-      {
-        "amount": 250,
-        "unit": "ml",
-        "name": "Milch",
-        "department": "Kühlregal"
-      },
-      {
-        "amount": 500,
-        "unit": "g",
-        "name": "Tagliatelle",
-        "department": "Haltbar"
-      }
-    ],
-    "comment": "Schmeckt am nächsten Tag besser. Zitrone und Kräuter waschen; Salbei, Schnittlauch und Petersilie fein hacken. Fleisch würfeln. In Topf Butter schmelzen, Mehl kurz darin anschwitzen mit Milch und Brühe ablöschen, köcheln und Zitronenschale hineinreiben. Zitrone auspressen und Zitronensaft dazu und mit Salz abschmecken. Nudeln kochen. Fleisch in der Pfanne anbraten, mit Salz und Pfeffer würzen. Nudeln abgießen, mit Soße und Fleisch mischen und mit Petersilie, Schnittlauch und Salbei garnieren."
   }
 ]
