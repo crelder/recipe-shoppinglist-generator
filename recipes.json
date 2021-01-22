@@ -3546,5 +3546,214 @@
       }
     ],
     "comment": "Blätter einzeln lösen. Wirsing waschen und den Strunk pro Blatt wegschneiden. Blätter übereinander legen und in Streifen schneiden. Zwiebeln in Olivenöl leicht bräunen. Wirsing mit schwenken. Mit Wasser ablöschen (lieber noch Wasser nachgießen) und Gemüsebrühe und Muskat. Evtl. Schuss Rose/Weißwein. Ca. 30 Minuten."
+  },
+  {
+    "recipeName": "Porreesuppe",
+    "priority": 3,
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "Stangen",
+        "name": "Porree",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Gemischtes Hackfleisch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Schmelzkäse Natur (Milkana)",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 200,
+        "unit": "g",
+        "name": "Schmelzkäse Kräuter (Milkana)",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Hackfleisch in etwas Öl anbraten, dann das gewaschene und geschnittene Porree dazu und andünsten. Ablöschen mit Wasser (ca. 1 Liter). Köcheln lassen, bis das Porree weich ist, dann den Schmelzkäse darin auflösen lassen. Pfeffer und evtl. Salz."
+  },
+  {
+    "recipeName": "4 Layer Bean Dip",
+    "priority": 2,
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "Dosen",
+        "name": "Vorgekochte Kidneybohnen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Knoblauchzehen",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "Reife Avocados",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zitrone",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 100,
+        "unit": "ml",
+        "name": "Creme Fraiche",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "Geriebener Cheddar",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 1,
+        "unit": "Packung",
+        "name": "Tacco Chips (Salz)",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Kidneybohnen mit Koblauchzehen und Zwiebeln kochen. Wenn Bohnen mit der Kabel zerdrückbar, Brühe dazu und pürieren mit Pürierstab. In flacher Aufflaufform ausbreiten und abkühlen lassen. Avocados, Zitronensaft, Essig und Öl mit einer Gabel zerdrücken. Dann über die Bohnen. Eine Ebene Creme Fraiche drüber, sowie Cheddar. Taccos im Ofen erwärmen."
+  },
+  {
+    "recipeName": "Kartoffeln und Kohlrabi in Mehlschwitze",
+    "priority": 2,
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "Kohlrabi",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "kg",
+        "name": "Kartoffeln",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Kartoffeln kochen. Kohlrabi in Stifte schneiden und in heißem Wasser garen. In Topf Butter zerlassen, 1 EL Mehl und mit Milch und Brühe gut rühren (Mehlschwitze). Dann den Kohlrabi rein. Mit Petersilie garnieren."
+  },
+  {
+    "recipeName": "Linsensalat",
+    "priority": 1,
+    "ingredients": [
+      {
+        "amount": 250,
+        "unit": "g",
+        "name": "Braune Linsen",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Rote Zwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 4,
+        "unit": "",
+        "name": "Frühlingszwiebeln",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 2,
+        "unit": "Stangen",
+        "name": "Staudensellerie",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "Cocktailtomaten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Glas",
+        "name": "Kapern",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 2,
+        "unit": "",
+        "name": "Knoblauchzehen",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Glas",
+        "name": "Körniger Senf",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 0.5,
+        "unit": "Bund",
+        "name": "Petersilie",
+        "department": "Obst- und Gemüse"
+      }
+    ],
+    "comment": "Gemüse fein schneiden. Dressing: Knoblauch hacken, 6 EL Balsamico, 4 TL körniger Senf, 8 EL Olivenöl, Salz, Pfeffer. Dressing mit Gemüse mischen und mind. 10 Minuten ziehen lassen. Petersilie fein hacken und garnieren."
+  },
+  {
+    "recipeName": "Zitronennudeln mit Huhn",
+    "priority": 3,
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Bio Zitrone",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 0.5,
+        "unit": "Bund",
+        "name": "Schnittlauch",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 0,
+        "unit": "Bund",
+        "name": "Petersilie",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 600,
+        "unit": "g",
+        "name": "Hähnchenfilet",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 250,
+        "unit": "ml",
+        "name": "Milch",
+        "department": "Kühlregal"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "Tagliatelle",
+        "department": "Haltbar"
+      }
+    ],
+    "comment": "Schmeckt am nächsten Tag besser. Zitrone und Kräuter waschen; Salbei, Schnittlauch und Petersilie fein hacken. Fleisch würfeln. In Topf Butter schmelzen, Mehl kurz darin anschwitzen mit Milch und Brühe ablöschen, köcheln und Zitronenschale hineinreiben. Zitrone auspressen und Zitronensaft dazu und mit Salz abschmecken. Nudeln kochen. Fleisch in der Pfanne anbraten, mit Salz und Pfeffer würzen. Nudeln abgießen, mit Soße und Fleisch mischen und mit Petersilie, Schnittlauch und Salbei garnieren."
   }
 ]
