@@ -1539,7 +1539,7 @@
     "priority": 2,
     "ingredients": [
       {
-        "amount": 500,
+        "amount": 300,
         "unit": "g",
         "name": "Hackfleisch (halb/halb)",
         "department": "Kühlregal"
@@ -1565,17 +1565,17 @@
       {
         "amount": 200,
         "unit": "ml",
-        "name": "Sahne",
+        "name": "Milch",
         "department": "Kühlregal"
       },
       {
-        "amount": 4,
+        "amount": 2,
         "unit": "",
         "name": "Eier",
         "department": "Haltbar"
       },
       {
-        "amount": 100,
+        "amount": 50,
         "unit": "g",
         "name": "Reibekäse",
         "department": "Kühlregal"
