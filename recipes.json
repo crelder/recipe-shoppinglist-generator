@@ -2642,31 +2642,31 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 750,
+        "amount": 500,
         "unit": "ml",
         "name": "Milch",
         "department": "Kühlregal"
       },
       {
-        "amount": 300,
+        "amount": 200,
         "unit": "g",
         "name": "Grieß",
         "department": "Haltbar"
       },
       {
-        "amount": 100,
+        "amount": 60,
         "unit": "g",
         "name": "Butter",
         "department": "Kühlregal"
       },
       {
-        "amount": 3,
+        "amount": 2,
         "unit": "",
         "name": "Eier",
         "department": "Haltbar"
       }
     ],
-    "comment": "Gemüse mit kaltem Wasser aufsetzen und 3 h leicht köcheln lassen. Milch, Salz, Muskat und Butter zum Kochen bringen. Dann Grieß rein. Nach abkühlen Eier hineinarbeiten. Dann mit Teelöffeln Glößchen machen"
+    "comment": "Gemüse mit 2 Liter kaltem Wasser aufsetzen und 3 h leicht köcheln lassen. Milch, Salz, Muskat und Butter zum Kochen bringen. Dann Grieß rein. Nach abkühlen Eier hineinarbeiten. Dann mit Teelöffeln Glößchen machen"
   },
   {
     "recipeName": "Grüne Bohnen mit Speck",
