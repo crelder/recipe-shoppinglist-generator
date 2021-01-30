@@ -2416,6 +2416,48 @@
         "unit": "Flasche",
         "name": "Leinsamenöl",
         "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Glas Apfelmus",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Glas Pesto",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Glas Honig",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Glas Saure Gurken",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Glas Oliven",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Glas Senf",
+        "department": "Haltbar"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Glas Ketchup",
+        "department": "Haltbar"
       }
     ],
     "comment": "Regelmäßig prüfen, ob noch alles vorhanden ist."
