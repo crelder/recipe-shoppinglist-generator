@@ -2910,43 +2910,6 @@
     "comment": "Linsen (Sorte: du Puy), über Nacht im Topf in 0.75l Wasser quellen lassen. Linsen im Einweichwasser mit Lorbeerblättern ca. 30 min köcheln lassen. Zwiebeln würfeln. Lauch und Champignons, jeweils in dünne Streifen bzw. Scheiben schneiden und fein hacken. Lorbeerblätter entfernen und cremig pürieren. Würzen mit Knoblauch, Petersilie, Sojasauce, Majoran, Salz, Gemüsebrühe, etc. Cocktailtomaten zum garnieren."
   },
   {
-    "recipeName": "Champignon-Lauch-Aufstrich",
-    "priority": 1,
-    "ingredients": [
-      {
-        "amount": 300,
-        "unit": "g",
-        "name": "Lauch",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 400,
-        "unit": "g",
-        "name": "Champignons",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 100,
-        "unit": "g",
-        "name": "Zwiebeln",
-        "department": "Obst- und Gemüse"
-      },
-      {
-        "amount": 100,
-        "unit": "g",
-        "name": "Grünkern",
-        "department": "Haltbar"
-      },
-      {
-        "amount": 60,
-        "unit": "g",
-        "name": "Schmand oder Creme fraiche",
-        "department": "Kühlregal"
-      }
-    ],
-    "comment": "Lauch, Champignons (in dünne Scheiben schneiden und fein hacken) und Zwiebeln (würfeln) mit dem Grünkernmehl (fein mahlen) in einer beschiteten Pfanne mit Deckel 3-4 Min. leicht köcheln, die Herdplatte abschalten und 5 Min. nachquellen lassen. Den Aufstrich mit Schmand oder Walnussöl und Gewürzen wie Gemüsebrühe, Asia, Kräutersalz, Majoran, Petersilie, evtl. Knoblauch abschmecken und mit z.B. Kressesprossen garnieren."
-  },
-  {
     "recipeName": "Provenzalisches Huhn (leicht)",
     "priority": 2,
     "ingredients": [
@@ -3304,25 +3267,6 @@
       }
     ],
     "comment": "Mehl unter das Backpapier. Flüssigkeit war letztes mal zu flüssig - sehr dickflüssig muss es sein. Teig flacher ausrollen, da sehr viel Masse. An der langen Kante rollen. Mehl mit Backpulver vermischen, mit Quark, 1! Ei, 2 EL Olivenöl und Gewürzen (Gemüsebrühe, Kräutersalz, Asia, Miso, Muskat, Pfeffer, Pfeffer, Knoblauch). 1 h abgedeckt in den Kühlschrank stellen. Backofen auf 180 Grad vorheizen. Für die Füllung alle Zutaten vermischen und mit den Gewürzen herzhaft abschmecken. Den Teig auf einer bemehlten Fläche dünn zu einem Rechteck auf Backpapier ausrollen. Die Spinatmasse gleichmäßig darauf verteilen. Teig zusammenrollen. Die Spinatrolle mit großem Messer in 2cm dicke Scheiben schneiden. Backblech mit flach liegenden Scheiben bestücken und in mittlerer Schiene Ober- Unterhitze ca. 30 Minuten backen. Ofen ruhig danach ausschalten und noch drinnen lassen. Vor dem Servieren die Schnecken noch mit Käse bestreuen."
-  },
-  {
-    "recipeName": "Buchweizen Tamari Snack",
-    "priority": 4,
-    "ingredients": [
-      {
-        "amount": 200,
-        "unit": "g",
-        "name": "Buchweizenkörner",
-        "department": "Haltbar"
-      },
-      {
-        "amount": 50,
-        "unit": "ml",
-        "name": "Tamari",
-        "department": "Haltbar"
-      }
-    ],
-    "comment": "Buchweizen in der beschichteten Pfanne rösten (auf Stufe 7). Wenn die ersten braun werden Pfanne ausstellen. Tamari drüber. Fertig ist der Snack."
   },
   {
     "recipeName": "Nusscreme",
