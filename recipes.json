@@ -1379,13 +1379,13 @@
         "department": "Obst- und Gemüse"
       },
       {
-        "amount": 1,
+        "amount": 2,
         "unit": "Dosen",
         "name": "Dicke weiße Bohnen",
         "department": "Haltbar"
       },
       {
-        "amount": 1,
+        "amount": 2,
         "unit": "",
         "name": "Zwiebeln",
         "department": "Obst- und Gemüse"
@@ -1394,6 +1394,30 @@
         "amount": 200,
         "unit": "g",
         "name": "Kirschtomaten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "",
+        "name": "Zuchini",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 1,
+        "unit": "Stange",
+        "name": "Staudensellerie",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 3,
+        "unit": "",
+        "name": "Karotten",
+        "department": "Obst- und Gemüse"
+      },
+      {
+        "amount": 0.5,
+        "unit": "Packung",
+        "name": "Parmesan",
         "department": "Obst- und Gemüse"
       }
     ],
