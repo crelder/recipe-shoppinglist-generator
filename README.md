@@ -8,7 +8,9 @@ https://rawgit.com/crelder/recipe-shoppinglist-generator/master/index.html
 2. I am at home and I want to cook a certain meal, but I do not have all the necessary ingredients.
 
 ## Input
-Select the meals you want to cook.
+Select the meals you want to cook from a recipe list.
+
+Meals are ordered by priority, e.g. Priority 1 meals (the healthy meals) will appear at the top of the list. Priority 2 meals will appear below that, etc. Within each priority group recipes are displayed in random order. 
 
 ## Output
 Accumulated list with ingredients you need to buy in order to cook the selected meals.
