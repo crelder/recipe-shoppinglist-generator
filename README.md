@@ -3,6 +3,8 @@
 ## Run
 https://rawgit.com/crelder/recipe-shoppinglist-generator/master/index.html
 
+Select at least one meal and scroll to the very bottom.
+
 ## Solves two problems
 1. I go shopping and do not know, which ingredients I should by - I always forget which recipes/meals I can cook.
 2. I am at home and I want to cook a certain meal, but I do not have all the necessary ingredients.
