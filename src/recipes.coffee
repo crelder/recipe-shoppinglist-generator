@@ -43,6 +43,7 @@ init = ->
       'recipe'
       'recipes'
       'index'
+      'query'
     ]
     methods:
       toggleSelectedRecipe: -> @recipes[@index].selected = !@recipes[@index].selected
@@ -53,6 +54,7 @@ init = ->
     template: '''
       <li
         class="list-group-item list-group-item-action"
+        v-show="query.length == 0 || recipes[index].recipeName.toLowerCase().includes(query)"
         v-bind:data-index="index"
         v-bind:class="{selected: recipes[index].selected}"
         v-on:click="toggleSelectedRecipe"
@@ -78,6 +80,7 @@ init = ->
       ingredient: clone templates.ingredient
       ingForm: 'exist'
       units: ['', 'mL', 'g', 'pack(s)']
+      query: ''
     methods:
 
       addIngredient: ->
