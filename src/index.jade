@@ -21,7 +21,7 @@ html
         i.mr-2.fas.fa-trash.text-danger(@click.stop="deleteRecipe(index)")
         i.mr-2.fas.fa-pen.text-warning(@click.stop="$emit('update')")
         i.fa-lg(
-          :class="{ fas: recipe.selected, 'fa-check-square': recipe.selected, 'text-primary': recipe.selected, far: !recipe.selected, 'fa-square': !recipe.selected }"
+          :class="recipe.selected ? 'fas fa-check-square text-primary' : 'far fa-square'"
           v-on:click="toggleSelectedRecipe"
         )
         a.ml-2(
