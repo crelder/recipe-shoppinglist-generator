@@ -12,6 +12,23 @@ html
     title Shopping list generator
   body
 
+    template#recipe-item
+      li.list-group-item.list-group-item-action(
+        v-show="query.length == 0 || recipe.recipeName.toLowerCase().includes(query)"
+        :data-index="index"
+        :class="{ selected: recipe.selected }"
+      )
+        i.mr-2.fas.fa-trash.text-danger(@click.stop="deleteRecipe(index)")
+        i.mr-2.fas.fa-pen.text-warning(@click.stop="$emit('update')")
+        i.fa-lg(
+          :class="{ fas: recipe.selected, 'fa-check-square': recipe.selected, 'text-primary': recipe.selected, far: !recipe.selected, 'fa-square': !recipe.selected }"
+          v-on:click="toggleSelectedRecipe"
+        )
+        a.ml-2(
+          target="_blank"
+          :href="recipe.link.length > 0 ? recipe.link : false"
+        ) {{ recipe.recipeName }}
+
     #app
 
       .container.py-3
@@ -118,13 +135,14 @@ html
               button.btn.btn-secondary(@click="exportRecipes") Backup recipes list
           #recipes-list.card-body.container.row.justify-content-center
             ul.list-group.list-group-flush.col-md-8
-              my-meal(v-for="(recipe, index) in recipes"
+              recipe-item(v-for="(recipe, index) in recipes"
                 :recipe="recipe"
                 :recipes="recipes"
                 :index="index"
                 :query="query"
                 @update="updateRecipe(index, recipe)"
                 )
+
         #step3.card.d-none(v-if="selectedRecipes.length > 0")
           .card-header
             span.fa-stack
