@@ -84,8 +84,9 @@ init = ->
       recipe:     clone templates.recipe
       ingredient: clone templates.ingredient
       ingForm: 'exist'
-      units: ['', 'mL', 'g', 'pack(s)']
+      units: ['mL', 'g', 'cup(s)', 'tsp(s)', 'pack(s)']
       query: ''
+
     methods:
 
       addIngredient: ->
