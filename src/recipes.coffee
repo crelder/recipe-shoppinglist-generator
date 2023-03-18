@@ -34,7 +34,9 @@ init = ->
   el.classList.remove 'd-none' for el in document.querySelectorAll '.d-none'
 
   recipeCollection = ->
-    x.forEach (recipe, index)-> recipe.selected = no
+    x.forEach (recipe, index)->
+      recipe.selected = no
+      recipe.ingredients = azsort recipe.ingredients, 'name'
     recipes = azsort x, 'recipeName'
     store.set 'recipes', recipes
     recipes
