@@ -32,8 +32,11 @@ templates =
 init = ->
   el.classList.remove 'd-none' for el in document.querySelectorAll '.d-none'
 
-  x.forEach (recipe, index)-> recipe.selected = no
-  recipeCollection = azsort x, 'recipeName'
+  recipeCollection = ->
+    x.forEach (recipe, index)-> recipe.selected = no
+    recipes = azsort x, 'recipeName'
+    store.set 'recipes', recipes
+    recipes
 
   Vue.component 'my-meal',
     props: [
@@ -64,7 +67,7 @@ init = ->
   vm = new Vue
     el: '#app'
     data:
-      recipes: recipeCollection
+      recipes: do recipeCollection
       editindex: ''
       today: (new Date).toLocaleDateString 'en-AU',
         weekday: 'short'
@@ -156,7 +159,7 @@ init = ->
             delete e.index
       exportRecipes: ->
         records = do @prepareDBforDownload
-        textToSaveAsBlob = new Blob [JSON.stringify @recipesSorted, undefined, 2], type: 'text/json'
+        textToSaveAsBlob = new Blob [JSON.stringify @recipes, undefined, 2], type: 'text/json'
         downloadLink = document.createElement 'a'
         downloadLink.download = 'recipes.json'
         downloadLink.innerHTML = 'Download File'
@@ -168,9 +171,7 @@ init = ->
 
     computed:
       selectedRecipes: -> @recipes.filter (recipe)-> recipe.selected is yes
-      recipesSorted: ->
-        store.set 'recipes', @recipes
-        azsort @recipes, 'recipeName'
+
       ingredientList: -> do @uniqueIngredients
       departmentList: -> Object.keys do @uniqueIngredients
 
