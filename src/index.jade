@@ -30,6 +30,9 @@ html
               .row.form-group: .col
                 input(type="hidden" v-model="editindex")
                 input.form-control.form-control-lg(v-model="recipe.recipeName" placeholder="Recipe name")
+                .input-group
+                  input.form-control(v-model="recipe.link" placeholder="Link (optional)")
+                  input.form-control(v-model="recipe.comment" placeholder="Comment (optional)")
               .row.form-group.align-items-start
                 .col-md-2: input.form-control(type="number" v-model="ingredient.amount")
                 .col-md-2: select.form-control(v-model="ingredient.unit")

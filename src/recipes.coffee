@@ -22,6 +22,7 @@ templates =
     recipeName: ''
     ingredients: []
     selected: no
+    link: ''
     comment: ''
   ingredient:
     name:       ''
@@ -57,13 +58,15 @@ init = ->
         v-show="query.length == 0 || recipes[index].recipeName.toLowerCase().includes(query)"
         v-bind:data-index="index"
         v-bind:class="{selected: recipes[index].selected}"
-        v-on:click="toggleSelectedRecipe"
       >
         <i class="mr-2 fas fa-trash text-danger" @click.stop="deleteRecipe(index)"></i>
         <i class="mr-2 fas fa-pen text-warning" @click.stop="$emit('update')"></i>
-        <i class="far fa-lg fa-square" v-show="!recipes[index].selected"></i>
-        <i class="fas fa-lg fa-check-square text-primary" v-show="recipes[index].selected"></i>
-        {{ recipe.recipeName }}
+        <span v-on:click="toggleSelectedRecipe">
+          <i class="far fa-lg fa-square" v-show="!recipes[index].selected"></i>
+          <i class="fas fa-lg fa-check-square text-primary" v-show="recipes[index].selected"></i>
+        </span>
+        <a v-show="recipe.link.length > 0" :href="recipe.link" target="_blank">{{ recipe.recipeName }}</a>
+        <span v-show="recipe.link.length == 0">{{ recipe.recipeName }}</span>
       </li>'''
 
   vm = new Vue
@@ -111,6 +114,7 @@ init = ->
           if @editindex isnt ''
             @recipes[@editindex].recipeName = @recipe.recipeName
             @recipes[@editindex].ingredients = @recipe.ingredients
+            @recipes[@editindex].link = @recipe.link
             @recipes[@editindex].comment = @recipe.comment
             mess.show "Updated recipe: #{@recipe.recipeName}"
           else
@@ -193,8 +197,12 @@ init = ->
           .toUpperCase()
         a += '\n\n'
         for recipe in @selectedRecipes
-          a += recipe.recipeName.toUpperCase() + '\n--------------------------------------------\n'
+          a += "
+            #{ recipe.recipeName.toUpperCase() }
+            #{ if recipe.comment then '\n' + recipe.comment else '' }
+            \n--------------------------------------------\n
+          "
           for ingredient in recipe.ingredients
-            a += "#{ingredient.amount}#{ingredient.unit} #{ingredient.name}\n"
-          a += "#{recipe.comment}\n\n"
+            a += "#{ ingredient.amount }#{ ingredient.unit } #{ ingredient.name }\n"
+          a += '\n'
         a
