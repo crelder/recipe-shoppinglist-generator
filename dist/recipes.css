@@ -1,4 +1,6 @@
-
+input[type=number] {
+  -moz-appearance: textfield;
+}
 .file-upload {
   position: relative;
   display: inline-block;
