@@ -58,8 +58,8 @@ init = ->
       <li
         class="list-group-item list-group-item-action"
         v-show="query.length == 0 || recipes[index].recipeName.toLowerCase().includes(query)"
-        v-bind:data-index="index"
-        v-bind:class="{selected: recipes[index].selected}"
+        :data-index="index"
+        :class="{selected: recipes[index].selected}"
       >
         <i class="mr-2 fas fa-trash text-danger" @click.stop="deleteRecipe(index)"></i>
         <i class="mr-2 fas fa-pen text-warning" @click.stop="$emit('update')"></i>
@@ -180,6 +180,10 @@ init = ->
 
     computed:
       selectedRecipes: -> @recipes.filter (recipe)-> recipe.selected is yes
+      selectedRecipesTitle: -> 
+        s = @selectedRecipes.map (recipe)-> recipe.recipeName
+        s.join ', '
+          .toUpperCase()
 
       ingredientList: -> do @uniqueIngredients
       departmentList: -> Object.keys do @uniqueIngredients
@@ -193,11 +197,7 @@ init = ->
           a += '\n'
         a
       clipboardMenues: ->
-        a = "Menu for #{@today}:\n" + @selectedRecipes
-          .map (recipe)-> recipe.recipeName
-          .join ', '
-          .toUpperCase()
-        a += '\n\n'
+        a = "Menu for #{ @today }:\n#{ @selectedRecipesTitle }\n\n"
         for recipe in @selectedRecipes
           a += "
             #{ recipe.recipeName.toUpperCase() }
