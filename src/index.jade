@@ -100,7 +100,11 @@ html
                 i.fas.fa-circle.fa-stack-2x
                 stong.fa-stack-1x 2
               | Select recipes
-            .col-md-6.text-right
+            .col-md-6
+              .input-group
+                input.form-control(v-model="query" placeholder="Start typing to filter list")
+                .input-group-append: button.btn.btn-danger(@click="query = ''") Clear
+            .col-md-4.text-right
               // https://codepen.io/pieceofcode/pen/zldng
               .file-upload
                 label.btn.btn-secondary.mb-0.file-upload__label(for="recipesFile") Load recipes list
@@ -112,6 +116,7 @@ html
                 :recipe="recipe"
                 :recipes="recipes"
                 :index="index"
+                :query="query"
                 @update="updateRecipe(index, recipe)"
                 )
         #step3.card.d-none(v-if="selectedRecipes.length > 0")
