@@ -108,7 +108,7 @@ html
               button.btn.btn-secondary(@click="exportRecipes") Backup recipes list
           #recipes-list.card-body.container.row.justify-content-center
             ul.list-group.list-group-flush.col-md-8
-              my-meal(v-for="(recipe, index) in recipesSorted"
+              my-meal(v-for="(recipe, index) in recipes"
                 :recipe="recipe"
                 :recipes="recipes"
                 :index="index"
