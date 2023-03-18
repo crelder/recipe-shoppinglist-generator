@@ -41,7 +41,7 @@ init = ->
     store.set 'recipes', recipes
     recipes
 
-  Vue.component 'my-meal',
+  Vue.component 'recipe-item',
     props: [
       'recipe'
       'recipes'
@@ -49,27 +49,12 @@ init = ->
       'query'
     ]
     methods:
-      toggleSelectedRecipe: -> @recipes[@index].selected = !@recipes[@index].selected
+      toggleSelectedRecipe: -> @recipe.selected = !@recipe.selected
       deleteRecipe: (index)->
         s = @
         eModal.confirm 'This cannot be undone.', 'Are you sure?'
           .then -> s.recipes.splice index, 1
-    template: '''
-      <li
-        class="list-group-item list-group-item-action"
-        v-show="query.length == 0 || recipes[index].recipeName.toLowerCase().includes(query)"
-        :data-index="index"
-        :class="{selected: recipes[index].selected}"
-      >
-        <i class="mr-2 fas fa-trash text-danger" @click.stop="deleteRecipe(index)"></i>
-        <i class="mr-2 fas fa-pen text-warning" @click.stop="$emit('update')"></i>
-        <span v-on:click="toggleSelectedRecipe">
-          <i class="far fa-lg fa-square" v-show="!recipes[index].selected"></i>
-          <i class="fas fa-lg fa-check-square text-primary" v-show="recipes[index].selected"></i>
-        </span>
-        <a v-show="recipe.link.length > 0" :href="recipe.link" target="_blank">{{ recipe.recipeName }}</a>
-        <span v-show="recipe.link.length == 0">{{ recipe.recipeName }}</span>
-      </li>'''
+    template: '#recipe-item'
 
   vm = new Vue
     el: '#app'
