@@ -34,10 +34,13 @@ html
                   input.form-control(v-model="recipe.link" placeholder="Link (optional)")
                   input.form-control(v-model="recipe.comment" placeholder="Comment (optional)")
               .row.form-group.align-items-start
-                .col-md-2: input.form-control(type="number" v-model="ingredient.amount")
-                .col-md-2: select.form-control(v-model="ingredient.unit")
-                  option(value="") Unit
-                  option(v-for="(option) in units" :value="option") {{option}}
+                .input-group.col-md-3
+                  input.form-control(type="number" v-model="ingredient.amount")
+                  .input-group-append
+                    button.btn.dropdown-toggle(data-toggle="dropdown") {{ ingredient.unit }}
+                    .dropdown-menu
+                      input(type="hidden" v-model="ingredient.unit")
+                      .dropdown-item(v-for="(option) in units" @click="ingredient.unit = option") {{option}}
                 .col
                   .row#new-ingredient
                     .col-md-2
@@ -48,7 +51,7 @@ html
                         input.form-check-input(type="radio" v-model="ingForm" value="new" id="ingNew")
                         label.form-check-label(for="ingNew") New
                     .col
-                      select.form-control(v-if="ingForm == 'exist'" @change="updateIngredientTexts")
+                      select.form-control(v-model="ingredient.name" v-if="ingForm == 'exist'" @change="updateIngredientTexts")
                         option(value="" data-department="") Choose existing...
                         optgroup(v-for="(ingredients, department) in ingredientList" :label="department")
                           option(v-for="(ingredient, name) in ingredients" :value="name" :data-department="department") {{name}}
