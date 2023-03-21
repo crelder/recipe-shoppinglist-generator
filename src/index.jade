@@ -150,22 +150,22 @@ html
                 @update="updateRecipe(index, recipe)"
                 )
 
-        #step3.card.d-none(v-if="selectedRecipes.length > 0")
-          .card-header
+        #step3.card
+          .card-header: .row.justify-content-between
             .col-md-4: section-title(number="3" title="Create shopping list")
-          .card-body
-            button-icon(
-              icon="shopping-basket" text="Generate shopping list" color="primary"
-              v-clipboard:copy="clipboardShoppingList"
-              v-clipboard:success="onCopy"
-              v-clipboard:error="onError"
-            )
-            button-icon(
-              icon="clipboard-list" text="Preview selected recipes" color="primary"
-              v-clipboard:copy="clipboardMenues"
-              v-clipboard:success="onCopy"
-              v-clipboard:error="onError"
-            )
+            .col.text-right(v-if="selectedRecipes.length > 0")
+              button-icon(
+                icon="shopping-basket" text="Generate shopping list" color="primary"
+                v-clipboard:copy="clipboardShoppingList"
+                v-clipboard:success="onCopy"
+                v-clipboard:error="onError"
+              )
+              button-icon(
+                icon="clipboard-list" text="Preview selected recipes" color="primary"
+                v-clipboard:copy="clipboardMenues"
+                v-clipboard:success="onCopy"
+                v-clipboard:error="onError"
+              )
 
     script(src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js")
     script(src="https://cdn.jsdelivr.net/gh/zenorocha/clipboard.js@2.0.0/dist/clipboard.min.js")
