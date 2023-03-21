@@ -135,7 +135,10 @@ init = ->
           ordered[d][i] = ings[d][i] for i in azsort Object.keys ings[d]
         ordered
 
-      onCopy: (e) -> eModal.alert e.text.replace(///\n///g, '<br />'), 'Copied (Ctrl + v to paste):'
+      onCopy: (e) -> eModal.alert
+          subtitle: '(<kbd>Ctrl</kbd> + <kbd>v</kbd> to paste)'
+          message: e.text.replace(///\n///g, '<br />')
+        , 'Copied'
       onError: (e) -> mess.show 'Error copying to the clipboard.'
 
       handleFileSelect: (evt)->
