@@ -38,10 +38,17 @@ html
 
         #step1.card.mb-4
           .card-header
-            span.fa-stack
-              i.fas.fa-circle.fa-stack-2x
-              stong.fa-stack-1x 1
-            | Add recipes
+            .col
+              span.fa-stack
+                i.fas.fa-circle.fa-stack-2x
+                stong.fa-stack-1x 1
+              | Add recipes
+            .col-md-4.text-right
+              // https://codepen.io/pieceofcode/pen/zldng
+              .file-upload
+                label.btn.btn-secondary.mb-0.file-upload__label(for="recipesFile") Load recipes list
+                input#recipesFile.file-upload__input(type="file" name="files" @change="handleFileSelect")
+              button.btn.btn-secondary(@click="exportRecipes") Backup recipes list
           .card-body.container: .row
             .col
               .row.form-group: .col
@@ -127,12 +134,6 @@ html
               .input-group
                 input.form-control(v-model="query" placeholder="Start typing to filter list")
                 .input-group-append: button.btn.btn-danger(@click="query = ''") Clear
-            .col-md-4.text-right
-              // https://codepen.io/pieceofcode/pen/zldng
-              .file-upload
-                label.btn.btn-secondary.mb-0.file-upload__label(for="recipesFile") Load recipes list
-                input#recipesFile.file-upload__input(type="file" name="files" @change="handleFileSelect")
-              button.btn.btn-secondary(@click="exportRecipes") Backup recipes list
           #recipes-list.card-body.container.row.justify-content-center
             ul.list-group.list-group-flush.col-md-8
               recipe-item(v-for="(recipe, index) in recipes"
