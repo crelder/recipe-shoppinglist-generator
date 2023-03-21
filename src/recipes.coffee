@@ -57,13 +57,40 @@ Vue.component 'recipe-item',
     'recipes'
     'index'
     'query'
+    'vegfilter'
   ]
+
   methods:
     toggleSelectedRecipe: -> @recipe.selected = !@recipe.selected
     deleteRecipe: (index)->
       s = @
       eModal.confirm 'This cannot be undone.', 'Are you sure?'
         .then -> s.recipes.splice index, 1
+
+  computed:
+    ingSearch: ->
+      if @query.length is 0 then no
+      else
+        ings = (ing.name.replace('(s)', '').split(' ') for ing in @recipe.ingredients).flat()
+        found = ings.includes @query
+    isVeg: ->
+      deps = (ing.department for ing in @recipe.ingredients)
+      meat = not deps.includes 'Meats'
+    showItem: ->
+      conditions =
+        AND:
+          veg:   @vegfilter is no or @isVeg is yes
+        OR:
+          empty:    @query.length == 0
+          title:    @recipe.recipeName.toLowerCase().includes(@query)
+          comment:  @recipe.comment.toLowerCase().includes(@query)
+          ings:     @ingSearch
+      ands = Object.values conditions.AND
+        .every (e)-> e is yes
+      ors  = Object.values conditions.OR
+        .includes yes
+      final = ors is yes and ands is yes
+
   template: '#recipe-item'
 
 init = ->
@@ -91,6 +118,7 @@ init = ->
       ingForm: 'exist'
       units: ['mL', 'g', 'cup(s)', 'tsp(s)', 'pack(s)']
       query: ''
+      vegfilter: no
 
     methods:
 
@@ -166,6 +194,7 @@ init = ->
       clearQuery: ->
         @query = ''
         do document.querySelector('input[name="query"]').focus
+      toggleVeg: -> @vegfilter = not @vegfilter
 
       handleFileSelect: (evt)->
         onload = (e)->

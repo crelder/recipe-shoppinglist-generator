@@ -30,7 +30,7 @@ html
 
     template#recipe-item
       li.list-group-item.list-group-item-action(
-        v-show="query.length == 0 || recipe.recipeName.toLowerCase().includes(query)"
+        v-show="showItem"
         :data-index="index"
         :class="{ selected: recipe.selected }"
       )
@@ -44,6 +44,7 @@ html
           target="_blank"
           :href="recipe.link.length > 0 ? recipe.link : false"
         ) {{ recipe.recipeName }}
+        i.ml-2.fas(:class="isVeg ? 'fa-leaf text-success' : 'fa-drumstick-bite text-danger'")
 
     #app
 
@@ -130,6 +131,14 @@ html
               .input-group
                 input.form-control(v-model="query" name="query" placeholder="Start typing to filter list")
                 .input-group-append: button-icon(icon="times" color="danger" title="Clear search" :cb="clearQuery")
+              //- Veg filter
+              button-icon(
+                icon="drumstick-bite"
+                :color="vegfilter ? 'success' : 'outline-dark'"
+                title="Toggle vegetarian"
+                :cb="toggleVeg"
+              )
+
           #recipes-list.card-body.container.row.justify-content-center
             ul.list-group.list-group-flush.col-md-8
               recipe-item(v-for="(recipe, index) in recipes"
@@ -137,6 +146,7 @@ html
                 :recipes="recipes"
                 :index="index"
                 :query="query"
+                :vegfilter="vegfilter"
                 @update="updateRecipe(index, recipe)"
                 )
 
