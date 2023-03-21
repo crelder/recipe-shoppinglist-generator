@@ -117,10 +117,13 @@ html
               button-icon(icon="redo" text="Reset" color="danger" :cb="clearRecipe")
 
         #step2.card.mb-4
-          .card-header.container: .row
+          .card-header: .row
             .col-md-4: section-title(number="2" title="Select recipes")
 
-            .col-md-6
+            .col-md-6.offset-md-2: div.card-header-actions.d-flex
+              //- Select none
+              button-icon(icon="clone" family="far" color="outline-dark" title="Select none" :cb="selectNone")
+              //- Recipe filter
               .input-group
                 input.form-control(v-model="query" name="query" placeholder="Start typing to filter list")
                 .input-group-append: button-icon(icon="times" color="danger" title="Clear search" :cb="clearQuery")

@@ -162,6 +162,7 @@ init = ->
         , 'Copied'
       onError: (e) -> mess.show 'Error copying to the clipboard.'
 
+      selectNone: -> @recipes.forEach (recipe)-> recipe.selected = no
       clearQuery: ->
         @query = ''
         do document.querySelector('input[name="query"]').focus

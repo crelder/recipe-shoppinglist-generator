@@ -37,6 +37,9 @@ input[type=number] {
   max-height: 60vh;
   overflow-y: scroll;
 }
+#step2 .card-header .card-header-actions {
+  gap: calc(0.25 * var(--spacer));
+}
 #recipes-list ul > li {
   cursor: default;
 }
