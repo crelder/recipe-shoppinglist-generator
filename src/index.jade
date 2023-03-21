@@ -5,9 +5,9 @@ html
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css")
-    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css")
-    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/regular.css")
-    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/solid.css")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/regular.css")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/fontawesome.css")
     link(rel="stylesheet" href="./recipes.css")
     title Shopping list generator
   body
@@ -105,23 +105,6 @@ html
                 i.fas.fa-redo
                 |
                 | Reset
-
-        //-
-          #step1.card
-            .card-header
-              span.fa-stack
-                i.fas.fa-circle.fa-stack-2x
-                stong.fa-stack-1x 2
-              | Load your recipes file
-              |
-              small.text-muted (recipes.json)
-            .card-body: .row
-              .col-md-4
-                input#recipesFile.form-control-file(type="file" name="files")
-              .col
-                .card: .card-body
-                  .card-title Need to add/delete/change recipes?
-                  .card-body: include includes/_json_instructions.jade
 
         #step2.card.mb-4
           .card-header.container: .row
