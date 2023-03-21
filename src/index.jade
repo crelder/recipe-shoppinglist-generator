@@ -56,11 +56,14 @@ html
           .card-header
             .col-md-4: section-title(number="1" title="Add recipes")
             .col-md-6.text-right
-              // https://codepen.io/pieceofcode/pen/zldng
-              .file-upload
-                label.btn.btn-secondary.mb-0.file-upload__label(for="recipesFile") Load recipes list
-                input#recipesFile.file-upload__input(type="file" name="files" @change="handleFileSelect")
-              button-icon.dropdown-item(text="Backup recipes list" color="light" :cb="exportRecipes")
+              .dropdown#recipes-backup
+                button-icon.dropdown-toggle(icon="save" text="Recipes backup" data-toggle="dropdown")
+                .dropdown-menu
+                  // https://codepen.io/pieceofcode/pen/zldng
+                  label.dropdown-item.file-upload__label(for="recipesFile" text="Load") Load
+                  input#recipesFile.file-upload__input(type="file" name="files" @change="handleFileSelect")
+                  button-icon.dropdown-item(text="Save" color="light" :cb="exportRecipes")
+
           .card-body.container: .row
             .col
               .row.form-group: .col

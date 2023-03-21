@@ -9,15 +9,6 @@ input[type=number] {
   position: relative;
   display: inline-block;
 }
-/*
-.file-upload__label {
-  display: block;
-  padding: 1em 2em;
-  color: #fff;
-  background: #222;
-  border-radius: .4em;
-}
-*/
 .file-upload__input {
   position: absolute;
   left: 0;
@@ -28,6 +19,9 @@ input[type=number] {
   width:0;
   height: 100%;
   opacity: 0;
+}
+.dropdown .dropdown-item {
+  cursor: pointer;
 }
 
 /* Components */
