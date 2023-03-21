@@ -30,17 +30,6 @@ templates =
     amount:     0
     department: ''
 
-init = ->
-  el.classList.remove 'd-none' for el in document.querySelectorAll '.d-none'
-
-  recipeCollection = ->
-    x.forEach (recipe, index)->
-      recipe.selected = no
-      recipe.ingredients = azsort recipe.ingredients, 'name'
-    recipes = azsort x, 'recipeName'
-    store.set 'recipes', recipes
-    recipes
-
   Vue.component 'recipe-item',
     props: [
       'recipe'
@@ -55,6 +44,16 @@ init = ->
         eModal.confirm 'This cannot be undone.', 'Are you sure?'
           .then -> s.recipes.splice index, 1
     template: '#recipe-item'
+
+init = ->
+
+  recipeCollection = ->
+    x.forEach (recipe, index)->
+      recipe.selected = no
+      recipe.ingredients = azsort recipe.ingredients, 'name'
+    recipes = azsort x, 'recipeName'
+    store.set 'recipes', recipes
+    recipes
 
   vm = new Vue
     el: '#app'
