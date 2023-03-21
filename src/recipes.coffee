@@ -30,6 +30,10 @@ templates =
     amount:     0
     department: ''
 
+Vue.component 'section-title',
+  props: ['number', 'title']
+  template: '#section-title'
+
   Vue.component 'recipe-item',
     props: [
       'recipe'

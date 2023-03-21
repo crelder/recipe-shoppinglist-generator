@@ -12,6 +12,11 @@ html
     title Shopping list generator
   body
 
+    template#section-title
+      h4.section-title
+        span.badge.badge-dark.mr-2 {{ number }}
+        | {{ title }}
+
     template#recipe-item
       li.list-group-item.list-group-item-action(
         v-show="query.length == 0 || recipe.recipeName.toLowerCase().includes(query)"
@@ -38,12 +43,8 @@ html
 
         #step1.card.mb-4
           .card-header
-            .col
-              span.fa-stack
-                i.fas.fa-circle.fa-stack-2x
-                stong.fa-stack-1x 1
-              | Add recipes
-            .col-md-4.text-right
+            .col-md-4: section-title(number="1" title="Add recipes")
+            .col-md-6.text-right
               // https://codepen.io/pieceofcode/pen/zldng
               .file-upload
                 label.btn.btn-secondary.mb-0.file-upload__label(for="recipesFile") Load recipes list
@@ -108,11 +109,8 @@ html
 
         #step2.card.mb-4
           .card-header.container: .row
-            .col
-              span.fa-stack
-                i.fas.fa-circle.fa-stack-2x
-                stong.fa-stack-1x 2
-              | Select recipes
+            .col-md-4: section-title(number="2" title="Select recipes")
+
             .col-md-6
               .input-group
                 input.form-control(v-model="query" placeholder="Start typing to filter list")
@@ -129,10 +127,7 @@ html
 
         #step3.card.d-none(v-if="selectedRecipes.length > 0")
           .card-header
-            span.fa-stack
-              i.fas.fa-circle.fa-stack-2x
-              stong.fa-stack-1x 3
-            | Create shopping list
+            .col-md-4: section-title(number="3" title="Create shopping list")
           .card-body
             button.btn.btn-primary.mr-3.mt-3(type="button"
               v-clipboard:copy="clipboardShoppingList"

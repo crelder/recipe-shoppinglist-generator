@@ -25,6 +25,11 @@ input[type=number] {
   height: 100%;
   opacity: 0;
 }
+
+/* Components */
+.section-title > .badge {
+  border-radius: 50%;
+
 #step1 {
   /*display: none;*/
 }
