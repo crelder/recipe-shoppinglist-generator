@@ -35,21 +35,45 @@ input[type=number] {
 #new-ingredients .fa-trash {
   cursor: pointer;
 }
-#recipes-list {
-  max-height: 60vh;
-  overflow-y: scroll;
-}
 #step2 .card-header .card-header-actions {
   gap: calc(0.25 * var(--spacer));
 }
-#recipes-list ul > li {
-  cursor: default;
+#step2 .card-body table tr:first-child > td {
+  border-top: none;
 }
-#recipes-list ul > li > .fa-trash,
-#recipes-list ul > li > .fa-pen {
+#step2 table tr > *:first-child,
+#step2 table tr > *:last-child {
+  width: calc( 100% / 12 );
+}
+#step2 .card-body table tr > td:first-child,
+#step2 .card-body table tr > td:last-child {
+  vertical-align: middle;
+}
+#step2 .card-body table tr > td:first-child > div,
+#step2 .card-body table tr > td:last-child > div {
+  display: flex;
+  gap: var(--spacer);
+}
+#step2 .card-body table tr > td:first-child > div {
+  justify-content: flex-start;
+}
+#step2 .card-body table tr > td:last-child > div {
+  justify-content: flex-end;
+}
+#step2 table tr > *:nth-child(3) {
+  width: calc( 100% / 3 );
+}
+#step2 .card-body table tr > td:nth-child(3) {
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#step2 .card-body .fa-trash,
+#step2 .card-body .fa-pen {
   cursor: pointer;
 }
-  
+
 /* BIGFIX for eModal to support bootstrap v4's flexbox model */
 .modal .modal-header > .x.close {
   order: 1;

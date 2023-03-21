@@ -29,22 +29,33 @@ html
         span(v-if="text" :class="children > 1 ? 'ml-2' : ''") {{ text }}
 
     template#recipe-item
-      li.list-group-item.list-group-item-action(
+      tr(
         v-show="showItem"
         :data-index="index"
-        :class="{ selected: recipe.selected }"
+        :class="{ 'table-active': recipe.selected }"
+        @click="toggleSelectedRecipe"
       )
-        i.mr-2.fas.fa-trash.text-danger(@click.stop="deleteRecipe(index)")
-        i.mr-2.fas.fa-pen.text-warning(@click.stop="$emit('update')")
-        i.fa-lg(
-          :class="recipe.selected ? 'fas fa-check-square text-primary' : 'far fa-square'"
-          v-on:click="toggleSelectedRecipe"
-        )
-        a.ml-2(
-          target="_blank"
-          :href="recipe.link.length > 0 ? recipe.link : false"
-        ) {{ recipe.recipeName }}
-        i.ml-2.fas(:class="isVeg ? 'fa-leaf text-success' : 'fa-drumstick-bite text-danger'")
+        td: div
+          i.fas.fa-trash.text-danger(@click.stop="deleteRecipe(index)")
+          i.fas.fa-pen.text-warning(@click.stop="$emit('update')")
+        td
+          i.fa-lg.mr-2(
+            :class="recipe.selected ? 'fas fa-check-square text-primary' : 'far fa-square'"
+            @click.stop="toggleSelectedRecipe"
+          )
+          a(
+            target="_blank"
+            :href="recipe.link.length > 0 ? recipe.link : false"
+          )
+            | {{ recipe.recipeName }}
+            i.ml-2.fas.fa-external-link-alt(v-show="recipe.link.length > 0")
+        td: i(v-if="recipe.comment.length > 0") {{ recipe.comment }}
+        td: div
+          i.fas.fa-clipboard-list.text-success(
+            v-if="ingSearch"
+            :title="ingSearch ? 'Ingredient match': false"
+          )
+          i.fas(:class="isVeg ? 'fa-leaf text-success' : 'fa-drumstick-bite text-danger'")
 
     #app
 
@@ -143,7 +154,8 @@ html
               button-icon(icon="redo" text="Reset" color="danger" :cb="clearRecipe")
 
         #step2.card.shadow.mb-4
-          .card-header: .row
+
+          .card-header.pb-1: .row
             .col-md-4: section-title(number="2" title="Select recipes")
 
             .col-md-6.offset-md-2: div.card-header-actions.d-flex
@@ -161,16 +173,19 @@ html
                 :cb="toggleVeg"
               )
 
-          #recipes-list.card-body.container.row.justify-content-center
-            ul.list-group.list-group-flush.col-md-8
-              recipe-item(v-for="(recipe, index) in recipes"
+          //- Recipes list
+          .card-body.py-2
+            .table-responsive: table.table.table-hover.mb-0: tbody
+              //- For custom components rendered as <tr>, syntax is different
+              //- @see https://vuejs.org/guide/essentials/component-basics.html#dom-template-parsing-caveats
+              tr(is="recipe-item" v-for="(recipe, index) in recipes"
                 :recipe="recipe"
                 :recipes="recipes"
                 :index="index"
                 :query="query"
                 :vegfilter="vegfilter"
                 @update="updateRecipe(index, recipe)"
-                )
+              )
 
         #step3.card.shadow
           .card-header: .row.justify-content-between
@@ -198,4 +213,3 @@ html
     script(src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.bundle.min.js")
     script(src="https://rawgit.com/saribe/eModal/master/dist/eModal.min.js")
     script(src="./recipes.js")
-
