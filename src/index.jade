@@ -163,6 +163,7 @@ html
               button-icon(icon="clone" family="far" color="outline-dark" title="Select none" :cb="selectNone")
               //- Recipe filter
               .input-group
+                .input-group-prepend: .input-group-text: i.fas.fa-filter
                 input.form-control(v-model="query" name="query" placeholder="Search recipe details & ingredients")
                 .input-group-append: button-icon(icon="times" color="danger" title="Clear search" :cb="clearQuery")
               //- Veg filter
