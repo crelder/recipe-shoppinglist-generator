@@ -53,10 +53,10 @@ html
         .row.justify-content-center
           h3.mb-4 Shopping list generator
 
-        #step1.card.mb-4
-          .card-header
+        #step1.card.shadow.mb-4
+          .card-header: .row
             .col-md-4: section-title(number="1" title="Add recipes")
-            .col-md-6.text-right
+            .col-md-6.offset-md-2.text-right
               .dropdown#recipes-backup
                 button-icon.dropdown-toggle(icon="save" text="Recipes backup" data-toggle="dropdown")
                 .dropdown-menu
@@ -92,7 +92,7 @@ html
                           .dropdown-item(@click="ingForm = 'new'") New
                     .col
                       select.form-control(v-model="ingredient.name" v-if="ingForm == 'exist'" @change="updateIngredientTexts")
-                        option(value="" data-department="") Choose existing...
+                        option(value="" data-department="") Choose existing ingredient...
                         optgroup(v-for="(ingredients, department) in ingredientList" :label="department")
                           option(v-for="(ingredient, name) in ingredients" :value="name" :data-department="department") {{name}}
                       div(v-if="ingForm == 'new'")
@@ -120,7 +120,7 @@ html
               )
               button-icon(icon="redo" text="Reset" color="danger" :cb="clearRecipe")
 
-        #step2.card.mb-4
+        #step2.card.shadow.mb-4
           .card-header: .row
             .col-md-4: section-title(number="2" title="Select recipes")
 
@@ -129,7 +129,7 @@ html
               button-icon(icon="clone" family="far" color="outline-dark" title="Select none" :cb="selectNone")
               //- Recipe filter
               .input-group
-                input.form-control(v-model="query" name="query" placeholder="Start typing to filter list")
+                input.form-control(v-model="query" name="query" placeholder="Search recipe details & ingredients")
                 .input-group-append: button-icon(icon="times" color="danger" title="Clear search" :cb="clearQuery")
               //- Veg filter
               button-icon(
@@ -150,7 +150,7 @@ html
                 @update="updateRecipe(index, recipe)"
                 )
 
-        #step3.card
+        #step3.card.shadow
           .card-header: .row.justify-content-between
             .col-md-4: section-title(number="3" title="Create shopping list")
             .col.text-right(v-if="selectedRecipes.length > 0")
