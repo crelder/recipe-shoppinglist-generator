@@ -34,20 +34,37 @@ Vue.component 'section-title',
   props: ['number', 'title']
   template: '#section-title'
 
-  Vue.component 'recipe-item',
-    props: [
-      'recipe'
-      'recipes'
-      'index'
-      'query'
-    ]
-    methods:
-      toggleSelectedRecipe: -> @recipe.selected = !@recipe.selected
-      deleteRecipe: (index)->
-        s = @
-        eModal.confirm 'This cannot be undone.', 'Are you sure?'
-          .then -> s.recipes.splice index, 1
-    template: '#recipe-item'
+Vue.component 'button-icon',
+  props: ['icon', 'family', # icon-family [fas|far|...]
+    'text', 'cb', 'color', 'title', 'tag']
+  methods:
+    getStyle: -> @family ? 'fas'
+    doCallback: ->
+      if @cb
+        do @cb
+        do this.$el.blur
+      else no
+  computed:
+    compIcon: -> "#{do @getStyle} fa-#{@icon}"
+    compColor: -> if @color then "btn-#{@color}" else 'btn-secondary'
+    compTag: -> @tag ? 'button'
+    children: -> (a for a in [@icon, @text] when a?).length
+  template: '#button-icon'
+
+Vue.component 'recipe-item',
+  props: [
+    'recipe'
+    'recipes'
+    'index'
+    'query'
+  ]
+  methods:
+    toggleSelectedRecipe: -> @recipe.selected = !@recipe.selected
+    deleteRecipe: (index)->
+      s = @
+      eModal.confirm 'This cannot be undone.', 'Are you sure?'
+        .then -> s.recipes.splice index, 1
+  template: '#recipe-item'
 
 init = ->
 
@@ -144,6 +161,10 @@ init = ->
           message: e.text.replace(///\n///g, '<br />')
         , 'Copied'
       onError: (e) -> mess.show 'Error copying to the clipboard.'
+
+      clearQuery: ->
+        @query = ''
+        do document.querySelector('input[name="query"]').focus
 
       handleFileSelect: (evt)->
         onload = (e)->

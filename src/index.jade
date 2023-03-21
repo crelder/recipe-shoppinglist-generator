@@ -17,6 +17,17 @@ html
         span.badge.badge-dark.mr-2 {{ number }}
         | {{ title }}
 
+    template#button-icon
+      .button-icon.btn(
+        :is="compTag"
+        type="button"
+        :class="compColor"
+        :title="title"
+        @click="doCallback()"
+      )
+        i(v-if="icon" :class="compIcon")
+        span(v-if="text" :class="children > 1 ? 'ml-2' : ''") {{ text }}
+
     template#recipe-item
       li.list-group-item.list-group-item-action(
         v-show="query.length == 0 || recipe.recipeName.toLowerCase().includes(query)"
@@ -49,7 +60,7 @@ html
               .file-upload
                 label.btn.btn-secondary.mb-0.file-upload__label(for="recipesFile") Load recipes list
                 input#recipesFile.file-upload__input(type="file" name="files" @change="handleFileSelect")
-              button.btn.btn-secondary(@click="exportRecipes") Backup recipes list
+              button-icon.dropdown-item(text="Backup recipes list" color="light" :cb="exportRecipes")
           .card-body.container: .row
             .col
               .row.form-group: .col
@@ -69,12 +80,12 @@ html
                 .col
                   .row#new-ingredient
                     .col-md-2
-                      .form-check
-                        input.form-check-input(type="radio" v-model="ingForm" value="exist" id="ingExist" checked @change="clearIngredientName")
-                        label.form-check-label(for="ingExist") Existing
-                      .form-check
-                        input.form-check-input(type="radio" v-model="ingForm" value="new" id="ingNew")
-                        label.form-check-label(for="ingNew") New
+                      .dropdown
+                        button-icon.dropdown-toggle(data-toggle="dropdown" :text="ingForm == 'exist' ? 'Existing' : 'New'")
+                        .dropdown-menu
+                          input(type="hidden" v-model="ingForm" @change="clearIngredientName")
+                          .dropdown-item(@click="ingForm = 'exist'") Existing
+                          .dropdown-item(@click="ingForm = 'new'") New
                     .col
                       select.form-control(v-model="ingredient.name" v-if="ingForm == 'exist'" @change="updateIngredientTexts")
                         option(value="" data-department="") Choose existing...
@@ -89,8 +100,7 @@ html
                               option(v-for="department in departmentList" :value="department") {{department}}
                           .col
                             input.form-control(type="text" v-model="ingredient.department" @keydown.enter="addIngredient" placeholder="... or add new")
-                .col-md-1.text-right: button.btn.btn-success(@click="addIngredient")
-                  i.fas.fa-plus
+                .col-md-1.text-right: button-icon(icon="plus" text="Add" color="primary" :cb="addIngredient")
               .row: .col-md-11.mx-auto
                   h5.my-2(v-show="recipe.ingredients.length > 0") Ingredients
                   ul#new-ingredients.fa-ul.ml-4.mb-3
@@ -98,14 +108,13 @@ html
                       span.fa-li.text-danger: i.fas.fa-trash(@click="deleteIngredient(index)")
                       | {{ing.amount}}{{ing.unit}} {{ing.name}}
             .col-md-2.text-right
-              button.btn.btn-lg.btn-primary.mb-2(@click="addRecipe")
-                i.fas.fa-plus
-                |
-                | {{ editindex !== '' ? 'Update' : 'Add' }}
-              button.btn.btn-danger(@click="clearRecipe")
-                i.fas.fa-redo
-                |
-                | Reset
+              button-icon.btn-lg.mb-2(
+                :icon="editindex !== '' ? 'pen' : 'plus'"
+                :text="editindex !== '' ? 'Update' : 'Add'"
+                :color="editindex !== '' ? 'warning' : 'primary'"
+                :cb="addRecipe"
+              )
+              button-icon(icon="redo" text="Reset" color="danger" :cb="clearRecipe")
 
         #step2.card.mb-4
           .card-header.container: .row
@@ -113,8 +122,8 @@ html
 
             .col-md-6
               .input-group
-                input.form-control(v-model="query" placeholder="Start typing to filter list")
-                .input-group-append: button.btn.btn-danger(@click="query = ''") Clear
+                input.form-control(v-model="query" name="query" placeholder="Start typing to filter list")
+                .input-group-append: button-icon(icon="times" color="danger" title="Clear search" :cb="clearQuery")
           #recipes-list.card-body.container.row.justify-content-center
             ul.list-group.list-group-flush.col-md-8
               recipe-item(v-for="(recipe, index) in recipes"
@@ -129,14 +138,18 @@ html
           .card-header
             .col-md-4: section-title(number="3" title="Create shopping list")
           .card-body
-            button.btn.btn-primary.mr-3.mt-3(type="button"
+            button-icon(
+              icon="shopping-basket" text="Generate shopping list" color="primary"
               v-clipboard:copy="clipboardShoppingList"
               v-clipboard:success="onCopy"
-              v-clipboard:error="onError") Generate shopping list
-            button.btn.btn-primary.mr-3.mt-3(type="button"
+              v-clipboard:error="onError"
+            )
+            button-icon(
+              icon="clipboard-list" text="Preview selected recipes" color="primary"
               v-clipboard:copy="clipboardMenues"
               v-clipboard:success="onCopy"
-              v-clipboard:error="onError") Preview selected recipes
+              v-clipboard:error="onError"
+            )
 
     script(src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js")
     script(src="https://cdn.jsdelivr.net/gh/zenorocha/clipboard.js@2.0.0/dist/clipboard.min.js")
