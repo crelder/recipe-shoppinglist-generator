@@ -27,6 +27,7 @@ input[type=number] {
 /* Components */
 .section-title > .badge {
   border-radius: 50%;
+}
 
 #step1 {
   /*display: none;*/
