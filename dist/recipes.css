@@ -31,6 +31,9 @@ input[type=number] {
 #step1 {
   /*display: none;*/
 }
+#new-ingredients .fa-trash {
+  cursor: pointer;
+}
 #recipes-list {
   max-height: 60vh;
   overflow-y: scroll;
@@ -45,14 +48,11 @@ input[type=number] {
 #recipes-list ul > li > .fa-pen {
   cursor: pointer;
 }
-#new-ingredients li i.fa-trash {
-  cursor: pointer;
-}
-#new-ingredient {
-  height: 3em;
-}
+  
 /* BIGFIX for eModal to support bootstrap v4's flexbox model */
 .modal .modal-header > .x.close {
   order: 1;
 }
-
+.modal .modal-title kbd {
+  vertical-align: text-bottom;
+}
