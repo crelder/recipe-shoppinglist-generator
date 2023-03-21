@@ -1,3 +1,7 @@
+:root {
+  /* Copying Bootstrap's variable definition to native CSS */
+  --spacer: 1rem;
+}
 input[type=number] {
   -moz-appearance: textfield;
 }
