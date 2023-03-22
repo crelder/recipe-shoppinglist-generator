@@ -45,29 +45,27 @@ input[type=number] {
 #step2 .card-body table tr:first-child > td {
   border-top: none;
 }
-#step2 table tr > *:first-child,
-#step2 table tr > *:last-child {
+#step2 .recipe-actions,
+#step2 .recipe-meta {
   width: calc( 100% / 12 );
 }
 #step2 .card-body table tr > td:first-child,
 #step2 .card-body table tr > td:last-child {
   vertical-align: middle;
 }
-#step2 .card-body table tr > td:first-child > div,
-#step2 .card-body table tr > td:last-child > div {
+#step2 .recipe-actions > div,
+#step2 .recipe-meta > div {
   display: flex;
   gap: var(--spacer);
 }
-#step2 .card-body table tr > td:first-child > div {
+#step2 .recipe-actions > div {
   justify-content: flex-start;
 }
-#step2 .card-body table tr > td:last-child > div {
+#step2 .recipe-meta > div {
   justify-content: flex-end;
 }
-#step2 table tr > *:nth-child(3) {
+#step2 .recipe-comment {
   width: calc( 100% / 3 );
-}
-#step2 .card-body table tr > td:nth-child(3) {
   max-width: 0;
   overflow: hidden;
   white-space: nowrap;

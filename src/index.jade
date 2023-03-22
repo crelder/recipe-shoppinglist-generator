@@ -29,28 +29,28 @@ html
         span(v-if="text" :class="children > 1 ? 'ml-2' : ''") {{ text }}
 
     template#recipe-item
-      tr(
+      tr.recipe-item(
         v-show="showItem"
         :data-index="index"
         :class="{ 'table-active': recipe.selected }"
         @click="toggleSelectedRecipe"
       )
-        td: div
+        td.recipe-actions: div
           i.fas.fa-trash.text-danger(@click.stop="deleteRecipe(index)")
           i.fas.fa-pen.text-warning(@click.stop="$emit('update')")
-        td
+        td.recipe-title
           i.fa-lg.mr-2(
             :class="recipe.selected ? 'fas fa-check-square text-primary' : 'far fa-square'"
             @click.stop="toggleSelectedRecipe"
           )
-          a(
+          a.recipe-link(
             target="_blank"
             :href="recipe.link.length > 0 ? recipe.link : false"
           )
             | {{ recipe.recipeName }}
             i.ml-2.fas.fa-external-link-alt(v-show="recipe.link.length > 0")
-        td: i(v-if="recipe.comment.length > 0") {{ recipe.comment }}
-        td: div
+        td.recipe-comment: i(v-if="recipe.comment.length > 0") {{ recipe.comment }}
+        td.recipe-meta: div
           i.fas.fa-clipboard-list.text-success(
             v-if="ingSearch"
             :title="ingSearch ? 'Ingredient match': false"
