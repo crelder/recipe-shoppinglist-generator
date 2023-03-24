@@ -74,7 +74,7 @@ html
                   // https://codepen.io/pieceofcode/pen/zldng
                   label.dropdown-item.file-upload__label(for="recipesFile" text="Load") Load
                   input#recipesFile.file-upload__input(type="file" name="files" @change="handleFileSelect")
-                  button-icon.dropdown-item(text="Save" color="light" :cb="exportRecipes")
+                  .dropdown-item(@click="exportRecipes") Save
 
           .card-body(v-show="step1visible == true"): .row
             .col
