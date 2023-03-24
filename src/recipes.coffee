@@ -126,6 +126,7 @@ init = ->
       units: ['mL', 'g', 'cup(s)', 'tsp(s)', 'pack(s)']
       query: ''
       vegfilter: no
+      step1visible: no
 
     methods:
 
@@ -164,13 +165,17 @@ init = ->
             @recipes.push clone @recipe
             mess.show "Added new recipe: #{@recipe.recipeName}"
           do @clearRecipe
+
       clearRecipe: ->
         @recipe = clone templates.recipe
         do @clearIngredient
         @editindex = ''
+        @step1visible = no
+
       updateRecipe: (index, recipe)->
         @recipe[k] = v for k, v of recipe
         @editindex = index
+        @step1visible = yes
 
       uniqueIngredients: (recipes = @recipes)->
         ings = {}
@@ -202,6 +207,8 @@ init = ->
         @query = ''
         do document.querySelector('input[name="query"]').focus
       toggleVeg: -> @vegfilter = not @vegfilter
+
+      step1toggle: -> @step1visible = not @step1visible
 
       handleFileSelect: (evt)->
         onload = (e)->

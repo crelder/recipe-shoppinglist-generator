@@ -77,7 +77,7 @@ html
                   input#recipesFile.file-upload__input(type="file" name="files" @change="handleFileSelect")
                   button-icon.dropdown-item(text="Save" color="light" :cb="exportRecipes")
 
-          .card-body: .row
+          .card-body(v-show="step1visible == true"): .row
             .col
               
               //- Recipe metadata
