@@ -2,6 +2,10 @@
   /* Copying Bootstrap's variable definition to native CSS */
   --spacer: 1rem;
 }
+#mess-messElement {
+  /* cos the original uses "absolute" for some odd reason */
+  position: fixed !important;
+}
 input[type=number] {
   -moz-appearance: textfield;
 }
