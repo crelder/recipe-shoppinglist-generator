@@ -38,7 +38,7 @@ html
       )
         td.recipe-actions: div
           i.fas.fa-trash.text-danger(@click.stop="deleteRecipe(index)")
-          i.fas.fa-pen.text-warning(@click.stop="$emit('update')")
+          i.fas.fa-pen.text-warning(@click.stop="$emit('updaterecipe')")
         td.recipe-title
           i.fa-lg.mr-2(
             :class="recipe.selected ? 'fas fa-check-square text-primary' : 'far fa-square'"
@@ -64,7 +64,7 @@ html
 
         #step1.card.shadow.mb-4
           .card-header: .row
-            .col-md-4:
+            .col-md-4
               section-title(text="1" title="Add recipes" @sectionclick="step1toggle")
               i.fas.fa-caret-down.text-light.ml-1
             .col-md-6.offset-md-2.text-right
@@ -185,7 +185,7 @@ html
                 :index="index"
                 :query="query"
                 :vegfilter="vegfilter"
-                @update="updateRecipe(index, recipe)"
+                @updaterecipe="updateRecipe(index, recipe)"
               )
 
         #step3.card.shadow
