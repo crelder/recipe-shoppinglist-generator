@@ -31,7 +31,14 @@ templates =
     department: ''
 
 Vue.component 'section-title',
-  props: ['number', 'title']
+  props: [
+    'title'           # the title
+    'text'            # option 1: prepend text
+    'icon', 'family'  # option 2: prepend icon
+  ]
+  computed:
+    getClass: -> "#{family} fa-#{icon}"
+  emits: ['sectionclick']
   template: '#section-title'
 
 Vue.component 'button-icon',

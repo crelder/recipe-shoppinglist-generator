@@ -36,6 +36,13 @@ input[type=number] {
 #step1 {
   /*display: none;*/
 }
+#step1 .section-title {
+  display: inline;
+  cursor: pointer;
+}
+#step1 .section-title:hover {
+  text-decoration: underline;
+}
 #new-ingredients .fa-trash {
   cursor: pointer;
 }
