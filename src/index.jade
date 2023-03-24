@@ -14,7 +14,9 @@ html
 
     template#section-title
       h4.section-title
-        span.badge.badge-dark.mr-2 {{ number }}
+        span.badge.badge-dark.mr-2
+          span(v-if="text") {{ text }}
+          i(v-if="icon" :icon="getIcon" :family="family")
         | {{ title }}
 
     template#button-icon
@@ -63,7 +65,9 @@ html
 
         #step1.card.shadow.mb-4
           .card-header: .row
-            .col-md-4: section-title(number="1" title="Add recipes")
+            .col-md-4:
+              section-title(number="1" title="Add recipes" @sectionclick="step1toggle")
+              i.fas.fa-caret-down.text-light.ml-1
             .col-md-6.offset-md-2.text-right
               .dropdown#recipes-backup
                 button-icon.dropdown-toggle(icon="save" text="Recipes backup" data-toggle="dropdown")
