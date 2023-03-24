@@ -46,11 +46,9 @@ Vue.component 'button-icon',
     'text', 'cb', 'color', 'title', 'tag']
   methods:
     getStyle: -> @family ? 'fas'
-    doCallback: ->
-      if @cb
-        do @cb
-        do this.$el.blur
-      else no
+    buttonClick: ->
+      this.$emit 'buttonclick'
+      do this.$el.blur
   computed:
     compIcon: -> "#{do @getStyle} fa-#{@icon}"
     compColor: -> if @color then "btn-#{@color}" else 'btn-secondary'

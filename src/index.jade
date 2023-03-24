@@ -24,7 +24,7 @@ html
         :is="compTag"
         type="button"
         :class="compColor"
-        @click="doCallback()"
+        @click="buttonClick"
       )
         i(v-if="icon" :class="compIcon")
         span(v-if="text" :class="children > 1 ? 'ml-2' : ''") {{ text }}
@@ -141,7 +141,7 @@ html
                             .dropdown-item(v-for="(option) in units" @click="ingredient.unit = option") {{ option }}
 
                     //- New ingedient action button
-                    .col-md-2: button-icon(icon="plus" text="Add" color="primary" :cb="addIngredient")
+                    .col-md-2: button-icon(icon="plus" text="Add" color="primary" @buttonclick="addIngredient")
 
             //- Recipe action buttons
             .col-md-2.text-right
@@ -149,9 +149,9 @@ html
                 :icon="editindex !== '' ? 'pen' : 'plus'"
                 :text="editindex !== '' ? 'Update' : 'Add'"
                 :color="editindex !== '' ? 'warning' : 'primary'"
-                :cb="addRecipe"
+                @buttonclick="addRecipe"
               )
-              button-icon(icon="times" text="Cancel" color="danger" :cb="clearRecipe")
+              button-icon(icon="times" text="Cancel" color="danger" @buttonclick="clearRecipe")
 
         #step2.card.shadow.mb-4
 
@@ -160,18 +160,18 @@ html
 
             .col-md-6.offset-md-2: div.card-header-actions.d-flex
               //- Select none
-              button-icon(icon="clone" family="far" color="outline-dark" title="Select none" :cb="selectNone")
+              button-icon(icon="clone" family="far" color="outline-dark" title="Select none" @buttonclick="selectNone")
               //- Recipe filter
               .input-group
                 .input-group-prepend: .input-group-text: i.fas.fa-filter
                 input.form-control(v-model="query" name="query" placeholder="Search recipe details & ingredients")
-                .input-group-append: button-icon(icon="times" color="danger" title="Clear search" :cb="clearQuery")
+                .input-group-append: button-icon(icon="times" color="danger" title="Clear search" @buttonclick="clearQuery")
               //- Veg filter
               button-icon(
                 icon="leaf"
                 :color="vegfilter ? 'success' : 'outline-dark'"
                 title="Toggle vegetarian"
-                :cb="toggleVeg"
+                @buttonclick="toggleVeg"
               )
 
           //- Recipes list
