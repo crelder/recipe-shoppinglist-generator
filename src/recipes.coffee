@@ -36,16 +36,23 @@ Vue.component 'section-title',
     'text'            # option 1: prepend text
     'icon', 'family'  # option 2: prepend icon
   ]
-  computed:
-    getClass: -> "#{family} fa-#{icon}"
-  emits: ['sectionclick']
   template: '#section-title'
 
-Vue.component 'button-icon',
-  props: ['icon', 'family', # icon-family [fas|far|...]
-    'text', 'cb', 'color', 'title', 'tag']
+Vue.component 'icon',
+  props: ['icon', 'family'] # "family" meaning the icon-family [fas|far|...]
   methods:
     getStyle: -> @family ? 'fas'
+  computed:
+    compIcon: -> "#{do @getStyle} fa-#{@icon}"
+  template: '#icon'
+
+Vue.component 'button-icon',
+  props: [
+    'text'
+    'icon', 'family', 'color'
+    'tag'
+  ]
+  methods:
     buttonClick: ->
       this.$emit 'buttonclick'
       do this.$el.blur

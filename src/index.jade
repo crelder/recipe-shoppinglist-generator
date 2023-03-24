@@ -16,8 +16,11 @@ html
       h4.section-title(@click.stop="$emit('sectionclick')")
         span.badge.badge-dark.mr-2
           span(v-if="text") {{ text }}
-          i(v-if="icon" :class="getClass")
+          icon(v-if="icon" :icon="icon" :family="family")
         | {{ title }}
+
+    template#icon
+      i(:class="compIcon")
 
     template#button-icon
       .button-icon.btn(
@@ -26,7 +29,7 @@ html
         :class="compColor"
         @click="buttonClick"
       )
-        i(v-if="icon" :class="compIcon")
+        icon(v-if="icon" :icon="icon" :family="family")
         span(v-if="text" :class="children > 1 ? 'ml-2' : ''") {{ text }}
 
     template#recipe-item
@@ -37,12 +40,13 @@ html
         @click="toggleSelectedRecipe"
       )
         td.recipe-actions: div
-          i.fas.fa-trash.text-danger(@click.stop="deleteRecipe(index)")
-          i.fas.fa-pen.text-warning(@click.stop="$emit('updaterecipe')")
+          icon.text-danger(icon="trash" @click.native.stop="deleteRecipe(index)" title="Delete recipe")
+          icon.text-warning(icon="pen" @click.native.stop="$emit('updaterecipe')" title="Update recipe")
         td.recipe-title
-          i.fa-lg.mr-2(
-            :class="recipe.selected ? 'fas fa-check-square text-primary' : 'far fa-square'"
-            @click.stop="toggleSelectedRecipe"
+          icon.fa-lg.mr-2(
+            :icon=  "recipe.selected ? 'check-square' : 'square'"
+            :family="recipe.selected ? 'fas' : 'far'"
+            :class= "recipe.selected ? 'text-primary' : ''"
           )
           a.recipe-link(
             target="_blank"
@@ -53,7 +57,10 @@ html
         td.recipe-comment: i(v-if="recipe.comment.length > 0") {{ recipe.comment }}
         td.recipe-meta: div
           .badge.badge-primary(v-if="ingSearch") {{ ingSearch }}
-          i.fas(:class="isVeg ? 'fa-leaf text-success' : 'fa-drumstick-bite text-danger'")
+          icon(
+            :icon=  "isVeg ? 'leaf' : 'drumstick-bite'"
+            :class= "isVeg ? 'text-success' : 'text-danger'"
+          )
 
     #app
 
@@ -66,8 +73,8 @@ html
           .card-header: .row
             .col-md-4
               section-title(text="1" title="Add recipes" @sectionclick="step1toggle")
-              i.fas.fa-caret-down.text-light.ml-1
-            .col-md-6.offset-md-2.text-right
+              icon.ml-1.fa-lg(:icon="step1visible ? 'caret-up' : 'caret-down'" color="light")
+            .col-md-4.offset-md-4.text-right
               .dropdown#recipes-backup
                 button-icon.dropdown-toggle(icon="save" text="Recipes backup" data-toggle="dropdown")
                 .dropdown-menu
@@ -96,7 +103,7 @@ html
                   p(v-show="recipe.ingredients.length == 0") No ingredients yet...
                   ul#new-ingredients.fa-ul(v-show="recipe.ingredients.length > 0")
                     li(v-for="(ing, index) in recipe.ingredients")
-                      span.fa-li.text-danger: i.fas.fa-trash(@click="deleteIngredient(index)")
+                      span.fa-li.text-danger: icon(icon="trash" @click="deleteIngredient(index)")
                       | {{ ing.amount }}{{ ing.unit }} {{ ing.name }}
 
                 //- New ingredient form
@@ -163,7 +170,7 @@ html
               button-icon(icon="clone" family="far" color="outline-dark" title="Select none" @buttonclick="selectNone")
               //- Recipe filter
               .input-group
-                .input-group-prepend: .input-group-text: i.fas.fa-filter
+                .input-group-prepend: .input-group-text: icon(icon="filter")
                 input.form-control(v-model="query" name="query" placeholder="Search recipe details & ingredients")
                 .input-group-append: button-icon(icon="times" color="danger" title="Clear search" @buttonclick="clearQuery")
               //- Veg filter
