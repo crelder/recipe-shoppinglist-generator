@@ -71,8 +71,8 @@ Vue.component 'recipe-item',
     ingSearch: ->
       if @query.length is 0 then no
       else
-        ings = (ing.name.replace('(s)', '').split(' ') for ing in @recipe.ingredients).flat()
-        found = ings.includes @query
+        ings = (ing.name.replace(///\(e?s\)///, '').split(' ') for ing in @recipe.ingredients)
+        found = (@recipe.ingredients[i].name for ing, i in ings when ing.includes @query)[0]
     isVeg: ->
       deps = (ing.department for ing in @recipe.ingredients)
       meat = not deps.includes 'Meats'
@@ -84,7 +84,7 @@ Vue.component 'recipe-item',
           empty:    @query.length == 0
           title:    @recipe.recipeName.toLowerCase().includes(@query)
           comment:  @recipe.comment.toLowerCase().includes(@query)
-          ings:     @ingSearch
+          ings:     @ingSearch?
       ands = Object.values conditions.AND
         .every (e)-> e is yes
       ors  = Object.values conditions.OR

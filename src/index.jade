@@ -51,10 +51,7 @@ html
             i.ml-2.fas.fa-external-link-alt(v-show="recipe.link.length > 0")
         td.recipe-comment: i(v-if="recipe.comment.length > 0") {{ recipe.comment }}
         td.recipe-meta: div
-          i.fas.fa-clipboard-list.text-success(
-            v-if="ingSearch"
-            :title="ingSearch ? 'Ingredient match': false"
-          )
+          .badge.badge-primary(v-if="ingSearch") {{ ingSearch }}
           i.fas(:class="isVeg ? 'fa-leaf text-success' : 'fa-drumstick-bite text-danger'")
 
     #app
