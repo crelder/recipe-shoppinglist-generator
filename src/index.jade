@@ -98,7 +98,7 @@ html
                   ul#new-ingredients.fa-ul(v-show="recipe.ingredients.length > 0")
                     li(v-for="(ing, index) in recipe.ingredients")
                       span.fa-li.text-danger: i.fas.fa-trash(@click="deleteIngredient(index)")
-                      | {{ing.amount}}{{ing.unit}} {{ing.name}}
+                      | {{ ing.amount }}{{ ing.unit }} {{ ing.name }}
 
                 //- New ingredient form
                 .col
@@ -109,14 +109,14 @@ html
                       select.form-control(v-model="ingredient.name" v-if="ingForm == 'exist'" @change="updateIngredientTexts")
                         option(value="" data-department="") Choose existing ingredient...
                         optgroup(v-for="(ingredients, department) in ingredientList" :label="department")
-                          option(v-for="(ingredient, name) in ingredients" :value="name" :data-department="department") {{name}}
+                          option(v-for="(ingredient, name) in ingredients" :value="name" :data-department="department") {{ name }}
                       div(v-if="ingForm == 'new'")
                         input.form-control(type="text" v-model="ingredient.name" @keydown.enter="addIngredient" placeholder="Ingredient name")
                         .row
                           .col
                             select.form-control(v-model="ingredient.department")
                               option(value="") Select department...
-                              option(v-for="department in departmentList" :value="department") {{department}}
+                              option(v-for="department in departmentList" :value="department") {{ department }}
                           .col
                             input.form-control(type="text" v-model="ingredient.department" @keydown.enter="addIngredient" placeholder="... or add new")
 
@@ -139,7 +139,7 @@ html
                           button.btn.dropdown-toggle(data-toggle="dropdown") {{ ingredient.unit }}
                           .dropdown-menu
                             input(type="hidden" v-model="ingredient.unit")
-                            .dropdown-item(v-for="(option) in units" @click="ingredient.unit = option") {{option}}
+                            .dropdown-item(v-for="(option) in units" @click="ingredient.unit = option") {{ option }}
 
                     //- New ingedient action button
                     .col-md-2: button-icon(icon="plus" text="Add" color="primary" :cb="addIngredient")
@@ -152,7 +152,7 @@ html
                 :color="editindex !== '' ? 'warning' : 'primary'"
                 :cb="addRecipe"
               )
-              button-icon(icon="redo" text="Reset" color="danger" :cb="clearRecipe")
+              button-icon(icon="times" text="Cancel" color="danger" :cb="clearRecipe")
 
         #step2.card.shadow.mb-4
 
@@ -169,7 +169,7 @@ html
                 .input-group-append: button-icon(icon="times" color="danger" title="Clear search" :cb="clearQuery")
               //- Veg filter
               button-icon(
-                icon="drumstick-bite"
+                icon="leaf"
                 :color="vegfilter ? 'success' : 'outline-dark'"
                 title="Toggle vegetarian"
                 :cb="toggleVeg"
