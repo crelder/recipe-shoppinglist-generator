@@ -157,7 +157,7 @@ html
         #step2.card.shadow.mb-4
 
           .card-header.pb-1: .row
-            .col-md-4: section-title(number="2" title="Select recipes")
+            .col-md-4: section-title(text="2" title="Select recipes")
 
             .col-md-6.offset-md-2: div.card-header-actions.d-flex
               //- Select none
@@ -191,7 +191,7 @@ html
 
         #step3.card.shadow
           .card-header: .row.justify-content-between
-            .col-md-4: section-title(number="3" title="Create shopping list")
+            .col-md-4: section-title(text="3" title="Create shopping list")
             .col.text-right(v-if="selectedRecipes.length > 0")
               button-icon(
                 icon="shopping-basket" text="Generate shopping list" color="primary"
