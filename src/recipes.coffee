@@ -39,11 +39,13 @@ Vue.component 'section-title',
   template: '#section-title'
 
 Vue.component 'icon',
-  props: ['icon', 'family'] # "family" meaning the icon-family [fas|far|...]
+  props: ['icon', 'family', 'color'] # "family" meaning the icon-family [fas|far|...]
   methods:
     getStyle: -> @family ? 'fas'
   computed:
     compIcon: -> "#{do @getStyle} fa-#{@icon}"
+    compColor: -> if @color then "text-#{@color}" else ''
+    compClass: -> "#{@compIcon} #{@compColor}"
   template: '#icon'
 
 Vue.component 'button-icon',
