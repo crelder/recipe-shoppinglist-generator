@@ -19,8 +19,7 @@ html
           icon(v-if="icon" :icon="icon" :family="family")
         | {{ title }}
 
-    template#icon
-      i(:class="compIcon")
+    template#icon: i(:class="compClass")
 
     template#button-icon
       .button-icon.btn(
@@ -40,13 +39,13 @@ html
         @click="toggleSelectedRecipe"
       )
         td.recipe-actions: div
-          icon.text-danger(icon="trash" @click.native.stop="deleteRecipe(index)" title="Delete recipe")
-          icon.text-warning(icon="pen" @click.native.stop="$emit('updaterecipe')" title="Update recipe")
+          icon(icon="trash" color="danger" @click.native.stop="deleteRecipe(index)" title="Delete recipe")
+          icon(icon="pen" color="warning" @click.native.stop="$emit('updaterecipe')" title="Update recipe")
         td.recipe-title
           icon.fa-lg.mr-2(
             :icon=  "recipe.selected ? 'check-square' : 'square'"
             :family="recipe.selected ? 'fas' : 'far'"
-            :class= "recipe.selected ? 'text-primary' : ''"
+            :color= "recipe.selected ? 'primary' : ''"
           )
           a.recipe-link(
             target="_blank"
@@ -59,7 +58,7 @@ html
           .badge.badge-primary(v-if="ingSearch") {{ ingSearch }}
           icon(
             :icon=  "isVeg ? 'leaf' : 'drumstick-bite'"
-            :class= "isVeg ? 'text-success' : 'text-danger'"
+            :color= "isVeg ? 'success' : 'danger'"
           )
 
     #app
@@ -73,7 +72,10 @@ html
           .card-header: .row
             .col-md-4
               section-title(text="1" title="Add recipes" @sectionclick="step1toggle")
-              icon.ml-1.fa-lg(:icon="step1visible ? 'caret-up' : 'caret-down'" color="light")
+              icon.ml-1.fa-lg(
+                :icon="step1visible ? 'caret-up' : 'caret-down'"
+                color="light"
+              )
             .col-md-4.offset-md-4.text-right
               .dropdown#recipes-backup
                 button-icon.dropdown-toggle(icon="save" text="Recipes backup" data-toggle="dropdown")
@@ -103,7 +105,7 @@ html
                   p(v-show="recipe.ingredients.length == 0") No ingredients yet...
                   ul#new-ingredients.fa-ul(v-show="recipe.ingredients.length > 0")
                     li(v-for="(ing, index) in recipe.ingredients")
-                      span.fa-li.text-danger: icon(icon="trash" @click="deleteIngredient(index)")
+                      span.fa-li: icon(icon="trash" color="danger" @click="deleteIngredient(index)")
                       | {{ ing.amount }}{{ ing.unit }} {{ ing.name }}
 
                 //- New ingredient form
