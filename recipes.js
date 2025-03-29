@@ -24,18 +24,13 @@ importedRecipes.forEach(function(recipe) {
 
 function getRecipeCollection() {
     let recipes = [];
-    // We want to randomize the recipes, 
-    // so that each time we look at it other recipes catch our attention 
-    // therefore hopefully creating diversity in our nutrition.
-    importedRecipes.sort(function() {
-        return 0.5 - Math.random();
-    });
 
     let uniquePriorities = getUniquePriorities();
     uniquePriorities.forEach(priority => {
-        recipes.push(importedRecipes.filter(function(recipe) {
-            return recipe.priority == priority;
-        }));
+        recipes.push(importedRecipes
+            .filter(recipe => { return recipe.priority == priority; })
+            .sort((l, r) => l.recipeName > r.recipeName)
+        );
     });
     // Flatten array
     recipes = [].concat(...recipes);

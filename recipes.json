@@ -226,31 +226,12 @@
                 "unit": "Packung",
                 "name": "Schnittlauch",
                 "department": "Frozen"
-            }
-        ],
-        "comment": "Mit Rauchsalz salzen (für Speck Geschmack). Geht auch als Mittag oder Abendessen. Gehaltvoll."
-    },
-    {
-        "recipeName": "Rührei mit Hummus (Frühstück)",
-        "priority": 1,
-        "ingredients": [
-            {
-                "amount": 8,
-                "unit": "",
-                "name": "Eier",
-                "department": "Shelf-stable"
             },
             {
                 "amount": 1,
                 "unit": "",
                 "name": "Roggenbrot",
                 "department": "Shelf-stable"
-            },
-            {
-                "amount": 1,
-                "unit": "Packung",
-                "name": "Schnittlauch",
-                "department": "Frozen"
             }
         ],
         "comment": "Mit Rauchsalz salzen (für Speck Geschmack). Geht auch als Mittag oder Abendessen. Gehaltvoll."
