@@ -1,3 +1,5 @@
+const RECIPE_JSON_URL = "https://rawgit.com/crelder/recipe-shoppinglist-generator/master/recipes.json";
+
 // Read JSON-File from Server
 let importedRecipes;
 var xmlhttp = new XMLHttpRequest();
@@ -9,7 +11,7 @@ xmlhttp.onreadystatechange = function() {
 
 xmlhttp.open(
     "GET",
-    "https://rawgit.com/crelder/recipe-shoppinglist-generator/master/recipes.json",
+    RECIPE_JSON_URL,
     false
 );
 

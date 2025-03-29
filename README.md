@@ -24,9 +24,11 @@ Recipe explanations can be concise, because the contained recipes are your own r
 
 ## Use your own recipes
 1. Clone this repository.
-2. Change the `recipes.json` file so that it fits your own recipes. Then check e.g. [here](https://jsonformatter.curiousconcept.com/#), if your `recipes.json` content has a valid json format.
-2. Copy the location of your raw version of your `recipes.json` into line 9 in the `recipes.js` file.
+2. Change the `recipes.json` file so that it fits your own recipes. Then optionally check e.g. [here](https://jsonformatter.curiousconcept.com/#), if your `recipes.json` content has a valid json format.  
+2. Copy the location of your raw version of your `recipes.json`. Insert the value into the variable `RECIPE_JSON_URL` (line 1 in the `recipes.js` file).
 3. Use Github Pages to create an application link. 
 4. Bookmark this link and you can always generate your shoppinglist on the go. 
 
 Done!
+
+You can use e.g. ChatGPT to create the JSON format of a recipe for you. In the prompt provide the full text recipe and an array of a few already existing JSON recipes - and include e.g. "Please return this recipe in the provided JSON format".
