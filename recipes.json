@@ -1,9 +1,6 @@
 [
     {
         "recipeName": "Rucola Salat",
-        "category": [
-            "Salat"
-        ],
         "priority": 1,
         "ingredients": [
             {
@@ -2974,7 +2971,7 @@
     },
     {
         "recipeName": "Kartoffelsuppe",
-        "priority": "1",
+        "priority": "2",
         "ingredients": [
             {
                 "amount": 1,
@@ -3875,12 +3872,6 @@
                 "department": "Fruits & Vegetables"
             },
             {
-                "amount": 1,
-                "unit": "Glas",
-                "name": "Kapern",
-                "department": "Shelf-stable"
-            },
-            {
                 "amount": 2,
                 "unit": "",
                 "name": "Knoblauchzehen",
@@ -3900,5 +3891,390 @@
             }
         ],
         "comment": "Gemüse fein schneiden. Dressing: Knoblauch hacken, 6 EL Balsamico, 4 TL körniger Senf, 8 EL Olivenöl, Salz, Pfeffer. Dressing mit Gemüse mischen und mind. 10 Minuten ziehen lassen. Petersilie fein hacken und garnieren."
+    },
+    {
+        "recipeName": "Schüttelpizza",
+        "priority": 2,
+        "ingredients": [
+            {
+                "amount": 250,
+                "unit": "g",
+                "name": "Magerquark",
+                "department": "Refrigerated"
+            },
+            {
+                "amount": 150,
+                "unit": "g",
+                "name": "Paprika",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 50,
+                "unit": "g",
+                "name": "Mais",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 30,
+                "unit": "g",
+                "name": "Lauchzwiebeln",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 150,
+                "unit": "g",
+                "name": "geriebener Käse",
+                "department": "Refrigerated"
+            },
+            {
+                "amount": 3,
+                "unit": "",
+                "name": "Eier",
+                "department": "Refrigerated"
+            },
+            {
+                "amount": 1,
+                "unit": "EL",
+                "name": "Oregano",
+                "department": "Shelf-stable"
+            }
+        ],
+        "comment": "Wasche die Paprika und die Lauchzwiebeln. Schneide die Paprika in kleine Würfel und die Lauchzwiebeln in Ringe. Gib nun alle Zutaten in eine Schüssel mit Deckel und schüttel sie kräftig durch. Heize den Backofen auf 200 Grad Ober/Unterhitze vor. Belege ein Backblech mit Backpapier. Streiche den Pizzateig kreisförmig auf das Backblech. Backe die Pizza anschließend für 35 Minuten im Ofen goldgelb. www.familienkost.de"
+    },
+    {
+        "recipeName": "Hähnchen-Geschnetzeltes mit Pilzen",
+        "priority": 2,
+        "ingredients": [
+            {
+                "amount": 600,
+                "unit": "g",
+                "name": "Hähnchenbrust",
+                "department": "Fleisch"
+            },
+            {
+                "amount": 250,
+                "unit": "g",
+                "name": "Champignons",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Zwiebel",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 1,
+                "unit": "Stück",
+                "name": "Knoblauchzehe",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 2,
+                "unit": "EL",
+                "name": "Weizenmehl",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 200,
+                "unit": "ml",
+                "name": "Milch",
+                "department": "Refrigerated"
+            },
+            {
+                "amount": 200,
+                "unit": "ml",
+                "name": "Gemüsebrühe",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 2,
+                "unit": "EL",
+                "name": "gehackte Kräuter",
+                "department": "Fruits & Vegetables"
+            }
+        ],
+        "comment": "Das Hähnchen-Geschnetzelte mit Pilzen passt hervorragend zu Reis. Achte darauf, das Fleisch gut anzubraten und die Gewürze nach Geschmack anzupassen."
+    },
+    {
+        "recipeName": "Fischfilet in Senfsoße",
+        "priority": 2,
+        "ingredients": [
+            {
+                "amount": 4,
+                "unit": "Stück",
+                "name": "Fischfilet",
+                "department": "Fisch"
+            },
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Zitrone",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 50,
+                "unit": "g",
+                "name": "Butter",
+                "department": "Refrigerated"
+            },
+            {
+                "amount": 50,
+                "unit": "g",
+                "name": "Weizenmehl",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 500,
+                "unit": "ml",
+                "name": "Gemüsebrühe",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 300,
+                "unit": "ml",
+                "name": "Milch",
+                "department": "Refrigerated"
+            },
+            {
+                "amount": 3,
+                "unit": "EL",
+                "name": "Senf (mittelscharf)",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 1,
+                "unit": "EL",
+                "name": "Dill (gehackt)",
+                "department": "Gewürze"
+            }
+        ],
+        "comment": "Fischfilet mit Zitronensaft beträufeln und würzen. Senfsoße zubereiten und Fisch darin backen. 25 Minuten bei 200°C Ober-/Unterhitze."
+    },
+    {
+        "recipeName": "Erbsenrisotto mit Lachs",
+        "priority": 2,
+        "ingredients": [
+            {
+                "amount": 300,
+                "unit": "g",
+                "name": "Risottoreis",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Zwiebel",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 60,
+                "unit": "g",
+                "name": "Butter",
+                "department": "Refrigerated"
+            },
+            {
+                "amount": 1,
+                "unit": "EL",
+                "name": "weißer Balsamico Essig",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 900,
+                "unit": "ml",
+                "name": "Gemüsebrühe",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 0.5,
+                "unit": "",
+                "name": "Zitrone",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 250,
+                "unit": "g",
+                "name": "Erbsen",
+                "department": "Frozen"
+            },
+            {
+                "amount": 60,
+                "unit": "g",
+                "name": "geriebener Parmesan",
+                "department": "Refrigerated"
+            },
+            {
+                "amount": 250,
+                "unit": "g",
+                "name": "Lachs",
+                "department": "Refrigerated"
+            }
+        ],
+        "comment": "Zwiebel schälen und würfeln, Zitrone auspressen. Risotto mit Gemüsebrühe kochen, Erbsen und Zitronensaft hinzufügen. Lachs in Würfel schneiden und anbraten. Risotto mit Lachs servieren."
+    },
+    {
+        "recipeName": "Hühnersuppe",
+        "priority": 2,
+        "ingredients": [
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Suppenhuhn",
+                "department": "Meat"
+            },
+            {
+                "amount": 1,
+                "unit": "kg",
+                "name": "Hühnerkeulen",
+                "department": "Meat"
+            },
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Zwiebel",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Lorbeerblatt",
+                "department": "Spices"
+            },
+            {
+                "amount": 3,
+                "unit": "",
+                "name": "Nelken",
+                "department": "Spices"
+            },
+            {
+                "amount": 300,
+                "unit": "g",
+                "name": "Möhren",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 150,
+                "unit": "g",
+                "name": "Sellerie",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 250,
+                "unit": "g",
+                "name": "Suppennudeln",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Kohlrabi",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Erbsen",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Rosenkohl",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Lauch",
+                "department": "Fruits & Vegetables"
+            }
+        ],
+        "comment": "Schäle zuerst die Zwiebel und gib sie mit dem Huhn und den Gewürzen in einen großen Topf. Bedecke das Huhn mit reichlich Wasser, gib einen Esslöffel Salz dazu und lasse das Huhn für eine gute Stunde köcheln. In der Zwischenzeit putzt du das Gemüse und schneidest es in mundgerechte Stückchen. Am Beliebtesten ist die Hühnersuppe bei unseren Kindern mit Möhren und Kohlrabi - das essen sie sehr gerne und ohne zu murren ;-). Wenn das Huhn weichgekocht ist, nimmst du es mit der Zwiebel und den Gewürzen mit einer Schaumkelle aus dem Topf und legst es auf einen großen Teller. Lasse das Huhn etwas auskühlen, nimm es dann auseinander und schneide das Fleisch in kleine Stücke. Gib dann das Hühnerfleisch mit den Buchstabennudeln und dem Gemüse zurück in die Brühe und lasse die Hühnersuppe für etwa 10 Minuten kochen. Schmecke die Suppe zum Schluss noch mit Salz und Kräutern nach Belieben ab. Lasst es euch schmecken!"
+    },
+    {
+        "recipeName": "Zaziki",
+        "priority": 1,
+        "ingredients": [
+            {
+                "amount": 250,
+                "unit": "g",
+                "name": "Griechischer Joghurt",
+                "department": "Refrigerated"
+            },
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Knoblauchzehe",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 0.5,
+                "unit": "",
+                "name": "Gurke",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 1,
+                "unit": "EL",
+                "name": "Olivenöl",
+                "department": "Shelf-stable"
+            }
+        ],
+        "comment": "Gurke waschen, halbieren und entkernen. Grob reiben und gut ausdrücken. Joghurt, gepressten Knoblauch, Salz und Olivenöl unterrühren. Vor dem Servieren im Kühlschrank durchziehen lassen."
+    },
+    {
+        "recipeName": "Blumenkohl-Schnitzel",
+        "priority": 1,
+        "ingredients": [
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Blumenkohl",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 1,
+                "unit": "",
+                "name": "Knoblauchzehe",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 0.5,
+                "unit": "",
+                "name": "Zwiebel",
+                "department": "Fruits & Vegetables"
+            },
+            {
+                "amount": 50,
+                "unit": "g",
+                "name": "Parmesan",
+                "department": "Refrigerated"
+            },
+            {
+                "amount": 5,
+                "unit": "EL",
+                "name": "Olivenöl",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 1,
+                "unit": "TL",
+                "name": "Paprikapulver (edelsüß)",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 1,
+                "unit": "TL",
+                "name": "Kreuzkümmel (gemahlen)",
+                "department": "Shelf-stable"
+            },
+            {
+                "amount": 1,
+                "unit": "TL",
+                "name": "Chilipulver",
+                "department": "Shelf-stable"
+            }
+        ],
+        "comment": "Blumenkohl in Scheiben schneiden und mit der Öl-Gewürzmischung bestreichen. Bei 200°C für 30 Minuten backen, bis goldgelb."
     }
 ]

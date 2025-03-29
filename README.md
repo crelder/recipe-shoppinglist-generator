@@ -12,9 +12,7 @@ Select at least one meal and scroll to the very bottom.
 ## Input
 Select the meals you want to cook from a recipe list.
 
-Meals are ordered by priority. "Priority 1" meals (e.g., healthy meals) will appear at the top of the list. "Priority 2" meals will appear below that. 
-
-Each group displays recipes in random order. 
+Meals are ordered by priority. "Priority 1" meals (e.g., healthy meals) will appear at the top of the list. "Priority 2" meals will appear below that, etc. 
 
 ## Output
 Accumulated list with ingredients you need to buy in order to cook the selected meals.
