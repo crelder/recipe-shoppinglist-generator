@@ -1,4 +1,4 @@
-const RECIPE_JSON_URL = "https://rawgit.com/crelder/recipe-shoppinglist-generator/master/recipes.json";
+const RECIPE_JSON_URL = "https://cdn.jsdelivr.net/gh/crelder/recipe-shoppinglist-generator@master/recipes.json";
 
 // Read JSON-File from Server
 let importedRecipes;
